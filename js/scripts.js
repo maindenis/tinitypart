@@ -213,6 +213,43 @@ $(document).ready(function() {
         $("[type='tel']").inputmask({"mask": "+7 (999) 999-99-99"});
     }
 
+    // -------------
+
+    $('input[type="file"]').on('change', function() {
+        parent = $(this).closest(".input_file_wrapp");
+        parent.find(".filenametext").text(this.files[0].name);
+    });
+
+    // -------------
+
+    $(".resetPill").on("click", function(e) {
+        e.preventDefault();
+        form = $(this).closest("form");
+        form.find("input, textarea, select").val("");
+    });
+
+    // -------------
+
+    $('#regSelect').on('change', function() {
+        valActive = $(this).val();
+        valFirst = $(this).attr("data-firstval");
+        if(valActive != valFirst && valActive != "") {
+            $(".first").css({
+                "display" : "none"
+            });
+            $(".second").css({
+                "display" : "block"
+            });
+        } else {
+            $(".first").css({
+                "display" : "block"
+            });
+            $(".second").css({
+                "display" : "none"
+            });
+        }
+    });
+
     // var counter=0;
     // var mapZoom;
     // var lat;

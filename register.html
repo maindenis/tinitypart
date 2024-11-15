@@ -104,64 +104,96 @@
 	<!-- /Header -->
 	<!-- Content -->
 	<div class="content">
-	<!-- Section 1 - Suppliers -->
+	<!-- Section 1 - Register -->
 	<section>
-		<div class="row row_2">
+		<div class="row">
 			<div class="page_title">
-				<h1>Поставщикам</h1>
-			</div>
-			<div class="supplier_form">
-				<form>
-					<div class="input_wrapp_3">
-						<label>Организация</label>
-						<input type="text" name="#" />
-						<p class="error_text">Необходимо заполнить «Организация».</p>
-					</div>
-					<div class="input_wrapp_3">
-						<label>Контактное лицо</label>
-						<input type="text" name="#" />
-						<p class="error_text">Необходимо заполнить «Контактное лицо».</p>
-					</div>
-					<div class="input_wrapp_3">
-						<label>Телефон</label>
-						<input type="tel" name="#" />
-						<p class="error_text">Необходимо заполнить «Телефон».</p>
-					</div>
-					<div class="input_wrapp_3">
-						<label>Электронная почта</label>
-						<input type="email" name="#" />
-						<p class="error_text">Необходимо заполнить «Электронная почта».</p>
-					</div>
-					<div class="input_wrapp_3">
-						<label>Комментарий</label>
-						<textarea type="text" name="#" /></textarea>
-						<p class="error_text">Необходимо заполнить «Комментарий».</p>
-					</div>
-					<div class="input_wrapp_3">
-						<label>Прайс лист(до 20 Мб)</label>
-						<div class="input_file_wrapp">
-							<div class="input_file_templ">
-								<label for="file1">Выберите файл</label>
-								<p class="filenametext"></p>
-							</div>
-							<input id="file1" type="file" accept=".rar,.zip,.csv,.txt,.xls,.xlsx">
-						</div>						
-						<p class="error_text">Не забудьте загрузить прайс лист</p>
-					</div>
-					<div class="ch_2_wrapp">
-						<label class="ch_2" for="ch3">
-							<input class="confCh" type="checkbox" id="ch3" />
-							<span>Я согласен на обработку персональных данных, а также соглашаюсь с политикой конфиденциальности</span>
-						</label>
-					</div>
-					<div class="submit_wrapp_3">
-						<button type="submit" class="green_pill">Отправить</button>
-					</div>
-				</form>
+				<h1>Регистрация</h1>
 			</div>
 		</div>
+		<div class="row row_2">
+			<form>
+				<div class="reg_form">
+					<div class="reg_form_row">
+						<div>
+							<div class="input_wrapp_3">
+								<label class="first">ФИО</label>
+								<label class="second">Контактное лицо</label>
+								<input type="text" name="#" />
+								<p class="error_text">Это поле обязательно к заполнению</p>
+							</div>
+						</div>
+						<div>
+							<div class="input_wrapp_3">
+								<label>Телефон</label>
+								<input type="tel" name="#" />
+								<p class="error_text">Это поле обязательно к заполнению</p>
+							</div>
+						</div>
+						<div>
+							<div class="input_wrapp_3">
+								<label>Адрес</label>
+								<input type="text" name="#" />
+								<p class="error_text">Это поле обязательно к заполнению</p>
+							</div>
+						</div>
+						<div>
+							<div class="input_wrapp_3">
+								<label>Вид организации</label>
+								<select id="regSelect" data-firstval="Частное лицо">
+									<option value="">Выберите</option>
+									<option value="Частное лицо">Частное лицо</option>
+									<option value="ИП">ИП</option>
+									<option value="ООО">ООО</option>
+									<option value="ЗАО">ЗАО</option>
+								</select>
+								<p class="error_text">Необходимо заполнить «ФИО».</p>
+							</div>
+						</div>
+					</div>
+					<div class="reg_form_row">
+						<div>
+							<div class="input_wrapp_3">
+								<label>Логин</label>
+								<input type="text" name="#" />
+								<p class="error_text">Это поле обязательно к заполнению</p>
+							</div>
+						</div>
+						<div>
+							<div class="input_wrapp_3">
+								<label>Почта</label>
+								<input type="email" name="#" />
+								<p class="error_text">Это поле обязательно к заполнению</p>
+							</div>
+						</div>
+						<div>
+							<div class="input_wrapp_3">
+								<label>Город</label>
+								<input type="text" name="#" />
+								<p class="error_text">Это поле обязательно к заполнению</p>
+							</div>
+						</div>
+						<div class="second">
+							<div class="input_wrapp_3">
+								<label>Наименование</label>
+								<input type="text" name="#" />
+								<p class="error_text">Это поле обязательно к заполнению</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="btns_inline btns_inline_2">
+					<div>
+						<button type="submit" class="green_pill">Регистрация</button>
+					</div>
+					<div>
+						<button type="button" class="grey_pill resetPill">Сброс</button>
+					</div>
+				</div>
+			</form>
+		</div>
 	</section>
-	<!-- /Section 1 - Suppliers -->
+	<!-- /Section 1 - Register -->
 	</div>
 	<!-- /Content -->
 	<!-- Footer -->
