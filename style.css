@@ -866,8 +866,9 @@ textarea:focus {
     border-radius: 8px;
 }
 
-.error_text {
-
+.input_wrapp_3 input:focus,
+.input_wrapp_3 textarea:focus {
+    border: 1px solid #7fc388;
 }
 
 .input_wrapp_3 input[type="file"] {
@@ -956,6 +957,65 @@ textarea:focus {
 }
 
 /*-- /Section 1 - Suppliers --*/
+
+/*-- Section 1 - Forgot Password --*/
+
+.forgot_pass_form_title {
+    padding: 10px 0 0 0;
+}
+
+.forgot_pass_form {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0;
+}
+
+.forgot_pass_form > div:nth-child(1) {
+    width: 50%;
+    padding-right: 20px;
+}
+
+.forgot_pass_form > div:nth-child(2) {
+
+}
+
+.grey_pill {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    min-width: 80px;
+    min-height: 30px;
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #6c757d;
+    border: none;
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.btns_inline {
+    display: flex;
+}
+
+.btns_inline > div {
+    padding: 0 2px;
+}
+
+.btns_inline > div input,
+.btns_inline > div button,
+.btns_inline > div a {
+    min-height: 38px;
+}
+
+/*-- /Section 1 - Forgot Password --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */

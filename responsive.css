@@ -292,6 +292,15 @@ h1 {
 
 /*-- /Section 1 - Main NoReg --*/
 
+/*-- Section 1 - Forgot Password --*/
+
+.forgot_pass_form > div:nth-child(1) {
+    width: 100%;
+    padding-right: 0;
+}
+
+/*-- /Section 1 - Forgot Password --*/
+
 /*-- Popup --*/
 
 .popup {
