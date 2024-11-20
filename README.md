@@ -3,3 +3,4 @@
 # https://maindenis.github.io/tinitypart/suppliers.html
 # https://maindenis.github.io/tinitypart/forgot-password.html
 # https://maindenis.github.io/tinitypart/register.html
+# https://maindenis.github.io/tinitypart/article.html
