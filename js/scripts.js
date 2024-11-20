@@ -250,6 +250,45 @@ $(document).ready(function() {
         }
     });
 
+    // -----------------
+
+    $(document).on("click", ".checkout_list [data-option-val]",  function(e) {
+      e.preventDefault();
+      parent = $(this).closest(".custom_select");
+      val = $(this).html();
+      text = $(this).attr("data-option-val");
+      parent.find(".p_val").html(val);
+      parent.find("input[type='hidden']").val(text);
+      parent.removeClass("active");
+      parent.find("[data-option-val]").removeClass("active");
+      $(this).addClass("active");
+    });
+
+    $(document).on("click", ".custom_select .custom_select_title", function(e) {
+      e.preventDefault();
+      parent = $(this).closest(".custom_select");
+      if(parent.hasClass("active")) {
+        parent.removeClass("active");
+      } else {
+        $(".custom_select").removeClass("active");
+        parent.addClass("active");
+      }
+    });
+
+    $(document).mouseup(function(e) {
+      hide_element = $(".custom_select");
+      if (!hide_element.is(e.target)
+          && hide_element.has(e.target).length === 0) {
+          hide_element.removeClass("active");
+        }
+    });
+
+    $(this).keydown(function(eventObject){
+      if (eventObject.which == 27) {
+        $(".custom_select").removeClass("active");
+      }
+    });
+
     // var counter=0;
     // var mapZoom;
     // var lat;
