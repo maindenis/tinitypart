@@ -289,6 +289,12 @@ $(document).ready(function() {
       }
     });
 
+    // -------------
+
+    new AirDatepicker('#date1', {});
+
+    new AirDatepicker('#date2', {});
+
     // var counter=0;
     // var mapZoom;
     // var lat;

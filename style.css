@@ -1946,9 +1946,188 @@ textarea:focus {
     color: #262728;
 }
 
-
 /*-- /Section 1 - Catalogs User --*/
 
+/*-- Section 1 - Orders User --*/
+
+.orders_filters_box {
+    background: #FFF;
+    border: 1px solid #E4E5E6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    margin: 25px 0 2px 0;
+    padding: 5px 20px 5px 20px;
+}
+
+.filters_top_row {
+    display: flex;
+    border-bottom: 1px solid #E4E5E6;
+    padding-bottom: 5px;
+}
+
+.filters_top_row > div:nth-child(1) {
+    width: calc(100% - 370px);
+    padding: 10px 10px 10px 0;
+}
+
+.filters_top_row > div:nth-child(2) {
+    width: 370px;
+    padding: 10px 0 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.filters_inline {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -14px;
+}
+
+.filters_inline > div {
+    padding: 5px 14px;
+}
+
+.filters_inline .ch_circle {
+    margin: 6px 0 0 0;
+}
+
+.ch_circle.black span:nth-child(1) {
+    background: #E4E5E6;
+}
+
+.ch_circle.black span:nth-child(2) {
+    color: #262728;
+}
+
+.date_inputs {
+    display: flex;
+    margin: 0 -5px;
+}
+
+.date_inputs > .date_inpunt_wrapp {
+    margin: 0 5px;
+}
+
+.date_inpunt_wrapp {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 40px;
+    padding: 0 10px;
+    background: #F5F6F7;
+    border: 1px solid #E4E5E6;
+    border-radius: 3px;
+}
+
+.date_inpunt_wrapp > div:nth-child(1) {
+    width: 17px;
+}
+
+.date_inpunt_wrapp > div:nth-child(2) {
+    width: calc(100% - 34px);
+}
+
+.date_inpunt_wrapp > div:nth-child(3) {
+    width: 17px;
+}
+
+.date_inpunt_wrapp > div:nth-child(1) p {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #A8A9AA;
+}
+
+.datepicker {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(img/datepicker.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.date_inpunt_wrapp input {
+    display: block;
+    width: 100%;
+    height: 39px;
+    border: none;
+    padding: 1px 10px 0 10px;
+    background: transparent;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 39px;
+    letter-spacing: 0.02em;
+    color: #262728;
+}
+
+.custom_select.dark {
+    height: 40px;
+}
+
+.width_2 {
+    width: 234px;
+}
+
+.width_3 {
+    width: 161px;
+}
+
+.custom_select.dark .p_val {
+    width: 100%;
+    height: 38px;
+    padding: 6px 20px 5px 20px;
+    background: #F5F6F7;
+}
+
+.custom_select.dark .custom_select_title {
+    height: 40px;
+    background: #F5F6F7;
+    border: 1px solid #E4E5E6;
+    border-radius: 3px;
+}
+
+.white_pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 10px;
+    min-height: 40px;
+    background: #FFF;
+    border: 1px solid #E4E5E6;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .1), inset 0 -3px 0 #E4E5E6;
+    border-radius: 3px;
+}
+
+.white_pill img {
+
+}
+
+.white_pill p {
+    padding: 1px 0 0 9px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #262728;
+}
+
+.pills_inline {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -14px;
+    padding: 10px 0 8px 0;
+}
+
+.pills_inline > div {
+    padding: 5px 14px;
+}
+
+.orders_filters_box + .pagination_wrapp {
+    margin: 9px 0 9px 0;
+}
+
+/*-- /Section 1 - Orders User --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
