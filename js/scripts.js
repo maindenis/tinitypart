@@ -215,9 +215,25 @@ $(document).ready(function() {
 
     // -------------
 
-    $('input[type="file"]').on('change', function() {
-        parent = $(this).closest(".input_file_wrapp");
-        parent.find(".filenametext").text(this.files[0].name);
+    $(document).on('change', 'input[type="file"]', function(e) {
+        parent = $(this).closest(".inpFileWrapp");
+        parent.find(".fileName").removeClass("grey");
+        parent.find(".fileName").text(this.files[0].name);
+    });
+
+    $(document).on('click', '.addFile', function(e) {
+        e.preventDefault();
+        parent = $(this).closest(".files_list");
+        templ = '<div class="file_item inpFileWrapp"><div><p class="fileName grey">Файл не выбран</p></div><div>'+
+                           '<label class="file_item_btn fileBtn"><input type="file" />Выбрать файл</label>'+
+                        '</div><div><button type="button" class="removeFile"></button></div></div>';
+        parent.prepend(templ);
+    });
+
+    $(document).on('click', '.removeFile', function(e) {
+        e.preventDefault();
+        parent = $(this).closest(".file_item");
+        parent.remove();
     });
 
     // -------------
@@ -294,6 +310,51 @@ $(document).ready(function() {
     new AirDatepicker('#date1', {});
 
     new AirDatepicker('#date2', {});
+
+    // -------------
+
+    $(".ch_childrens input").on("change", function() {
+      parentBlock = $(this).closest(".checkboxes_array");
+      chChildrens = parentBlock.find(".ch_childrens input");
+      mainCheckbox = parentBlock.find(".main_checkbox input");
+      chChildrens.each(function() {
+        if (!$(this).is(":checked")) {
+          mainCheckbox.prop("checked", false);
+          return false;
+        } else {
+          mainCheckbox.prop("checked", true);
+        }
+      });
+      getPrice(parentBlock);
+    });
+
+    $(".main_checkbox input").on("change", function() {
+      parentBlock = $(this).closest(".checkboxes_array");
+      chChildrens = parentBlock.find(".ch_childrens input");
+      if (!$(this).is(":checked")) {
+        chChildrens.prop("checked", false);
+      } else {
+        chChildrens.prop("checked", true);
+      }
+    });
+
+    // -----------
+
+    $(".count_box button").click(function(e) {
+        e.preventDefault();
+        parentBlock = $(this).closest(".count_box");
+        var countInput = parentBlock.find("input");
+        var countVal = countInput.val();
+        if( $(this).hasClass("minus_btn") && countVal > 1 ) {
+            countVal--;
+        } else if( $(this).hasClass("plus_btn")) {
+            countVal++;
+        }
+        if(countVal == "") {
+            countVal = 1;
+        }
+        countInput.val(countVal);
+    });
 
     // var counter=0;
     // var mapZoom;
