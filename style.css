@@ -2579,6 +2579,409 @@ textarea:focus {
 
 /*-- /Section 1 - Returns User --*/
 
+/*-- Section 1 - Non-original catalogs --*/
+
+.white_two_cols {
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFF;
+    border: 1px solid #E4E5E6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    margin: 25px 0 9px 0;
+    padding: 9px 20px 9px 20px;
+}
+
+.white_two_cols > div:nth-child(1) {
+    width: 40%;
+    padding: 20px 10px 10px 0;
+}
+
+.white_two_cols > div:nth-child(2) {
+    width: 60%;
+    padding: 10px 0 10px 10px;
+}
+
+.white_two_cols h3 {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #262728;
+}
+
+.search_form_2 {
+    display: flex;
+    height: 40px;
+    background: #F5F6F7;
+    border: 1px solid #E4E5E6;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.search_form_2 > div:nth-child(1) {
+    width: calc(100% - 80px);
+}
+
+.search_form_2 > div:nth-child(2) {
+    width: 80px;
+}
+
+.search_form_2 input {
+    display: block;
+    width: 100%;
+    height: 39px;
+    padding: 0 20px;
+    border: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 38px;
+    letter-spacing: 0.02em;
+    background: #F5F6F7;
+}
+
+.search_form_2 input::placeholder {
+    color: #A8A9AA;
+}
+
+.search_form_2 > div:nth-child(2) .green_pill_2 {
+    height: 40px;
+    width: 100%;
+    position: relative;
+    top: -1px;
+    right: -1px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.catalogs_lists {
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFF;
+    border: 1px solid #E4E5E6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    margin-bottom: 30px;
+    padding: 2px 10px 0 10px;
+}
+
+.catalogs_lists > div {
+    width: 12.5%;
+    padding: 10px 10px;
+}
+
+.catalogs_lists h3 {
+    padding: 0 0 5px 0;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #FF4A4A;
+}
+
+.catalogs_lists ul li {
+    padding: 7px 0;
+}
+
+.catalogs_lists ul li a {
+    border-bottom: 1px solid transparent;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #262728;
+    -webkit-transition-property: border, color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: border, color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: border, color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: border, color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: border, color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.catalogs_lists ul li a:hover {
+    color: #7FC388;
+    border-bottom: 1px solid #7FC388;
+}
+
+/*-- /Section 1 - Non-original catalogs --*/
+
+/*-- Section 1 - Non-original catalogs 2 --*/
+
+.back_link_wrapp {
+    background: #FFF;
+    border: 1px solid #E4E5E6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 15px 20px 12px 20px;
+}
+
+.back_link {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: .02em;
+    color: #262728;
+}
+
+.back_link svg {
+    margin-right: 10px;
+}
+
+.dropdown_items {
+    background: #fff;
+    border: 1px solid #E4E5E6;
+}
+
+.dropdown_item {
+    border-bottom: 1px solid #E4E5E6;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.dropdown_item.active {
+    background: #F5F6F7;
+}
+
+.dropdown_item:last-child {
+    border-bottom: none;
+}
+
+.dropdown_item_header {
+    display: flex;
+    cursor: pointer;
+    padding: 10px 16px 9px 16px;
+}
+
+.dropdown_item_header .plus_minus {
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    background-image: url(img/dr_plus.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 1px;
+}
+
+.dropdown_item.active .plus_minus {
+    background-image: url(img/dr_minus.svg);
+}
+
+.dropdown_item_header h3 {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #262728;
+}
+
+.dropdown_row {
+    display: flex;
+    border-bottom: 1px solid #E4E5E6;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.dropdown_row:hover {
+    background: #7FC388;
+}
+
+.dropdown_row:nth-child(1) {
+    border-top: 1px solid #E4E5E6;
+}
+
+.dropdown_row:last-child {
+    border-bottom: none;
+}
+
+.dropdown_row > div:nth-child(1) {
+    width: calc(100% - 162px);
+    padding: 11px 10px 11px 42px;
+    border-right: 1px solid #E4E5E6;
+}
+
+.dropdown_row > div:nth-child(2) {
+    width: 162px;
+    padding: 11px 10px 11px 10px;
+    text-align: center;
+}
+
+.dropdown_row p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #262728;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.dropdown_row:hover p {
+    color: #fff;
+}
+
+/*-- /Section 1 - Non-original catalogs 2 --*/
+
+/*-- Section 1 - Non-original catalogs 3 --*/
+
+.catalogs_table {
+    border: 1px solid #E4E5E6;
+    background: #fff;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    margin-bottom: 30px;
+}
+
+.catalogs_table_header {
+    display: flex;
+    align-items: center;
+    background: #5C6D89;
+    min-height: 40px;
+    border-bottom: 1px solid #E4E5E6;
+}
+
+.catalogs_table_row {
+    display: flex;
+    border-bottom: 1px solid #E4E5E6;
+}
+
+.catalogs_table_row:last-child {
+    border-bottom: none;
+}
+
+.catalogs_table_row:nth-child(odd) {
+    background: #F5F6F7;
+}
+
+.catalogs_table_row .cell {
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #E4E5E6;
+}
+
+.catalogs_table_row .cell:last-child {
+    border-right: none;
+}
+
+.catalogs_table_row .cell > * {
+    width: 100%;
+}
+
+.catalogs_table .cell {
+    padding: 10px 10px;
+}
+
+.catalogs_table .cell_1 {
+    width: 12.5%;
+}
+
+.catalogs_table .cell_2 {
+    width: 12.5%;
+}
+
+.catalogs_table .cell_3 {
+    width: 12.5%;
+}
+
+.catalogs_table .cell_4 {
+    width: 12.5%;
+}
+
+.catalogs_table .cell_5 {
+    width: 12.5%;
+}
+
+.catalogs_table .cell_6 {
+    width: 12.5%;
+}
+
+.catalogs_table .cell_7 {
+    width: 12.5%;
+}
+
+.catalogs_table .cell_8 {
+    width: 12.5%;
+}
+
+.catalogs_table_header h3 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: .02em;
+    color: #FFF;
+}
+
+/*-- /Section 1 - Non-original catalogs 3 --*/
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
