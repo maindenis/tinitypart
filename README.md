@@ -10,3 +10,5 @@
 # https://maindenis.github.io/tinitypart/Non_original_catalogs.html
 # https://maindenis.github.io/tinitypart/Non_original_catalogs_2.html
 # https://maindenis.github.io/tinitypart/Non_original_catalogs_3.html
+# https://maindenis.github.io/tinitypart/Non_original_catalogs_4.html
+# https://maindenis.github.io/tinitypart/original_catalogs.html
