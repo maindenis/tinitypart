@@ -12,3 +12,7 @@
 # https://maindenis.github.io/tinitypart/Non_original_catalogs_3.html
 # https://maindenis.github.io/tinitypart/Non_original_catalogs_4.html
 # https://maindenis.github.io/tinitypart/original_catalogs.html
+# https://maindenis.github.io/tinitypart/Search_for_a_car_by_parameters.html
+# https://maindenis.github.io/tinitypart/Found_cars.html
+# https://maindenis.github.io/tinitypart/List_of_nodes.html
+# https://maindenis.github.io/tinitypart/category.html

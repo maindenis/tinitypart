@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
 	<title></title>
-	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 <body>
 	<div class="wrapper">
@@ -169,7 +169,7 @@
 	<!-- /Header User -->
 	<!-- Content -->
 	<div class="content">
-	<!-- Section 1 - Original catalogs -->
+	<!-- Section 1 - Category -->
 	<section>
 		<div class="row">
 			<ul class="breadcrumbs">
@@ -180,9 +180,16 @@
 			<div class="page_title">
 				<h1>Оригинальные каталоги</h1>
 			</div>
-			<div class="white_two_cols">
+			<div class="white_two_cols white_two_cols_2">
 				<div>
-					<h3>Выбор марки автомобиля</h3>
+					<div class="inline_title">
+						<div>
+							<h3>Список узлов</h3>
+						</div>
+						<div>
+							<a href="#" class="blue_pill">Перейти к списку категорий</a>
+						</div>
+					</div>					
 				</div>
 				<div>
 					<form>
@@ -211,124 +218,556 @@
 					</form>
 				</div>
 			</div>
-			<div class="catalogs_lists">
+			<div class="back_link_wrapp">
+				<a class="back_link" href="#">
+					<svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M6.12335 0L0 6.0001L6.12335 12L7.95277 10.1267L3.74133 6.0001L7.95277 1.8733L6.12335 0Z" fill="#262728"/>
+					</svg>
+					Назад
+				</a>
+			</div>
+			<div class="catalog_two_cols">
 				<div>
-					<h3>A</h3>
-					<ul>
-						<li><a href="#">ABARTH</a></li>
-						<li><a href="#">Alfa Romeo</a></li>
-						<li><a href="#">Audi</a></li>
-					</ul>
+					<form>
+						<div class="filter_form">
+							<div class="input_wrapp_4">
+								<input type="text" placeholder="Поиск по названию узла" />
+							</div>
+							<div class="filter_btn_wrapp">
+								<div>
+									<button type="button" class="white_pill">Сброс</button>
+								</div>
+								<div>
+									<button type="submit" class="green_pill_2">Поиск</button>
+								</div>
+							</div>
+						</div>
+					</form>
+					<div class="sidebar">
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Детали для ТО</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Двигатель</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Топливная система</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Система охлаждения</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Отопление / кондиционирование</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Дополнительное оборудование</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Электрооборудование</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Детали для ТО</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Топливная система</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Система охлаждения</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Система охлаждения</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Отопление / кондиционирование</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Дополнительное оборудование</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Электрооборудование</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="dropdown_item dr_parent">
+							<div class="dropdown_item_header dr_title">
+								<i class="plus_minus"></i>
+								<h3>Детали для ТО</h3>
+							</div>
+							<div class="dropdown_rows dr_content">
+								<div class="dropdown_item dr_parent">
+									<div class="dropdown_item_header dr_title">
+										<i class="plus_minus"></i>
+										<h3>Прокладки</h3>
+									</div>
+									<div class="dropdown_rows dr_content">
+										<div class="dropdown_item dr_parent">
+											<div class="dropdown_item_header dr_title">
+												<i class="plus_minus"></i>
+												<h3>Прокладки</h3>
+											</div>
+											<div class="dropdown_rows dr_content">
+												<ul>
+													<li><a href="#">Корпус воздушного фильтра воздушного фильтра</a></li>
+													<li><a href="#">Коллектор впускной</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div>
-					<h3>B</h3>
-					<ul>
-						<li><a href="#">BMW</a></li>
-						<li><a href="#">BMW Motorrad</a></li>
-						<li><a href="#">Buick</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>C</h3>
-					<ul>
-						<li><a href="#">Cadillac</a></li>
-						<li><a href="#">Chevrolet</a></li>
-						<li><a href="#">Chrysler</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>D</h3>
-					<ul>
-						<li><a href="#">Dacia</a></li>
-						<li><a href="#">Daewoo</a></li>
-						<li><a href="#">Dodge</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>F</h3>
-					<ul>
-						<li><a href="#">Fiat</a></li>
-						<li><a href="#">Fiat Professional</a></li>
-						<li><a href="#">Ford</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>G</h3>
-					<ul>
-						<li><a href="#">GMC</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>H</h3>
-					<ul>
-						<li><a href="#">Holden</a></li>
-						<li><a href="#">Honda</a></li>
-						<li><a href="#">Hummer</a></li>
-						<li><a href="#">Hyundai</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>I</h3>
-					<ul>
-						<li><a href="#">Infiniti</a></li>
-						<li><a href="#">Isuzu</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>J</h3>
-					<ul>
-						<li><a href="#">Jaguar</a></li>
-						<li><a href="#">Jeep</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>K</h3>
-					<ul>
-						<li><a href="#">Kia</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>L</h3>
-					<ul>
-						<li><a href="#">Lancia</a></li>
-						<li><a href="#">Land Rover</a></li>
-						<li><a href="#">Lexus</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>M</h3>
-					<ul>
-						<li><a href="#">Mazda</a></li>
-						<li><a href="#">Mercedes-Benz</a></li>
-						<li><a href="#">Mini</a></li>
-						<li><a href="#">Mitsubishi</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>N</h3>
-					<ul>
-						<li><a href="#">Nissan</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>O</h3>
-					<ul>
-						<li><a href="#">Oldsmobile</a></li>
-						<li><a href="#">Opel</a></li>
-					</ul>
-				</div>
-				<div>
-					<h3>P</h3>
-					<ul>
-						<li><a href="#">Peugeot</a></li>
-						<li><a href="#">Pontiac</a></li>
-						<li><a href="#">Porsche</a></li>
-					</ul>
+					<div class="catalog_good">
+						<div class="catalog_good_header">
+							<h3>Категория: Система всасывания</h3>
+						</div>
+						<div class="catalog_good_header_sub">
+							<h3>18_1737: Катализатор/передний доп.глушитель</h3>
+						</div>
+						<div class="catalog_good_templ">
+							<div>
+								<div class="img_box">
+									<img src="img/good.jpg" alt="" />
+								</div>
+							</div>
+							<div>
+								<div class="catalog_good_table">
+									<div class="good_table_row good_table_header">
+										<div>
+											<h3>№</h3>
+										</div>
+										<div>
+											<h3>Артикул</h3>
+										</div>
+										<div>
+											<h3>Наименование</h3>
+										</div>
+									</div>
+									<div class="good_table_row">
+										<div>
+											<p>01</p>
+										</div>
+										<div>
+											<p><a href="#">545121324512</a></p>
+										</div>
+										<div>
+											<p><a href="#">Замена катализатора с заслонк.глушителя</a></p>
+										</div>
+									</div>
+									<div class="good_table_row">
+										<div>
+											<p>02</p>
+										</div>
+										<div>
+											<p><a href="#">545121324512</a></p>
+										</div>
+										<div>
+											<p><a href="#">Замена катализатора с заслонк.глушителя</a></p>
+										</div>
+									</div>
+									<div class="good_table_row">
+										<div>
+											<p>03</p>
+										</div>
+										<div>
+											<p><a href="#">545121324512</a></p>
+										</div>
+										<div>
+											<p><a href="#">Замена катализатора с заслонк.глушителя</a></p>
+										</div>
+									</div>
+									<div class="good_table_row">
+										<div>
+											<p>04</p>
+										</div>
+										<div>
+											<p><a href="#">545121324512</a></p>
+										</div>
+										<div>
+											<p><a href="#">Замена катализатора с заслонк.глушителя</a></p>
+										</div>
+									</div>
+									<div class="good_table_row">
+										<div>
+											<p>05</p>
+										</div>
+										<div>
+											<p><a href="#">545121324512</a></p>
+										</div>
+										<div>
+											<p><a href="#">Замена катализатора с заслонк.глушителя</a></p>
+										</div>
+									</div>
+									<div class="good_table_row">
+										<div>
+											<p>06</p>
+										</div>
+										<div>
+											<p><a href="#">545121324512</a></p>
+										</div>
+										<div>
+											<p><a href="#">Замена катализатора с заслонк.глушителя</a></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- /Section 1 - Original catalogs -->
+	<!-- /Section 1 - Category -->
 	</div>
 	<!-- /Content -->
 	<!-- Footer -->

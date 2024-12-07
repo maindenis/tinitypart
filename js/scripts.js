@@ -175,7 +175,7 @@ $(document).ready(function() {
     $(".dr_title").on("click", function(e) {
       e.preventDefault();
       parent = $(this).closest(".dr_parent");
-      sl = parent.find(".dr_content");
+      sl = parent.children(".dr_content");
       if(sl.is(":hidden")) {
         parent.addClass("active");
         sl.slideDown(300);
@@ -355,6 +355,34 @@ $(document).ready(function() {
         }
         countInput.val(countVal);
     });
+
+    // ------------
+
+    $(".rest_btn").on("click", function(e) {
+        e.preventDefault();
+        parent = $(this).closest(".custom_select");
+        parent.find("input").val("");
+        parent.find(".p_val").text("");
+    });
+
+    // ------------
+
+    counter = 0;
+    $(".sidebar > .dropdown_item").each(function() {
+        counter = 1;
+        paddingLeft = parseInt($(this).children(".dr_title").css("padding-left"));
+        $(this).find(".dropdown_item").each(function() {
+            counter++;
+            $(this).children(".dr_title").css({
+                "padding-left" : paddingLeft*counter + "px"
+            });
+            $(this).children(".dr_content").children("ul").find("a").css({
+                "padding-left" : paddingLeft*(counter+1) + "px"
+            });
+        });
+    });
+
+    // ------------
 
     // var counter=0;
     // var mapZoom;
