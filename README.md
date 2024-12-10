@@ -16,3 +16,9 @@
 # https://maindenis.github.io/tinitypart/Found_cars.html
 # https://maindenis.github.io/tinitypart/List_of_nodes.html
 # https://maindenis.github.io/tinitypart/category.html
+# https://maindenis.github.io/tinitypart/List_of_categories.html
+# https://maindenis.github.io/tinitypart/Choosing_a_car_brand.html
+# https://maindenis.github.io/tinitypart/Model_selection.html
+# https://maindenis.github.io/tinitypart/Selecting_the_engine_type.html
+# https://maindenis.github.io/tinitypart/Selecting_a_spare_parts_category.html
+# https://maindenis.github.io/tinitypart/Selection_of_spare_parts.html
