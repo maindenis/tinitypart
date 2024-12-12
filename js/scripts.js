@@ -6,6 +6,22 @@ function getRespParams() {
     }
 }
 
+function getWrapperOffset() {
+    if(bodyWidth <= 900) {
+        $(".wrapper").css({
+            "padding-top" : "auto"
+        });
+        $(".wrapper").css({
+            "padding-top" : $("#headerSite").height() + "px"
+        });
+        // console.log($("#headerSiteResp").height());
+    } else {
+        $(".wrapper").css({
+            "padding-top" : 0
+        });
+    }
+}
+
 var w = window,
 d = document,
 e = d.documentElement,
@@ -13,7 +29,9 @@ g = d.getElementsByTagName('body')[0],
 bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).resize(function() {
+    bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
     getRespParams();
+    getWrapperOffset();
 });
 
 $(document).scroll(function() {
@@ -22,6 +40,7 @@ $(document).scroll(function() {
 
 $(document).ready(function() {
     getRespParams();
+    getWrapperOffset();
 
     if( $(".slider").length > 0 ) {
         $(".slider").not(".slick-initialized").slick({
@@ -309,7 +328,9 @@ $(document).ready(function() {
 
     new AirDatepicker('#date1', {});
 
-    new AirDatepicker('#date2', {});
+    new AirDatepicker('#date2', {
+        position: 'bottom right'
+    });
 
     // -------------
 
@@ -380,6 +401,33 @@ $(document).ready(function() {
                 "padding-left" : paddingLeft*(counter+1) + "px"
             });
         });
+    });
+
+    // ------------
+
+    $("#respBtn").on("click", function(e) {
+        e.preventDefault();
+        if($("#respNav").is(":hidden")) {
+            $("#respNav").fadeIn(300);
+        } else {
+            $("#respNav").fadeOut(300);
+        }        
+    });
+
+    $("#respSearchBtn").on("click", function(e) {
+        e.preventDefault();
+        $("#respSearch").toggleClass("active");
+    });
+
+    $(".filters_dr_btns a").on("click", function(e) {
+        e.preventDefault();
+        id=$(this).attr("href");
+        $(".respDr").slideUp(300);
+        if($(id).is(":hidden")) {
+            $(id).slideDown(300);
+        } else {
+            $(id).slideUp(300);
+        }
     });
 
     // ------------

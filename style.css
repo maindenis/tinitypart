@@ -79,6 +79,7 @@ body {
 header {
     flex: 0 0 auto;
     -webkit-flex: 0 0 auto;
+    background: #fff;
 }
 
 .content {
@@ -302,6 +303,10 @@ textarea:focus {
     text-align: left;
 }
 
+.visible_1800 {
+    display: none;
+}
+
 .visible_1240 {
     display: none;
 }
@@ -311,6 +316,14 @@ textarea:focus {
 }
 
 .visible_700 {
+    display: none;
+}
+
+.visible_750 {
+    display: none;
+}
+
+.visible_768 {
     display: none;
 }
 
@@ -774,8 +787,8 @@ textarea:focus {
     display: block;
     width: auto;
     height: auto;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 62%;
+    max-height: 62%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -792,6 +805,8 @@ textarea:focus {
 }
 
 .price_thumb p {
+    display: inline-block;
+    vertical-align: top;
     font-weight: 700;
     font-size: 18px;
     line-height: 100%;
@@ -840,8 +855,8 @@ textarea:focus {
     display: block;
     width: auto;
     height: auto;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 62%;
+    max-height: 62%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -857,10 +872,6 @@ textarea:focus {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -25px;
-}
-
-.nav li {
-
 }
 
 .nav li a {
@@ -1160,6 +1171,18 @@ textarea:focus {
 
 .search_box > div:nth-child(2) .green_pill_2 {
     width: 100%;
+}
+
+.header_resp {
+    display: none;
+}
+
+.resp_nav {
+    display: none;
+}
+
+.resp_search {
+    display: none;
 }
 
 /*-- /Header User --*/
@@ -1670,6 +1693,12 @@ textarea:focus {
     border-radius: 3px;
 }
 
+.pagination_wrapp_inner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 .pagination {
     display: flex;
     justify-content: center;
@@ -1741,7 +1770,7 @@ textarea:focus {
     align-items: center;
     justify-content: center;
     min-width: 30px;
-    height: 30px;
+    min-height: 30px;
     padding: 0 12px;
     background-color: #FFF;
     border: 1px solid #E4E5E6;
@@ -1763,6 +1792,10 @@ textarea:focus {
 
 .page_button.noactive {
     opacity: .5;
+}
+
+.resp_pagebtns {
+    display: none;
 }
 
 /*-- /Section 1 - Main User --*/
@@ -1966,15 +1999,12 @@ textarea:focus {
 }
 
 .filters_top_row > div:nth-child(1) {
-    width: calc(100% - 370px);
-    padding: 10px 10px 10px 0;
+    min-width: 100%;
+    padding: 10px 0 10px 0;
 }
 
-.filters_top_row > div:nth-child(2) {
-    width: 370px;
-    padding: 10px 0 10px 10px;
-    display: flex;
-    justify-content: flex-end;
+.filter_resp_row {
+    display: none;
 }
 
 .filters_inline {
@@ -2126,6 +2156,10 @@ textarea:focus {
     color: #262728;
 }
 
+.orders_filters_box .white_pill {
+    text-transform: none;
+}
+
 .pills_inline {
     display: flex;
     flex-wrap: wrap;
@@ -2141,16 +2175,22 @@ textarea:focus {
     margin: 9px 0 9px 0;
 }
 
+.filters_dr_btns {
+    display: none;
+}
+
+.pagination_wrapp_main {
+    margin: 13px 0 13px 0;
+}
+
 .orders_table {
     border: 1px solid #E4E5E6;
     border-radius: 3px;
     background: #fff;
-    padding-bottom: 66px;
 }
 
 .orders_table_header {
     display: flex;
-    flex-wrap: wrap;
     min-height: 40px;
     align-items: center;
     background: #5C6D89;
@@ -2403,6 +2443,39 @@ textarea:focus {
     line-height: 14px;
     letter-spacing: 0.02em;
     color: #FFF;
+}
+
+.orders_table_total_price {
+    padding: 13px 20px 13px 20px;
+    text-align: right;
+}
+
+.orders_table_total_price .inner {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.orders_table_total_price h3 {
+    padding-bottom: 2px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #262728;
+}
+
+.orders_table_total_price p {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #7FC388;
+}
+
+.pagination_wrapp_main_2 {
+    margin: 10px 0 49px 0;
 }
 
 /*-- /Section 1 - Orders User --*/
@@ -4588,6 +4661,12 @@ body.fixed {
     line-height: 13px;
     letter-spacing: .02em;
     color: #262728;  
+}
+
+.popup_content_tels {
+    width: 100%;
+    max-width: 435px;
+    padding: 12px 15px 15px 15px;
 }
 
 /*-- /Popup --*/
