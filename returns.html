@@ -13,8 +13,8 @@
 <body>
 	<div class="wrapper">
 	<!-- Header User -->
-	<header>
-		<div class="header_site" id="headerSite">
+	<header id="headerSite">
+		<div class="header_site">
 			<div class="row">
 				<div class="header_templ_2">
 					<div>
@@ -23,7 +23,7 @@
 						</a>
 					</div>
 					<div>
-						<div class="novisible_1240">
+						<div class="novisible_1800">
 							<div class="contacts_lists_wrapp">
 								<ul class="contacts_list">
 									<li>
@@ -49,20 +49,25 @@
 								</ul>
 							</div>
 						</div>
-						<div class="visible_1240">
-							<div class="resp_link_wrapp">
-								<a href="#" class="link" data-popup-link = "callbacklist">Мессенджеры и почта</a>
+						<div class="novisible_750 visible_1800">
+							<div class="resps_links">
+								<div class="resp_link_wrapp">
+									<a href="#" class="link" data-popup-link = "callbacklist">Мессенджеры и почта</a>
+								</div>
+								<div class="resp_link_wrapp">
+									<a href="#" class="link" data-popup-link = "telslist">Телефоны сотрудников</a>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div>
+					<div class="novisible_1800">
 						<ul class="contacts_list_user">
 							<li>Ваш водитель/кладовщик Захар: <a href="tel:+79040851502">+7 (904) 085-15-02</a></li>
 							<li>Ваш менеджер по заказам Екатерина: <a href="tel:+74722402040">+7 (4722) 40-20-40, доб. 151</a></li>
 							<li>Ваш менеджер по возвратам Наталья: <a href="tel:+74722402040">+7 (4722) 40-20-40, доб. 166</a></li>
 						</ul>
 					</div>
-					<div>
+					<div class="novisible_768">
 						<div class="right_inlines_user">
 							<div>
 								<a href="#" class="price_thumb">
@@ -105,55 +110,96 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-			<div class="nav_wrapp">
-				<div class="row">
-					<ul class="nav">
-						<li><a href="#" class="active">Главная</a></li>
-						<li><a href="#">ЗАКАЗЫ</a></li>
-						<li><a href="#">Возвраты</a></li>
-						<li><a href="#">Каталоги</a></li>
-						<li><a href="#">Гараж</a></li>
-						<li><a href="#">Кабинет</a></li>
-						<li><a href="#">Корзина</a></li>
-						<li><a href="#">Баланс</a></li>
-						<li><a href="#">контакты</a></li>
-						<li><a href="#">Поставщикам</a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="header_search_sect">
-				<div class="row">
-					<div class="header_search">
-						<div>
-							<div class="custom_select">
-								<input class="revDoctor" value="" type="hidden" />
-								<div class="custom_select_title">
-									<div class="p_val">Розница</div>
+					<div class="visible_768">
+						<div class="resp_right_inlines">
+							<a href="#" class="login_thumb_resp">
+								<div>
+									<p>Для текста</p>
 								</div>
-								<div class="custom_dr">
-									<ul class="custom_select_list checkout_list">
-										<li data-option-val ="Закупка">Закупка</li>
-										<li data-option-val ="Розница">Розница</li>
-									</ul>
+								<div class="icon_box">
+									<img src="img/icon_18.svg" alt="" />
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="novisible_768">
+				<div class="nav_wrapp">
+					<div class="row">
+						<ul class="nav">
+							<li><a href="#" class="active">Главная</a></li>
+							<li><a href="#">ЗАКАЗЫ</a></li>
+							<li><a href="#">Возвраты</a></li>
+							<li><a href="#">Каталоги</a></li>
+							<li><a href="#">Гараж</a></li>
+							<li><a href="#">Кабинет</a></li>
+							<li><a href="#">Корзина</a></li>
+							<li><a href="#">Баланс</a></li>
+							<li><a href="#">контакты</a></li>
+							<li><a href="#">Поставщикам</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="novisible_768">
+					<div class="header_search_sect">
+						<div class="row">
+							<div class="header_search">
+								<div>
+									<div class="custom_select">
+										<input class="revDoctor" value="" type="hidden" />
+										<div class="custom_select_title">
+											<div class="p_val">Розница</div>
+										</div>
+										<div class="custom_dr">
+											<ul class="custom_select_list checkout_list">
+												<li data-option-val ="Закупка">Закупка</li>
+												<li data-option-val ="Розница">Розница</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div>
+									<label class="ch_circle">
+										<input type="checkbox" alt="" />
+										<div>
+											<span></span>
+											<span>Аналоги</span>
+										</div>
+									</label>
+								</div>
+								<div>
+									<form>
+										<div class="search_box">
+											<div>
+												<input type="text" placeholder="Артикул детали" />
+												<button type="button" class="time_btn"><i class="clock"></i></button>
+											</div>
+											<div>
+												<button type="submit" class="green_pill_2">поиск</button>
+											</div>
+										</div>
+									</form>
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header_resp">
+				<div class="row">
+					<div class="header_resp_templ">
 						<div>
-							<label class="ch_circle">
-								<input type="checkbox" alt="" />
-								<div>
-									<span></span>
-									<span>Аналоги</span>
-								</div>
-							</label>
+							<button type="button" class="icon_pill" id="respBtn">
+								<img src="img/icon_21.svg" alt="" />
+							</button>
 						</div>
 						<div>
 							<form>
 								<div class="search_box">
 									<div>
 										<input type="text" placeholder="Артикул детали" />
+										<button type="button" class="time_btn"><i class="clock"></i></button>
 									</div>
 									<div>
 										<button type="submit" class="green_pill_2">поиск</button>
@@ -161,11 +207,182 @@
 								</div>
 							</form>
 						</div>
+						<div>
+							<button type="button" class="icon_pill" id="respSearchBtn">
+								<img src="img/icon_22.svg" alt="" />
+							</button>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
+	<!-- Menu Resp -->
+	<div class="resp_nav" id="respNav">
+		<ul class="nav">
+			<li><a href="#" class="active">Главная</a></li>
+			<li><a href="#">ЗАКАЗЫ</a></li>
+			<li><a href="#">Возвраты</a></li>
+			<li><a href="#">Каталоги</a></li>
+			<li><a href="#">Гараж</a></li>
+			<li><a href="#">Кабинет</a></li>
+			<li><a href="#">Корзина</a></li>
+			<li><a href="#">Баланс</a></li>
+			<li><a href="#">контакты</a></li>
+			<li><a href="#">Поставщикам</a></li>
+		</ul>
+		<div class="resp_nav_footer">
+			<ul class="resp_pills">
+				<li>
+					<a data-popup-link = "callback" href="#">
+						<div>
+							<img src="img/icon_23.svg" alt="" />
+						</div>
+						<div>
+							<p>Написать нам </p>
+						</div>
+					</a>
+				</li>
+				<li>
+					<a data-popup-link = "write" href="#">
+						<div>
+							<img src="img/icon_24.svg" alt="" />
+						</div>
+						<div>
+							<p>Заказать звонок </p>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="resp_contacts_table">
+				<div class="resp_contacts_table_row">
+					<div>
+						<p>Ваш водитель/кладовщик:</p>
+					</div>
+					<div>
+						<p><a href="tel:+79803736606">+7 (980) 373-66-06</a></p>
+					</div>
+				</div>
+				<div class="resp_contacts_table_row">
+					<div>
+						<p>Ваш менеджер по заказам:</p>
+					</div>
+					<div>
+						<p><a href="tel:+74722402040">+7 (4722) 40-20-40, доб. 151</a></p>
+					</div>
+				</div>
+				<div class="resp_contacts_table_row">
+					<div>
+						<p>Ваш менеджер по возвратам:</p>
+					</div>
+					<div>
+						<p><a href="tel:+74722402040">+7 (4722) 40-20-40, доб. 166</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!-- /Menu Resp -->
+	<!-- Search Resp -->
+	<div class="resp_search" id="respSearch">
+		<div class="row">
+			<div class="resp_search_templ">
+				<div>
+					<div class="custom_select">
+						<input class="revDoctor" value="" type="hidden">
+						<div class="custom_select_title">
+							<div class="p_val">Розница</div>
+						</div>
+						<div class="custom_dr">
+							<ul class="custom_select_list checkout_list">
+								<li data-option-val="Закупка">Закупка</li>
+								<li data-option-val="Розница">Розница</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div>
+					<label class="ch_circle">
+						<input type="checkbox" alt="">
+						<div>
+							<span></span>
+							<span>Аналоги</span>
+						</div>
+					</label>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /Search Resp -->
+	<!-- Search Time Resp -->
+	<div class="search_time_nav" id="searchTimeNav">
+		<div class="search_time_resp">
+			<div class="str_title">
+				<h3>История поисковых запросов</h3>
+			</div>
+			<button type="button" class="close">
+				<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M5.89188 5L9.9345 0.957588C10.0215 0.870468 10.0215 0.729305 9.9345 0.642184L9.35795 0.065314C9.31613 0.0235973 9.25924 0 9.20014 0C9.14094 0 9.08415 0.0235973 9.04233 0.065314L4.99982 4.10783L0.957298 0.065314C0.873549 -0.0184354 0.725328 -0.0183301 0.641789 0.065314L0.0653404 0.642184C-0.0217801 0.729305 -0.0217801 0.870468 0.0653404 0.957588L4.10786 5L0.0653404 9.04241C-0.0217801 9.12953 -0.0217801 9.2707 0.0653404 9.35782L0.641895 9.93469C0.683717 9.9764 0.740498 10 0.799702 10C0.858906 10 0.915582 9.9764 0.957404 9.93469L4.99992 5.89217L9.04244 9.93469C9.08426 9.9764 9.14115 10 9.20024 10C9.25934 10 9.31623 9.9764 9.35805 9.93469L9.93461 9.35782C10.0216 9.2707 10.0216 9.12953 9.93461 9.04241L5.89188 5Z" fill="#262728"></path>
+				</svg>
+			</button>
+			<div class="str_table">
+				<div class="str_table_date">
+					<h3>14, декабря</h3>
+				</div>
+				<a href="#" class="str_table_row">
+					<div>
+						<i class="glass"></i>
+					</div>
+					<div>
+						<p>80W90H11 HITATSU</p>
+					</div>
+					<div>
+						<p>07:41</p>
+					</div>
+				</a>
+				<a href="#" class="str_table_row">
+					<div>
+						<i class="glass"></i>
+					</div>
+					<div>
+						<p>80W90H11 HITATSU</p>
+					</div>
+					<div>
+						<p>07:41</p>
+					</div>
+				</a>
+				<a href="#" class="str_table_row">
+					<div>
+						<i class="glass"></i>
+					</div>
+					<div>
+						<p>80W90H11 HITATSU</p>
+					</div>
+					<div>
+						<p>07:41</p>
+					</div>
+				</a>
+			</div>
+			<div class="str_table">
+				<div class="str_table_date">
+					<h3>14, декабря</h3>
+				</div>
+				<a href="#" class="str_table_row">
+					<div>
+						<i class="glass"></i>
+					</div>
+					<div>
+						<p>80W90H11 HITATSU</p>
+					</div>
+					<div>
+						<p>07:41</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="search_time_nav_bg"></div>
+	</div>
+	<!-- /Search Time Resp -->
 	<!-- /Header User -->
 	<!-- Content -->
 	<div class="content">
@@ -1141,8 +1358,25 @@
 	</div>
 	<!-- /Content -->
 	<!-- Footer -->
-	<footer class="footer_section">
+	<footer class="footer_section footer_section_2">
 		<div class="visible_700">
+			<div class="dr_item dr_parent">
+				<div class="dr_item_title dr_title">
+					<h3>Меню</h3>
+				</div>
+				<div class="dr_item_content dr_content">
+					<ul class="footer_nav">
+						<li><a href="#">Главная</a></li>
+						<li><a href="#">Заказы</a></li>
+						<li><a href="#">Возвраты</a></li>
+						<li><a href="#">Каталоги</a></li>
+						<li><a href="#">Кабинет</a></li>
+						<li><a href="#">Корзина</a></li>
+						<li><a href="#">Баланс</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
 			<div class="dr_item dr_parent">
 				<div class="dr_item_title dr_title">
 					<h3>Мессенджеры и почта</h3>
@@ -1171,7 +1405,7 @@
 						</li>
 					</ul>
 				</div>
-			</div>
+			</div>			
 		</div>
 		<div class="row">
 			<div class="footer_templ footer_templ_2">
