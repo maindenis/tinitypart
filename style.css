@@ -2243,6 +2243,10 @@ textarea:focus {
     width: 107px;
 }
 
+.orders_table .cell_8_2 {
+    display: none;
+}
+
 .orders_table .cell_9 {
     width: 112px;
 }
@@ -2285,6 +2289,14 @@ textarea:focus {
 
 .orders_table .cell_19 {
     width: 102px;
+}
+
+.orders_table .cell_19_2 {
+    display: none;
+}
+
+.orders_table .cell_19_3 {
+    display: none;
 }
 
 .orders_table_header h3 {
@@ -2412,9 +2424,11 @@ textarea:focus {
 }
 
 .green_tag {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
+    text-align: center;
     padding: 7px 10px;
     height: 28px;
     background: #7FC388;
@@ -2426,10 +2440,11 @@ textarea:focus {
     line-height: 14px;
     letter-spacing: 0.02em;
     color: #FFF;
+    text-align: center !important;
 }
 
 .red_tag {
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 7px 10px;
@@ -2476,6 +2491,10 @@ textarea:focus {
 
 .pagination_wrapp_main_2 {
     margin: 10px 0 49px 0;
+}
+
+.order_table_row h3 {
+    display: none;
 }
 
 /*-- /Section 1 - Orders User --*/
@@ -4276,7 +4295,7 @@ body.fixed {
     min-height: 40px;
 }
 
-.popup_content_4 {
+.popup_content_4_2 {
     width: 100%;
     max-width: 700px;
     padding: 0 30px 10px 30px;
@@ -4527,11 +4546,14 @@ body.fixed {
 }
 
 .file_item > div:nth-child(1) p {
-    padding: 6px 0 0 20px;
-    font-size: 14px;
+    padding: 6px 0 0 10px;
+    font-size: 11px;
     line-height: 16px;
+    white-space: nowrap;
     letter-spacing: .02em;
     color: #262728;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .input_wrapp_3 label {

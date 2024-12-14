@@ -37,6 +37,129 @@
 
 /*-- /Header User --*/
 
+/*-- Section 1 - Orders User --*/
+
+.orders_table .cell {
+    padding: 5px 8px;
+}
+
+.orders_table .cell_1 {
+    padding-left: 10px;
+    width: 99px;
+}
+
+.orders_table .cell_2 {
+    width: 93px;
+}
+
+.orders_table .cell_3 {
+    width: 110px;
+}
+
+.orders_table .cell_4 {
+    width: calc(100% - 1051px);
+}
+
+.orders_table .cell_5 {
+    width: 72px;
+}
+
+.orders_table .cell_6 {
+    width: 36px;
+}
+
+.orders_table .cell_7 {
+    width: 98px;
+}
+
+.orders_table .cell_8 {
+    width: 56px;
+}
+
+.orders_table .cell_8_2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 114px;
+    text-align: left;
+}
+
+.orders_table .cell_8_2 h4 {
+    padding: 2px 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #A8A9AA;
+}
+
+.orders_table .cell_8_2 h4 + p {
+    padding-bottom: 4px;
+}
+
+.orders_table .cell_9,
+.orders_table .cell_10 {
+    display: none;
+}
+
+.orders_table .cell_11,
+.orders_table .cell_12,
+.orders_table .cell_13,
+.orders_table .cell_14,
+.orders_table .cell_15,
+.orders_table .cell_16,
+.orders_table .cell_17 {
+    width: 37px;
+}
+
+.orders_table .cell_18,
+.orders_table .cell_19 {
+    display: none;
+}
+
+.orders_table .cell_19_2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 114px;
+    text-align: left;
+}
+
+.orders_table .cell_19_2 h4 {
+    padding: 2px 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    color: #A8A9AA;
+}
+
+.orders_table .cell_19_2 h4 + p {
+    padding-bottom: 4px;
+}
+
+.orders_table_header .cell {
+    text-align: center;
+}
+
+.order_table_row {
+    flex-wrap: wrap;
+}
+
+.order_table_row .cell:last-child {
+    border-left: 1px solid #E4E5E6;
+}
+
+.orders_table_header h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+}
+
+.orders_table_header .cell_1 {
+    text-align: left;
+}
+
+/*-- /Section 1 - Orders User --*/
+
 /*-- Footer --*/
 
 .footer_section_2 {
@@ -279,6 +402,305 @@
 
 /*-- /Header --*/
 
+/*-- Section 1 - Orders User --*/
+
+.orders_table_inputs_row {
+    display: none;
+}
+
+.orders_table_header .cell {
+    display: none;
+}
+
+.orders_table_header .cell_1 {
+    display: flex;
+}
+
+.orders_table_header .cell_19_3 {
+    display: flex;
+    width: calc(100% - 99px);
+}
+
+.filter_form_resp .custom_select {
+    width: 102px;
+}
+
+.filter_form_sect {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.filter_form_resp {
+    position: relative;
+}
+
+.filter_form_resp input {
+    display: block;
+    width: 100%;
+    height: 21px;
+    background: #F5F6F7;
+    padding: 0 120px 0 10px;
+    border: 1px solid #E4E5E6;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.custom_select.small_blue {
+    height: 17px;
+}
+
+.filter_form_resp .custom_select {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 2;
+}
+
+.custom_select.small_blue .custom_select_title {
+    height: 17px;
+}
+
+.custom_select.small_blue .custom_select_title .p_val {
+    padding: 0 20px 0 5px;
+    width: 102px;
+    height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #5C6D89;
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: .02em;
+    color: #FFF;
+}
+
+.custom_select.small_blue .custom_select_title:after {
+    top: calc(50% - 3px);
+    right: 8px;
+    background-image: url(img/dr_arrow_white.svg);
+}
+
+.custom_select.small_blue .custom_select_list li {
+    padding: 6px 5px;
+    font-size: 11px;
+    text-align: left;
+}
+
+.custom_select.small_blue .custom_dr {
+    top: calc(100% - 1px);
+}
+
+.order_table_row {
+    padding-bottom: 2px;
+}
+
+.order_table_row .cell {
+    align-items: flex-start;
+}
+
+.order_table_row h3 {
+    display: block;
+    width: 100%;
+    padding: 2px 0 8px 0;
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: .02em;
+    color: #A8A9AA;
+}
+
+.green_tag {
+    padding: 4px 10px;
+    height: 20px;
+}
+
+.green_tag p {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: .02em;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.red_tag {
+    padding: 4px 10px;
+    height: 20px;
+}
+
+.red_tag p {
+    width: 100%;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: .02em;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center !important;
+}
+
+.order_table_row {
+    flex-wrap: wrap;
+}
+
+.orders_table .cell {
+    padding: 5px 6px;
+}
+
+.t_ch span {
+    font-size: 11px;
+}
+
+.order_table_row p {
+    font-size: 11px;
+    text-align: left;
+}
+
+.orders_table .cell {
+    border: none;
+}
+
+.orders_table .cell_1 {
+    width: 13%;
+}
+
+.orders_table .cell_2 {
+    width: 14%;
+    text-align: left;
+}
+
+.orders_table .cell_3 {
+    width: 14%;
+}
+
+.orders_table .cell_4 {
+    width: 18%;
+}
+
+.orders_table .cell_5 {
+    width: 12%;
+}
+
+.orders_table .cell_6 {
+    width: 4%;
+}
+
+.orders_table .cell_7 {
+    width: 11%;
+}
+
+.orders_table .cell_8 {
+    width: 13%;
+}
+
+.orders_table .cell_8_2 {
+    display: none;
+}
+
+.orders_table .cell_9 {
+    display: flex;
+    width: 12%;
+}
+
+.orders_table .cell_10 {
+    display: flex;
+    width: 12%;
+}
+
+.orders_table .cell_11,
+.orders_table .cell_12,
+.orders_table .cell_13,
+.orders_table .cell_14,
+.orders_table .cell_15,
+.orders_table .cell_16,
+.orders_table .cell_17 {
+    width: 8%;
+    text-align: left;
+}
+
+.orders_table .cell_11 .green_tag,
+.orders_table .cell_12 .green_tag,
+.orders_table .cell_13 .green_tag,
+.orders_table .cell_14 .green_tag,
+.orders_table .cell_15 .green_tag,
+.orders_table .cell_16 .green_tag,
+.orders_table .cell_17 .green_tag,
+.orders_table .cell_11 .red_tag,
+.orders_table .cell_12 .red_tag,
+.orders_table .cell_13 .red_tag,
+.orders_table .cell_14 .red_tag,
+.orders_table .cell_15 .red_tag,
+.orders_table .cell_16 .red_tag,
+.orders_table .cell_17 .red_tag {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 20px;
+    padding: 4px 5px;
+    text-align: center;
+}
+
+.orders_table .cell.cell_19_2 {
+    display: none;
+}
+
+.orders_table .cell_18 {
+    display: flex;
+    width: 10%;
+}
+
+.orders_table .cell_19 {
+    display: flex;
+    width: 10%;
+}
+
+.orders_table p.p_border {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 20px;
+    height: 20px;
+    background: #FFF;
+    border: 1px solid #E4E5E6;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 19px;
+}
+
+.order_table_row .cell .imp_2 {
+    margin: 22px auto 0 auto;
+}
+
+.orders_table_header .cell {
+    display: none;
+}
+
+.orders_table_header .cell_1 {
+    display: flex;
+    width: 55px !important;
+}
+
+.orders_table_header .cell_19_3 {
+    display: flex !important;
+    width: calc(100% - 55px) !important;
+}
+
+.t_ch {
+    padding: 0 0 0 25px;
+}
+
+.imp_2 {
+    width: 12px;
+    height: 12px;
+}
+
+/*-- /Section 1 - Orders User --*/
+
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -401,21 +823,6 @@
     padding: 4px 0 2px 0;
 }
 
-/*.header_templ_2 > div:nth-child(1) {
-    order: 1;
-    width: 120px;
-}
-
-.header_templ_2 > div:nth-child(2) {
-    width: 100%;
-    order: 4;
-}
-
-.header_templ_2 > div:nth-child(4) {
-    width: calc(100% - 120px);
-    order: 2;
-}*/
-
 .right_inlines_user {
     padding: 0;
 }
@@ -490,6 +897,64 @@
 }
 
 /*-- /Header --*/
+
+/*-- Section 1 - Orders User --*/
+
+.orders_table_row .cell_1 {
+    width: 14%;
+}
+
+.orders_table_row .cell_2 {
+    width: 14%;
+}
+
+.orders_table_row .cell_3 {
+    width: 14%;
+}
+
+.orders_table_row .cell_4 {
+    width: 20%;
+}
+
+.orders_table_row .cell_5 {
+    width: 12%;
+}
+
+.orders_table_row .cell_6 {
+    width: 5%;
+}
+
+.orders_table_row .cell_7 {
+    width: 10%;
+}
+
+.orders_table_row .cell_8 {
+    width: 11%;
+}
+
+.orders_table_row .cell_11,
+.orders_table_row .cell_12,
+.orders_table_row .cell_13,
+.orders_table_row .cell_14,
+.orders_table_row .cell_15,
+.orders_table_row .cell_16,
+.orders_table_row .cell_17 {
+    width: 7%;
+}
+
+.orders_table_row .cell_14 {
+    width: 8%;
+}
+
+.orders_table_row .cell_18 {
+    width: 13%;
+}
+
+.orders_table_row .cell_19 {
+    width: 13%;
+}
+
+/*-- /Section 1 - Orders User --*/
 
 }
 
@@ -734,39 +1199,6 @@ h1 {
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
     border-radius: 3px;
     padding: 10px 10px;
-}
-
-.filter_form_resp {
-    display: flex;
-}
-
-.filter_form_resp > div:nth-child(1) {
-    width: calc(100% - 140px);
-}
-
-.filter_form_resp > div:nth-child(2) {
-    width: 140px;
-}
-
-.filter_form_resp .custom_select {
-    width: 140px;
-}
-
-.filter_form_resp > div:nth-child(1) input {
-    display: block;
-    width: 100%;
-    height: 40px;
-    background: #fff;
-    padding: 0 10px;
-    border: 1px solid #E4E5E6;
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 39px;
-}
-
-.filter_form_resp .custom_select_title:after {
-    right: 8px;
 }
 
 /*-- /Section 1 - Orders User --*/
@@ -1126,6 +1558,81 @@ h1 {
 
 @media only screen and (max-width: 750px) {
 
+/*-- Section 1 - Orders User --*/
+.orders_table .cell {
+    padding: 5px 6px 1px 6px;
+}
+
+.order_table_row h3 {
+    padding: 0 0 3px 0;
+}
+
+.orders_table .cell_1 {
+    width: 33%;
+}
+
+.orders_table .cell_2 {
+    width: 35%;
+}
+
+.orders_table .cell_3 {
+    width: 32%;
+}
+
+.orders_table .cell_4 {
+    width: 100%;
+}
+
+.orders_table .cell_5 {
+    width: 26%;
+}
+
+.orders_table .cell_6 {
+    width: 21%;
+}
+
+.orders_table .cell_7 {
+    width: 26%;
+}
+
+.orders_table .cell_8 {
+    width: 27%;
+}
+
+.orders_table .cell_9 {
+    width: 32%;
+}
+
+.orders_table .cell_10 {
+    width: 68%;
+}
+
+.orders_table .cell_11,
+.orders_table .cell_12,
+.orders_table .cell_13,
+.orders_table .cell_15,
+.orders_table .cell_16,
+.orders_table .cell_17 {
+    width: 14%;
+}
+
+.orders_table .cell_14 {
+    width: 16%;
+}
+
+.orders_table .cell_18 {
+    width: 30%;
+}
+
+.orders_table .cell_19 {
+    width: 70%;
+}
+
+.order_table_row .cell .imp_2 {
+    margin: 15px auto 0 auto;
+}
+/*-- /Section 1 - Orders User --*/
+
 /*-- Footer --*/
 
 .footer_nav {
@@ -1352,9 +1859,17 @@ h1 {
     padding: 5px 20px 5px 20px;
 }
 
+.footer_section_2 {
+    padding: 5px 0 7px 0;
+}
+
 .footer_nav li {
     width: 100%;
     padding: 5px 10px;
+}
+
+.footer_templ_2 {
+    padding-top: 10px;
 }
 
 /*-- /Footer --*/
@@ -1472,7 +1987,122 @@ h1 {
     padding: 10px 20px;
 }
 
+.orders_table {
+    margin: 0 -20px;
+}
+
+.orders_table_header {
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.order_table_row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 /*-- /Section 1 - Orders User --*/
+
+/*-- Popup --*/
+
+.popup_content_4_2 {
+    max-width: 280px;
+    padding: 0 10px 5px 10px;
+}
+
+.popup_table {
+    margin: 8px 0 12px 0;
+}
+
+.popup_table_row .cell {
+    min-height: 20px;
+}
+
+.popup_table_row .cell_1 {
+    width: 100px;
+    padding: 5px 10px;
+}
+
+.popup_table_row .cell_2 {
+    padding: 5px 10px;
+}
+
+.popup_table_row h3 {
+    font-size: 11px;
+}
+
+.popup_table_row p {
+    font-size: 11px;
+}
+
+.popup_title_2 h3 {
+    font-size: 12px;
+}
+
+.ch_list > div {
+    padding: 0;
+}
+
+.ch_circle span:nth-child(2) {
+    font-size: 11px;
+}
+
+.popup_two_cols h3 {
+    padding: 3px 0;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.popup_two_cols > div:nth-child(odd),
+.popup_two_cols > div:nth-child(even) {
+    width: 100%;
+    padding: 3px 0 3px 0;
+}
+
+.files_list_title h3 {
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.file_item > div:nth-child(1) {
+    width: calc(100% - 139px);
+}
+
+.file_item > div:nth-child(2) {
+    width: 108px;
+    padding: 4px 0 0 0;
+}
+
+.popup_content .input_wrapp_3 label {
+    padding-bottom: 0;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.files_list_wrapp {
+    padding: 8px 0 5px 0;
+}
+
+.popup_content .input_wrapp_3 textarea {
+    height: 70px;
+}
+
+.popup_content .input_wrapp_3 {
+    padding-bottom: 0;
+}
+
+.submit_wrapp_4 {
+    padding: 10px 0 0 0;
+}
+
+.submit_wrapp_4 .green_pill_2 {
+    min-width: 155px;
+    min-height: 30px;
+    font-size: 11px;
+    line-height: 16px;
+}
+
+/*-- /Popup --*/
 
 }
 
@@ -1503,6 +2133,41 @@ h1 {
 }
 
 /*-- /Section 1 - Register --*/
+
+/*-- Popup --*/
+
+.looked_text {
+    padding: 4px 0 4px 0;
+}
+
+.popup_title_2 h3 {
+    font-size: 12px;
+}
+
+.looked_text p {
+    font-size: 11px;
+    line-height: 130%;
+}
+
+.popup_btns > div button {
+    min-width: 90px;
+    min-height: 30px;
+    font-size: 11px;
+}
+
+.popup_btns > div {
+    padding: 5px 5px;
+}
+
+.popup_btns {
+    margin: 1px -5px 0px -5px;
+}
+
+.popup_content_3 {
+    max-width: 280px;
+}
+
+/*-- /Popup --*/
 
 }
 
