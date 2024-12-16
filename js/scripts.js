@@ -506,6 +506,34 @@ $(document).ready(function() {
 
     // ------------
 
+    if($('.popup_slider').length > 0) {
+        $('.popup_slider').not(".slick-initialized").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true,
+          fade: true,
+          asNavFor: '.popup_slider_miniature',
+          prevArrow: '<button class="slick-prev popup_arrow" aria-label="Previous" type="button"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">'+
+                        '<path d="M6.12335 0L0 6.0001L6.12335 12L7.95277 10.1267L3.74133 6.0001L7.95277 1.8733L6.12335 0Z" fill="#262728"/>'+
+                        '</svg></button>',
+            nextArrow: '<button class="slick-next popup_arrow" aria-label="Next" type="button"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">'+
+                        '<path d="M1.87665 0L8 6.0001L1.87665 12L0.0472331 10.1267L4.25867 6.0001L0.0472331 1.8733L1.87665 0Z" fill="#262728"/></svg></button>',
+        });
+    }
+    if($('.popup_slider_miniature').length > 0) {
+        $('.popup_slider_miniature').not(".slick-initialized").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          asNavFor: '.popup_slider',
+          dots: false,
+          arrows: false,
+          focusOnSelect: true,
+          variableWidth: true
+        });
+    }
+
+    // ------------
+
     // var counter=0;
     // var mapZoom;
     // var lat;
