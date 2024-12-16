@@ -22,3 +22,6 @@
 # https://maindenis.github.io/tinitypart/Selecting_the_engine_type.html
 # https://maindenis.github.io/tinitypart/Selecting_a_spare_parts_category.html
 # https://maindenis.github.io/tinitypart/Selection_of_spare_parts.html
+# https://maindenis.github.io/tinitypart/batteries.html
+# https://maindenis.github.io/tinitypart/batteries_brand.html
+# https://maindenis.github.io/tinitypart/selection_of_oils.html
