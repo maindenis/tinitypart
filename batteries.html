@@ -386,7 +386,7 @@
 	<!-- /Header User -->
 	<!-- Content -->
 	<div class="content">
-	<!-- Section 1 - Selection_of_oils -->
+	<!-- Section 1 - Batteries -->
 	<section>
 		<div class="row">
 			<ul class="breadcrumbs">
@@ -404,9 +404,35 @@
 				<div>
 					<div class="blue_box">
 						<form>
+							<div class="catalog_filter_pills">
+								<div>
+									<a href="#" class="white_pill active">По авто</a>
+								</div>
+								<div>
+									<a href="#" class="white_pill">по бренду</a>
+								</div>
+								<div>
+									<a href="#" class="white_pill">По параметрам</a>
+								</div>
+							</div>
 							<div>
 								<div class="catalog_filter_wrapp">
-									<label>Тип:</label>
+									<label>Авто:</label>
+									<div class="custom_select">
+										<input value="Все" type="hidden" />
+										<div class="custom_select_title">
+											<div class="p_val">Все типы</div>
+										</div>
+										<div class="custom_dr">
+											<ul class="custom_select_list checkout_list">
+												<li data-option-val ="Все типы">Все типы</li>
+												<li data-option-val ="Option 2">Option 2</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="catalog_filter_wrapp">
+									<label>Марка:</label>
 									<div class="custom_select">
 										<input value="Все" type="hidden" />
 										<div class="custom_select_title">
@@ -421,7 +447,7 @@
 									</div>
 								</div>
 								<div class="catalog_filter_wrapp">
-									<label>Бренд:</label>
+									<label>Год:</label>
 									<div class="custom_select">
 										<input value="Все" type="hidden" />
 										<div class="custom_select_title">
@@ -436,7 +462,7 @@
 									</div>
 								</div>
 								<div class="catalog_filter_wrapp">
-									<label>Состав:</label>
+									<label>Модель:</label>
 									<div class="custom_select">
 										<input value="Все" type="hidden" />
 										<div class="custom_select_title">
@@ -451,30 +477,15 @@
 									</div>
 								</div>
 								<div class="catalog_filter_wrapp">
-									<label>Вязкость:</label>
+									<label>Модификация:</label>
 									<div class="custom_select">
 										<input value="Все" type="hidden" />
 										<div class="custom_select_title">
-											<div class="p_val">Все</div>
+											<div class="p_val">AUDI A3 Sportback (8VA) 1.4 TFSI c 2013-03-01</div>
 										</div>
 										<div class="custom_dr">
 											<ul class="custom_select_list checkout_list">
-												<li data-option-val ="Все">Все</li>
-												<li data-option-val ="Option 2">Option 2</li>
-											</ul>
-										</div>
-									</div>
-								</div>
-								<div class="catalog_filter_wrapp">
-									<label>Обьем (л.):</label>
-									<div class="custom_select">
-										<input value="Все" type="hidden" />
-										<div class="custom_select_title">
-											<div class="p_val">Все</div>
-										</div>
-										<div class="custom_dr">
-											<ul class="custom_select_list checkout_list">
-												<li data-option-val ="Все">Все</li>
+												<li data-option-val ="AUDI A3 Sportback (8VA) 1.4 TFSI c 2013-03-01">AUDI A3 Sportback (8VA) 1.4 TFSI c 2013-03-01</li>
 												<li data-option-val ="Option 2">Option 2</li>
 											</ul>
 										</div>
@@ -486,8 +497,83 @@
 							</div>
 						</form>
 					</div>
+					<div class="blue_box">
+						<div class="table_2">
+							<div class="table_2_title">
+								<h3>Заводская комплектация</h3>
+							</div>
+							<div class="table_2_row">
+								<div>
+									<p>Длина:</p>
+								</div>
+								<div>
+									<p>232-246</p>
+								</div>
+							</div>
+							<div class="table_2_row">
+								<div>
+									<p>Ширина:</p>
+								</div>
+								<div>
+									<p>173-175</p>
+								</div>
+							</div>
+							<div class="table_2_row">
+								<div>
+									<p>Высота:</p>
+								</div>
+								<div>
+									<p>190-225</p>
+								</div>
+							</div>
+							<div class="table_2_row">
+								<div>
+									<p>Полярность:</p>
+								</div>
+								<div>
+									<p>1</p>
+								</div>
+							</div>
+							<div class="table_2_row">
+								<div>
+									<p>Емкость:</p>
+								</div>
+								<div>
+									<p>55-64</p>
+								</div>
+							</div>
+							<div class="table_2_row">
+								<div>
+									<p>Клемма:</p>
+								</div>
+								<div>
+									<p>T1</p>
+								</div>
+							</div>
+							<div class="table_2_row">
+								<div>
+									<p>Напряжение:</p>
+								</div>
+								<div>
+									<p>12</p>
+								</div>
+							</div>
+							<div class="table_2_row">
+								<div>
+									<p>Пусковой ток, А:</p>
+								</div>
+								<div>
+									<p>460-640</p>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<div>
+					<div class="search_res_box">
+						<p>Все аккумуляторы</p>
+						<p>Найдено позиций: 341</p>
+					</div>
 					<div class="pagination_wrapp catalog_pagination">
 						<div class="pagination_wrapp_inner">
 							<a href="#" class="page_button first_page noactive">К началу</a>
@@ -513,373 +599,393 @@
 						</div>
 					</div>
 					<div class="catalog_thumbnails_2">
-						<a href="#" class="catalog_thumb_2">
+						<a href="#" class="catalog_thumb_3">
 							<div class="img_box">
-								<img src="img/img_15.jpg" alt="" loading="lazy" />
+								<img src="img/popup_img.jpg" alt="" loading="lazy" />
 							</div>
-							<div class="catalog_thumb_2_inner">
-								<div class="catalog_thumb_2_header">
-									<h3>Антифриз GreenCool GС5010, 5 кг (красный) / red, G12</h3>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
 								</div>							
-								<div class="catalog_thumb_2_content">
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>791685</p>
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
 										</div>
-										<div>
-											
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
 										</div>
 									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>GREENCOOL</p>
-										</div>
-										<div>
-											
-										</div>
-									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>Trinity-Parts</p>
-										</div>
-										<div>
-											<p class="blue_tag">На складе</p>
-										</div>
-									</div>
-								</div>
-								<div class="catalog_thumb_2_footer">
-									<div class="green_pill">Поиск</div>
 								</div>
 							</div>
 						</a>
-						<a href="#" class="catalog_thumb_2">
+						<a href="#" class="catalog_thumb_3">
 							<div class="img_box">
-								<img src="img/img_15.jpg" alt="" loading="lazy" />
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
 							</div>
-							<div class="catalog_thumb_2_inner">
-								<div class="catalog_thumb_2_header">
-									<h3>Антифриз GreenCool GС5010, 5 кг (красный) / red, G12</h3>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
 								</div>							
-								<div class="catalog_thumb_2_content">
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>791685</p>
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
 										</div>
-										<div>
-											
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
 										</div>
 									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>GREENCOOL</p>
-										</div>
-										<div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="catalog_thumb_2_footer">
-									<div class="green_pill">Поиск</div>
 								</div>
 							</div>
 						</a>
-						<a href="#" class="catalog_thumb_2">
+						<a href="#" class="catalog_thumb_3">
 							<div class="img_box">
-								<img src="img/img_15.jpg" alt="" loading="lazy" />
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
 							</div>
-							<div class="catalog_thumb_2_inner">
-								<div class="catalog_thumb_2_header">
-									<h3>Антифриз GreenCool GС5010, 5 кг (красный) / red, G12</h3>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
 								</div>							
-								<div class="catalog_thumb_2_content">
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>791685</p>
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
 										</div>
-										<div>
-											
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
 										</div>
 									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>GREENCOOL</p>
-										</div>
-										<div>
-											
-										</div>
-									</div>
-								</div>
-								<div class="catalog_thumb_2_footer">
-									<div class="green_pill">Поиск</div>
 								</div>
 							</div>
 						</a>
-						<a href="#" class="catalog_thumb_2">
+						<a href="#" class="catalog_thumb_3">
 							<div class="img_box">
-								<img src="img/img_15.jpg" alt="" loading="lazy" />
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
 							</div>
-							<div class="catalog_thumb_2_inner">
-								<div class="catalog_thumb_2_header">
-									<h3>Антифриз GreenCool GС5010, 5 кг (красный) / red, G12</h3>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
 								</div>							
-								<div class="catalog_thumb_2_content">
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>791685</p>
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
 										</div>
-										<div>
-											
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
 										</div>
 									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>GREENCOOL</p>
-										</div>
-										<div>
-											
-										</div>
-									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>Trinity-Parts</p>
-										</div>
-										<div>
-											<p class="blue_tag">На складе</p>
-										</div>
-									</div>
-								</div>
-								<div class="catalog_thumb_2_footer">
-									<div class="green_pill">Поиск</div>
 								</div>
 							</div>
 						</a>
-						<a href="#" class="catalog_thumb_2">
+						<a href="#" class="catalog_thumb_3">
 							<div class="img_box">
-								<img src="img/img_15.jpg" alt="" loading="lazy" />
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
 							</div>
-							<div class="catalog_thumb_2_inner">
-								<div class="catalog_thumb_2_header">
-									<h3>Антифриз GreenCool GС5010, 5 кг (красный) / red, G12</h3>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
 								</div>							
-								<div class="catalog_thumb_2_content">
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>791685</p>
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
 										</div>
-										<div>
-											
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
 										</div>
 									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>GREENCOOL</p>
-										</div>
-										<div>
-											
-										</div>
-									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>Trinity-Parts</p>
-										</div>
-										<div>
-											<p class="blue_tag">На складе</p>
-										</div>
-									</div>
-								</div>
-								<div class="catalog_thumb_2_footer">
-									<div class="green_pill">Поиск</div>
 								</div>
 							</div>
 						</a>
-						<a href="#" class="catalog_thumb_2">
+						<a href="#" class="catalog_thumb_3">
 							<div class="img_box">
-								<img src="img/img_15.jpg" alt="" loading="lazy" />
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
 							</div>
-							<div class="catalog_thumb_2_inner">
-								<div class="catalog_thumb_2_header">
-									<h3>Антифриз GreenCool GС5010, 5 кг (красный) / red, G12</h3>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
 								</div>							
-								<div class="catalog_thumb_2_content">
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>791685</p>
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
 										</div>
-										<div>
-											
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
 										</div>
 									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>GREENCOOL</p>
-										</div>
-										<div>
-											
-										</div>
-									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>Trinity-Parts</p>
-										</div>
-										<div>
-											<p class="blue_tag">На складе</p>
-										</div>
-									</div>
-								</div>
-								<div class="catalog_thumb_2_footer">
-									<div class="green_pill">Поиск</div>
 								</div>
 							</div>
 						</a>
-						<a href="#" class="catalog_thumb_2">
+						<a href="#" class="catalog_thumb_3">
 							<div class="img_box">
-								<img src="img/img_15.jpg" alt="" loading="lazy" />
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
 							</div>
-							<div class="catalog_thumb_2_inner">
-								<div class="catalog_thumb_2_header">
-									<h3>Антифриз GreenCool GС5010, 5 кг (красный) / red, G12</h3>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
 								</div>							
-								<div class="catalog_thumb_2_content">
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>791685</p>
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
 										</div>
-										<div>
-											
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
 										</div>
 									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>GREENCOOL</p>
-										</div>
-										<div>
-											
-										</div>
-									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>Trinity-Parts</p>
-										</div>
-										<div>
-											<p class="blue_tag">На складе</p>
-										</div>
-									</div>
-								</div>
-								<div class="catalog_thumb_2_footer">
-									<div class="green_pill">Поиск</div>
 								</div>
 							</div>
 						</a>
-						<a href="#" class="catalog_thumb_2">
+						<a href="#" class="catalog_thumb_3">
 							<div class="img_box">
-								<img src="img/img_15.jpg" alt="" loading="lazy" />
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
 							</div>
-							<div class="catalog_thumb_2_inner">
-								<div class="catalog_thumb_2_header">
-									<h3>Антифриз GreenCool GС5010, 5 кг (красный) / red, G12</h3>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
 								</div>							
-								<div class="catalog_thumb_2_content">
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>791685</p>
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
 										</div>
-										<div>
-											
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
 										</div>
 									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>GREENCOOL</p>
-										</div>
-										<div>
-											
-										</div>
-									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>Trinity-Parts</p>
-										</div>
-										<div>
-											<p class="blue_tag">На складе</p>
-										</div>
-									</div>
-								</div>
-								<div class="catalog_thumb_2_footer">
-									<div class="green_pill">Поиск</div>
 								</div>
 							</div>
 						</a>
-						<a href="#" class="catalog_thumb_2">
+						<a href="#" class="catalog_thumb_3">
 							<div class="img_box">
-								<img src="img/img_15.jpg" alt="" loading="lazy" />
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
 							</div>
-							<div class="catalog_thumb_2_inner">
-								<div class="catalog_thumb_2_header">
-									<h3>Антифриз GreenCool GС5010, 5 кг (красный) / red, G12</h3>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
 								</div>							
-								<div class="catalog_thumb_2_content">
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>791685</p>
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
 										</div>
-										<div>
-											
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
 										</div>
 									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>GREENCOOL</p>
-										</div>
-										<div>
-											
-										</div>
-									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>Trinity-Parts</p>
-										</div>
-										<div>
-											<p class="blue_tag">На складе</p>
-										</div>
-									</div>
-								</div>
-								<div class="catalog_thumb_2_footer">
-									<div class="green_pill">Поиск</div>
 								</div>
 							</div>
 						</a>
-						<a href="#" class="catalog_thumb_2">
+						<a href="#" class="catalog_thumb_3">
 							<div class="img_box">
-								<img src="img/img_15.jpg" alt="" loading="lazy" />
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
 							</div>
-							<div class="catalog_thumb_2_inner">
-								<div class="catalog_thumb_2_header">
-									<h3>Антифриз GreenCool GС5010, 5 кг (красный) / red, G12</h3>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
 								</div>							
-								<div class="catalog_thumb_2_content">
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>791685</p>
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
 										</div>
-										<div></div>
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
+										</div>
 									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>GREENCOOL</p>
-										</div>
-										<div></div>
-									</div>
-									<div class="catalog_thumb_2_table_row">
-										<div>
-											<p>Trinity-Parts</p>
-										</div>
-										<div>
-											<p class="blue_tag">На складе</p>
-										</div>
-									</div>
-								</div>
-								<div class="catalog_thumb_2_footer">
-									<div class="green_pill">Поиск</div>
 								</div>
 							</div>
 						</a>
@@ -912,7 +1018,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- /Section 1 - Selection_of_oils -->
+	<!-- /Section 1 - Batteries -->
 	</div>
 	<!-- /Content -->
 	<!-- Footer -->
