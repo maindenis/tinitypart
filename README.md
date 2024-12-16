@@ -25,3 +25,7 @@
 # https://maindenis.github.io/tinitypart/batteries.html
 # https://maindenis.github.io/tinitypart/batteries_brand.html
 # https://maindenis.github.io/tinitypart/selection_of_oils.html
+# https://maindenis.github.io/Selection_of_batteries_according_to_Parameters.html
+# https://maindenis.github.io/Selection_of_tires_by_Auto.html
+# https://maindenis.github.io/Selection_of_tires_by_brand.html
+# https://maindenis.github.io/Selection_of_tires_by_params.html

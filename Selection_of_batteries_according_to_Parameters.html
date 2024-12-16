@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">
+	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
 	<title></title>
 	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </head>
@@ -404,242 +404,247 @@
 				<div>
 					<div class="blue_box">
 						<form>
-							<div class="catalog_filter_pills catalog_filter_pills_2">
+							<div class="catalog_filter_pills">
 								<div>
-									<a href="#" class="white_pill">По авто</a>
+									<a href="#" class="white_pill active">По авто</a>
 								</div>
 								<div>
-									<a href="#" class="white_pill active">по бренду</a>
+									<a href="#" class="white_pill">по бренду</a>
 								</div>
 								<div>
 									<a href="#" class="white_pill">По параметрам</a>
 								</div>
 							</div>
+							<div>
+								<div class="catalog_filter_wrapp">
+									<label>Авто:</label>
+									<div class="custom_select">
+										<input value="Все" type="hidden" />
+										<div class="custom_select_title">
+											<div class="p_val">Все типы</div>
+										</div>
+										<div class="custom_dr">
+											<ul class="custom_select_list checkout_list">
+												<li data-option-val ="Все типы">Все типы</li>
+												<li data-option-val ="Option 2">Option 2</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="catalog_filter_wrapp">
+									<label>Емкость (Ah):</label>
+									<div class="custom_select">
+										<input value="Все" type="hidden" />
+										<div class="custom_select_title">
+											<div class="p_val">Все</div>
+										</div>
+										<div class="custom_dr">
+											<ul class="custom_select_list checkout_list">
+												<li data-option-val ="Все">Все</li>
+												<li data-option-val ="Option 2">Option 2</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="catalog_filter_wrapp">
+									<label>Пусковой ток (А):</label>
+									<div class="custom_select">
+										<input value="Все" type="hidden" />
+										<div class="custom_select_title">
+											<div class="p_val">Все</div>
+										</div>
+										<div class="custom_dr">
+											<ul class="custom_select_list checkout_list">
+												<li data-option-val ="Все">Все</li>
+												<li data-option-val ="Option 2">Option 2</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="catalog_filter_wrapp">
+									<label>Напряжение:</label>
+									<div class="custom_select">
+										<input value="Все" type="hidden" />
+										<div class="custom_select_title">
+											<div class="p_val">Все</div>
+										</div>
+										<div class="custom_dr">
+											<ul class="custom_select_list checkout_list">
+												<li data-option-val ="Все">Все</li>
+												<li data-option-val ="Option 2">Option 2</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="catalog_filter_wrapp">
+									<label>Полярность:</label>
+									<div class="filter_checboxes">
+										<div>
+											<label class="filter_ch">
+												<input type="checkbox" />
+												<div class="inner">
+													<p>все</p>
+												</div>
+											</label>
+										</div>
+										<div>
+											<label class="filter_ch bottom">
+												<input type="checkbox" />
+												<div class="inner">
+													<svg width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="30" y="4" width="2" height="10" transform="rotate(90 30 4)" fill="#2192FF"/>
+													<path d="M6 0H4V4H0V6H4V10H6V6H10V4H6V0Z" fill="#FF4A4A"/>
+													</svg>
+												</div>
+											</label>
+										</div>
+										<div>
+											<label class="filter_ch bottom">
+												<input type="checkbox" />
+												<div class="inner">
+													<svg width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="10" y="4" width="2" height="10" transform="rotate(90 10 4)" fill="#2192FF"/>
+													<path d="M26 0H24V4H20V6H24V10H26V6H30V4H26V0Z" fill="#FF4A4A"/>
+													</svg>
+												</div>
+											</label>
+										</div>
+										<div>
+											<label class="filter_ch center">
+												<input type="checkbox" />
+												<div class="inner">
+													<svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="30" width="2" height="10" transform="rotate(90 30 0)" fill="#2192FF"/>
+													<path d="M6 10H4V14H0V16H4V20H6V16H10V14H6V10Z" fill="#FF4A4A"/>
+													</svg>
+												</div>
+											</label>
+										</div>
+										<div>
+											<label class="filter_ch left">
+												<input type="checkbox" />
+												<div class="inner">
+													<svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="10" width="2" height="10" transform="rotate(90 10 0)" fill="#2192FF"/>
+													<path d="M6 10H4V14H0V16H4V20H6V16H10V14H6V10Z" fill="#FF4A4A"/>
+													</svg>
+												</div>
+											</label>
+										</div>
+										<div>
+											<label class="filter_ch left">
+												<input type="checkbox" />
+												<div class="inner">
+													<svg width="10" height="20" viewBox="0 0 10 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="10" y="18" width="2" height="10" transform="rotate(90 10 18)" fill="#2192FF"/>
+													<path d="M6 0H4V4H0V6H4V10H6V6H10V4H6V0Z" fill="#FF4A4A"/>
+													</svg>
+												</div>
+											</label>
+										</div>
+										<div>
+											<label class="filter_ch center">
+												<input type="checkbox" />
+												<div class="inner">
+													<svg width="30" height="10" viewBox="0 0 30 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<rect x="30" y="4" width="2" height="10" transform="rotate(90 30 4)" fill="#2192FF"/>
+													<path d="M6 0H4V4H0V6H4V10H6V6H10V4H6V0Z" fill="#FF4A4A"/>
+													</svg>
+												</div>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="catalog_filter_wrapp">
+									<label>Клемма:</label>
+									<div class="custom_select">
+										<input value="Все" type="hidden" />
+										<div class="custom_select_title">
+											<div class="p_val">Все</div>
+										</div>
+										<div class="custom_dr">
+											<ul class="custom_select_list checkout_list">
+												<li data-option-val ="Все">Все</li>
+												<li data-option-val ="Option 2">Option 2</li>
+											</ul>
+										</div>
+									</div>
+									<div class="custom_select">
+										<input value="Все" type="hidden" />
+										<div class="custom_select_title">
+											<div class="p_val">Т1</div>
+										</div>
+										<div class="custom_dr">
+											<ul class="custom_select_list checkout_list">
+												<li data-option-val ="Т1">Т1</li>
+												<li data-option-val ="Option 2">Option 2</li>
+											</ul>
+										</div>
+									</div>
+									<a href="#" class="modal_img_box" data-popup-link="photo">
+										<img src="img/img_18.jpg" alt="" />
+										<div class="glass_2">
+											<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M3.08131 7.32423C1.94905 5.47055 2.17892 3.01284 3.78072 1.4086C5.65885 -0.469533 8.71571 -0.469533 10.5938 1.4086C12.472 3.28673 12.472 6.34359 10.5938 8.21928C8.99205 9.82107 6.53433 10.0509 4.67821 8.91869L1.92704 11.6699C1.48685 12.11 0.770325 12.11 0.330137 11.6699C-0.11005 11.2297 -0.11005 10.5131 0.330137 10.073L3.08131 7.32423ZM4.77603 7.22641C6.10637 8.55676 8.26818 8.55676 9.59608 7.22641C10.9264 5.89607 10.9264 3.73426 9.59608 2.40636C8.26574 1.07601 6.10393 1.07601 4.77603 2.40636C3.44813 3.73426 3.44813 5.89607 4.77603 7.22641ZM6.62237 4.20379H5.16975V5.3116H6.62237V6.76421H7.73018V5.3116H9.18035V4.20379H7.72773V2.75117H6.61993V4.20379H6.62237Z" fill="#262728"/>
+											</svg>
+										</div>
+									</a>
+								</div>
+								<div class="catalog_filter_wrapp">
+									<label>Длина (мм):</label>
+									<div class="custom_select">
+										<input value="Все" type="hidden" />
+										<div class="custom_select_title">
+											<div class="p_val">Все</div>
+										</div>
+										<div class="custom_dr">
+											<ul class="custom_select_list checkout_list">
+												<li data-option-val ="Все">Все</li>
+												<li data-option-val ="Option 2">Option 2</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="catalog_filter_wrapp">
+									<label>Ширина (мм):</label>
+									<div class="custom_select">
+										<input value="Все" type="hidden" />
+										<div class="custom_select_title">
+											<div class="p_val">Все</div>
+										</div>
+										<div class="custom_dr">
+											<ul class="custom_select_list checkout_list">
+												<li data-option-val ="Все">Все</li>
+												<li data-option-val ="Option 2">Option 2</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="catalog_filter_wrapp">
+									<label>Высота (мм):</label>
+									<div class="custom_select">
+										<input value="Все" type="hidden" />
+										<div class="custom_select_title">
+											<div class="p_val">Все</div>
+										</div>
+										<div class="custom_dr">
+											<ul class="custom_select_list checkout_list">
+												<li data-option-val ="Все">Все</li>
+												<li data-option-val ="Option 2">Option 2</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="rest_btn_wrapp">
+								<button type="button" class="white_pill resetBtn">Сброс</button>
+							</div>
 						</form>
 					</div>
 				</div>
 				<div>
-					<div class="brands_slider_box hide_box">
-						<div class="brand_slider hideSl">
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_1.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_2.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_3.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_4.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_1.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_2.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_3.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_4.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_1.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_2.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_3.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_4.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_1.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_2.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_3.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_4.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_1.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_2.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_3.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-							<div>
-								<label class="brand_thumb">
-									<input type="checkbox" />
-									<div class="border"></div>
-									<div class="inner">
-										<img src="img/br_4.png" alt="" loading="lazy" />
-									</div>
-								</label>
-							</div>
-						</div>
-						<div class="hide_link_wrapp">
-							<a href="#" class="hide_link">
-								<span>Свернуть</span>
-								<span>Развернуть</span>
-								<svg width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
-									<path d="M12.9763 6.12336L6.97622 2.62264e-07L0.976318 6.12335L2.84962 7.95277L6.97622 3.74133L11.103 7.95277L12.9763 6.12336Z" fill="#262728"/>
-								</svg>
-							</a>
-						</div>
-					</div>
-					<div class="catalog_article">
-						<div>
-							<div class="catalog_dr_wrapp">
-								<label>Выберите модель бренда:</label>
-								<div class="custom_select dark">
-									<input value="Все" type="hidden" />
-									<div class="custom_select_title">
-										<div class="p_val">Все модели</div>
-									</div>
-									<div class="custom_dr">
-										<ul class="custom_select_list checkout_list">
-											<li data-option-val ="Все модели">Все модели</li>
-											<li data-option-val ="Option 2">Option 2</li>
-										</ul>
-									</div>
-								</div>
-							</div>
-							<div class="img_box">
-								<img src="img/img_17.jpg" alt="" loading="lazy" />
-							</div>
-						</div>
-						<div>
-							<a href="#" class="bag_red"></a>
-							<p>VARTA AG (нем. Vertrieb, Aufladung, Reparatur Transportabler Akkumulatoren) — распространение, зарядка и восстановление портативных элементов питания) — немецкий бренд включает элементы питания для любого использования.Сегодня продукция VARTA используется в миллионах автомобилей, моторных лодок, мотоциклов и автодомов. Каждый аккумулятор VARTA - это воплощение опыта и знаний лучших инженеров. Это длительный ресурс, меньшая склонность к коррозии и более низкая стоимость владения. Этими преимуществами может похвастаться вся наша продукция, будь то самые современные аккумуляторы для автомобилей с функциональностью Start-Stop или продукты серии Professional для моторных лодок. Когда Вы делаете выбор в пользу VARTA, Вы выбираете надежные точные технологии, которые обеспечивают лучшее в классе качество производства.Инновации для экологии. Аккумуляторы VARTA — движущая сила инновационных разработок в области экономии топлива, таких как двигатели с технологией пуск-остановка Start-Stop. Выбросы в процессе производства до 20 процентов ниже, и при этом эти аккумуляторы гарантированно запускают двигатель вашего автомобиля снова и снова, благодаря чему снижается расход топлива.Обслуживание класса люкс – Поручите обслуживание своего автомобиля сертифицированной по программе VSSP СТО, чтобы узнать, что такое отличный сервис по замене аккумулятора. Кроме того, сервисная программа VSSP гарантирует вашему автомобилю с системой пуск-остановка мобильность благодаря возможности обслуживания на дороге.История успеха – Бренд VARTA имеет более чем 125-летнюю историю. Аккумуляторы VARTA устанавливаются на первичную комплектацию крупнейшими автопроизводителями и пользуются доверием водителей во всем мире.</p>
-						</div>
-					</div>
 					<div class="search_res_box">
-						<p>Varta</p>
+						<p>Все аккумуляторы</p>
 						<p>Найдено позиций: 341</p>
 					</div>
 					<div class="pagination_wrapp catalog_pagination">
@@ -670,6 +675,201 @@
 						<a href="#" class="catalog_thumb_3">
 							<div class="img_box">
 								<img src="img/popup_img.jpg" alt="" loading="lazy" />
+							</div>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
+								</div>							
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="catalog_thumb_3">
+							<div class="img_box">
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
+							</div>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
+								</div>							
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="catalog_thumb_3">
+							<div class="img_box">
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
+							</div>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
+								</div>							
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="catalog_thumb_3">
+							<div class="img_box">
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
+							</div>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
+								</div>							
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="catalog_thumb_3">
+							<div class="img_box">
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
+							</div>
+							<div class="catalog_thumb_3_inner">
+								<div class="catalog_thumb_3_header">
+									<h3>Silver Dynamic</h3>
+									<p class="green_price">4 540,00 руб.</p>
+								</div>							
+								<div class="catalog_thumb_3_content">
+									<div class="table_3">
+										<div class="table_3_row">
+											<div>
+												<p>393x175x190</p>
+											</div>
+											<div>
+												<p>Легковые</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>12 V</p>
+											</div>
+											<div>
+												<p>50 Ah</p>
+											</div>
+										</div>
+										<div class="table_3_row">
+											<div>
+												<p>T 1</p>
+											</div>
+											<div>
+												<img src="img/plus_minus.svg" alt="" loading="lazy" />
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+						<a href="#" class="catalog_thumb_3">
+							<div class="img_box">
+								<img src="img/img_16.jpg" alt="" loading="lazy" />
 							</div>
 							<div class="catalog_thumb_3_inner">
 								<div class="catalog_thumb_3_header">
@@ -1501,15 +1701,25 @@
 			</div>
 		</div>
 	</div>
+	<div class="popup" data-popup="photo">
+		<div class="popup_content popup_content_photo">
+			<button type="button" class="close">
+				<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M5.89188 5L9.9345 0.957588C10.0215 0.870468 10.0215 0.729305 9.9345 0.642184L9.35795 0.065314C9.31613 0.0235973 9.25924 0 9.20014 0C9.14094 0 9.08415 0.0235973 9.04233 0.065314L4.99982 4.10783L0.957298 0.065314C0.873549 -0.0184354 0.725328 -0.0183301 0.641789 0.065314L0.0653404 0.642184C-0.0217801 0.729305 -0.0217801 0.870468 0.0653404 0.957588L4.10786 5L0.0653404 9.04241C-0.0217801 9.12953 -0.0217801 9.2707 0.0653404 9.35782L0.641895 9.93469C0.683717 9.9764 0.740498 10 0.799702 10C0.858906 10 0.915582 9.9764 0.957404 9.93469L4.99992 5.89217L9.04244 9.93469C9.08426 9.9764 9.14115 10 9.20024 10C9.25934 10 9.31623 9.9764 9.35805 9.93469L9.93461 9.35782C10.0216 9.2707 10.0216 9.12953 9.93461 9.04241L5.89188 5Z" fill="#262728"/>
+				</svg>
+			</button>
+			<div class="img_box">
+				<img src="img/img_18.jpg" alt="" />
+			</div>
+		</div>
+	</div>
 	<div class="popup_bg"></div>
 	<!-- /Popup -->
 	<link rel="stylesheet" type="text/css" href="vendors/css/air-datepicker.css">
-	<link rel="stylesheet" type="text/css" href="vendors/css/slick.css">
 	<link rel="stylesheet" type="text/css" href="responsive.css">
 	<script src="vendors/js/jquery.js"></script>
 	<script src="vendors/js/inputmask.js"></script>
 	<script src="vendors/js/air-datepicker.js"></script>
-	<script src="vendors/js/slick.js"></script>
 	<!-- <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script> -->
 	<script src="js/scripts.js"></script>
 </body>
