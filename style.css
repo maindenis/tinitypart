@@ -4868,6 +4868,81 @@ textarea:focus {
 
 /*-- /Section 1 - Selection_of_tires_by_Auto --*/
 
+/*-- Section 1 - Autoelectik --*/
+
+.catalog_thumbs_4 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px 30px -15px;
+}
+
+.catalog_thumb_4 {
+    display: block;
+    width: calc(16.66% - 30px);
+    min-height: 265px;
+    margin: 15px;
+    background: #FFF;
+    border: 1px solid #E4E5E6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+}
+
+.catalog_thumb_4 .img_box {
+    height: 217px;
+    border-bottom: 1px solid #E4E5E6;
+}
+
+.catalog_thumb_4 .img_box img {
+    display: block;
+    width: 100%;
+    height: 217px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.catalog_thumb_4_text {
+    padding: 12px 20px 10px 20px;
+}
+
+.catalog_thumb_4_text p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: .02em;
+    color: #262728;
+}
+
+/*-- /Section 1 - Autoelectik --*/
+
+/*-- Section 1 - Autoelectik Catalog --*/
+
+.table_4 {
+    border-top: 1px solid #E4E5E6;
+}
+
+.table_4_row {
+    padding: 5px 0;
+    border-bottom: 1px solid #E4E5E6;
+}
+
+.table_4_row p {
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: .02em;
+    color: #262728;
+}
+
+.catalog_thumb_3_content_2 {
+    min-height: 91px;
+}
+
+.catalog_thumb_3_footer .green_pill {
+    width: 100%;
+    min-height: 40px;
+}
+
+/*-- /Section 1 - Autoelectik Catalog --*/
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
