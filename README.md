@@ -36,3 +36,4 @@
 # https://maindenis.github.io/tinitypart/autotools_catalog.html
 # https://maindenis.github.io/tinitypart/gadgets.html
 # https://maindenis.github.io/tinitypart/gadgets_catalog.html
+# https://maindenis.github.io/tinitypart/garagh.html
