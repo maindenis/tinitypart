@@ -4950,6 +4950,143 @@ textarea:focus {
 
 /*-- /Section 1 - Autoelectik Catalog --*/
 
+/*-- Section 1 - Autoelectik --*/
+
+.white_title .blue_pill {
+    display: inline-flex;
+    margin: 5px 0;
+}
+
+.garagh_thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px 20px -15px;
+}
+
+.garagh_thumb {
+/*    width: 290px;*/
+    width: calc(16.66% - 30px);
+    margin: 15px;
+    background: #FFF;
+    border: 1px solid #E4E5E6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+}
+
+.garagh_thumb .img_box {
+    height: 215px;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(92, 109, 137, .2);
+    cursor: pointer;
+}
+
+.garagh_thumb .img_box img {
+    display: block;
+    width: 100%;
+    height: 215px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.garagh_thumb_content {
+    padding: 8px 20px 13px 20px;
+}
+
+.garagh_thumb_content_header {
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+
+.garagh_thumb_content_header > div:nth-child(1) {
+    width: calc(100% - 50px);
+    padding-right: 5px;
+}
+
+.garagh_thumb_content_header > div:nth-child(2) {
+    width: 50px;
+    padding-left: 5px;
+}
+
+.garagh_thumb_content_header > div > div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -5px;
+}
+
+.garagh_thumb_content_header > div:nth-child(2) > div {
+    justify-content: flex-end;
+}
+
+.garagh_thumb_content_header > div > div .icon_pill {
+    margin: 5px;
+}
+
+.icon_pill {
+    display: inline-flex;
+    vertical-align: top;
+    align-items: center;
+    justify-content: center;
+    min-width: 30px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #E4E5E6;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .1), inset 0 -2px 0 rgba(0, 0, 0, .1);
+    border-radius: 3px;
+}
+
+.icon_pill img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.table_5 {
+    min-height: 102px;
+    margin-top: 9px;
+    border-top: 1px solid rgba(92, 109, 137, .2);
+}
+
+.table_5_row {
+    display: flex;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(92, 109, 137, .2);
+}
+
+.table_5_row > div:nth-child(1) {
+    width: calc(100% - 70px);
+}
+
+.table_5_row > div:nth-child(2) {
+    width: 70px;
+    text-align: right;
+}
+
+.table_5_row p {
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: .02em;
+    color: #262728;
+}
+
+.table_5_row > div:nth-child(2) p {
+    font-weight: 700;
+    color: #262728;
+}
+
+.garagh_thumb_footer > div {
+    padding: 5px 0;
+}
+
+.garagh_thumb_footer .blue_pill {
+    text-transform: uppercase;
+}
+
+
+/*-- /Section 1 - Autoelectik --*/
+
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
@@ -5842,6 +5979,108 @@ body.fixed {
 
 .popup_arrow svg {
     height: 6px;
+}
+
+.good_data_popup {
+    width: 100%;
+    max-width: 330px;
+}
+
+.good_data_popup .popup_title {
+    text-align: left;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.good_data_popup .popup_title:before {
+    display: block;
+    content: "";
+    width: calc(100% + 20px);
+    height: 0;
+    border-bottom: 1px solid #E4E5E6;
+    bottom: 0;
+    left: -10px;
+    position: absolute;
+}
+
+.good_data_popup .popup_title h3 {
+    font-weight: 400;
+    text-transform: none;
+    font-size: 18px;
+}
+
+.good_data_popup form {
+    padding-top: 15px;
+}
+
+.good_data_popup .input_wrapp_2 {
+    margin-bottom: 15px;
+}
+
+.good_data_popup .input_wrapp_2 label {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: .5rem;
+}
+
+.good_data_popup .input_wrapp_2 input {
+    background: #fff;
+}
+
+.good_data_popup .submit_wrapp {
+    padding: 10px 0 0 0;
+}
+
+.good_data_popup .submit_wrapp .green_pill {
+    width: 100%;
+    min-height: 40px;
+}
+
+.good_photo_popup {
+    width: auto;
+    max-width: 600px;
+}
+
+.good_photo_popup .popup_title {
+    text-align: left;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.good_photo_popup .popup_title:before {
+    display: block;
+    content: "";
+    width: calc(100% + 20px);
+    height: 0;
+    border-bottom: 1px solid #E4E5E6;
+    bottom: 0;
+    left: -10px;
+    position: absolute;
+}
+
+.good_photo_popup .popup_title h3 {
+    font-weight: 400;
+    text-transform: none;
+    font-size: 18px;
+}
+
+.good_photo_popup .img_box {
+    max-height: 80vh;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.good_photo_popup .img_box img {
+    display: block;
+    width: 100%;
+    max-height: 80vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.popup_content .close {
+    z-index: 3;
 }
 
 /*-- /Popup --*/
