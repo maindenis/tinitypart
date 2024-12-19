@@ -534,6 +534,43 @@ $(document).ready(function() {
 
     // ------------
 
+    $(".tab_radio").each(function() {
+        if($(this).is(":checked")) {
+            attr = $(this).attr("id");
+            $("[for = '"+attr+"']").addClass("active");
+        }
+    });
+
+    $(".tab_link").on("click", function(e) {
+        parent = $(this).closest(".tabs_links");
+        parent.find(".tab_link").removeClass("active");
+        $(this).addClass("active");
+    });
+
+    // ------------
+
+    $(".hide_block_wrapp .blue_pill").on("click", function(e) {
+        e.preventDefault();
+        parent = $(this).closest(".hide_block_wrapp");
+        sl = parent.find(".hide_block");
+        if(sl.is(":hidden")) {
+            sl.slideDown(300);
+        } else {
+            sl.slideUp(300);
+        }
+    });
+
+    // ------------
+
+    $(".rest_pill").on('click', function(e) {
+        e.preventDefault();
+        parent = $(this).closest("form");
+        jQuery(parent)[0].reset();
+        parent.find(".p_val").text("");
+    });
+
+    // ------------
+
     // var counter=0;
     // var mapZoom;
     // var lat;
