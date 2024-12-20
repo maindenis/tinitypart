@@ -571,6 +571,32 @@ $(document).ready(function() {
 
     // ------------
 
+    $(".showBlocks").on('click', function(e) {
+        e.preventDefault();
+        parent = $(this).closest(".tab");
+        sl = parent.find(".hideBlock");
+        if(sl.is(":hidden")) {
+            sl.slideDown(300);
+        } else {
+            sl.slideUp(300);
+        }
+    });
+
+    // ------------
+
+    $("[data-chname]").on('click', function(e) {
+        e.preventDefault();
+        val = $(this).attr("data-valoption");
+        ch = $("[name='"+$(this).attr("data-chname")+"']");
+        if(val == 1 || val == true) {
+            $(ch).prop("checked", true);
+        } else {
+            $(ch).prop("checked", false);
+        }
+    });
+
+    // ------------
+
     // var counter=0;
     // var mapZoom;
     // var lat;
