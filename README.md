@@ -38,3 +38,4 @@
 # https://maindenis.github.io/tinitypart/gadgets_catalog.html
 # https://maindenis.github.io/tinitypart/garagh.html
 # https://maindenis.github.io/tinitypart/cabinet.html
+# https://maindenis.github.io/tinitypart/cart.html

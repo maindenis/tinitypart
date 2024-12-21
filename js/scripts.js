@@ -597,6 +597,13 @@ $(document).ready(function() {
 
     // ------------
 
+    $(".opt_ch").on("change", function(e) {
+        e.preventDefault();
+        $(".card_table").toggleClass("opt");
+    });
+
+    // ------------
+
     // var counter=0;
     // var mapZoom;
     // var lat;

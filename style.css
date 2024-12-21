@@ -2469,6 +2469,7 @@ textarea:focus {
 .t_ch {
     display: inline-block;
     vertical-align: top;
+    min-height: 19px;
     position: relative;
     padding: 0 0 0 30px;
     cursor: pointer;
@@ -2491,6 +2492,7 @@ textarea:focus {
     background-image: url(img/white_ch.svg);
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
 }
 
 .t_ch span {
@@ -5756,6 +5758,325 @@ textarea:focus {
 }
 
 /*-- /Section 1 - Cabinet --*/
+
+/*-- Section 1 - Cart --*/
+
+.cart_filters_wrapp {
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFF;
+    border: 1px solid #E4E5E6;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+}
+
+.cart_filters_wrapp > div:nth-child(1) {
+    width: calc(100% - 380px);
+    padding: 0 10px 0 0;
+}
+
+.cart_filters_wrapp > div:nth-child(2) {
+    width: 380px;
+    padding: 11px 0 0 10px;
+}
+
+.cart_filters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cart_filters > div {
+    padding: 10px 15px;
+}
+
+.cart_filters .ch_circle span:nth-child(2) {
+    color: #262728;
+}
+
+.cart_filters .ch_circle span:nth-child(1) {
+    background: #E4E5E6;
+}
+
+.cart_filters .ch_circle {
+    margin-top: 8px;
+}
+
+.cart_filters .white_pill p {
+    text-transform: none;
+}
+
+.important {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(img/icon_42.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.white_pill.small {
+    text-transform: none;
+}
+
+.white_pill.small i {
+    margin-right: 10px;
+}
+
+.card_table {
+    margin: 10px 0 0 0;
+}
+
+.card_table_header {
+    display: flex;
+    background: #5C6D89;
+}
+
+.card_table .cell {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card_table .cell_1:nth-child(1) {
+    width: 60px;
+}
+
+.card_table .cell_2:nth-child(2) {
+    width: 140px;
+}
+
+.card_table .cell_3:nth-child(3) {
+    width: calc(100% - 1303px);
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.card_table .cell_4:nth-child(4) {
+    width: 179px;
+}
+
+.card_table .cell_5:nth-child(5) {
+    width: 75px;
+}
+
+.card_table .cell_6:nth-child(6) {
+    width: 120px;
+}
+
+.card_table .cell_7:nth-child(7) {
+    width: 67px;
+}
+
+.card_table .cell_8:nth-child(8) {
+    width: 79px;
+}
+
+.card_table .cell_9:nth-child(9) {
+    width: 93px;
+}
+
+.card_table .cell_10:nth-child(10) {
+    width: 85px;
+}
+
+.card_table .cell_11:nth-child(11) {
+    width: 98px;
+}
+
+.card_table .cell_12:nth-child(12) {
+    width: 127px;
+}
+
+.card_table .cell_13:nth-child(13) {
+    width: 130px;
+}
+
+.card_table .cell_14:nth-child(14) {
+    width: 50px;
+}
+
+.card_table.opt .cell_3:nth-child(3) {
+    width: calc(100% - 1224px);
+}
+
+.card_table.opt .cell_8:nth-child(8) {
+    display: none;
+}
+
+.card_table_header h3 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: .02em;
+    color: #fff;
+}
+
+.card_table_inputs_row {
+    display: flex;
+    background: #fff;
+    border-bottom: 1px solid #E4E5E6;
+}
+
+.card_table_row {
+    display: flex;
+    background: #fff;
+}
+
+.card_table_row:nth-child(odd) {
+    background: #f5f6f7;
+}
+
+.card_table_row .cell {
+    border-left: 1px solid #E4E5E6;
+}
+
+.card_table_row .cell p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: .02em;
+    color: #262728;
+}
+
+.card_table_row .cell p a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: .02em;
+    color: #262728;
+    border-bottom: 1px solid #262728;
+    -webkit-transition-property: border;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: border;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: border;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: border;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: border;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.card_table_row .cell p a:hover {
+    border-bottom: 1px solid transparent;
+}
+
+.icon_link {
+    display: block;
+    width: 13px;
+    height: 16px;
+}
+
+.card_table_row .input_number.count_box input {
+    padding: 0 10px;
+    height: 30px;
+    background: #FFF !important;
+}
+
+.card_table_row .input_number.count_box .plus_btn {
+    width: 15px;
+    height: 15px;
+    top: 0;
+    right: 1px;
+}
+
+.card_table_row .input_number.count_box .minus_btn {
+    width: 15px;
+    height: 15px;
+    bottom: 0;
+    right: 1px;
+}
+
+.card_table_row .input_number.count_box {
+    width: 100%;
+    height: 30px;
+}
+
+.stop {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(img/icon_41.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.card_table_footer {
+    display: flex;
+    background: #fff;
+    border: 1px solid #e4e5e6;
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
+    border-radius: 3px;
+    margin: 10px 0 20px 0;
+}
+
+.card_table_footer > div:nth-child(1) {
+    width: 65%;
+    padding: 10px 10px 10px 0;
+    text-align: center;
+}
+
+.card_table_footer > div:nth-child(2) {
+    width: 35%;
+    padding: 10px 0 10px 10px;
+}
+
+.card_table_footer > div:nth-child(1) p {
+    padding: 17px 0 0 0;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: .02em;
+    color: #262728;
+}
+
+.card_table_footer > div:nth-child(1) p span {
+    color: #ff4a4a;
+}
+
+.right_inlines {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 -15px;
+}
+
+.right_inlines > div {
+    padding: 5px 15px;
+}
+
+.card_table_footer > div:nth-child(2) p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: .02em;
+    color: #262728;
+}
+
+.right_inlines .blue_pill {
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*-- /Section 1 - Cart --*/
+
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
