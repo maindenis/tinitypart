@@ -7074,4 +7074,171 @@ body.fixed {
     z-index: 3;
 }
 
+.popup_content_print {
+    width: 100%;
+    max-width: 1250px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.popup_content_print .popup_title h3 {
+    font-size: 22px
+}
+
+.print_inputs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px -15px;
+}
+
+.print_inputs > div {
+    width: 33.33%;
+    padding: 5px 15px;
+}
+
+.print_inputs .input_wrapp_3 {
+    padding-bottom: 0;
+}
+
+.print_inputs .blue_pill {
+    width: 100%;
+}
+
+.print_ch_inline {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.print_ch_inline > div {
+    padding: 5px 15px;
+}
+
+.print_ch_inline .t_ch span {
+    color: #262728;;
+}
+
+.print_table {
+    margin: 10px 0;
+}
+
+.print_table .cell {
+    padding: 5px 10px;
+}
+
+.print_table .cell_1 {
+    width: 120px;
+}
+
+.print_table .cell_2 {
+    width: calc(100% - 750px);
+}
+
+.print_table .cell_3 {
+    width: 95px;
+}
+
+.print_table .cell_4 {
+    width: 60px;
+}
+
+.print_table .cell_5 {
+    width: 200px;
+}
+
+.print_table .cell_6 {
+    width: 115px;
+}
+
+.print_table .cell_7 {
+    width: 160px;
+}
+
+.print_table_header {
+    display: flex;
+    background-color: #52637f;
+    min-height: 33px;
+}
+
+.print_table_header h3,
+.print_table_header label {
+    display: inline-block;
+    border-bottom: 1px solid #fff;
+    font-size: 14px;
+    line-height: 100%;
+    font-weight: 400;
+    color: #fff;
+    cursor: pointer;
+}
+
+.print_table_header h3:hover,
+.print_table_header label:hover {
+    border-bottom: 1px solid transparent;
+}
+
+.print_table_row {
+    display: flex;
+    align-items: center;
+}
+
+.print_table_row p {
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.print_table_row .cell {
+    border-left: 1px solid #E4E5E6;
+}
+
+.print_table_row:nth-child(odd) {
+    background: #f5f6f7;
+}
+
+.print_table_footer {
+    border-top: 1px solid #E4E5E6;
+    border-bottom: 1px solid #E4E5E6;
+    text-align: right;
+    padding: 10px 10% 10px 10px;
+}
+
+.print_table_footer p {
+    font-size: 16px;
+    line-height: 140%;
+    font-weight: 700;
+}
+
+.print_table_footer p span {
+    padding-left: 7%;
+}
+
+.submit_two_cols {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -15px;
+    padding: 10px 0;
+}
+
+.submit_two_cols > div {
+    min-width: 200px;
+    padding: 5px 15px;
+}
+
+.submit_two_cols a,
+.submit_two_cols button,
+.submit_two_cols input {
+    min-height: 40px !important;
+    min-width: 200px !important;
+    font-size: 16px !important;
+    text-transform: uppercase !important;
+}
+
+.popup_content_price .popup_title h3 {
+    font-size: 18px;
+}
+
+.popup_content_price {
+    max-width: 280px;
+}
+
 /*-- /Popup --*/
