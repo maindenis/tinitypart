@@ -165,7 +165,7 @@ $(document).ready(function() {
       });
       $("[data-popup = '"+ popupName +"']").fadeIn(300);
     });
-    $(document).on("click", ".close, .popup_bg", function(e) {
+    $(document).on("click", ".close, .popup_bg, .close_2", function(e) {
       e.preventDefault();
       curTop = $("body").css("top");
       curTop = Math.abs(parseInt(curTop, 10));
@@ -600,6 +600,21 @@ $(document).ready(function() {
     $(".opt_ch").on("change", function(e) {
         e.preventDefault();
         $(".card_table").toggleClass("opt");
+    });
+
+    // ------------
+
+    $(".dr_t_btn").on('click', function(e) {
+        e.preventDefault();
+        parent = $(this).closest(".row_wrapp");
+        sl = parent.find(".balance_table_main_row_dr");
+        if(sl.is(":hidden")) {
+            sl.slideDown(300);
+            parent.addClass("active");
+        } else {
+            sl.slideUp(300);
+            parent.removeClass("active");
+        }
     });
 
     // ------------
