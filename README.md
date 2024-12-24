@@ -39,3 +39,4 @@
 # https://maindenis.github.io/tinitypart/garagh.html
 # https://maindenis.github.io/tinitypart/cabinet.html
 # https://maindenis.github.io/tinitypart/cart.html
+# https://maindenis.github.io/tinitypart/balance.html
