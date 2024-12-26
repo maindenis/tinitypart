@@ -619,6 +619,136 @@ $(document).ready(function() {
 
     // ------------
 
+    if($(".chart_miniuature").length > 0) {
+        $(".chart_miniuature").each(function() {
+            var chart = $(this);
+            var data = {
+              series: [5, 3]
+            };
+            var sum = function(a, b) { return a + b };
+            new Chartist.Pie(this, data, {
+              labelInterpolationFnc: function(value) {
+                return Math.round(value / data.series.reduce(sum) * 100) + '%';
+              }
+            });
+        });
+    }
+
+    // ------------
+
+    $(".sort_title").on("click", function(e) {
+        e.preventDefault();
+        var sortArr = [];
+        var total;
+        $(this).toggleClass("up");
+        parentTable = $(this).closest(".sortTable");
+        sortBox = parentTable.find(".sortBox");
+        sortBox.find(".sortRow").removeClass("novisible");
+        cellIndex = $(this).closest(".cell").index();        
+        sortBox.find(".sortRow").each(function() {
+            sortVal = $(this).find(".cell:eq("+cellIndex+") [data-sortval]").attr("data-sortval");
+            sortArr.push(sortVal);
+        });
+        if($(this).hasClass("up")) {
+            sortRes = sortArr.sort();
+        } else {
+            sortRes = sortArr.sort((a, b) => b - a);
+        }
+        var counter = 0;
+        sortRes.forEach(function(entry) {
+            sortBox.find(".sortRow").each(function() {
+                sortVal = $(this).find(".cell:eq("+cellIndex+") [data-sortval]").attr("data-sortval");
+                if(sortVal == entry) {
+                    $(this).appendTo(sortBox);
+                }
+            });
+        });
+        if($(".showRows").length > 0) {        
+            visibleRow = sortBox.attr("data-visiblerows");
+            counter = 0;
+            sortBox.find(".sortRow").each(function() {
+                counter++;
+                if(counter > visibleRow) {
+                    $(this).addClass("novisible");
+                }
+            });
+        }
+    });
+
+    $(".t_input").on("keyup", function() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = this;
+        parentTable = $(this).closest(".sortTable");
+        cellIndex = $(this).closest(".cell").index();
+        ul = parentTable.find(".sortBox");
+        li = ul.find(".sortRow");
+        filter = input.value.toUpperCase();
+        parentTable.find(".sortRow").each(function() {
+            a = $(this).find(".cell:eq("+cellIndex+")").attr("data-filter");
+            if (a.toUpperCase().indexOf(filter) > -1) {
+                $(this).removeClass("hide");
+            } else {
+                $(this).addClass("hide");
+            }
+        });
+    });
+
+    // ------------
+
+    $(".showRows").on("click", function(e) {
+        e.preventDefault();
+        parent = $(this).closest(".sortTable");
+        parent.find(".sortRow").removeClass("novisible");
+        $(this).remove();
+    });
+
+    // ------------
+
+    $('.right_table_rows a[href^="#"]').on('click', function (e) {
+      e.preventDefault();
+      var hrefAttr = $(this).attr("href");
+      $(this).addClass("active");
+      if($(hrefAttr).length == 0) {
+        location.href='/'+hrefAttr;
+      } else {
+          if( hrefAttr.length > 0 && hrefAttr != "#" ) {
+              $('html, body').stop().animate({
+                  'scrollTop': $(hrefAttr).offset().top-10
+              }, 500);
+          }
+      }
+    });
+
+    // ------------
+
+    $("#rightTableLink").on('click', function (e) {
+      e.preventDefault();
+      $("#rightTableParent").toggleClass("visible");
+    });
+
+    $("#rightTable .close").on('click', function (e) {
+      e.preventDefault();
+      parent = $(this).closest("#rightTableParent");
+      parent.removeClass("visible");
+    });
+
+    $(this).keydown(function(eventObject){
+      if (eventObject.which == 27) {
+        $("#rightTableParent").removeClass("visible");
+      }
+    });
+
+    $(document).mouseup(function(e) {
+      hide_element = $("#rightTableParent");
+      if (!hide_element.is(e.target)
+          && hide_element.has(e.target).length === 0) {
+          hide_element.removeClass("visible");
+        }
+    });
+
+
+    // ------------
+
     // var counter=0;
     // var mapZoom;
     // var lat;
@@ -626,10 +756,14 @@ $(document).ready(function() {
     // $(".map").each(function() {
     //     counter++;
     //     $(this).attr("id", 'map'+counter);
-    //     mapZoom = $("#map"+counter).attr("data-zoom");
-    //     lat = $("#map"+counter).attr("data-lat");
-    //     long = $("#map"+counter).attr("data-long");
-    //     ymaps.ready(function () {        
+    // });
+    // var counter=0;
+    // $(".map").each(function() {
+    //     ymaps.ready(function () {
+    //         counter++;      
+    //         mapZoom = $("#map"+counter).attr("data-zoom");
+    //         lat = $("#map"+counter).attr("data-lat");
+    //         long = $("#map"+counter).attr("data-long");   
     //         var myMap = new ymaps.Map('map'+counter, {
     //             center: [long, lat],
     //             zoom: mapZoom
