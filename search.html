@@ -8,7 +8,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
 	<title></title>
-	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 <body>
 	<div class="wrapper">
@@ -386,515 +386,490 @@
 	<!-- /Header User -->
 	<!-- Content -->
 	<div class="content">
-	<!-- Section 1 - Balance -->
+	<!-- Section 1 - Search -->
 	<section>
 		<div class="row">
-			<div class="balance_table_1_wrapp dr_parent dr_table_parent active">
-				<div class="balance_table_1_title dr_title table_title">
-					<h3>Детализация баланса</h3>
+			<ul class="breadcrumbs">
+				<li><a href="#">Главная</a></li>
+				<li>Результат поиска</li>
+			</ul>
+			<div class="dr_parent active">
+				<div class="search_table_title dr_title table_title">
+					<h3>Запрошенный артикул</h3>
 				</div>
 				<div class="dr_content">
-					<div class="balance_table_1">
-						<div>
-							<div class="balance_table_1_1">
-								<div class="balance_table_1_1_row">
-									<div class="cell cell_1">
-										<p>На счету</p>
+					<div class="search_table sortTable">
+						<div class="search_table_header">
+							<div class="cell cell_1">
+								<h3>Бренд</h3>
+							</div>
+							<div class="cell cell_2">
+								<h3 class="sort_title">Артикул</h3>
+							</div>
+							<div class="cell cell_3">
+							</div>
+							<div class="cell cell_4">
+								<h3>Наименование</h3>
+							</div>
+							<div class="cell cell_5">
+								<h3 class="sort_title">Срок</h3>
+							</div>
+							<div class="cell cell_6">
+								<h3>Склад</h3>
+							</div>
+							<div class="cell cell_7">
+							</div>
+							<div class="cell cell_8">
+								<h3>Ожид.</h3>
+							</div>
+							<div class="cell cell_9">
+								<h3>Нал.</h3>
+							</div>
+							<div class="cell cell_10">
+								<h3 class="sort_title">Цена</h3>
+							</div>
+							<div class="cell cell_11">
+								<h3>Корзина</h3>
+							</div>
+						</div>
+						<div class="search_table_inputs">
+							<div class="cell cell_1">
+								<input type="text" class="t_input" name="#" />
+							</div>
+							<div class="cell cell_2">
+								<input type="text" class="t_input" name="#" />
+							</div>
+							<div class="cell cell_3"></div>
+							<div class="cell cell_4">
+								<input type="text" class="t_input" name="#" />
+							</div>
+							<div class="cell cell_5"></div>
+							<div class="cell cell_6">
+								<input type="text" class="t_input" name="#" />
+							</div>
+							<div class="cell cell_7"></div>
+							<div class="cell cell_8"></div>
+							<div class="cell cell_9"></div>
+							<div class="cell cell_10"></div>
+							<div class="cell cell_11"></div>
+						</div>
+						<div class="search_table_dr sortBox" data-visiblerows = "4">
+							<div class="search_table_rows sortRow" id="row1">
+								<div class="cell cell_1" data-filter="AT 1">
+									<p>AT 1</p>
+								</div>
+								<div class="cell cell_2" data-filter="AT1949200RA">
+									<p><a href="#">AT1949200RA</a></p>
+								</div>
+								<div class="cell cell_3"></div>
+								<div class="cell cell_4" data-filter="Радиатор отопителя_DAEWOO LANOS 97-">
+									<p>Радиатор отопителя_DAEWOO LANOS 97-</p>
+								</div>
+								<div class="cell cell_5">
+									<div>
+										<p>0/1</p>
+										<p data-sortval="6420000">1ч:47м</p>
 									</div>
-									<div class="cell cell_2">
-										<p>-8 179,08</p>
+									<div class="tooltip_2">
+										<p>Остаток времени до отправки заказа поставщику 1ч:47м</p>
 									</div>
 								</div>
-								<div class="balance_table_1_1_row">
-									<div class="cell cell_1">
-										<p>Срок кредита в днях</p>
-									</div>
-									<div class="cell cell_2">
-										<p>3,00</p>
+								<div class="cell cell_6" data-filter="Bella37034">
+									<p>Bella37034</p>
+								</div>
+								<div class="cell cell_7">
+									<div>
+										<a href="#" class="c_m_link yellow" data-popup-link="search"><div class="chart_miniuature"></div></a>
 									</div>
 								</div>
-								<div class="balance_table_1_1_row">
-									<div class="cell cell_1">
-										<p>Размещено заказов</p>
+								<div class="cell cell_8" data-filter="26.12">
+									<div>
+										<p>26.12</p>
 									</div>
-									<div class="cell cell_2">
-										<p>17 024,68</p>
-									</div>
-								</div>
-								<div class="balance_table_1_1_row">
-									<div class="cell cell_1">
-										<p>- в работе</p>
-									</div>
-									<div class="cell cell_2">
-										<p>13 923,28</p>
+									<div class="tooltip_2">
+										<p>Ожидаемая дата прибытия на склад: 26.12</p>
 									</div>
 								</div>
-								<div class="balance_table_1_1_row">
-									<div class="cell cell_1">
-										<p>- готово к выдачe</p>
-									</div>
-									<div class="cell cell_2">
-										<p>3 101,40</p>
+								<div class="cell cell_9">
+									<p>588</p>
+								</div>
+								<div class="cell cell_10">
+									<p data-sortval="1058.57">1 058,57</p>
+								</div>
+								<div class="cell cell_11">
+									<div class="st_two_cols">
+										<div>
+											<div class="input_number count_box">
+												<input type="number" value="1" name="number">
+												<button type="button" class="plus_btn"></button>
+												<button type="button" class="minus_btn"></button>
+											</div>
+										</div>
+										<div>
+											<a href="#" class="green_pill"><i class="cart"></i></a>
+										</div>
 									</div>
 								</div>
-								<div class="balance_table_1_1_row">
-									<div class="cell cell_1">
-										<p>Баланс с учетом заказов</p>
+							</div>
+							<div class="search_table_rows sortRow" id="row2">
+								<div class="cell cell_1" data-filter="AT 2">
+									<p>AT 2</p>
+								</div>
+								<div class="cell cell_2" data-filter="AT1949200RA">
+									<p><a href="#">AT1949200RA</a></p>
+								</div>
+								<div class="cell cell_3"></div>
+								<div class="cell cell_4" data-filter="Радиатор отопителя_DAEWOO LANOS 97-">
+									<p>Радиатор отопителя_DAEWOO LANOS 97-</p>
+								</div>
+								<div class="cell cell_5">
+									<div>
+										<p>0/1</p>
+										<p data-sortval="5700000">1ч:35м</p>
 									</div>
-									<div class="cell cell_2">
-										<p class="red">-25 203,76</p>
+									<div class="tooltip_2">
+										<p>Остаток времени до отправки заказа поставщику 1ч:47м</p>
 									</div>
 								</div>
-								<div class="balance_table_1_1_row">
-									<div class="cell cell_1">
-										<p>Прогнозируемая задолженность на завтра</p>
+								<div class="cell cell_6" data-filter="Bella37034">
+									<p>Bella37034</p>
+								</div>
+								<div class="cell cell_7">
+									<div>
+										<a href="#" class="c_m_link green" data-popup-link="search"><div class="chart_miniuature"></div></a>
 									</div>
-									<div class="cell cell_2">
-										<p>0,00</p>
+								</div>
+								<div class="cell cell_8"  data-filter="26.12">
+									<div>
+										<p>26.12</p>
+									</div>
+									<div class="tooltip_2">
+										<p>Ожидаемая дата прибытия на склад: 26.12</p>
+									</div>
+								</div>
+								<div class="cell cell_9">
+									<p>588</p>
+								</div>
+								<div class="cell cell_10">
+									<p data-sortval="3058.57">3 058,57</p>
+								</div>
+								<div class="cell cell_11">
+									<div class="st_two_cols">
+										<div>
+											<div class="input_number count_box">
+												<input type="number" value="1" name="number">
+												<button type="button" class="plus_btn"></button>
+												<button type="button" class="minus_btn"></button>
+											</div>
+										</div>
+										<div>
+											<a href="#" class="green_pill"><i class="cart"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="search_table_rows sortRow" id="row3">
+								<div class="cell cell_1" data-filter="AT 3">
+									<p>AT 3</p>
+								</div>
+								<div class="cell cell_2" data-filter="AT1949200RA">
+									<p><a href="#">AT1949200RA</a></p>
+								</div>
+								<div class="cell cell_3"></div>
+								<div class="cell cell_4" data-filter="Радиатор отопителя_DAEWOO LANOS 97-">
+									<p>Радиатор отопителя_DAEWOO LANOS 97-</p>
+								</div>
+								<div class="cell cell_5">
+									<div>
+										<p>0/1</p>
+										<p data-sortval="9600000">2ч:40м</p>
+									</div>
+									<div class="tooltip_2">
+										<p>Остаток времени до отправки заказа поставщику 1ч:47м</p>
+									</div>
+								</div>
+								<div class="cell cell_6" data-filter="Bella37034">
+									<p>Bella37034</p>
+								</div>
+								<div class="cell cell_7">
+									<div>
+										<a href="#" class="c_m_link red" data-popup-link="search"><div class="chart_miniuature"></div></a>
+									</div>
+								</div>
+								<div class="cell cell_8" data-filter="26.12">
+									<div>
+										<p>26.12</p>
+									</div>
+									<div class="tooltip_2">
+										<p>Ожидаемая дата прибытия на склад: 26.12</p>
+									</div>
+								</div>
+								<div class="cell cell_9">
+									<p>588</p>
+								</div>
+								<div class="cell cell_10">
+									<p data-sortval="2058.57">2 058,57</p>
+								</div>
+								<div class="cell cell_11">
+									<div class="st_two_cols">
+										<div>
+											<div class="input_number count_box">
+												<input type="number" value="1" name="number">
+												<button type="button" class="plus_btn"></button>
+												<button type="button" class="minus_btn"></button>
+											</div>
+										</div>
+										<div>
+											<a href="#" class="green_pill"><i class="cart"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="search_table_rows sortRow" id="row4">
+								<div class="cell cell_1" data-filter="DQ 2">
+									<p>DQ 2</p>
+								</div>
+								<div class="cell cell_2" data-filter="AT1949200RA">
+									<p><a href="#">AT1949200RA</a></p>
+								</div>
+								<div class="cell cell_3"></div>
+								<div class="cell cell_4" data-filter="Радиатор отопителя_DAEWOO LANOS 97-">
+									<p>Радиатор отопителя_DAEWOO LANOS 97-</p>
+								</div>
+								<div class="cell cell_5">
+									<div>
+										<p>0/1</p>
+										<p data-sortval="9600000">2ч:40м</p>
+									</div>
+									<div class="tooltip_2">
+										<p>Остаток времени до отправки заказа поставщику 1ч:47м</p>
+									</div>
+								</div>
+								<div class="cell cell_6" data-filter="Bella37034">
+									<p>Bella37034</p>
+								</div>
+								<div class="cell cell_7">
+									<div>
+										<a href="#" class="c_m_link red" data-popup-link="search"><div class="chart_miniuature"></div></a>
+									</div>
+								</div>
+								<div class="cell cell_8" data-filter="26.12">
+									<div>
+										<p>26.12</p>
+									</div>
+									<div class="tooltip_2">
+										<p>Ожидаемая дата прибытия на склад: 26.12</p>
+									</div>
+								</div>
+								<div class="cell cell_9">
+									<p>588</p>
+								</div>
+								<div class="cell cell_10">
+									<p data-sortval="2058.57">2 058,57</p>
+								</div>
+								<div class="cell cell_11">
+									<div class="st_two_cols">
+										<div>
+											<div class="input_number count_box">
+												<input type="number" value="1" name="number">
+												<button type="button" class="plus_btn"></button>
+												<button type="button" class="minus_btn"></button>
+											</div>
+										</div>
+										<div>
+											<a href="#" class="green_pill"><i class="cart"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="search_table_rows sortRow novisible" id="row5">
+								<div class="cell cell_1" data-filter="AT 3">
+									<p>AT 3</p>
+								</div>
+								<div class="cell cell_2" data-filter="AT1949200RA">
+									<p><a href="#">AT1949200RA</a></p>
+								</div>
+								<div class="cell cell_3"></div>
+								<div class="cell cell_4" data-filter="Радиатор отопителя_DAEWOO LANOS 97-">
+									<p>Радиатор отопителя_DAEWOO LANOS 97-</p>
+								</div>
+								<div class="cell cell_5">
+									<div>
+										<p>0/1</p>
+										<p data-sortval="9600000">2ч:40м</p>
+									</div>
+									<div class="tooltip_2">
+										<p>Остаток времени до отправки заказа поставщику 1ч:47м</p>
+									</div>
+								</div>
+								<div class="cell cell_6" data-filter="Bella37034">
+									<p>Bella37034</p>
+								</div>
+								<div class="cell cell_7">
+									<div>
+										<a href="#" class="c_m_link red" data-popup-link="search"><div class="chart_miniuature"></div></a>
+									</div>
+								</div>
+								<div class="cell cell_8" data-filter="26.12">
+									<div>
+										<p>26.12</p>
+									</div>
+									<div class="tooltip_2">
+										<p>Ожидаемая дата прибытия на склад: 26.12</p>
+									</div>
+								</div>
+								<div class="cell cell_9">
+									<p>588</p>
+								</div>
+								<div class="cell cell_10">
+									<p data-sortval="2058.57">2 058,57</p>
+								</div>
+								<div class="cell cell_11">
+									<div class="st_two_cols">
+										<div>
+											<div class="input_number count_box">
+												<input type="number" value="1" name="number">
+												<button type="button" class="plus_btn"></button>
+												<button type="button" class="minus_btn"></button>
+											</div>
+										</div>
+										<div>
+											<a href="#" class="green_pill"><i class="cart"></i></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="search_table_rows sortRow novisible" id="row6">
+								<div class="cell cell_1" data-filter="DQ 2">
+									<p>DQ 2</p>
+								</div>
+								<div class="cell cell_2" data-filter="AT1949200RA">
+									<p><a href="#">AT1949200RA</a></p>
+								</div>
+								<div class="cell cell_3"></div>
+								<div class="cell cell_4" data-filter="Радиатор отопителя_DAEWOO LANOS 97-">
+									<p>Радиатор отопителя_DAEWOO LANOS 97-</p>
+								</div>
+								<div class="cell cell_5">
+									<div>
+										<p>0/1</p>
+										<p data-sortval="9600000">2ч:40м</p>
+									</div>
+									<div class="tooltip_2">
+										<p>Остаток времени до отправки заказа поставщику 1ч:47м</p>
+									</div>
+								</div>
+								<div class="cell cell_6" data-filter="Bella37034">
+									<p>Bella37034</p>
+								</div>
+								<div class="cell cell_7">
+									<div>
+										<a href="#" class="c_m_link red" data-popup-link="search"><div class="chart_miniuature"></div></a>
+									</div>
+								</div>
+								<div class="cell cell_8" data-filter="26.12">
+									<div>
+										<p>26.12</p>
+									</div>
+									<div class="tooltip_2">
+										<p>Ожидаемая дата прибытия на склад: 26.12</p>
+									</div>
+								</div>
+								<div class="cell cell_9">
+									<p>588</p>
+								</div>
+								<div class="cell cell_10">
+									<p data-sortval="2058.57">2 058,57</p>
+								</div>
+								<div class="cell cell_11">
+									<div class="st_two_cols">
+										<div>
+											<div class="input_number count_box">
+												<input type="number" value="1" name="number">
+												<button type="button" class="plus_btn"></button>
+												<button type="button" class="minus_btn"></button>
+											</div>
+										</div>
+										<div>
+											<a href="#" class="green_pill"><i class="cart"></i></a>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-						<div>
-							<div class="balance_table_1_2">
-								<div class="balance_table_1_2_row">
-									<div class="cell cell_1">
-										<p>Июль</p>
-									</div>
-									<div class="cell cell_2">
-										<p>182 108,40</p>
-									</div>
-								</div>
-								<div class="balance_table_1_2_row">
-									<div class="cell cell_1">
-										<p>Август</p>
-									</div>
-									<div class="cell cell_2">
-										<p>161 181,95</p>
-									</div>
-								</div>
-								<div class="balance_table_1_2_row">
-									<div class="cell cell_1">
-										<p>Сентябрь</p>
-									</div>
-									<div class="cell cell_2">
-										<p>142 529,57</p>
-									</div>
-								</div>
-								<div class="balance_table_1_2_row">
-									<div class="cell cell_1">
-										<p>Октябрь</p>
-									</div>
-									<div class="cell cell_2">
-										<p>189 439,68</p>
-									</div>
-								</div>
-								<div class="balance_table_1_2_row">
-									<div class="cell cell_1">
-										<p>Ноябрь</p>
-									</div>
-									<div class="cell cell_2">
-										<p>177 008,25</p>
-									</div>
-								</div>
-								<div class="balance_table_1_2_row">
-									<div class="cell cell_1">
-										<p>Декабрь</p>
-									</div>
-									<div class="cell cell_2">
-										<p>91 830,57</p>
-									</div>
-								</div>
-							</div>
-						</div>
+						<button type="button" class="showRows">Отобразать еще 2 предложения</button>
 					</div>
 				</div>
 			</div>
-			<div class="balance_table_2_wrapp dr_parent dr_table_parent active">
-				<div class="balance_table_2_title dr_title table_title red">
-					<h3>Документы к оплате:</h3>
-				</div>
-				<div class="dr_content">
-					<div class="balance_table_2">
-						<div class="balance_table_2_header">
-							<div class="cell cell_1">
-								<h3>Номер реализации</h3>
-							</div>
-							<div class="cell cell_2">
-								<h3>Дата реализации</h3>
-							</div>
-							<div class="cell cell_3">
-								<h3>Номер счет фактуры</h3>
-							</div>
-							<div class="cell cell_4">
-								<h3>Дата счет фактуры</h3>
-							</div>
-							<div class="cell cell_5">
-								<h3>Сумма счет фактуры</h3>
-							</div>
-							<div class="cell cell_6">
-								<h3>Крайний срок оплаты</h3>
-							</div>
-						</div>
-						<div class="balance_table_2_row">
-							<div class="cell cell_1">
-								<p>00002037541</p>
-							</div>
-							<div class="cell cell_2">
-								<p>20-12-2024</p>
-							</div>
-							<div class="cell cell_3">
-								<p></p>
-							</div>
-							<div class="cell cell_4">
-								<p></p>
-							</div>
-							<div class="cell cell_5">
-								<p>8 811,64</p>
-							</div>
-							<div class="cell cell_6">
-								<p>25-12-2024</p>
-							</div>
-						</div>
-						<div class="balance_table_2_row">
-							<div class="cell cell_1">
-								<p>00002037541</p>
-							</div>
-							<div class="cell cell_2">
-								<p>20-12-2024</p>
-							</div>
-							<div class="cell cell_3">
-								<p></p>
-							</div>
-							<div class="cell cell_4">
-								<p></p>
-							</div>
-							<div class="cell cell_5">
-								<p>8 811,64</p>
-							</div>
-							<div class="cell cell_6">
-								<p>25-12-2024</p>
-							</div>
-						</div>
-						<div class="balance_table_2_row">
-							<div class="cell cell_1">
-								<p>00002037541</p>
-							</div>
-							<div class="cell cell_2">
-								<p>20-12-2024</p>
-							</div>
-							<div class="cell cell_3">
-								<p></p>
-							</div>
-							<div class="cell cell_4">
-								<p></p>
-							</div>
-							<div class="cell cell_5">
-								<p>8 811,64</p>
-							</div>
-							<div class="cell cell_6">
-								<p>25-12-2024</p>
-							</div>
-						</div>
-					</div>
-				</div>
+			<div class="sort_descript_box">
+				<p>Кроссы, предоставленные в интернет-магазине, носят исключительно информационный характер, и не являются гарантией того, что неоригинальная деталь на 100% будет соответствовать оригинальному номеру. Вы должны самостоятельно проверять данные по каталогу неоригинального производителя. За подбор и применяемость конкретной запчасти к автомобилю Вашего клиента несете ответственность Вы сами.</p>
 			</div>
-			<div class="filters_top_row filters_white_box">
-				<div class="filters_inline">
-					<div>
-						<label class="ch_circle black">
-							<input type="checkbox" alt="" />
-							<div>
-								<span></span>
-								<span>Интервал</span>
-							</div>
-						</label>
-					</div>
-					<div>
-						<div class="date_inputs">
-							<label for="date1" class="date_inpunt_wrapp">
-								<div>
-									<p>с</p>
-								</div>
-								<div>
-									<input type="text" id="date1" alt="" />
-								</div>
-								<div>
-									<i class="datepicker"></i>
-								</div>
-							</label>
-							<label for="date2" class="date_inpunt_wrapp">
-								<div>
-									<p>по</p>
-								</div>
-								<div>
-									<input type="text" id="date2" alt="" />
-								</div>
-								<div>
-									<i class="datepicker"></i>
-								</div>
-							</label>
-						</div>
-					</div>
+		</div>
+		<div class="right_table_wrapp" id="rightTableParent">
+			<a href="#" class="right_table_link" id="rightTableLink"><span>Лучшие предложения!</span></a>
+			<div class="right_table" id="rightTable">
+				<button type="button" class="close">
+					<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M5.89188 5L9.9345 0.957588C10.0215 0.870468 10.0215 0.729305 9.9345 0.642184L9.35795 0.065314C9.31613 0.0235973 9.25924 0 9.20014 0C9.14094 0 9.08415 0.0235973 9.04233 0.065314L4.99982 4.10783L0.957298 0.065314C0.873549 -0.0184354 0.725328 -0.0183301 0.641789 0.065314L0.0653404 0.642184C-0.0217801 0.729305 -0.0217801 0.870468 0.0653404 0.957588L4.10786 5L0.0653404 9.04241C-0.0217801 9.12953 -0.0217801 9.2707 0.0653404 9.35782L0.641895 9.93469C0.683717 9.9764 0.740498 10 0.799702 10C0.858906 10 0.915582 9.9764 0.957404 9.93469L4.99992 5.89217L9.04244 9.93469C9.08426 9.9764 9.14115 10 9.20024 10C9.25934 10 9.31623 9.9764 9.35805 9.93469L9.93461 9.35782C10.0216 9.2707 10.0216 9.12953 9.93461 9.04241L5.89188 5Z" fill="#262728"></path>
+					</svg>
+				</button>
+				<div class="right_table_header">
+					<h3>Лучшая цена для 600301</h3>
 				</div>
-			</div>
-			<div class="balance_table_main">
-				<div class="balance_table_main_header">
-					<div class="cell cell_1"></div>
-					<div class="cell cell_2">
-						<h3>Дата</h3>
-					</div>
-					<div class="cell cell_3">
-						<h3>Расход</h3>
-					</div>
-					<div class="cell cell_4">
-						<h3>Приход</h3>
-					</div>
-					<div class="cell cell_5">
-						<h3>Основание</h3>
-					</div>
-					<div class="cell cell_6">
-						<h3>Комментарий</h3>
-					</div>
-				</div>
-				<div class="balance_table_main_inputs">
-					<div class="cell cell_1"></div>
-					<div class="cell cell_2">
-						
-					</div>
-					<div class="cell cell_3">
-						
-					</div>
-					<div class="cell cell_4">
-						
-					</div>
-					<div class="cell cell_5">
-						<input name="#" type="text" class="t_input" />
-					</div>
-					<div class="cell cell_6">
-						<input name="#" type="text" class="t_input" />
-					</div>
-				</div>
-				<div>
-					<div class="row_wrapp">
-						<div class="balance_table_main_row">
-							<div class="cell cell_1">
-								<button type="button" class="dr_t_btn"></button>
-							</div>
-							<div class="cell cell_2">
-								<p>19.12.2024</p>
-							</div>
-							<div class="cell cell_3">
-								<p>6560.55</p>
-							</div>
-							<div class="cell cell_4">
-								<p>6000.00</p>
-							</div>
-							<div class="cell cell_5">
-								<p>Реализация товаров и услуг 00002033602 от 19.12.2024 09:28:18</p>
-							</div>
-							<div class="cell cell_6">
-								<p>Сформировано на основании Маршрутный лист 000154190...</p>
-							</div>
-						</div>
-						<div class="balance_table_main_row_dr">
-							<div class="white_box">
-								<p>Документ товаров не содержит.</p>
-							</div>
-						</div>
-					</div>
-					<div class="row_wrapp">
-						<div class="balance_table_main_row">
-							<div class="cell cell_1">
-								<button type="button" class="dr_t_btn"></button>
-							</div>
-							<div class="cell cell_2">
-								<p>19.12.2024</p>
-							</div>
-							<div class="cell cell_3">
-								<p>6560.55</p>
-							</div>
-							<div class="cell cell_4">
-								<p>6000.00</p>
-							</div>
-							<div class="cell cell_5">
-								<p>Реализация товаров и услуг 00002033602 от 19.12.2024 09:28:18</p>
-							</div>
-							<div class="cell cell_6">
-								<p>Сформировано на основании Маршрутный лист 000154190...</p>
-							</div>
-						</div>
-						<div class="balance_table_main_row_dr">
-							<div class="balance_table_main_inner">
-								<a href="#" class="white_pill">
-									<i class="xls"></i>
-									XLS
-								</a>
-								<div class="balance_table_main_inner_header">
-									<div class="cell cell_1">
-										<h3>Артикул</h3>
-									</div>
-									<div class="cell cell_2">
-										<h3>Бренд</h3>
-									</div>
-									<div class="cell cell_3">
-										<h3>Наименование</h3>
-									</div>
-									<div class="cell cell_4">
-										<h3>Кол-во</h3>
-									</div>
-									<div class="cell cell_5">
-										<h3>Цена</h3>
-									</div>
-									<div class="cell cell_6">
-										<h3>Сумма</h3>
-									</div>
-									<div class="cell cell_7">
-										<h3>Комментарий</h3>
-									</div>
-								</div>
-								<div class="balance_table_main_inner_row">
-									<div class="cell cell_1">
-										<p>256215</p>
-									</div>
-									<div class="cell cell_2">
-										<p>FORTLUFT</p>
-									</div>
-									<div class="cell cell_3">
-										<p>256215 Кольцо уплотнительное 42,8x50,7x4,2</p>
-									</div>
-									<div class="cell cell_4">
-										<p>1</p>
-									</div>
-									<div class="cell cell_5">
-										<p>64.11</p>
-									</div>
-									<div class="cell cell_6">
-										<p>64.11</p>
-									</div>
-									<div class="cell cell_7">
-										<p></p>
-									</div>
-								</div>
-								<div class="balance_table_main_inner_row">
-									<div class="cell cell_1">
-										<p>256215</p>
-									</div>
-									<div class="cell cell_2">
-										<p>FORTLUFT</p>
-									</div>
-									<div class="cell cell_3">
-										<p>256215 Кольцо уплотнительное 42,8x50,7x4,2</p>
-									</div>
-									<div class="cell cell_4">
-										<p>1</p>
-									</div>
-									<div class="cell cell_5">
-										<p>64.11</p>
-									</div>
-									<div class="cell cell_6">
-										<p>64.11</p>
-									</div>
-									<div class="cell cell_7">
-										<p></p>
-									</div>
-								</div>
-								<div class="balance_table_main_inner_row">
-									<div class="cell cell_1">
-										<p>256215</p>
-									</div>
-									<div class="cell cell_2">
-										<p>FORTLUFT</p>
-									</div>
-									<div class="cell cell_3">
-										<p>256215 Кольцо уплотнительное 42,8x50,7x4,2</p>
-									</div>
-									<div class="cell cell_4">
-										<p>1</p>
-									</div>
-									<div class="cell cell_5">
-										<p>64.11</p>
-									</div>
-									<div class="cell cell_6">
-										<p>64.11</p>
-									</div>
-									<div class="cell cell_7">
-										<p></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row_wrapp">
-						<div class="balance_table_main_row">
-							<div class="cell cell_1">
-								<button type="button" class="dr_t_btn"></button>
-							</div>
-							<div class="cell cell_2">
-								<p>19.12.2024</p>
-							</div>
-							<div class="cell cell_3">
-								<p>6560.55</p>
-							</div>
-							<div class="cell cell_4">
-								<p>6000.00</p>
-							</div>
-							<div class="cell cell_5">
-								<p>Реализация товаров и услуг 00002033602 от 19.12.2024 09:28:18</p>
-							</div>
-							<div class="cell cell_6">
-								<p>Сформировано на основании Маршрутный лист 000154190...</p>
-							</div>
-						</div>
-						<div class="balance_table_main_row_dr">
-							<div class="white_box">
-								<p>Документ товаров не содержит.</p>
-							</div>
-						</div>
-					</div>
-					<div class="balance_table_main_row no_cell">
-						<div class="cell cell_1"></div>
-						<div class="cell cell_2"></div>
-						<div class="cell cell_3">
-							<p>60251.01</p>
-						</div>
-						<div class="cell cell_4">
-							<p>53500</p>
-						</div>
-						<div class="cell cell_5">
-							<p>Итог: <span>8179.08</span></p>
-						</div>
-						<div class="cell cell_6"></div>
-					</div>
-				</div>
-			</div>
-			<div class="pagination_wrapp pagination_wrapp_main">
-				<div class="pagination_wrapp_inner">
-					<a href="#" class="page_button first_page noactive">К началу</a>
-					<ul class="pagination">
-						<li><a href="#" class="prev_page"></a></li>
-						<li><a href="#" class="active">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">6</a></li>
-						<li><a href="#" class="next_page"></a></li>
-					</ul>
-					<a href="#" class="page_button last_page">В конец</a>
-					<div class="resp_pagebtns">
+				<div class="right_table_rows">
+					<a href="#row1" class="right_table_row">
 						<div>
-							<a href="#" class="page_button first_page noactive">К началу</a>
+							<p>SINTEC</p>
 						</div>
 						<div>
-							<a href="#" class="page_button last_page">В конец</a>
+							<p>919,64 ₽</p>
 						</div>
-					</div>
+					</a>
+					<a href="#row2" class="right_table_row">
+						<div>
+							<p>SINTEC</p>
+						</div>
+						<div>
+							<p>919,64 ₽</p>
+						</div>
+					</a>
+					<a href="#row3" class="right_table_row">
+						<div>
+							<p>SINTEC</p>
+						</div>
+						<div>
+							<p>919,64 ₽</p>
+						</div>
+					</a>
+					<a href="#row4" class="right_table_row">
+						<div>
+							<p>SINTEC</p>
+						</div>
+						<div>
+							<p>919,64 ₽</p>
+						</div>
+					</a>
+					<a href="#row5" class="right_table_row">
+						<div>
+							<p>SINTEC</p>
+						</div>
+						<div>
+							<p>919,64 ₽</p>
+						</div>
+					</a>
+					<a href="#row6" class="right_table_row">
+						<div>
+							<p>SINTEC</p>
+						</div>
+						<div>
+							<p>919,64 ₽</p>
+						</div>
+					</a>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- /Section 1 - Balance -->
+	<!-- /Section 1 - Search -->
 	</div>
 	<!-- /Content -->
 	<!-- Footer -->
@@ -1309,262 +1284,15 @@
 			</div>
 		</div>
 	</div>
-	<div class="popup" data-popup="photo">
-		<div class="popup_content popup_content_photo">
-			<button type="button" class="close">
-				<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M5.89188 5L9.9345 0.957588C10.0215 0.870468 10.0215 0.729305 9.9345 0.642184L9.35795 0.065314C9.31613 0.0235973 9.25924 0 9.20014 0C9.14094 0 9.08415 0.0235973 9.04233 0.065314L4.99982 4.10783L0.957298 0.065314C0.873549 -0.0184354 0.725328 -0.0183301 0.641789 0.065314L0.0653404 0.642184C-0.0217801 0.729305 -0.0217801 0.870468 0.0653404 0.957588L4.10786 5L0.0653404 9.04241C-0.0217801 9.12953 -0.0217801 9.2707 0.0653404 9.35782L0.641895 9.93469C0.683717 9.9764 0.740498 10 0.799702 10C0.858906 10 0.915582 9.9764 0.957404 9.93469L4.99992 5.89217L9.04244 9.93469C9.08426 9.9764 9.14115 10 9.20024 10C9.25934 10 9.31623 9.9764 9.35805 9.93469L9.93461 9.35782C10.0216 9.2707 10.0216 9.12953 9.93461 9.04241L5.89188 5Z" fill="#262728"/>
-				</svg>
-			</button>
-			<div class="img_box">
-				<img src="img/img_18.jpg" alt="" />
-			</div>
-		</div>
-	</div>
-	<div class="popup" data-popup="good">
-		<div class="popup_content popup_content_slider">
-			<button type="button" class="close">
-				<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M5.89188 5L9.9345 0.957588C10.0215 0.870468 10.0215 0.729305 9.9345 0.642184L9.35795 0.065314C9.31613 0.0235973 9.25924 0 9.20014 0C9.14094 0 9.08415 0.0235973 9.04233 0.065314L4.99982 4.10783L0.957298 0.065314C0.873549 -0.0184354 0.725328 -0.0183301 0.641789 0.065314L0.0653404 0.642184C-0.0217801 0.729305 -0.0217801 0.870468 0.0653404 0.957588L4.10786 5L0.0653404 9.04241C-0.0217801 9.12953 -0.0217801 9.2707 0.0653404 9.35782L0.641895 9.93469C0.683717 9.9764 0.740498 10 0.799702 10C0.858906 10 0.915582 9.9764 0.957404 9.93469L4.99992 5.89217L9.04244 9.93469C9.08426 9.9764 9.14115 10 9.20024 10C9.25934 10 9.31623 9.9764 9.35805 9.93469L9.93461 9.35782C10.0216 9.2707 10.0216 9.12953 9.93461 9.04241L5.89188 5Z" fill="#262728"/>
-				</svg>
-			</button>
-			<div class="popup_title">
-				<h3>Cordiant Winter Drive 205/60 R16 96T</h3>
-			</div>
-			<div class="popup_slider">
-				<div>
-					<div class="popup_slide">
-						<img src="img/img_20.jpg" alt="" loading="lazy" />
-					</div>
-				</div>
-				<div>
-					<div class="popup_slide">
-						<img src="img/img_20.jpg" alt="" loading="lazy" />
-					</div>
-				</div>
-				<div>
-					<div class="popup_slide">
-						<img src="img/img_20.jpg" alt="" loading="lazy" />
-					</div>
-				</div>
-				<div>
-					<div class="popup_slide">
-						<img src="img/img_20.jpg" alt="" loading="lazy" />
-					</div>
-				</div>
-				<div>
-					<div class="popup_slide">
-						<img src="img/img_20.jpg" alt="" loading="lazy" />
-					</div>
-				</div>
-			</div>
-			<div class="popup_slider_miniature">
-				<div>
-					<div class="popup_slide">
-						<img src="img/img_20.jpg" alt="" loading="lazy" />
-					</div>
-				</div>
-				<div>
-					<div class="popup_slide">
-						<img src="img/img_20.jpg" alt="" loading="lazy" />
-					</div>
-				</div>
-				<div>
-					<div class="popup_slide">
-						<img src="img/img_20.jpg" alt="" loading="lazy" />
-					</div>
-				</div>
-				<div>
-					<div class="popup_slide">
-						<img src="img/img_20.jpg" alt="" loading="lazy" />
-					</div>
-				</div>
-				<div>
-					<div class="popup_slide">
-						<img src="img/img_20.jpg" alt="" loading="lazy" />
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="popup" data-popup="print">
-		<div class="popup_content popup_content_print">
-			<button type="button" class="close">
-				<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M5.89188 5L9.9345 0.957588C10.0215 0.870468 10.0215 0.729305 9.9345 0.642184L9.35795 0.065314C9.31613 0.0235973 9.25924 0 9.20014 0C9.14094 0 9.08415 0.0235973 9.04233 0.065314L4.99982 4.10783L0.957298 0.065314C0.873549 -0.0184354 0.725328 -0.0183301 0.641789 0.065314L0.0653404 0.642184C-0.0217801 0.729305 -0.0217801 0.870468 0.0653404 0.957588L4.10786 5L0.0653404 9.04241C-0.0217801 9.12953 -0.0217801 9.2707 0.0653404 9.35782L0.641895 9.93469C0.683717 9.9764 0.740498 10 0.799702 10C0.858906 10 0.915582 9.9764 0.957404 9.93469L4.99992 5.89217L9.04244 9.93469C9.08426 9.9764 9.14115 10 9.20024 10C9.25934 10 9.31623 9.9764 9.35805 9.93469L9.93461 9.35782C10.0216 9.2707 10.0216 9.12953 9.93461 9.04241L5.89188 5Z" fill="#262728"/>
-				</svg>
-			</button>
-			<div class="popup_title">
-				<h3>Печать</h3>
-			</div>
-			<div class="print_inputs">
-				<div>
-					<div class="input_wrapp_3">
-						<input type="text" name="#" placeholder="ФИО покупателя" />
-					</div>
-				</div>
-				<div>
-					<div class="input_wrapp_3">
-						<input type="text" name="#" placeholder="Общий комментарий" />
-					</div>
-				</div>
-				<div>
-					<button type="submit" class="blue_pill">Записать комментарий</button>
-				</div>
-			</div>
-			<div class="print_ch_inline">
-				<div>
-					<label class="t_ch" for="ch_1">
-						<input id="ch_1" type="checkbox" name="#" />
-						<span>Артикул</span>
-					</label>
-				</div>
-				<div>
-					<label class="t_ch" for="ch_2">
-						<input id="ch_2" type="checkbox" name="#" />
-						<span>Наименование</span>
-					</label>
-				</div>
-				<div>
-					<label class="t_ch" for="ch_3">
-						<input id="ch_3" type="checkbox" name="#" />
-						<span>Бренд</span>
-					</label>
-				</div>
-				<div>
-					<label class="t_ch" for="ch_4">
-						<input id="ch_4" type="checkbox" name="#" />
-						<span>Количество</span>
-					</label>
-				</div>
-				<div>
-					<label class="t_ch" for="ch_5">
-						<input id="ch_5" type="checkbox" name="#" />
-						<span>Продажа</span>
-					</label>
-				</div>
-				<div>
-					<label class="t_ch" for="ch_6">
-						<input id="ch_6" type="checkbox" name="#" />
-						<span>Сумма</span>
-					</label>
-				</div>
-				<div>
-					<label class="t_ch" for="ch_7">
-						<input id="ch_7" type="checkbox" name="#" />
-						<span>Примечание</span>
-					</label>
-				</div>
-			</div>
-			<div class="print_table">
-				<div class="print_table_header">
-					<div class="cell cell_1">
-						<label for="ch_1">Артикул</label>
-					</div>
-					<div class="cell cell_2">
-						<label for="ch_2">Наименование</label>
-					</div>
-					<div class="cell cell_3">
-						<label for="ch_3">Бренд</label>
-					</div>
-					<div class="cell cell_4">
-						<label for="ch_4">Шт.</label>
-					</div>
-					<div class="cell cell_5">
-						<label for="ch_5">Продажа</label>
-					</div>
-					<div class="cell cell_6">
-						<label for="ch_6">Сумма</label>
-					</div>
-					<div class="cell cell_7">
-						<label for="ch_7">Примечание</label>
-					</div>
-				</div>
-				<div class="print_table_row">
-					<div class="cell cell_1">
-						<p>A61205</p>
-					</div>
-					<div class="cell cell_2">
-						<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
-					</div>
-					<div class="cell cell_3">
-						<p>FENOX</p>
-					</div>
-					<div class="cell cell_4">
-						<p>1</p>
-					</div>
-					<div class="cell cell_5">
-						<input class="t_input" type="text" value="3 295,00" />
-					</div>
-					<div class="cell cell_6">
-						<p>3 295,00</p>
-					</div>
-					<div class="cell cell_7">
-						<p></p>
-					</div>
-				</div>
-				<div class="print_table_row">
-					<div class="cell cell_1">
-						<p>A61205</p>
-					</div>
-					<div class="cell cell_2">
-						<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
-					</div>
-					<div class="cell cell_3">
-						<p>FENOX</p>
-					</div>
-					<div class="cell cell_4">
-						<p>1</p>
-					</div>
-					<div class="cell cell_5">
-						<input class="t_input" type="text" value="3 295,00" />
-					</div>
-					<div class="cell cell_6">
-						<p>3 295,00</p>
-					</div>
-					<div class="cell cell_7">
-						<p></p>
-					</div>
-				</div>
-				<div class="print_table_footer">
-					<p>Итого:	<span>3 295,00</span></p>
-				</div>
-			</div>
-			<div class="submit_two_cols">
-				<div>
-					<a href="#" class="green_pill">печать</a>
-				</div>
-				<div>
-					<button type="submit" class="blue_pill close_2">отмена</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="popup" data-popup = "price_popup">
-		<div class="popup_content popup_content_price">
-			<button type="button" class="close">
-				<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<path d="M5.89188 5L9.9345 0.957588C10.0215 0.870468 10.0215 0.729305 9.9345 0.642184L9.35795 0.065314C9.31613 0.0235973 9.25924 0 9.20014 0C9.14094 0 9.08415 0.0235973 9.04233 0.065314L4.99982 4.10783L0.957298 0.065314C0.873549 -0.0184354 0.725328 -0.0183301 0.641789 0.065314L0.0653404 0.642184C-0.0217801 0.729305 -0.0217801 0.870468 0.0653404 0.957588L4.10786 5L0.0653404 9.04241C-0.0217801 9.12953 -0.0217801 9.2707 0.0653404 9.35782L0.641895 9.93469C0.683717 9.9764 0.740498 10 0.799702 10C0.858906 10 0.915582 9.9764 0.957404 9.93469L4.99992 5.89217L9.04244 9.93469C9.08426 9.9764 9.14115 10 9.20024 10C9.25934 10 9.31623 9.9764 9.35805 9.93469L9.93461 9.35782C10.0216 9.2707 10.0216 9.12953 9.93461 9.04241L5.89188 5Z" fill="#262728"/>
-				</svg>
-			</button>
-			<div class="popup_title">
-				<h3>Информация</h3>
-			</div>
-			<ul class="contacts_list_user">
-				<li>Сумма закупки :3 295,00</li>
-				<li>Сумма продажи :3 295,00</li>
-			</ul>
-		</div>
-	</div>
 	<div class="popup_bg"></div>
 	<!-- /Popup -->
 	<link rel="stylesheet" type="text/css" href="vendors/css/air-datepicker.css">
-	<link rel="stylesheet" type="text/css" href="vendors/css/slick.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/chartist.css">
 	<link rel="stylesheet" type="text/css" href="responsive.css">
 	<script src="vendors/js/jquery.js"></script>
 	<script src="vendors/js/inputmask.js"></script>
 	<script src="vendors/js/air-datepicker.js"></script>
-	<script src="vendors/js/slick.js"></script>
+	<script src="vendors/js/chartist.js"></script>
 	<!-- <script src="https://api-maps.yandex.ru/2.0-stable/?load=package.standard&lang=ru-RU"></script> -->
 	<script src="js/scripts.js"></script>
 </body>
