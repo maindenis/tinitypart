@@ -726,7 +726,7 @@ $(document).ready(function() {
       $("#rightTableParent").toggleClass("visible");
     });
 
-    $("#rightTable .close").on('click', function (e) {
+    $("#rightTable .close_3").on('click', function (e) {
       e.preventDefault();
       parent = $(this).closest("#rightTableParent");
       parent.removeClass("visible");
@@ -745,7 +745,6 @@ $(document).ready(function() {
           hide_element.removeClass("visible");
         }
     });
-
 
     // ------------
 
