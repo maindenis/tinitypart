@@ -41,3 +41,4 @@
 # https://maindenis.github.io/tinitypart/cart.html
 # https://maindenis.github.io/tinitypart/balance.html
 # https://maindenis.github.io/tinitypart/search_result.html
+# https://maindenis.github.io/tinitypart/search.html
