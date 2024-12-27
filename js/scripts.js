@@ -38,6 +38,8 @@ $(document).scroll(function() {
     getRespParams();
 });
 
+$(window).on("load", function() {});
+
 $(document).ready(function() {
     getRespParams();
     getWrapperOffset();
@@ -634,6 +636,54 @@ $(document).ready(function() {
         });
     }
 
+    $("[data-popup-link = 'search']").on("click", function(e) {
+        e.preventDefault();
+        if($(".popop_pie").length > 0) {
+            var data = {
+              series: [90, 10]
+            };
+            var sum = function(a, b) { return a + b };
+            new Chartist.Pie(".popop_pie", data, {
+              labelInterpolationFnc: function(value) {
+                return value + "%";
+              }
+            });
+        }
+
+        if($(".chart_bars").length > 0) {
+            var data = {
+              labels: ['0', '1', '2', '3', '4-7', '8-15', '>16', '>25'],
+              series: [
+                [10, 25, 50, 75, 80, 90, 100, 110],
+                [15, 25, 50, 75, 80, 90, 100, 110]
+              ]
+            };
+            var options = {
+              seriesBarDistance: 10
+            };
+            var responsiveOptions = [
+              ['screen and (max-width: 640px)', {
+                seriesBarDistance: 5,
+                axisX: {
+                  labelInterpolationFnc: function (value) {
+                    return value[0];
+                  }
+                }
+              }]
+            ];
+            var chart = new Chartist.Bar('.chart_bars', data, options, responsiveOptions);
+            chart.on('draw', function(data) {
+                counter = 0;
+                $(".chart_bars .ct-grid").each(function() {
+                    if($(this).hasClass("ct-vertical") && counter < 1) {
+                        $(this).addClass("visible");
+                        counter++;
+                    }
+                });
+            });
+        }
+    });
+
     // ------------
 
     $(".sort_title").on("click", function(e) {
@@ -745,6 +795,34 @@ $(document).ready(function() {
           hide_element.removeClass("visible");
         }
     });
+
+    // ------------
+
+    if($('.sp_big_slider').length > 0) {
+        $('.sp_big_slider').not(".slick-initialized").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          arrows: true,
+          fade: true,
+          asNavFor: '.sp_miniatire_slider',
+          prevArrow: '<button class="slick-prev popup_arrow" aria-label="Previous" type="button"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">'+
+                        '<path d="M6.12335 0L0 6.0001L6.12335 12L7.95277 10.1267L3.74133 6.0001L7.95277 1.8733L6.12335 0Z" fill="#262728"/>'+
+                        '</svg></button>',
+            nextArrow: '<button class="slick-next popup_arrow" aria-label="Next" type="button"><svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">'+
+                        '<path d="M1.87665 0L8 6.0001L1.87665 12L0.0472331 10.1267L4.25867 6.0001L0.0472331 1.8733L1.87665 0Z" fill="#262728"/></svg></button>',
+        });
+    }
+    if($('.sp_miniatire_slider').length > 0) {
+        $('.sp_miniatire_slider').not(".slick-initialized").slick({
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          asNavFor: '.sp_big_slider',
+          dots: false,
+          arrows: false,
+          focusOnSelect: true,
+          variableWidth: true
+        });
+    }
 
     // ------------
 
