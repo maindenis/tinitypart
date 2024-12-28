@@ -3161,19 +3161,19 @@ h1 {
 }
 
 .catalogs_table .cell_5 {
-    width: 23%;
+    width: 18%;
 }
 
 .catalogs_table_2 .cell_6 {
-    width: 23%;
-}
-
-.catalogs_table_2 .cell_7 {
     width: 25%;
 }
 
+.catalogs_table_2 .cell_7 {
+    width: 31%;
+}
+
 .catalogs_table_2 .cell_8 {
-    width: 29%;
+    width: 26%;
 }
 
 /*-- /Section 1 - Found_cars --*/
