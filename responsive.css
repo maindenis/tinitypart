@@ -1387,8 +1387,43 @@
     font-size: 12px;
 }
 
-
 /*-- /Section 1 - Search_for_a car_by_parameters --*/
+
+/*-- Section 1 - Found_cars --*/
+
+.catalogs_table_2 .cell_1 {
+    width: 12.5%;
+}
+
+.catalogs_table_2 .cell_2 {
+    width: 13%;
+}
+
+.catalogs_table_2 .cell_3 {
+    width: 16.5%;
+}
+
+.catalogs_table_2 .cell_4 {
+    width: 14%;
+}
+
+.catalogs_table_2 .cell_5 {
+    width: 11%;
+}
+
+.catalogs_table_2 .cell_6 {
+    width: 13%;
+}
+
+.catalogs_table_2 .cell_7 {
+    width: 10%;
+}
+
+.catalogs_table_2 .cell_8 {
+    width: 10%;
+}
+
+/*-- /Section 1 - Found_cars --*/
 
 }
 
@@ -2471,6 +2506,42 @@ h1 {
 
 /*-- /Section 1 - Non-original catalogs 4 --*/
 
+/*-- Section 1 - Found_cars --*/
+
+.catalogs_table_2 .cell_1 {
+    width: 11%;
+}
+
+.catalogs_table_2 .cell_2 {
+    width: 13%;
+}
+
+.catalogs_table_2 .cell_3 {
+    width: 18%;
+}
+
+.catalogs_table_2 .cell_4 {
+    width: 14%;
+}
+
+.catalogs_table .cell_5 {
+    width: 11%;
+}
+
+.catalogs_table_2 .cell_6 {
+    width: 12%;
+}
+
+.catalogs_table_2 .cell_7 {
+    width: 9%;
+}
+
+.catalogs_table_2 .cell_8 {
+    width: 12%;
+}
+
+/*-- /Section 1 - Found_cars --*/
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -2808,6 +2879,42 @@ h1 {
 }
 
 /*-- /Section 1 - Non-original catalogs 3 --*/
+
+/*-- Section 1 - Found_cars --*/
+
+.catalogs_table_2 .cell_1 {
+    width: 18%;
+}
+
+.catalogs_table_2 .cell_2 {
+    width: 25%;
+}
+
+.catalogs_table_2 .cell_3 {
+    width: 31%;
+}
+
+.catalogs_table_2 .cell_4 {
+    width: 26%;
+}
+
+.catalogs_table .cell_5 {
+    width: 23%;
+}
+
+.catalogs_table_2 .cell_6 {
+    width: 23%;
+}
+
+.catalogs_table_2 .cell_7 {
+    width: 25%;
+}
+
+.catalogs_table_2 .cell_8 {
+    width: 29%;
+}
+
+/*-- /Section 1 - Found_cars --*/
 
 /*-- Popup --*/
 
