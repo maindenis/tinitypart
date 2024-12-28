@@ -1589,6 +1589,18 @@
 
 /*-- /Section 1 - List_of_categories --*/
 
+/*-- Section 1 - Non-original catalogs 4 --*/
+
+.catalogs_table_2_2 .cell_5 {
+    width: 53%;
+}
+
+.catalogs_table_2 .cell_3 {
+    width: 7.5%;
+}
+
+/*-- /Section 1 - Non-original catalogs 4 --*/
+
 }
 
 @media only screen and (max-width: 950px) {
@@ -2752,6 +2764,34 @@ h1 {
 
 /*-- /Section 1 - Selecting_a_spare_parts_category --*/
 
+/*-- Section 1 - Non-original catalogs 4 --*/
+
+.catalogs_table_row_2 {
+    flex-wrap: wrap;
+}
+
+.catalogs_table_2_2 .cell_1 {
+    width: 15%;
+}
+
+.catalogs_table_2_2 .cell_2 {
+    width: 15%;
+}
+
+.catalogs_table_2_2 .cell_3 {
+    width: 7%;
+}
+
+.catalogs_table_2_2 .cell_4 {
+    width: 17%;
+}
+
+.catalogs_table_2_2 .cell_5 {
+    width: 46%;
+}
+
+/*-- /Section 1 - Non-original catalogs 4 --*/
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -3259,6 +3299,14 @@ h1 {
 }
 
 /*-- /Section 1 - Non-original catalogs 3 --*/
+
+/*-- Section 1 - Non-original catalogs 4 --*/
+
+.catalogs_table_2_2 .cell_5 {
+    width: 100%;
+}
+
+/*-- /Section 1 - Non-original catalogs 4 --*/
 
 /*-- Popup --*/
 
