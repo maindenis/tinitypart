@@ -334,6 +334,101 @@
 
 /*-- /Section 1 - Search_for_a car_by_parameters --*/
 
+/*-- Section 1 - List_of_nodes --*/
+
+.white_two_cols_2 > div:nth-child(1) {
+    width: 320px;
+}
+
+.white_two_cols_2 > div:nth-child(2) {
+    width: calc(100% - 320px);
+}
+
+.white_two_cols_2 > div:nth-child(2) form {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.white_two_cols_2 .search_form_2_2_wrapp {
+    width: 100%;
+    max-width: 500px;
+}
+
+.white_two_cols_2 .blue_pill {
+    min-height: 31px;
+    padding: 6px 10px 4px 10px;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.white_two_cols_2 h3 {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.white_two_cols_2 .search_form_2 input {
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.white_two_cols_2 .search_form_2 > div:nth-child(2) .green_pill_2 {
+    height: 30px;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.white_two_cols_2 .search_form_2 {
+    height: 30px;
+}
+
+.white_two_cols_2 .search_form_2_2_wrapp {
+    max-width: 500px;
+}
+
+.white_two_cols_2 .search_form_2_2_wrapp .custom_select_2 {
+    top: 3px;
+}
+
+.white_two_cols_2 .custom_select_2 {
+    width: 112px;
+}
+
+.white_two_cols_2 .custom_select_2 .p_val {
+    width: 110px;
+    font-size: 11px;
+    height: 22px;
+}
+
+.white_two_cols_2 .search_form_2_2 input {
+    padding: 0 20px 0 133px;
+    font-size: 11px;
+    line-height: 30px;
+}
+
+/*-- /Section 1 - List_of_nodes --*/
+
+/*-- Section 1 - List_of_categories --*/
+
+.thumb_3 {
+    width: calc(16.66% - 12px);
+}
+
+.thumb_3 .img_box {
+    height: 110px;
+}
+
+.thumb_3 .img_box img {
+    height: 110px;
+}
+
+.thumb_3_descript {
+    padding: 8px 10px 5px 10px;
+}
+
+/*-- /Section 1 - List_of_categories --*/
+
 }
 
 @media only screen and (max-width: 1390px) {
@@ -441,6 +536,42 @@
 }
 
 /*-- /Section 1 - Orders User --*/
+
+/*-- Section 1 - List_of_nodes --*/
+
+.catalog_good_templ > div:nth-child(1) {
+    width: 100%;
+}
+
+.catalog_good_templ > div:nth-child(2) {
+    width: 100%;
+}
+
+.good_table_row > div {
+    min-height: 30px;
+    padding: 5px 10px;
+}
+
+.catalog_good_header {
+    padding: 8px 10px 8px 10px;
+}
+
+.catalog_good_header h3 {
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.catalog_good_header_sub {
+    padding: 7px 10px 7px 10px;
+}
+
+.catalog_good_header_sub h3 {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+/*-- /Section 1 - List_of_nodes --*/
+
 
 }
 
@@ -1043,6 +1174,14 @@
 
 /*-- /Section 1 - Search_for_a car_by_parameters --*/
 
+/*-- Section 1 - List_of_categories --*/
+
+.thumb_3 {
+    width: calc(25% - 12px);
+}
+
+/*-- /Section 1 - List_of_categories --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -1099,6 +1238,15 @@
 }
 
 /*-- /Section 1 - Catalogs User --*/
+
+/*-- Section 1 - Choosing_a_car_brand --*/
+
+.white_title h3 {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+/*-- /Section 1 - Choosing_a_car_brand --*/
 
 }
 
@@ -1424,6 +1572,22 @@
 }
 
 /*-- /Section 1 - Found_cars --*/
+
+/*-- Section 1 - List_of_nodes --*/
+
+.white_two_cols_2 > div:nth-child(1) {
+    padding: 9px 10px 10px 0;
+}
+
+/*-- /Section 1 - List_of_nodes --*/
+
+/*-- Section 1 - List_of_categories --*/
+
+.thumb_3 {
+    width: calc(33.33% - 12px);
+}
+
+/*-- /Section 1 - List_of_categories --*/
 
 }
 
@@ -2442,15 +2606,15 @@ h1 {
 
 /*-- Section 1 - Non-original catalogs 2 --*/
 
-.white_two_cols {
+.white_two_cols_2 {
     padding: 2px 20px 3px 20px;
 }
 
-.white_two_cols > div:nth-child(1) {
-    padding: 12px 10px 1px 0;
+.white_two_cols_2 > div:nth-child(1) {
+    padding: 5px 10px 1px 0;
 }
 
-.white_two_cols > div:nth-child(2) {
+.white_two_cols_2 > div:nth-child(2) {
     padding: 5px 0 3px 10px;
 }
 
@@ -2541,6 +2705,52 @@ h1 {
 }
 
 /*-- /Section 1 - Found_cars --*/
+
+/*-- Section 1 - List_of_nodes --*/
+
+.catalog_good_templ .img_box {
+    height: 370px;
+}
+
+.catalog_good_templ .img_box img {
+    height: 370px;
+}
+
+.good_table_row > div:nth-child(1) {
+    width: 50px;
+}
+
+.good_table_row > div:nth-child(2) {
+    width: 105px;
+}
+
+.good_table_row > div:nth-child(3) {
+    width: calc(100% - 155px);
+}
+
+/*-- /Section 1 - List_of_nodes --*/
+
+/*-- Section 1 - Selecting_a_spare_parts_category --*/
+
+.category_table_header {
+    padding: 10px 10px 8px 10px !important;
+    border-radius: 3px 3px 0 0;
+}
+
+.category_table_header h3 {
+    font-size: 11px;
+}
+
+.category_table_row {
+    padding: 5px 10px 8px 10px;
+    min-height: 30px;
+}
+
+.category_table_row p a {
+    font-size: 11px;
+}
+
+/*-- /Section 1 - Selecting_a_spare_parts_category --*/
 
 }
 
@@ -2658,6 +2868,18 @@ h1 {
 }
 
 /*-- /Section 1 - Search_for_a car_by_parameters --*/
+
+/*-- Section 1 - List_of_categories --*/
+
+.thumbnails_3 {
+    margin: -6px -6px 20px -6px;
+}
+
+.thumb_3 {
+    width: calc(50% - 12px);
+}
+
+/*-- /Section 1 - List_of_categories --*/
 
 /*-- Footer --*/
 
@@ -2915,6 +3137,128 @@ h1 {
 }
 
 /*-- /Section 1 - Found_cars --*/
+
+/*-- Section 1 - List_of_nodes --*/
+
+.catalog_two_cols > div:nth-child(1) {
+    width: 100%;
+    padding-right: 0;
+}
+
+.catalog_two_cols > div:nth-child(2) {
+    width: 100%;
+}
+
+.filter_form .input_wrapp_4 {
+    margin: 5px 0;
+}
+
+.filter_btn_wrapp > div:nth-child(odd) {
+    width: 50%;
+    padding: 5px 5px 5px 0;
+}
+
+.filter_btn_wrapp > div:nth-child(even) {
+    width: 50%;
+    padding: 5px 0 5px 5px;
+}
+
+.filter_form {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.filter_btn_wrapp .white_pill {
+    min-height: 30px;
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.filter_btn_wrapp .green_pill_2 {
+    min-height: 30px;
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.filter_form .input_wrapp_4 input {
+    height: 30px;
+    padding: 0 10px;
+    font-size: 11px;
+    line-height: 29px;
+}
+
+.sidebar {
+    margin: 0 -20px 20px -20px;
+}
+
+.catalog_good {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.catalog_good_templ .img_box {
+    height: 240px;
+}
+
+.catalog_good_templ .img_box img {
+    height: 240px;
+}
+
+.good_table_header {
+    display: none;
+}
+
+.good_table_row {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+}
+
+.good_table_row > div {
+    border: none;
+    text-align: left !important;
+}
+
+.good_table_row h3 {
+    display: block;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.02em;
+    color: #A8A9AA;   
+}
+
+.good_table_row > div:nth-child(2) {
+    width: calc(100% - 50px);
+}
+
+.good_table_row > div:nth-child(3) {
+    width: 100%;
+}
+
+/*-- /Section 1 - List_of_nodes --*/
+
+/*-- Section 1 - Non-original catalogs 3 --*/
+
+.catalogs_table_3 .cell_2 {
+    width: 50%;
+}
+
+.catalogs_table_3 .cell_3 {
+    width: 16%;
+}
+
+.catalogs_table_3 .cell_5 {
+    width: 25%;
+}
+
+.catalogs_table_3 .cell_6 {
+    width: 12%;
+}
+
+/*-- /Section 1 - Non-original catalogs 3 --*/
 
 /*-- Popup --*/
 
@@ -3445,6 +3789,45 @@ h1 {
 
 /*-- /Section 1 - Search_for_a car_by_parameters --*/
 
+/*-- Section 1 - List_of_nodes --*/
+
+.white_two_cols_2 .search_form_2_2_wrapp .custom_select_2 {
+    top: -2px;
+}
+
+.white_two_cols_2 > div:nth-child(2) form {
+    justify-content: flex-start;
+}
+
+.white_two_cols_2 .search_form_2_2_wrapp {
+    max-width: 100%;
+}
+
+/*-- /Section 1 - List_of_nodes --*/
+
+/*-- Section 1 - Choosing_a_car_brand --*/
+
+.white_title {
+    margin: 10px -20px 10px -20px;
+    padding: 7px 20px 7px 20px;
+}
+
+.white_title h3 {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+/*-- /Section 1 - Choosing_a_car_brand --*/
+
+/*-- Section 1 - Selecting_a_spare_parts_category --*/
+
+.category_table {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+/*-- /Section 1 - Selecting_a_spare_parts_category --*/
+
 /*-- Popup --*/
 
 .popup_content_4_2 {
@@ -3620,6 +4003,18 @@ h1 {
 }
 
 /*-- /Section 1 - Non-original catalogs --*/
+
+/*-- Section 1 - List_of_nodes --*/
+
+.inline_title {
+    margin: 0 -10px;
+}
+
+.inline_title > div {
+    padding: 0 7px;
+}
+
+/*-- /Section 1 - List_of_nodes --*/
 
 /*-- Popup --*/
 
