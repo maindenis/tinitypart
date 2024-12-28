@@ -2005,6 +2005,10 @@ textarea:focus {
     color: #262728;
 }
 
+.article_title_resp {
+    display: none;
+}
+
 .article {
     max-width: 930px;
     margin: 9px auto 50px auto;
@@ -2117,14 +2121,10 @@ textarea:focus {
 }
 
 .catalog_thumb .img_box img {
-    width: auto;
-    height: auto;
-    min-width: 100%;
-    min-height: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% ,-50%);
+    width: 100%;
+    height: 162px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .catalog_thumb_descript {
@@ -2403,7 +2403,7 @@ textarea:focus {
 }
 
 .orders_table .cell_8_2 {
-    display: none;
+    display: none !important;
 }
 
 .orders_table .cell_9 {
@@ -2621,6 +2621,18 @@ textarea:focus {
     color: #FFF;
 }
 
+.grad_tag {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    padding: 7px 10px;
+    height: 28px;
+    border-radius: 3px;
+    background: linear-gradient(135deg, #88cdea 0%,#88cdea 52%,#90ee90 100%);
+}
+
 .orders_table_total_price {
     padding: 13px 20px 13px 20px;
     text-align: right;
@@ -2689,6 +2701,14 @@ textarea:focus {
     margin-top: 9px;
 }
 
+.white_pill.t_lover {
+    text-transform: none;
+}
+
+.returns_pagination {
+    margin: 10px 0 10px 0;
+}
+
 .returns_table {
     border: 1px solid #E4E5E6;
     border-radius: 3px;
@@ -2714,12 +2734,11 @@ textarea:focus {
 }
 
 .returns_table .cell_4 {
-    width: 100%;
-    max-width: 380px;
+    width: calc(50% - 562px);
 }
 
 .returns_table .cell_5 {
-    width: 160px;
+    width: 170px;
 }
 
 .returns_table .cell_6 {
@@ -2739,8 +2758,7 @@ textarea:focus {
 }
 
 .returns_table .cell_10 {
-    width: 100%;
-    max-width: 365px;
+    width: calc(50% - 608px);
 }
 
 .returns_table .cell_11 {
@@ -2774,12 +2792,24 @@ textarea:focus {
     min-height: 40px;
 }
 
+.returns_table_header .cell_16_2 {
+    display: none;
+}
+
 .returns_table_header h3 {
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: .02em;
     color: #FFF;
+}
+
+.returns_table p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: .02em;
+    color: #262728;
 }
 
 .returns_table_inputs_row {
@@ -2791,6 +2821,7 @@ textarea:focus {
 
 .returns_table_row {
     display: flex;
+    flex-wrap: wrap;
     border-bottom: 1px solid #E4E5E6;
 }
 
@@ -2842,6 +2873,28 @@ textarea:focus {
 
 .returns_table_row:nth-child(even) {
     background-color: #F5F6F7;
+}
+
+.returns_table_row .cell h3 {
+    display: none;
+}
+
+.filter_form_sect.single .filter_form_resp .custom_select .custom_select_title:after {
+    display: none;
+}
+
+.filter_form_sect.single .filter_form_resp .custom_select .custom_select_title .p_val {
+    width: 56px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.filter_form_sect.single .filter_form_resp .custom_select {
+    width: 56px;
+}
+
+.filter_form_sect.single .filter_form_resp input {
+    padding: 0 70px 0 10px;
 }
 
 /*-- /Section 1 - Returns User --*/
@@ -3247,6 +3300,10 @@ textarea:focus {
     color: #FFF;
 }
 
+.catalogs_table_row .cell h3 {
+    display: none;
+}
+
 /*-- /Section 1 - Non-original catalogs 3 --*/
 
 /*-- Section 1 - Non-original catalogs 4 --*/
@@ -3371,6 +3428,11 @@ textarea:focus {
     line-height: 140%;
 }
 
+.catalogs_table_row_2 h3 {
+    display: none;
+}
+
+
 /*-- /Section 1 - Non-original catalogs 4 --*/
 
 /*-- Section 1 - Original catalogs --*/
@@ -3429,6 +3491,7 @@ textarea:focus {
     border: 1px solid #E4E5E6;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
     border-radius: 3px;
+    margin-bottom: 30px;
     padding: 5px 0 17px 0;
 }
 
@@ -7969,7 +8032,7 @@ body.fixed {
     text-overflow: ellipsis;
 }
 
-.input_wrapp_3 label {
+.popup .input_wrapp_3 label {
     display: block;
     padding-bottom: 2px;
     font-family: 'Roboto';
@@ -7980,7 +8043,7 @@ body.fixed {
     color: #262728;
 }
 
-.input_wrapp_3 textarea {
+.popup .input_wrapp_3 textarea {
     display: block;
     width: 100%;
     height: 100px;
@@ -8631,10 +8694,6 @@ body.fixed {
     padding: 10px 20px 10px 20px;
 }
 
-.chart_items {
-
-}
-
 .chart_item {
     display: flex;
     align-items: center;
@@ -8664,10 +8723,6 @@ body.fixed {
     line-height: 16px;
     letter-spacing: .02em;
     color: #262728;
-}
-
-.charts_popup_table_wrapp {
-
 }
 
 .charts_popup_table_title {

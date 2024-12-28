@@ -57,7 +57,7 @@
 }
 
 .orders_table .cell_4 {
-    width: calc(100% - 1051px);
+    width: calc(100% - 937px);
 }
 
 .orders_table .cell_5 {
@@ -160,6 +160,22 @@
 
 /*-- /Section 1 - Orders User --*/
 
+/*-- Section 1 - Catalogs User --*/
+
+.catalog_thumb .img_box {
+    height: 115px;
+}
+
+.catalog_thumb .img_box img {
+    height: 115px;
+}
+
+.catalog_thumb_descript h3 {
+    font-size: 14px;
+}
+
+/*-- /Section 1 - Catalogs User --*/
+
 /*-- Footer --*/
 
 .footer_section_2 {
@@ -181,6 +197,142 @@
 }
 
 /*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 1600px) {
+
+/*-- Section 1 - Returns User --*/
+
+.returns_table_row {
+    flex-wrap: wrap;
+}
+
+.returns_table .cell {
+    padding: 5px 5px;
+}
+
+.returns_table .cell_1 {
+    width: 72px;
+}
+
+.returns_table .cell_2 {
+    width: 93px;
+}
+
+.returns_table .cell_3 {
+    width: 120px;
+}
+
+.returns_table .cell_4 {
+    width: calc(50% - 430px);
+}
+
+.returns_table .cell_5 {
+    width: 71px;
+    text-align: left;
+}
+
+.returns_table .cell_6 {
+    width: 94px;
+}
+
+.returns_table .cell_7 {
+    width: 34px;
+}
+
+.returns_table .cell_8 {
+    width: 65px;
+}
+
+.returns_table .cell_9 {
+    width: 61px;
+}
+
+.returns_table .cell_10 {
+    width: calc(50% - 448px);
+}
+
+.returns_table .cell_11,
+.returns_table .cell_12,
+.returns_table .cell_13,
+.returns_table .cell_14,
+.returns_table .cell_15 {
+    width: 36px;
+}
+
+.returns_table .cell_16 {
+    width: 88px;
+}
+
+/*-- /Section 1 - Returns User --*/
+
+/*-- Section 1 - Non-original catalogs --*/
+
+.white_two_cols > div:nth-child(1) {
+    width: 32%;
+}
+
+.white_two_cols > div:nth-child(2) {
+    width: 68%;
+}
+
+.catalogs_lists {
+    padding: 9px 10px 4px 10px;
+}
+
+.catalogs_lists > div {
+    width: 16.66%;
+    padding: 5px 10px;
+}
+
+/*-- /Section 1 - Non-original catalogs --*/
+
+/*-- Section 1 - Non-original catalogs 4 --*/
+
+.catalogs_table_row_2 > .cell_4 {
+    width: 148px;
+}
+
+.catalogs_table_row_2 > .cell_5 {
+    width: calc(100% - 444px);
+}
+
+/*-- /Section 1 - Non-original catalogs 4 --*/
+
+/*-- Section 1 - Search_for_a car_by_parameters --*/
+
+.custom_select_3 {
+    height: 30px;
+}
+
+.custom_select_3 .p_val {
+    height: 28px;
+}
+
+.custom_select_3 .custom_select_title {
+    height: 30px;
+}
+
+.custom_select_3 .p_val {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.dr_params_box {
+    padding: 13px 0 11px 0;
+}
+
+.dr_params_box .green_pill_2 {
+    min-height: 30px;
+    font-size: 12px;
+}
+
+.custom_select_3_wrapp label {
+    padding: 4px 0 4px 0;
+}
+
+/*-- /Section 1 - Search_for_a car_by_parameters --*/
 
 }
 
@@ -671,6 +823,20 @@
     line-height: 19px;
 }
 
+.orders_table p.p_border.grad_tag {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    height: 20px;
+    border-radius: 3px;
+    border: none;
+    padding-top: 1px;
+    background: linear-gradient(135deg, #88cdea 0%,#88cdea 52%,#90ee90 100%);
+}
+
 .order_table_row .cell .imp_2 {
     margin: 22px auto 0 auto;
 }
@@ -700,6 +866,182 @@
 
 /*-- /Section 1 - Orders User --*/
 
+/*-- Section 1 - Main User --*/
+
+.new_thumb {
+    width: calc(50% - 30px);
+}
+
+/*-- /Section 1 - Main User --*/
+
+/*-- Section 1 - Returns User --*/
+
+.returns_table_header .cell {
+    display: none;
+}
+
+.returns_table_header .cell_16_2 {
+    display: block;
+    width: 100%;
+}
+
+.returns_table_inputs_row {
+    display: none;
+}
+
+.returns_table_row {
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.returns_table .cell {
+    padding: 6px 5px;
+    text-align: left;
+    border-right: none;
+}
+
+.returns_table_row > .cell {
+    align-items: flex-start;
+}
+
+.returns_table_row .cell h3 {
+    padding-bottom: 8px;
+    display: block;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: .02em;
+    color: #A8A9AA;
+}
+
+.returns_table p {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.returns_table p.p_border {
+    display: inline-block;
+    vertical-align: top;
+    min-width: 20px;
+    height: 20px;
+    background: #FFF;
+    border: 1px solid #E4E5E6;
+    border-radius: 3px;
+    text-align: center;
+    line-height: 19px;
+}
+
+.returns_table .cell_1 {
+    width: 9%;
+}
+
+.returns_table .cell_2 {
+    width: 13%;
+}
+
+.returns_table .cell_3 {
+    width: 13%;
+}
+
+.returns_table .cell_4 {
+    width: 36%;
+}
+
+.returns_table .cell_5 {
+    width: 16%;
+}
+
+.returns_table .cell_6 {
+    width: 10%;
+}
+
+.returns_table .cell_7 {
+    width: 3%;
+}
+
+.returns_table .cell_8 {
+    width: 10%;
+}
+
+.returns_table .cell_9 {
+    width: 10%;
+    padding-top: 17px;
+}
+
+.returns_table .cell_10 {
+    width: 34%;
+}
+
+.returns_table .cell_11, .returns_table .cell_12, .returns_table .cell_13, .returns_table .cell_14, .returns_table .cell_15 {
+    width: 7.4%;
+}
+
+.returns_table .cell_16 {
+    width: 9%;
+}
+
+.returns_filters {
+    margin-top: 13px;
+    padding: 0 10px;
+    align-items: center;
+}
+
+.returns_filters .ch_circle span:nth-child(2) {
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.returns_filters .white_pill {
+    padding: 6px 10px;
+    min-height: 25px;
+    font-size: 11px;
+    line-height: 12px;
+}
+
+.returns_filters > div:nth-child(1) {
+    width: calc(100% - 345px);
+    padding: 5px 5px 5px 0;
+}
+
+.returns_filters > div:nth-child(2) {
+    width: 345px;
+    padding: 5px 0 5px 5px;
+}
+
+.returns_filters .ch_circle {
+    margin-top: 3px;
+}
+
+/*-- /Section 1 - Returns User --*/
+
+/*-- Section 1 - Search_for_a car_by_parameters --*/
+
+.dr_params_box {
+    padding: 7px 15px 9px 0;
+}
+
+.dr_params_box > div {
+    width: 20%;
+}
+
+.dr_params_box .custom_select_3 {
+    width: 100%;
+}
+
+.dr_params_box .custom_select_3 .custom_select_title {
+    width: 100%;
+}
+
+.dr_params_box .custom_select_3 .p_val {
+    width: 100%;
+}
+
+.se_car_submit_wrapp {
+    width: 235px !important;
+}
+
+/*-- /Section 1 - Search_for_a car_by_parameters --*/
 
 }
 
@@ -741,6 +1083,22 @@
 }
 
 /*-- /Section 1 - Orders User --*/
+
+/*-- Section 1 - Register --*/
+
+.reg_form_row > div {
+    width: 25%;
+}
+
+/*-- /Section 1 - Register --*/
+
+/*-- Section 1 - Catalogs User --*/
+
+.catalog_thumb {
+    width: calc(25% - 30px);
+}
+
+/*-- /Section 1 - Catalogs User --*/
 
 }
 
@@ -808,6 +1166,229 @@
 }
 
 /*-- /Section 1 - Orders User --*/
+
+/*-- Section 1 - Non-original catalogs --*/
+
+.white_two_cols > div:nth-child(1) {
+    width: 47%;
+    padding: 18px 10px 10px 0;
+}
+
+.white_two_cols > div:nth-child(2) {
+    width: 53%;
+}
+
+.white_two_cols h3 {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.search_form_2 {
+    height: 30px;
+}
+
+.search_form_2 input {
+    height: 30px;
+    padding: 0 20px;
+    font-size: 12px;
+    line-height: 29px;
+}
+
+.search_form_2 > div:nth-child(2) .green_pill_2 {
+    height: 30px;
+}
+
+.catalogs_lists ul li {
+    padding: 5px 0;
+}
+
+.catalogs_lists ul li a {
+    font-size: 12px;
+}
+
+.catalogs_lists h3 {
+    padding: 0 0 2px 0;
+    font-size: 14px;
+}
+
+/*-- /Section 1 - Non-original catalogs --*/
+
+/*-- Section 1 - Non-original catalogs 2 --*/
+
+.dropdown_item_header h3 {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.dropdown_row > div:nth-child(1) {
+    width: calc(100% - 140px);
+    padding: 8px 10px 8px 42px;
+}
+
+.dropdown_row > div:nth-child(2) {
+    width: 140px;
+    padding: 8px 10px 8px 10px;
+}
+
+.dropdown_row p {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+/*-- /Section 1 - Non-original catalogs 2 --*/
+
+/*-- Section 1 - Non-original catalogs 3 --*/
+
+.catalogs_table_header {
+    display: none;
+}
+
+.catalogs_table_row {
+    flex-wrap: wrap;
+}
+
+.catalogs_table_row .cell {
+    border-right: none;
+    align-items: flex-start;
+}
+
+.catalogs_table .cell {
+    padding: 7px 10px;
+}
+
+.catalogs_table_row .cell > * {
+    text-align: left;
+}
+
+.catalogs_table_row p {
+    font-size: 11px;
+}
+
+.catalogs_table_row .cell h3 {
+    padding-bottom: 7px;
+    display: block;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.02em;
+    color: #A8A9AA;
+}
+
+.catalogs_table .cell_2 {
+    width: 19%;
+}
+
+.catalogs_table .cell_3 {
+    width: 12%;
+}
+
+.catalogs_table .cell_4 {
+    width: 15%;
+}
+
+.catalogs_table .cell_5 {
+    width: 14%;
+}
+
+.catalogs_table .cell_6 {
+    width: 11%;
+}
+
+.catalogs_table .cell_7 {
+    width: 11%;
+}
+
+.catalogs_table .cell_8 {
+    width: 5%;
+}
+
+/*-- /Section 1 - Non-original catalogs 3 --*/
+
+/*-- Section 1 - Non-original catalogs 4 --*/
+
+.catalogs_table_header_2 {
+    display: none;
+}
+
+.catalogs_table_row_2 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.catalogs_table_row_2 .cell {
+    align-items: flex-start;
+    text-align: left;
+    border: none;
+    padding: 7px 10px;
+}
+
+.catalogs_table_row_2 > .cell_1 {
+    width: 100px;
+}
+
+.catalogs_table_row_2 > .cell_2 {
+    width: 111px;
+}
+
+.catalogs_table_row_2 > .cell_3 {
+    padding-top: 23px;
+    width: 38px;
+}
+
+.catalogs_table_row_2 > .cell_4 {
+    width: 122px;
+}
+
+.catalogs_table_row_2 > .cell_5 {
+    width: calc(100% - 381px);
+}
+
+.catalogs_table_row_2 h3 {
+    padding-bottom: 3px;
+    display: block;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: .02em;
+    color: #A8A9AA;
+}
+
+.catalogs_table_row_2 p {
+    font-size: 11px;
+}
+
+/*-- /Section 1 - Non-original catalogs 4 --*/
+
+/*-- Section 1 - Original catalogs --*/
+
+.search_form_2_2_wrapp .custom_select_2 {
+    top: 3px;
+}
+
+.search_form_2_2_wrapp .search_form_2 input {
+    padding-left: 147px;
+}
+
+/*-- /Section 1 - Original catalogs --*/
+
+/*-- Section 1 - Search_for_a car_by_parameters --*/
+
+.dr_params_box > div {
+    width: 20%;
+    padding: 3px 18px;
+}
+
+.se_car_submit_wrapp {
+    width: 230px;
+}
+
+.dr_params_box .green_pill_2 {
+    width: 197px;
+    font-size: 12px;
+}
+
+
+/*-- /Section 1 - Search_for_a car_by_parameters --*/
 
 }
 
@@ -963,10 +1544,6 @@
 h1 {
     font-size: 18px;
 }
-
-/*.wrapper {
-    padding-top: 150px;
-}*/
 
 .breadcrumbs {
     padding: 6px 0;
@@ -1202,6 +1779,151 @@ h1 {
 }
 
 /*-- /Section 1 - Orders User --*/
+
+/*-- Section 1 - Main User --*/
+
+.page_title h2 {
+    font-size: 18px;
+}
+
+.news_thumbs {
+    min-width: 100%;
+    margin: 0 -10px 0 -10px;
+}
+
+.new_thumb {
+    width: calc(50% - 20px);
+    margin: 10px;
+    padding: 20px 20px 17px 20px;
+}
+
+.new_thumb > div:nth-child(1) {
+    width: 106px;
+    position: relative;
+    z-index: 2;
+}
+
+.new_thumb > div:nth-child(2) {
+    width: calc(100% - 106px);
+}
+
+.new_thumb > div:nth-child(1) .img_box {
+    width: 80px;
+    height: 60px;
+}
+
+.new_thumb p.date {
+    font-size: 10px;
+}
+
+.new_thumb h3 {
+    font-size: 14px;
+}
+
+.new_thumb p {
+    font-size: 12px;
+}
+
+/*-- /Section 1 - Main User --*/
+
+/*-- Section 1 - Article --*/
+
+.article img {
+    max-height: 258px;
+}
+
+/*-- /Section 1 - Article --*/
+
+/*-- Section 1 - Catalogs User --*/
+
+.catalogs_thumbs {
+    margin: 0 -10px 41px -10px;
+}
+
+.catalog_thumb {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.catalog_thumb .img_box {
+    height: 130px;
+}
+
+.catalog_thumb .img_box img {
+    height: 130px;
+}
+
+/*-- /Section 1 - Catalogs User --*/
+
+/*-- Section 1 - Returns User --*/
+
+.returns_table .cell_1 {
+    width: 12%;
+}
+
+.returns_table .cell_2 {
+    width: 14%;
+}
+
+.returns_table .cell_3 {
+    width: 17%;
+}
+
+.returns_table .cell_4 {
+    width: 32%;
+}
+
+.returns_table .cell_5 {
+    width: 11%;
+}
+
+.returns_table .cell_6 {
+    width: 11%;
+}
+
+.returns_table .cell_8 {
+    width: 12%;
+}
+
+.returns_table .cell_9 {
+    width: 12%;
+}
+
+.returns_table .cell_10 {
+    width: 35%;
+}
+
+.returns_table .cell_11,
+.returns_table .cell_12,
+.returns_table .cell_13,
+.returns_table .cell_14,
+.returns_table .cell_15 {
+    width: 6%;
+}
+
+.returns_table .cell_16 {
+    width: 11%;
+}
+
+/*-- /Section 1 - Returns User --*/
+
+/*-- Section 1 - Non-original catalogs --*/
+
+.catalogs_lists > div {
+    width: 25%;
+    padding: 5px 10px;
+}
+
+/*-- /Section 1 - Non-original catalogs --*/
+
+/*-- Section 1 - Search_for_a car_by_parameters --*/
+
+.dr_params_box > div {
+    width: 25%;
+    padding: 3px 15px;
+}
+
+/*-- /Section 1 - Search_for_a car_by_parameters --*/
 
 }
 
@@ -1683,6 +2405,72 @@ h1 {
 
 /*-- /Section 1 - Orders User --*/
 
+/*-- Section 1 - Non-original catalogs 2 --*/
+
+.white_two_cols {
+    padding: 2px 20px 3px 20px;
+}
+
+.white_two_cols > div:nth-child(1) {
+    padding: 12px 10px 1px 0;
+}
+
+.white_two_cols > div:nth-child(2) {
+    padding: 5px 0 3px 10px;
+}
+
+.back_link_wrapp {
+    padding: 5px 20px 4px 20px;
+}
+
+.back_link {
+    font-size: 11px;
+}
+
+.back_link svg {
+    margin-right: 7px;
+    width: 5px;
+}
+
+/*-- /Section 1 - Non-original catalogs 2 --*/
+
+/*-- Section 1 - Non-original catalogs 3 --*/
+
+.catalogs_table .cell {
+    padding: 5px 10px;
+}
+
+.catalogs_table .cell_3 {
+    width: 11%;
+}
+
+.catalogs_table .cell_5 {
+    width: 13%;
+}
+
+.catalogs_table .cell_8 {
+    width: 7%;
+}
+
+/*-- /Section 1 - Non-original catalogs 3 --*/
+
+/*-- Section 1 - Non-original catalogs 4 --*/
+
+.white_two_cols {
+    padding: 2px 10px 3px 10px;
+}
+
+.back_link_wrapp {
+    padding: 5px 10px 4px 10px;
+}
+
+.catalogs_table_row_2 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/*-- /Section 1 - Non-original catalogs 4 --*/
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -1762,6 +2550,44 @@ h1 {
 }
 /*-- /Section 1 - Orders User --*/
 
+/*-- Section 1 - Non-original catalogs --*/
+
+.catalogs_lists h3 {
+    padding: 0 0 1px 0;
+    font-size: 12px;
+}
+
+.catalogs_lists ul li a {
+    font-size: 11px;
+}
+
+/*-- /Section 1 - Non-original catalogs --*/
+
+/*-- Section 1 - Non-original catalogs 4 --*/
+
+.back_link_wrapp {
+    padding: 5px 20px 4px 20px;
+}
+
+/*-- /Section 1 - Non-original catalogs 4 --*/
+
+/*-- Section 1 - Search_for_a car_by_parameters --*/
+
+.dr_params_box > div {
+    width: 50%;
+    padding: 3px 15px;
+}
+
+.se_car_submit_wrapp {
+    width: 50% !important;
+}
+
+.dr_params_box .green_pill_2 {
+    width: 100%;
+}
+
+/*-- /Section 1 - Search_for_a car_by_parameters --*/
+
 /*-- Footer --*/
 
 .footer_nav {
@@ -1777,10 +2603,6 @@ h1 {
 }
 
 @media only screen and (max-width: 700px) {
-
-/*.wrapper {
-    padding-top: 279px;
-}*/
 
 .visible_700 {
     display: block;
@@ -1897,6 +2719,96 @@ h1 {
 
 /*-- /Section 1 - Orders User --*/
 
+/*-- Section 1 - Article --*/
+
+.article img[style="float: right"],
+.article img[style="float: left"] {
+    margin: 7px 0 10px 0;
+    width: 100%;
+}
+
+.article img {
+    height: auto;
+    max-height: 100%;
+}
+
+.article_title {
+    display: none;
+}
+
+.article_title_resp {
+    display: block;
+}
+
+.article {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.article h2 {
+    padding: 2px 0 2px 0;
+}
+
+/*-- /Section 1 - Article --*/
+
+/*-- Section 1 - Non-original catalogs --*/
+
+.catalogs_lists > div {
+    width: 33.33%;
+    padding: 5px 10px;
+}
+
+/*-- /Section 1 - Non-original catalogs --*/
+
+/*-- Section 1 - Non-original catalogs 3 --*/
+
+.catalogs_table_row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.catalogs_table .cell {
+    padding: 1px 10px;
+}
+
+.catalogs_table_row .cell h3 {
+    padding-bottom: 1px;
+}
+
+.catalogs_table .cell_1 {
+    width: 34%;
+}
+
+.catalogs_table .cell_2 {
+    width: 48%;
+}
+
+.catalogs_table .cell_3 {
+    width: 18%;
+}
+
+.catalogs_table .cell_4 {
+    width: 31%;
+}
+
+.catalogs_table .cell_5 {
+    width: 25%;
+}
+
+.catalogs_table .cell_6 {
+    width: 14%;
+}
+
+.catalogs_table .cell_7 {
+    width: 18%;
+}
+
+.catalogs_table .cell_8 {
+    width: 12%;
+}
+
+/*-- /Section 1 - Non-original catalogs 3 --*/
+
 /*-- Popup --*/
 
 .popup {
@@ -1929,7 +2841,7 @@ h1 {
 }
 
 .dr_item {
-    box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, .2);
 }
 
 .dr_item_title {
@@ -2132,6 +3044,300 @@ h1 {
 
 /*-- /Section 1 - Orders User --*/
 
+/*-- Section 1 - Main User --*/
+
+.new_thumb {
+    width: calc(100% - 20px);
+    margin: 5px 10px;
+}
+
+/*-- /Section 1 - Main User --*/
+
+/*-- Section 1 - Catalogs User --*/
+
+.catalogs_thumbs {
+    margin: 0 -5px 41px -5px;
+}
+
+.catalog_thumb {
+    width: calc(50% - 10px);
+    margin: 5px;
+}
+
+.catalog_thumb .img_box {
+    height: 135px;
+}
+
+.catalog_thumb .img_box img {
+    height: 135px;
+}
+
+.catalog_thumb_descript {
+    padding: 7px 10px 7px 10px;
+}
+
+.catalog_thumb_descript h3 {
+    font-size: 11px;
+}
+
+/*-- /Section 1 - Catalogs User --*/
+
+/*-- Section 1 - Returns User --*/
+
+.returns_filters {
+    margin: 13px -20px 0 -20px;
+    padding: 0 12px;
+    flex-wrap: wrap;
+}
+
+.returns_filters > div:nth-child(1) {
+    width: 100%;
+    padding: 2px 0 0 0;
+}
+
+.returns_filters > div:nth-child(2) {
+    width: 100%;
+    padding: 0 0 5px 0;
+}
+
+.returns_filters .white_pill p {
+    font-size: 11px;
+}
+
+.returns_table {
+    margin: 0 -20px;
+}
+
+.returns_table_row {
+    padding: 5px 13px;
+}
+
+.filter_form_sect {
+    max-width: 230px;
+}
+
+.returns_table .cell {
+    padding: 2px 5px;
+}
+
+.returns_table .cell_1 {
+    width: 29%;
+}
+
+.returns_table .cell_2 {
+    width: 37%;
+}
+
+.returns_table .cell_3 {
+    width: 34%;
+}
+
+.returns_table .cell_4 {
+    width: 100%;
+}
+
+.returns_table .cell_5 {
+    width: 31%;
+}
+
+.returns_table .cell_6 {
+    width: 36%;
+}
+
+.returns_table .cell_7 {
+    width: 15%;
+}
+
+.returns_table .cell_8 {
+    width: 18%;
+}
+
+.returns_table .cell_9 {
+    width: 21%;
+}
+
+.returns_table .cell_10 {
+    width: 79%;
+}
+
+.returns_table .cell_11, .returns_table .cell_12, .returns_table .cell_13, .returns_table .cell_14, .returns_table .cell_15 {
+    width: 14.8%;
+}
+
+.returns_table .cell_16 {
+    width: 26%;
+}
+
+.returns_table_row .cell h3 {
+    padding-bottom: 3px;
+}
+
+/*-- /Section 1 - Returns User --*/
+
+/*-- Section 1 - Non-original catalogs --*/
+
+.white_two_cols {
+    margin: 13px -20px 9px -20px;
+    padding: 3px 20px 3px 20px;
+    flex-wrap: wrap;
+}
+
+.white_two_cols > div:nth-child(1) {
+    width: 100%;
+    padding: 5px 0 5px 0;
+    order: 2;
+}
+
+.white_two_cols > div:nth-child(2) {
+    width: 100%;
+    padding: 5px 0 5px 0;
+    order: 1;
+}
+
+.white_two_cols h3 {
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.catalogs_lists {
+    margin: 0 -20px 40px -20px;
+}
+
+.search_form_2 {
+    height: 24px;
+}
+
+.search_form_2 input {
+    height: 24px;
+    padding: 0 10px;
+    font-size: 11px;
+    line-height: 23px;
+}
+
+.search_form_2 > div:nth-child(2) .green_pill_2 {
+    height: 24px;
+    font-size: 11px;
+    line-height: 11px;
+    min-height: 24px;
+}
+
+/*-- /Section 1 - Non-original catalogs --*/
+
+/*-- Section 1 - Non-original catalogs 2 --*/
+
+.back_link_wrapp {
+    margin: 0 -20px 10px -20px;
+}
+
+.dropdown_items {
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: 40px;
+}
+
+.dropdown_item_header h3 {
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.dropdown_row p {
+    font-size: 11px;
+    line-height: 12px;
+}
+
+/*-- /Section 1 - Non-original catalogs 2 --*/
+
+/*-- Section 1 - Non-original catalogs 3 --*/
+
+.catalogs_table {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*-- /Section 1 - Non-original catalogs 3 --*/
+
+/*-- Section 1 - Non-original catalogs 4 --*/
+
+.catalogs_table_2 {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.catalogs_table_row_2 {
+    flex-wrap: wrap;
+    padding: 6px 15px 6px 15px;
+}
+
+.catalogs_table_row_2 > .cell {
+    padding: 2px 5px 2px 5px;
+}
+
+.catalogs_table_row_2 > .cell_1 {
+    width: 44%;
+}
+
+.catalogs_table_row_2 > .cell_2 {
+    width: 45%;
+}
+
+.catalogs_table_row_2 > .cell_3 {
+    padding-top: 12px;
+    width: 11%;
+}
+
+.catalogs_table_row_2 > .cell_4 {
+    width: 43%;
+}
+
+.catalogs_table_row_2 > .cell_5 {
+    width: 57%;
+}
+
+.catalogs_table_row_2 h3 {
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+
+/*-- /Section 1 - Non-original catalogs 4 --*/
+
+/*-- Section 1 - Original catalogs --*/
+
+.search_form_2_2_wrapp {
+    margin-top: 4px;
+    padding-top: 30px;
+}
+
+.search_form_2_2_wrapp .custom_select_2 {
+    top: -2px;
+    left: 0;
+}
+
+.search_form_2_2_wrapp .search_form_2 input {
+    padding-left: 10px;
+}
+
+/*-- /Section 1 - Original catalogs --*/
+
+/*-- Section 1 - Search_for_a car_by_parameters --*/
+
+.dr_params_box {
+    margin: 0 -20px;
+}
+
+.dr_params_box > div {
+    width: 100%;
+    padding: 3px 15px;
+}
+
+.se_car_submit_wrapp {
+    width: 100% !important;
+    padding-top: 10px !important;
+}
+
+/*-- /Section 1 - Search_for_a car_by_parameters --*/
+
 /*-- Popup --*/
 
 .popup_content_4_2 {
@@ -2241,6 +3447,10 @@ h1 {
     font-size: 14px;
 }
 
+.page_title h2 {
+    font-size: 14px;
+}
+
 .page_title:before {
     width: 50px;
     height: 2px;
@@ -2262,6 +3472,47 @@ h1 {
 }
 
 /*-- /Section 1 - Register --*/
+
+/*-- Section 1 - Suppliers --*/
+
+.supplier_form .input_wrapp_3 textarea {
+    height: 60px;
+}
+
+/*-- /Section 1 - Suppliers --*/
+
+/*-- Section 1 - Forgot Password --*/
+
+.forgot_pass_form_title h3 {
+    font-size: 15px;
+}
+
+/*-- /Section 1 - Forgot Password --*/
+
+/*-- Section 1 - Catalogs User --*/
+
+.catalog_thumb .img_box {
+    height: 75px;
+}
+
+.catalog_thumb .img_box img {
+    height: 75px;
+}
+
+/*-- /Section 1 - Catalogs User --*/
+
+/*-- Section 1 - Non-original catalogs --*/
+
+.catalogs_lists > div {
+    width: 50%;
+    padding: 5px 10px;
+}
+
+.catalogs_lists ul li {
+    padding: 3px 0;
+}
+
+/*-- /Section 1 - Non-original catalogs --*/
 
 /*-- Popup --*/
 

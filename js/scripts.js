@@ -743,6 +743,31 @@ $(document).ready(function() {
         });
     });
 
+    $(".filter_form_resp > input").on("keyup", function() {
+        var input, filter, ul, li, a, i, txtValue;
+        input = this;
+        parentTable = $(this).closest(".sortTable");
+        cellIndex = $(this).attr("data-input-index");
+        ul = parentTable.find(".sortBox");
+        li = ul.find(".sortRow");
+        filter = input.value.toUpperCase();
+        parentTable.find(".sortRow").each(function() {
+            a = $(this).find(".cell:eq("+cellIndex+")").attr("data-filter");
+            if (a.toUpperCase().indexOf(filter) > -1) {
+                $(this).removeClass("hide");
+            } else {
+                $(this).addClass("hide");
+            }
+        });
+    });
+
+    $("[data-input-index-item]").on("click", function(e) {
+        e.preventDefault();
+        index = $(this).attr("data-input-index-item");
+        parent = $(this).closest(".filter_form_resp");
+        parent.find("input").attr("data-input-index", index);
+    });
+
     // ------------
 
     $(".showRows").on("click", function(e) {
