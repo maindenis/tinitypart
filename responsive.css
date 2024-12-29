@@ -429,6 +429,34 @@
 
 /*-- /Section 1 - List_of_categories --*/
 
+/*-- Section 1 - Batteries --*/
+
+.catalog_thumb_3 .img_box {
+    height: 180px;
+}
+
+.catalog_thumb_3 .img_box img {
+    height: 180px;
+}
+
+.table_3_row:nth-child(1) {
+    flex-wrap: wrap;
+}
+
+.table_3_row:nth-child(1) > div {
+    width: 100%;
+}
+
+.table_3_row:nth-child(1) > div:nth-child(1) {
+    border-bottom: 1px solid #E4E5E6;
+}
+
+.table_3_row p {
+    font-size: 11px;
+}
+
+/*-- /Section 1 - Batteries --*/
+
 }
 
 @media only screen and (max-width: 1390px) {
@@ -572,6 +600,107 @@
 
 /*-- /Section 1 - List_of_nodes --*/
 
+/*-- Section 1 - Batteries --*/
+
+.catalog_templ {
+    padding-top: 9px;
+}
+
+.catalog_templ > div:nth-child(1) {
+    width: 235px;
+    padding-right: 20px;
+}
+
+.catalog_templ > div:nth-child(2) {
+    width: calc(100% - 235px);
+}
+
+.blue_box {
+    margin-bottom: 19px;
+    padding: 5px 10px 10px 10px;
+}
+
+.catalog_filter_pills {
+    padding: 0 0 4px 0;
+}
+
+.catalog_filter_wrapp {
+    padding: 7px 0 9px 0;
+}
+
+.catalog_filter_wrapp:nth-child(1) {
+    padding-top: 1px;
+}
+
+.catalog_filter_wrapp label {
+    padding-bottom: 3px;
+}
+
+.rest_btn_wrapp {
+    padding: 1px 0 1px 0;
+}
+
+.rest_btn_wrapp .white_pill {
+    min-width: 80px;
+    padding: 3px 10px;
+    min-height: 30px;
+    font-size: 11px;
+}
+
+.table_2 {
+    padding-bottom: 0;
+}
+
+.table_2_title {
+    padding: 5px 0 4px 0;
+}
+
+.table_2_title h3 {
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.table_2_row p {
+    font-size: 11px;
+}
+
+.catalog_thumbnails_2 {
+    margin: 0 -10px;
+    padding: 12px 0 11px 0;
+}
+
+.catalog_thumb_3 {
+    width: calc(25% - 20px);
+    margin: 10px;
+}
+
+.catalog_thumb_3 .img_box {
+    height: 125px;
+}
+
+.catalog_thumb_3 .img_box img {
+    height: 125px;
+}
+
+.catalog_thumb_3_inner {
+    padding: 6px 10px 7px 10px;
+}
+
+.catalog_thumb_3_header h3 {
+    padding-bottom: 0;
+    font-size: 11px;
+}
+
+.green_price {
+    font-size: 14px;
+    line-height: 140%;
+}
+
+.catalog_thumb_3_content {
+    padding: 5px 0 5px 0;
+}
+
+/*-- /Section 1 - Batteries --*/
 
 }
 
@@ -1601,6 +1730,22 @@
 
 /*-- /Section 1 - Non-original catalogs 4 --*/
 
+/*-- Section 1 - Batteries --*/
+
+.search_res_box {
+    padding: 5px 10px 5px 10px;
+}
+
+.search_res_box p {
+    font-size: 12px;
+}
+
+.pagination_wrapp {
+    padding: 7px 10px;
+}
+
+/*-- /Section 1 - Batteries --*/
+
 }
 
 @media only screen and (max-width: 950px) {
@@ -1747,6 +1892,15 @@
 }
 
 /*-- /Section 1 - Orders User --*/
+
+/*-- Section 1 - Batteries --*/
+
+.white_title {
+    margin-bottom: 1px;
+    padding: 6px 10px 6px 10px;
+}
+
+/*-- /Section 1 - Batteries --*/
 
 }
 
@@ -2135,6 +2289,49 @@ h1 {
 }
 
 /*-- /Section 1 - Search_for_a car_by_parameters --*/
+
+/*-- Section 1 - Batteries --*/
+
+.catalog_pagination .pagination li a {
+    min-width: 24px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.catalog_pagination .prev_page {
+    margin-right: 10px;
+}
+
+.catalog_pagination .next_page {
+    margin-left: 10px;
+}
+
+.catalog_pagination .page_button {
+    min-width: 24px;
+    min-height: 24px;
+    padding: 0 9px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.catalog_pagination .first_page {
+    margin-right: 15px;
+}
+
+.catalog_pagination .last_page {
+    margin-left: 15px;
+}
+
+.catalog_thumbnails_2 {
+    padding: 0px 0 10px 0;
+}
+
+.catalog_thumb_3 {
+    width: calc(33.33% - 20px);
+}
+
+/*-- /Section 1 - Batteries --*/
 
 }
 
@@ -2920,6 +3117,42 @@ h1 {
 }
 
 /*-- /Section 1 - List_of_categories --*/
+
+/*-- Section 1 - Batteries --*/
+
+.catalog_templ > div:nth-child(1) {
+    width: 100%;
+    padding-right: 0;
+}
+
+.catalog_filter_pills {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+
+.catalog_filter_pills > div {
+    width: 33.33%;
+    padding: 5px 5px;
+}
+
+.tables_2_rows {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table_2_row {
+    width: calc(50% - 10px);
+    padding: 7px 0 4px 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.catalog_templ > div:nth-child(2) {
+    width: 100%;
+}
+
+/*-- /Section 1 - Batteries --*/
 
 /*-- Footer --*/
 
@@ -3774,11 +4007,11 @@ h1 {
 }
 
 .catalogs_table_row_2 > .cell_1 {
-    width: 44%;
+    width: 43%;
 }
 
 .catalogs_table_row_2 > .cell_2 {
-    width: 45%;
+    width: 46%;
 }
 
 .catalogs_table_row_2 > .cell_3 {
@@ -3875,6 +4108,62 @@ h1 {
 }
 
 /*-- /Section 1 - Selecting_a_spare_parts_category --*/
+
+/*-- Section 1 - Batteries --*/
+
+.catalog_templ {
+    padding-top: 0;
+}
+
+.catalog_templ > div:nth-child(1) {
+    min-width: 100%;
+    width: auto;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.blue_box {
+    margin-bottom: 10px;
+    padding: 5px 20px 10px 20px;
+}
+
+.catalog_filter_pills {
+    align-items: flex-end;
+}
+
+.catalog_filter_pills .white_pill {
+    min-height: 32px;
+    font-size: 10px;
+    line-height: 110%;
+    padding: 0 4px 2px 4px;
+}
+
+.table_2_title h3 {
+    font-size: 9px;
+}
+
+.table_2_row > div:nth-child(1) {
+    width: 60%;
+}
+
+.table_2_row > div:nth-child(2) {
+    width: 40%;
+}
+
+.table_2_row p {
+    font-size: 9px;
+}
+
+.catalog_thumb_3 {
+    width: calc(50% - 20px);
+}
+
+.search_res_box {
+    padding: 5px 20px 5px 20px;
+    margin: 0 -20px 10px -20px;
+}
+
+/*-- /Section 1 - Batteries --*/
 
 /*-- Popup --*/
 
@@ -4115,6 +4404,23 @@ h1 {
 }
 
 /*-- /Section 1 - Orders User --*/
+
+/*-- Section 1 - Batteries --*/
+
+.catalog_thumb_3 {
+    width: calc(100% - 20px);
+    margin: 5px 10px;
+}
+
+.catalog_thumb_3 .img_box {
+    height: 210px;
+}
+
+.catalog_thumb_3 .img_box img {
+    height: 210px;
+}
+
+/*-- /Section 1 - Batteries --*/
 
 }
 
