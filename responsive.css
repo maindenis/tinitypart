@@ -503,6 +503,26 @@
 
 /*-- /Section 1 - Batteries --*/
 
+/*-- Section 1 - Autoelectik --*/
+
+.catalog_thumb_4 {
+    min-height: 198px;
+}
+
+.catalog_thumb_4 .img_box {
+    height: 151px;
+}
+
+.catalog_thumb_4 .img_box img {
+    height: 151px;
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+}
+
+/*-- /Section 1 - Autoelectik --*/
+
+
 }
 
 @media only screen and (max-width: 1390px) {
@@ -1500,6 +1520,14 @@
 
 /*-- /Section 1 - Selection_of_oils --*/
 
+/*-- Section 1 - Autoelectik --*/
+
+.catalog_thumb_4 {
+    width: calc(25% - 30px);
+}
+
+/*-- /Section 1 - Autoelectik --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -2108,6 +2136,36 @@
 
 /*-- /Section 1 - Selection_of_oils --*/
 
+/*-- Section 1 - Autoelectik Catalog --*/
+
+.white_title + .back_link_wrapp {
+    margin-top: 10px;
+}
+
+.back_link_wrapp {
+    padding: 6px 10px 4px 10px;
+}
+
+.catalog_thumb_3_content_2 {
+    min-height: 60px;
+}
+
+.catalog_thumb_3_footer .green_pill {
+    width: 100%;
+    min-height: 30px;
+    font-size: 11px;
+}
+
+.table_4_row {
+    padding: 3px 0;
+}
+
+.table_4_row p {
+    font-size: 11px;
+}
+
+/*-- /Section 1 - Autoelectik Catalog --*/
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -2498,6 +2556,10 @@ h1 {
 
 /*-- Section 1 - Batteries --*/
 
+.pagination li {
+    padding: 0 4px;
+}
+
 .catalog_pagination .pagination li a {
     min-width: 24px;
     height: 24px;
@@ -2506,11 +2568,11 @@ h1 {
 }
 
 .catalog_pagination .prev_page {
-    margin-right: 10px;
+    margin-right: 7px;
 }
 
 .catalog_pagination .next_page {
-    margin-left: 10px;
+    margin-left: 7px;
 }
 
 .catalog_pagination .page_button {
@@ -2522,11 +2584,11 @@ h1 {
 }
 
 .catalog_pagination .first_page {
-    margin-right: 15px;
+    margin-right: 10px;
 }
 
 .catalog_pagination .last_page {
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .catalog_thumbnails_2 {
@@ -3273,6 +3335,23 @@ h1 {
 }
 
 /*-- /Section 1 - Non-original catalogs 4 --*/
+
+/*-- Section 1 - Autoelectik --*/
+
+.page_title + .white_title {
+    margin-top: 13px;
+}
+
+.catalog_thumbs_4 {
+    margin: 0 -10px 30px -10px;
+}
+
+.catalog_thumb_4 {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+}
+
+/*-- /Section 1 - Autoelectik --*/
 
 }
 
@@ -4553,6 +4632,23 @@ h1 {
 
 /*-- /Section 1 - Selection_of_tires_by_Auto --*/
 
+/*-- Section 1 - Autoelectik --*/
+
+.catalog_thumb_4 {
+    width: calc(50% - 20px);
+    margin: 10px;
+}
+
+.catalog_thumb_4 .img_box {
+    height: 172px;
+}
+
+.catalog_thumb_4 .img_box img {
+    height: 172px;
+}
+
+/*-- /Section 1 - Autoelectik --*/
+
 /*-- Popup --*/
 
 .popup_content_4_2 {
@@ -4885,6 +4981,36 @@ h1 {
 }
 
 /*-- /Section 1 - Selection_of_oils --*/
+
+/*-- Section 1 - Autoelectik --*/
+
+.catalog_thumbs_4 {
+    margin: 0 -5px 30px -5px;
+}
+
+.catalog_thumb_4 {
+    width: calc(50% - 10px);
+    min-height: 128px;
+    margin: 5px;
+}
+
+.catalog_thumb_4 .img_box {
+    height: 100px;
+}
+
+.catalog_thumb_4 .img_box img {
+    height: 100px;
+}
+
+.catalog_thumb_4_text {
+    padding: 6px 10px 6px 10px;
+}
+
+.catalog_thumb_4_text p {
+    font-size: 11px;
+}
+
+/*-- /Section 1 - Autoelectik --*/
 
 }
 
