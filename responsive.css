@@ -451,6 +451,10 @@
     border-bottom: 1px solid #E4E5E6;
 }
 
+.catalog_thumb_3_2 .table_3_row:nth-child(1) > div:nth-child(1) {
+    border-bottom: none;
+}
+
 .table_3_row p {
     font-size: 11px;
 }
@@ -1930,6 +1934,15 @@
 }
 
 /*-- /Section 1 - Batteries --*/
+
+/*-- Section 1 - Selection_of_tires_by_Auto --*/
+
+.del_tags_box {
+    margin: 10px 0 12px 0;
+    padding: 3px 10px;
+}
+
+/*-- /Section 1 - Selection_of_tires_by_Auto --*/
 
 }
 
@@ -4473,6 +4486,72 @@ h1 {
 }
 
 /*-- /Section 1 - Selection_of_oils --*/
+
+/*-- Section 1 - Selection_of_tires_by_Auto --*/
+
+.del_tags_box {
+    margin: 10px -20px 12px -20px;
+    padding: 3px 20px;
+}
+
+.del_tag {
+    font-size: 12px;
+}
+
+/*-- /Section 1 - Selection_of_tires_by_Auto --*/
+
+/*-- Section 1 - Selection_of_tires_by_Auto --*/
+
+.catalogs_filters_two_cols {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 7px;
+}
+
+.catalogs_filters_two_cols > div {
+    width: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+
+.catalogs_filters_two_cols .catalog_filter_wrapp {
+    border-bottom: none;
+}
+
+.catalogs_filters_two_cols .catalog_filter_wrapp:nth-child(1) {
+    padding-top: 7px;
+}
+
+.catalog_filter_pills .white_pill {
+    min-height: 32px;
+    font-size: 10px;
+    line-height: 110%;
+    padding: 0 4px 2px 4px;
+}
+
+.filter_checboxes_2 {
+    margin: 5px -5px 0 -5px;
+}
+
+.filter_checboxes_2 > div {
+    padding: 5px 5px;
+}
+
+.filter_ch .inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+}
+
+.filter_ch .inner p {
+    font-size: 10px;
+    line-height: 15px;
+}
+
+/*-- /Section 1 - Selection_of_tires_by_Auto --*/
 
 /*-- Popup --*/
 
