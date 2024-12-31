@@ -455,6 +455,48 @@
     font-size: 11px;
 }
 
+.brands_slider_box {
+    padding: 17px 50px 15px 50px;
+}
+
+.brand_slider .slick-prev {
+    left: -38px;
+}
+
+.brand_thumb {
+    width: 150px;
+    height: 110px;
+    margin: 2px 5px;
+}
+
+.hide_link_wrapp {
+    padding-top: 5px;
+}
+
+.catalog_article .img_box {
+    height: 165px;
+    margin: 10px 0 0 0;
+    padding: 12px 35px;
+}
+
+.catalog_article .img_box img {
+    height: 135px;
+}
+
+.catalog_article > div:nth-child(1) {
+    width: 240px;
+}
+
+.catalog_article > div:nth-child(2) {
+    width: calc(100% - 240px);
+    position: relative;
+    padding: 0 60px 0 20px;
+}
+
+.catalog_article p {
+    font-size: 12px;
+}
+
 /*-- /Section 1 - Batteries --*/
 
 }
@@ -701,6 +743,26 @@
 }
 
 /*-- /Section 1 - Batteries --*/
+
+/*-- Section 1 - Selection_of_oils --*/
+
+.catalog_thumb_2 {
+    width: calc(25% - 30px);
+}
+
+.catalog_thumb_2 .img_box {
+    height: 180px;
+}
+
+.catalog_thumb_2 .img_box img {
+    height: 180px;
+}
+
+.catalog_thumb_2_header {
+    padding-bottom: 13px;
+}
+
+/*-- /Section 1 - Selection_of_oils --*/
 
 }
 
@@ -1311,6 +1373,129 @@
 
 /*-- /Section 1 - List_of_categories --*/
 
+/*-- Section 1 - Batteries --*/
+
+.brands_slider_box {
+    padding: 11px 40px 4px 40px;
+}
+
+.brand_thumb {
+    width: 100px;
+    height: 75px;
+    margin: 1px 5px;
+}
+
+.brand_thumb .inner img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.brand_thumb input:checked + .border:before {
+    width: 16px;
+    height: 16px;
+    top: 5px;
+    left: 5px;
+}
+
+.hide_link_wrapp {
+    padding-top: 0;
+}
+
+.brand_slider .slick-prev {
+    left: -33px;
+}
+
+.brand_slider .slick-next {
+    right: -35px;
+}
+
+.hide_link {
+    font-size: 11px;
+}
+
+.hide_link svg {
+    margin-left: 6px;
+    max-width: 9px;
+}
+
+.catalog_article {
+    padding: 10px 10px;
+}
+
+.catalog_article > div:nth-child(1) {
+    width: 150px;
+    padding-right: 0;
+    border-right: 0;
+}
+
+.catalog_article > div:nth-child(2) {
+    width: calc(100% - 150px);
+    padding: 0 60px 0 20px;
+}
+
+.catalog_article > div:nth-child(2) > div {
+    width: 100%;
+}
+
+.catalog_article .catalog_dr_wrapp {
+    width: 220px;
+    padding-bottom: 5px;
+}
+
+.catalog_article .img_box {
+    height: 105px;
+    margin: 2px 0 0 0;
+    padding: 9px 20px;
+}
+
+.catalog_article .img_box img {
+    height: 85px;
+}
+
+/*-- /Section 1 - Batteries --*/
+
+/*-- Section 1 - Selection_of_oils --*/
+
+.catalog_thumb_2 {
+    width: calc(25% - 20px);
+    margin: 10px;
+}
+
+.catalog_thumb_2 .img_box {
+    height: 125px;
+}
+
+.catalog_thumb_2 .img_box img {
+    height: 125px;
+}
+
+.catalog_thumb_2_inner {
+    padding: 7px 10px 5px 10px;
+}
+
+.catalog_thumb_2_content {
+    min-height: 83px;
+}
+
+.catalog_thumb_2_table_row > div:nth-child(1) p {
+    font-size: 11px;
+}
+
+.catalog_thumb_2_table_row > div:nth-child(2) {
+    padding-top: 0;
+}
+
+.catalog_thumb_2_footer .green_pill {
+    min-height: 30px;
+    font-size: 11px;
+}
+
+.catalog_thumb_2_footer {
+    padding: 10px 0 4px 0;
+}
+
+/*-- /Section 1 - Selection_of_oils --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -1902,6 +2087,14 @@
 
 /*-- /Section 1 - Batteries --*/
 
+/*-- Section 1 - Selection_of_oils --*/
+
+.catalog_thumb_2 {
+    width: calc(33.33% - 20px);
+}
+
+/*-- /Section 1 - Selection_of_oils --*/
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -2329,6 +2522,85 @@ h1 {
 
 .catalog_thumb_3 {
     width: calc(33.33% - 20px);
+}
+
+.brand_thumb {
+    width: 80px;
+    height: 59px;
+}
+
+.brand_slider .slick-arrow {
+    width: 20px;
+    height: 20px;
+}
+
+.brand_slider .slick-arrow svg {
+    width: 6px;
+}
+
+.brand_slider .slick-prev {
+    left: -28px;
+}
+
+.brand_slider .slick-next {
+    right: -32px;
+}
+
+.catalog_article {
+    position: relative;
+}
+
+.catalog_article > div:nth-child(1) {
+    width: 100%;
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    height: 105px;
+    width: 140px;
+}
+
+.catalog_article > div:nth-child(2) {
+    width: 100%;
+    padding: 0;
+}
+
+.catalog_article .img_box {
+    height: 105px;
+    width: 140px;
+}
+
+.catalog_article .catalog_dr_wrapp {
+    width: 220px;
+    margin: 30px 0 30px 150px;
+}
+
+.catalog_article .bag_red {
+    width: 30px;
+    height: 30px;
+    top: 46px;
+    right: 5px;
+}
+
+.catalog_article .custom_select.dark .p_val {
+    height: 30px;
+    padding: 6px 20px 5px 10px;
+    font-size: 11px;
+}
+
+.catalog_article .custom_select.dark .custom_select_title {
+    height: 32px;
+}
+
+.catalog_article .custom_select_title:after {
+    width: 10px;
+    height: 8px;
+    right: 10px;
+}
+
+.catalog_article .catalog_dr_wrapp label {
+    padding-bottom: 4px;
+    font-size: 9px;
+    line-height: 12px;
 }
 
 /*-- /Section 1 - Batteries --*/
@@ -3150,6 +3422,21 @@ h1 {
 
 .catalog_templ > div:nth-child(2) {
     width: 100%;
+}
+
+.custom_select_two_cols {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -5px;
+}
+
+.custom_select_two_cols .custom_select {
+    width: calc(50% - 10px);
+    margin: 0 5px;
+}
+
+.catalog_filter_wrapp .custom_select + .custom_select {
+    margin-top: 0;
 }
 
 /*-- /Section 1 - Batteries --*/
@@ -4116,7 +4403,7 @@ h1 {
 }
 
 .catalog_templ > div:nth-child(1) {
-    min-width: 100%;
+    min-width: calc(100% + 40px);
     width: auto;
     margin-left: -20px;
     margin-right: -20px;
@@ -4163,7 +4450,29 @@ h1 {
     margin: 0 -20px 10px -20px;
 }
 
+.brands_slider_box {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+}
+
+.catalog_article {
+    width: calc(100% + 40px);
+    margin-left: -20px;
+}
+
+.catalog_article {
+    padding: 10px 20px;
+}
+
 /*-- /Section 1 - Batteries --*/
+
+/*-- Section 1 - Selection_of_oils --*/
+
+.catalog_thumb_2 {
+    width: calc(50% - 20px);
+}
+
+/*-- /Section 1 - Selection_of_oils --*/
 
 /*-- Popup --*/
 
@@ -4353,6 +4662,60 @@ h1 {
 
 /*-- /Section 1 - List_of_nodes --*/
 
+/*-- Section 1 - Batteries --*/
+
+.catalog_article > div:nth-child(1) {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: 140px;
+}
+
+.catalog_article .custom_select.dark {
+    height: 30px;
+}
+
+.catalog_article .catalog_dr_wrapp {
+    width: 100%;
+    margin: 4px 0 0 0;
+}
+
+.catalog_article .img_box {
+    height: 75px;
+    width: 100px;
+    padding: 4px 15px;
+}
+
+.catalog_article .img_box img {
+    height: 65px;
+    width: 70px;
+}
+
+.catalog_article .bag_red {
+    top: -73px;
+}
+
+.catalog_article p {
+    font-size: 9px;
+}
+
+.custom_select_list li {
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+.modal_img_box {
+    display: block;
+    max-width: 100%;
+}
+
+.catalog_filter_wrapp .custom_select_title:after {
+    width: 10px;
+}
+
+/*-- /Section 1 - Batteries --*/
+
 /*-- Popup --*/
 
 .looked_text {
@@ -4384,6 +4747,11 @@ h1 {
 
 .popup_content_3 {
     max-width: 280px;
+}
+
+.popup_content_photo {
+    width: 100%;
+    max-width: 320px;
 }
 
 /*-- /Popup --*/
@@ -4421,6 +4789,23 @@ h1 {
 }
 
 /*-- /Section 1 - Batteries --*/
+
+/*-- Section 1 - Selection_of_oils --*/
+
+.catalog_thumb_2 {
+    width: calc(100% - 20px);
+    margin: 5px 10px;
+}
+
+.catalog_thumb_2 .img_box {
+    height: 210px;
+}
+
+.catalog_thumb_2 .img_box img {
+    height: 210px;
+}
+
+/*-- /Section 1 - Selection_of_oils --*/
 
 }
 
