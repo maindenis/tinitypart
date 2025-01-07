@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
 	<title></title>
-	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </head>
 <body>
 	<div class="wrapper">
@@ -428,7 +427,7 @@
 					</a>
 				</div>
 			</div>
-			<div class="card_table checkboxes_array">
+			<div class="card_table checkboxes_array sortTable">
 				<div class="card_table_header">
 					<div class="cell cell_1">
 						<label class="t_ch main_checkbox">
@@ -472,6 +471,26 @@
 						<h3>Примечание</h3>
 					</div>
 					<div class="cell cell_14"></div>
+					<div class="cell cell_14_2">
+						<form class="filter_form_sect">
+							<div class="filter_form_resp">
+								<input type="text" data-input-index="1">
+								<div class="custom_select small_blue">
+									<input value="" type="hidden">
+									<div class="custom_select_title">
+										<div class="p_val">Артикул</div>
+									</div>
+									<div class="custom_dr">
+										<ul class="custom_select_list checkout_list">
+											<li data-option-val="Артикул" data-input-index-item="1">Артикул</li>
+											<li data-option-val="Бренд" data-input-index-item="3">Бренд</li>
+											<li data-option-val="Прим" data-input-index-item="12">Прим</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
 				</div>
 				<div class="card_table_inputs_row">
 					<div class="cell cell_1"></div>
@@ -479,7 +498,9 @@
 						<input class="t_input" type="text" name="#" />
 					</div>
 					<div class="cell cell_3"></div>
-					<div class="cell cell_4"></div>
+					<div class="cell cell_4">
+						<input class="t_input" type="text" name="#" />
+					</div>
 					<div class="cell cell_5"></div>
 					<div class="cell cell_6"></div>
 					<div class="cell cell_7"></div>
@@ -493,52 +514,88 @@
 					</div>
 					<div class="cell cell_14"></div>
 				</div>
-				<div class="ch_childrens">
-					<div class="card_table_row">
+				<div class="ch_childrens sortBox">
+					<div class="card_table_row sortRow">
 						<div class="cell cell_1">
 							<label class="t_ch dark">
 								<input type="checkbox" />
 							</label>
 						</div>
-						<div class="cell cell_2">
-							<p><a href="#">A61205</a></p>
+						<div class="cell cell_2" data-filter = "A61205">
+							<div>
+								<h3>Артикул</h3>
+								<p><a href="#">A61205</a></p>
+							</div>
 						</div>
 						<div class="cell cell_3">
-							<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+							<div>
+								<h3>Наименование</h3>
+								<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+							</div>
 						</div>
-						<div class="cell cell_4">
-							<p>FENOX</p>
+						<div class="cell cell_4" data-filter = "FENOX">
+							<div>
+								<h3>Бренд</h3>
+								<p>FENOX</p>
+							</div>
 						</div>
 						<div class="cell cell_5">
-							<p>2</p>
+							<div>
+								<h3>Срок</h3>
+								<p>2</p>
+							</div>
 						</div>
 						<div class="cell cell_6">
-							<p>Trinity-Parts 71</p>
+							<div>
+								<h3>Склад</h3>
+								<p>Trinity-Parts 71</p>
+							</div>
 						</div>
 						<div class="cell cell_7">
-							<div class="input_number count_box">
-								<input type="number" value="1" name="number" />
-								<button type="button" class="plus_btn"></button>
-								<button type="button" class="minus_btn"></button>
+							<div>
+								<h3>Шт</h3>
+								<div class="input_number count_box">
+									<input type="number" value="1" name="number" />
+									<button type="button" class="plus_btn"></button>
+									<button type="button" class="minus_btn"></button>
+								</div>
 							</div>
 						</div>
 						<div class="cell cell_8">
-							<p>3 295,00</p>
+							<div>
+								<h3>Цена</h3>
+								<p>3 295,00</p>
+							</div>
 						</div>
 						<div class="cell cell_9">
-							<input class="t_input" value="3295.00" type="number" name="#" />
+							<div>
+								<h3>Продажа</h3>
+								<input class="t_input" value="3295.00" type="number" name="#" />
+							</div>
 						</div>
 						<div class="cell cell_10">
-							<i class="stop"></i>
+							<div>
+								<h3>% изм. цены</h3>
+								<i class="stop"></i>
+							</div>
 						</div>
 						<div class="cell cell_11">
-							<p>3 295,00</p>
+							<div>
+								<h3>Сумма</h3>
+								<p>3 295,00</p>
+							</div>
 						</div>
 						<div class="cell cell_12">
-							<p>3 295,00</p>
+							<div>
+								<h3>Сумма продаж</h3>
+								<p>3 295,00</p>
+							</div>
 						</div>
-						<div class="cell cell_13">
-							<input class="t_input" type="text" name="#" />
+						<div class="cell cell_13" data-filter = "">
+							<div>
+								<h3>Примечание</h3>
+								<input class="t_input" type="text" name="#" />
+							</div>
 						</div>
 						<div class="cell cell_14">
 							<a href="#" class="icon_link">
@@ -546,51 +603,175 @@
 							</a>
 						</div>
 					</div>
-					<div class="card_table_row">
+					<div class="card_table_row sortRow">
 						<div class="cell cell_1">
 							<label class="t_ch dark">
 								<input type="checkbox" />
 							</label>
 						</div>
-						<div class="cell cell_2">
-							<p><a href="#">A61205</a></p>
+						<div class="cell cell_2" data-filter = "A61205">
+							<div>
+								<h3>Артикул</h3>
+								<p><a href="#">A61205</a></p>
+							</div>
 						</div>
 						<div class="cell cell_3">
-							<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+							<div>
+								<h3>Наименование</h3>
+								<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+							</div>
 						</div>
-						<div class="cell cell_4">
-							<p>FENOX</p>
+						<div class="cell cell_4" data-filter = "FENOX">
+							<div>
+								<h3>Бренд</h3>
+								<p>FENOX</p>
+							</div>
 						</div>
 						<div class="cell cell_5">
-							<p>2</p>
+							<div>
+								<h3>Срок</h3>
+								<p>2</p>
+							</div>
 						</div>
 						<div class="cell cell_6">
-							<p>Trinity-Parts 71</p>
+							<div>
+								<h3>Склад</h3>
+								<p>Trinity-Parts 71</p>
+							</div>
 						</div>
 						<div class="cell cell_7">
-							<div class="input_number count_box">
-								<input type="number" value="1" name="number" />
-								<button type="button" class="plus_btn"></button>
-								<button type="button" class="minus_btn"></button>
+							<div>
+								<h3>Шт</h3>
+								<div class="input_number count_box">
+									<input type="number" value="1" name="number" />
+									<button type="button" class="plus_btn"></button>
+									<button type="button" class="minus_btn"></button>
+								</div>
 							</div>
 						</div>
 						<div class="cell cell_8">
-							<p>3 295,00</p>
+							<div>
+								<h3>Цена</h3>
+								<p>3 295,00</p>
+							</div>
 						</div>
 						<div class="cell cell_9">
-							<input class="t_input" value="3295.00" type="number" name="#" />
+							<div>
+								<h3>Продажа</h3>
+								<input class="t_input" value="3295.00" type="number" name="#" />
+							</div>
 						</div>
 						<div class="cell cell_10">
-							<input class="t_input" value="0" type="number" name="#" />
+							<div>
+								<h3>% изм. цены</h3>
+								<i class="stop"></i>
+							</div>
 						</div>
 						<div class="cell cell_11">
-							<p>3 295,00</p>
+							<div>
+								<h3>Сумма</h3>
+								<p>3 295,00</p>
+							</div>
 						</div>
 						<div class="cell cell_12">
-							<p>3 295,00</p>
+							<div>
+								<h3>Сумма продаж</h3>
+								<p>3 295,00</p>
+							</div>
 						</div>
-						<div class="cell cell_13">
-							<input class="t_input" type="text" name="#" />
+						<div class="cell cell_13" data-filter = "">
+							<div>
+								<h3>Примечание</h3>
+								<input class="t_input" type="text" name="#" />
+							</div>
+						</div>
+						<div class="cell cell_14">
+							<a href="#" class="icon_link">
+								<img src="img/icon_40.svg" alt="" />
+							</a>
+						</div>
+					</div>
+					<div class="card_table_row sortRow">
+						<div class="cell cell_1">
+							<label class="t_ch dark">
+								<input type="checkbox" />
+							</label>
+						</div>
+						<div class="cell cell_2" data-filter = "A61205">
+							<div>
+								<h3>Артикул</h3>
+								<p><a href="#">A61205</a></p>
+							</div>
+						</div>
+						<div class="cell cell_3">
+							<div>
+								<h3>Наименование</h3>
+								<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+							</div>
+						</div>
+						<div class="cell cell_4" data-filter = "FENOX">
+							<div>
+								<h3>Бренд</h3>
+								<p>FENOX</p>
+							</div>
+						</div>
+						<div class="cell cell_5">
+							<div>
+								<h3>Срок</h3>
+								<p>2</p>
+							</div>
+						</div>
+						<div class="cell cell_6">
+							<div>
+								<h3>Склад</h3>
+								<p>Trinity-Parts 71</p>
+							</div>
+						</div>
+						<div class="cell cell_7">
+							<div>
+								<h3>Шт</h3>
+								<div class="input_number count_box">
+									<input type="number" value="1" name="number" />
+									<button type="button" class="plus_btn"></button>
+									<button type="button" class="minus_btn"></button>
+								</div>
+							</div>
+						</div>
+						<div class="cell cell_8">
+							<div>
+								<h3>Цена</h3>
+								<p>3 295,00</p>
+							</div>
+						</div>
+						<div class="cell cell_9">
+							<div>
+								<h3>Продажа</h3>
+								<input class="t_input" value="3295.00" type="number" name="#" />
+							</div>
+						</div>
+						<div class="cell cell_10">
+							<div>
+								<h3>% изм. цены</h3>
+								<i class="stop"></i>
+							</div>
+						</div>
+						<div class="cell cell_11">
+							<div>
+								<h3>Сумма</h3>
+								<p>3 295,00</p>
+							</div>
+						</div>
+						<div class="cell cell_12">
+							<div>
+								<h3>Сумма продаж</h3>
+								<p>3 295,00</p>
+							</div>
+						</div>
+						<div class="cell cell_13" data-filter = "">
+							<div>
+								<h3>Примечание</h3>
+								<input class="t_input" type="text" name="#" />
+							</div>
 						</div>
 						<div class="cell cell_14">
 							<a href="#" class="icon_link">
@@ -606,7 +787,7 @@
 				</div>
 				<div>
 					<div class="right_inlines">
-						<div>
+						<div class="novisible_600">
 							<p>Сумма заказа к размещению: 0,00 руб.</p>
 						</div>
 						<div>

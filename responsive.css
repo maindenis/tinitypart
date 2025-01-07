@@ -176,6 +176,28 @@
 
 /*-- /Section 1 - Catalogs User --*/
 
+/*-- Section 1 - Garagh --*/
+
+.garagh_thumb {
+    width: calc(20% - 30px);
+}
+
+.garagh_thumb .img_box {
+    height: 185px;
+}
+
+.garagh_thumb .img_box img {
+    height: 185px;
+}
+
+.garagh_thumb .blue_pill {
+    min-height: 30px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/*-- /Section 1 - Garagh --*/
+
 /*-- Footer --*/
 
 .footer_section_2 {
@@ -522,6 +544,90 @@
 
 /*-- /Section 1 - Autoelectik --*/
 
+/*-- Section 1 - Cabinet --*/
+
+.tabs_inlines.border > div {
+    width: 33.33%;
+}
+
+.tab_title_2 h3 {
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.tabs_inlines .ch_circle span:nth-child(2) {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.ch_circle.mail_ch span:nth-child(2):after {
+    width: 21px;
+    height: 14px;
+}
+
+.vertical_ch_wrapp > div:nth-child(2) > div > div:nth-child(1) p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.tabs_inlines .white_pill p {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+/*-- /Section 1 - Cabinet --*/
+
+/*-- Section 1 - Cart --*/
+
+.card_table .cell_1 {
+    width: 45px;
+}
+
+.card_table .cell_2 {
+    width: 100px;
+}
+
+.card_table .cell_3 {
+    width: calc(100% - 1089px);
+}
+
+.card_table.opt .cell_3 {
+    width: calc(100% - 1010px);
+}
+
+.card_table .cell_4 {
+    width: 120px;
+}
+
+.card_table .cell_5 {
+    width: 45px;
+}
+
+.card_table .cell_11 {
+    width: 80px;
+}
+
+.card_table .cell_12 {
+    width: 85px;
+}
+
+.card_table .cell_13 {
+    width: 120px;
+}
+
+.card_table_footer > div:nth-child(1) {
+    width: 45%;
+    padding-left: 20px;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.card_table_footer > div:nth-child(2) {
+    width: 55%;
+    padding-right: 20px;
+}
+
+/*-- /Section 1 - Cart --*/
 
 }
 
@@ -787,6 +893,240 @@
 }
 
 /*-- /Section 1 - Selection_of_oils --*/
+
+/*-- Section 1 - Garagh --*/
+
+.garagh_thumb {
+    width: calc(25% - 30px);
+}
+
+.garagh_thumb .img_box {
+    height: 165px;
+}
+
+.garagh_thumb .img_box img {
+    height: 165px;
+}
+
+.garagh_thumb_content {
+    padding: 8px 10px 5px 10px;
+}
+
+.garagh_thumb_content_header {
+    padding: 2px 0 2px 0;
+}
+
+.garagh_thumb .blue_pill {
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.table_5 {
+    min-height: 94px;
+}
+
+.garagh_thumb_footer > div {
+    padding: 4px 0;
+}
+
+.white_title {
+    padding: 2px 10px 2px 10px;
+}
+
+.white_title .blue_pill {
+    min-height: 30px;
+    padding: 6px 10px 4px 10px;
+    font-size: 12px;
+}
+
+/*-- /Section 1 - Garagh --*/
+
+/*-- Section 1 - Cart --*/
+
+.card_table_row h3 {
+    display: block;
+    padding-bottom: 8px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.02em;
+    color: #A8A9AA;
+}
+
+.card_table_header {
+    padding-left: 15px;
+}
+
+.card_table_header > .cell {
+    display: none;
+}
+
+.card_table_header > .cell_1,
+.card_table_header > .cell_14_2 {
+    display: flex;
+}
+
+.card_table_header > .cell_14_2 {
+    width: calc(100% - 45px);
+}
+
+.card_table_inputs_row {
+    display: none;
+}
+
+.card_table_row .cell {
+    align-items: flex-start;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.card_table .cell_5 {
+    text-align: center;
+    justify-content: center;
+}
+
+.card_table .cell_10 {
+    text-align: center;
+    justify-content: center;
+}
+
+.card_table .cell_14 {
+    padding-top: 15px;
+}
+
+.card_table .stop {
+    margin: 0 auto;
+}
+
+.filter_form_resp .custom_select {
+    width: 102px;
+}
+
+.filter_form_sect {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.filter_form_resp {
+    position: relative;
+}
+
+.filter_form_resp input {
+    display: block;
+    width: 100%;
+    height: 21px;
+    background: #F5F6F7;
+    padding: 0 120px 0 10px;
+    border: 1px solid #E4E5E6;
+    border-radius: 3px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.custom_select.small_blue {
+    height: 17px;
+}
+
+.filter_form_resp .custom_select {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    z-index: 2;
+}
+
+.custom_select.small_blue .custom_select_title {
+    height: 17px;
+}
+
+.custom_select.small_blue .custom_select_title .p_val {
+    padding: 0 20px 0 5px;
+    width: 102px;
+    height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #5C6D89;
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: .02em;
+    color: #FFF;
+}
+
+.custom_select.small_blue .custom_select_title:after {
+    top: calc(50% - 3px);
+    right: 8px;
+    background-image: url(img/dr_arrow_white.svg);
+}
+
+.custom_select.small_blue .custom_select_list li {
+    padding: 6px 5px;
+    font-size: 11px;
+    text-align: left;
+}
+
+.custom_select.small_blue .custom_dr {
+    top: calc(100% - 1px);
+}
+
+.card_table_row .cell p,
+.card_table_row .cell p a {
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: .02em;
+    color: #262728;
+}
+
+.card_table_row .t_input {
+    font-size: 11px;
+}
+
+.card_table_row {
+    flex-wrap: wrap;
+}
+
+.card_table .cell_1 {
+    width: 30px;
+}
+
+.card_table .cell_2 {
+    width: 80px;
+}
+
+.card_table .cell_3 {
+    width: calc(100% - 967px);
+}
+
+.card_table .cell_4 {
+    width: 75px;
+}
+
+.card_table .cell_6 {
+    width: 100px;
+}
+
+.card_table .cell_11 {
+    width: 70px;
+}
+
+.card_table .cell_12 {
+    width: 88px;
+}
+
+.card_table .cell_14 {
+    width: 35px;
+}
+
+.card_table.opt .cell_3 {
+    width: calc(100% - 888px);
+}
+
+/*-- /Section 1 - Cart --*/
 
 }
 
@@ -1528,6 +1868,184 @@
 
 /*-- /Section 1 - Autoelectik --*/
 
+/*-- Section 1 - Cabinet --*/
+
+.tabs {
+    padding: 5px 20px 5px 20px;
+}
+
+.tabs_links {
+    padding: 4px 0 5px 0;
+}
+
+.tab_link {
+    font-size: 11px;
+    min-height: 29px;
+    padding: 0 10px;
+}
+
+.tabs_inlines {
+    margin: 0 -10px;
+}
+
+.tabs_inlines > div {
+    padding: 0 10px;
+}
+
+.tab .input_wrapp_4 input {
+    height: 30px;
+    padding: 0 15px;
+    font-size: 11px;
+}
+
+.tab .ch_circle span:nth-child(2) {
+    font-size: 11px;
+    line-height: 13px;
+}
+
+.tab .blue_pill {
+    min-height: 30px;
+    font-size: 12px;
+}
+
+.tab .custom_select .p_val {
+    height: 29px;
+    padding: 0 15px;
+    font-size: 11px;
+}
+
+.tab .input_wrapp_4 .custom_select_title {
+    height: 31px;
+}
+
+.tabs_inlines > div {
+    width: 33.33%;
+}
+
+.tab .icon_pill_2 {
+    width: 32px;
+    height: 32px;
+}
+
+.tab .input_wrapp_4 {
+    margin-bottom: 10px;
+}
+
+.tab .input_wrapp_4 .custom_select {
+    height: 30px;
+}
+
+.tabs_inlines.border > div {
+    width: 50%;
+}
+
+.tabs_inlines .white_pill p {
+    font-size: 11px;
+    line-height: 13px;
+}
+
+/*-- /Section 1 - Cabinet --*/
+
+/*-- Section 1 - Cart --*/
+
+.cart_filters_wrapp > div:nth-child(1) {
+    width: calc(100% - 330px);
+    padding: 0 10px 0 0;
+}
+
+.cart_filters_wrapp > div:nth-child(2) {
+    width: 330px;
+    padding: 6px 10px 0 10px;
+}
+
+.cart_filters_wrapp .white_pill {
+    padding: 5px 10px;
+    min-height: 30px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.cart_filters_wrapp .cart_filters .ch_circle {
+    margin-top: 1px;
+}
+
+.cart_filters > div {
+    padding: 5px 10px 2px 10px;
+}
+
+.card_table_row {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.card_table_row .cell {
+    border-left: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.card_table .cell_14 {
+    padding-top: 21px;
+}
+
+.card_table_row .cell > *{
+    width: 100%;
+}
+
+.card_table .cell_1 {
+    width: 50px;
+}
+
+.card_table .cell_2 {
+    width: 100px;
+}
+
+.card_table .cell_3 {
+    width: calc(100% - 507px);
+}
+
+.card_table .cell_4 {
+    width: 90px;
+}
+
+.card_table .cell_5 {
+    width: 60px;
+}
+
+.card_table .cell_6 {
+    width: 140px;
+}
+
+.card_table .cell_8 {
+    width: 148px;
+}
+
+.card_table .cell_9 {
+    width: 125px;
+}
+
+.card_table .cell_11 {
+    width: 80px;
+}
+
+.card_table .cell_12 {
+    width: 110px;
+}
+
+.card_table .cell_13 {
+    width: calc(100% - 583px);
+}
+
+.card_table_header {
+    padding-left: 0;
+}
+
+.card_table.opt .cell_3 {
+    width: calc(100% - 507px);
+}
+
+/*-- /Section 1 - Cart --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -1593,6 +2111,42 @@
 }
 
 /*-- /Section 1 - Choosing_a_car_brand --*/
+
+/*-- Popup --*/
+
+.print_table_header h3, .print_table_header label {
+    font-size: 12px;
+}
+
+.print_table_row {
+    flex-wrap: wrap;
+}
+
+.print_table_row p {
+    font-size: 12px;
+}
+
+.print_table .cell_1 {
+    width: 90px;
+}
+
+.print_table .cell_2 {
+    width: calc(100% - 585px);
+}
+
+.print_table .cell_5 {
+    width: 120px;
+}
+
+.print_table .cell_6 {
+    width: 90px;
+}
+
+.print_table .cell_7 {
+    width: 110px;
+}
+
+/*-- /Popup --*/
 
 }
 
@@ -1972,6 +2526,19 @@
 
 /*-- /Section 1 - Selection_of_tires_by_Auto --*/
 
+/*-- Section 1 - Cart --*/
+
+.cart_filters_wrapp > div:nth-child(1) {
+    width: 100%;
+    padding: 0;
+}
+
+.cart_filters_wrapp > div:nth-child(2) {
+    display: none;
+}
+
+/*-- /Section 1 - Cart --*/
+
 }
 
 @media only screen and (max-width: 950px) {
@@ -2165,6 +2732,25 @@
 }
 
 /*-- /Section 1 - Autoelectik Catalog --*/
+
+/*-- Section 1 - Cabinet --*/
+
+.tabs_inlines > div {
+    width: 50%;
+}
+
+.btns_inlines {
+    margin: 12px -7px;
+}
+
+.btns_inlines button,
+.btns_inlines a {
+    font-size: 12px;
+    min-height: 30px;
+    padding: 7px 15px;
+}
+
+/*-- /Section 1 - Cabinet --*/
 
 }
 
@@ -2679,6 +3265,65 @@ h1 {
 }
 
 /*-- /Section 1 - Batteries --*/
+
+/*-- Section 1 - Garagh --*/
+
+.white_title {
+    margin-top: 14px;
+}
+
+.garagh_thumbnails {
+    margin: 10px -10px 20px -10px;
+}
+
+.garagh_thumb {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+}
+
+/*-- /Section 1 - Garagh --*/
+
+/*-- Section 1 - Cart --*/
+
+.print_table .cell_1 {
+    width: 70px;
+}
+
+.print_table .cell_2 {
+    width: calc(100% - 485px);
+}
+
+.print_table .cell_4 {
+    width: 40px;
+}
+
+.print_table .cell_5 {
+    width: 100px;
+}
+
+.print_table .cell_7 {
+    width: 90px;
+}
+
+.print_ch_inline {
+    margin: 0 -10px;
+}
+
+.print_ch_inline > div {
+    padding: 5px 10px;
+}
+
+.print_table_header h3,
+.print_table_header label {
+    font-size: 11px;
+}    
+
+.print_table_row p,
+.print_table_row p a {
+    font-size: 11px;
+}
+
+/*-- /Section 1 - Cart --*/
 
 }
 
@@ -3353,6 +3998,47 @@ h1 {
 
 /*-- /Section 1 - Autoelectik --*/
 
+/*-- Section 1 - Cabinet --*/
+
+.tabs_inlines.border > div {
+    width: 100%;
+}
+
+/*-- /Section 1 - Cabinet --*/
+
+/*-- Section 1 - Cart --*/
+
+.card_table.opt .cell_13 {
+    width: calc(100% - 435px);
+}
+
+.print_table {
+    display: none;
+}
+
+.print_inputs > div {
+    width: 100%;
+    padding: 5px 15px;
+}
+
+.submit_two_cols > div {
+    min-width: 139px;
+    padding: 5px 15px;
+}
+
+.submit_two_cols a, .submit_two_cols button, .submit_two_cols input {
+    min-height: 30px !important;
+    min-width: 100% !important;
+    font-size: 14px !important;
+    text-transform: uppercase !important;
+}
+
+.popup_content_print .t_ch span {
+    font-size: 14px;
+}
+
+/*-- /Section 1 - Cart --*/
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -3532,6 +4218,50 @@ h1 {
 }
 
 /*-- /Section 1 - Batteries --*/
+
+/*-- Section 1 - Cart --*/
+
+.card_table .cell_2 {
+    width: 70px;
+}
+
+.card_table .cell_3 {
+    width: calc(100% - 427px);
+}
+
+.card_table .cell_4 {
+    width: 70px;
+}
+
+.card_table .cell_6 {
+    width: 110px;
+}
+
+.card_table .cell_8 {
+    width: 80px;
+}
+
+.card_table .cell_9 {
+    width: 100px;
+}
+
+.card_table .cell_12 {
+    width: 90px;
+}
+
+.card_table .cell_13 {
+    width: calc(100% - 470px);
+}
+
+.card_table.opt .cell_3 {
+    width: calc(100% - 427px);
+}
+
+.card_table.opt .cell_13 {
+    width: calc(100% - 392px);
+}
+
+/*-- /Section 1 - Cart --*/
 
 /*-- Footer --*/
 
@@ -3920,6 +4650,15 @@ h1 {
 
 /*-- /Section 1 - Non-original catalogs 4 --*/
 
+/*-- Section 1 - Garagh --*/
+
+.garagh_thumb {
+    width: calc(50% - 20px);
+    margin: 10px;
+}
+
+/*-- /Section 1 - Garagh --*/
+
 /*-- Popup --*/
 
 .popup {
@@ -4029,6 +4768,10 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
+
+.novisible_600 {
+    display: none;
+}
 
 /*-- Section 1 - Orders User --*/
 
@@ -4649,6 +5392,114 @@ h1 {
 
 /*-- /Section 1 - Autoelectik --*/
 
+/*-- Section 1 - Cabinet --*/
+
+.tabs_inlines > div {
+    width: 100%;
+}
+
+/*-- /Section 1 - Cabinet --*/
+
+/*-- Section 1 - Search Result --*/
+
+.search_result_table .cell_1 {
+    width: 125px;
+}
+
+.search_result_table .cell_2 {
+    width: calc(100% - 125px);
+}
+
+.search_result_table_row p,
+.search_result_table_row p a {
+    font-size: 11px;
+}
+
+/*-- /Section 1 - Search Result --*/
+
+/*-- Section 1 - Cart --*/
+
+.cart_filters_wrapp {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card_table {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.card_table_footer {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.card_table_footer .blue_pill {
+    min-height: 30px;
+    padding: 6px 10px 4px 10px;
+    font-size: 12px;
+}
+
+.card_table .cell_3 {
+    width: calc(100% - 250px);
+}
+
+.card_table .cell_6 {
+    width: calc(100% - 329px);
+}
+
+.card_table .cell_9 {
+    width: 130px;
+}
+
+.card_table .cell_10 {
+    width: 50px;
+}
+
+.card_table .cell_13 {
+    width: calc(100% - 205px);
+}
+
+.card_table_row h3 {
+    padding-bottom: 4px;
+}
+
+.card_table_footer {
+    flex-wrap: wrap;
+}
+
+.card_table_footer > div:nth-child(1) {
+    width: 100%;
+    padding-left: 20px;
+    text-align: right;
+    justify-content: flex-end;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.card_table_footer > div:nth-child(2) {
+    width: 100%;
+    padding-right: 20px;
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+
+.card_table_footer > div:nth-child(1) p {
+    padding: 0;
+}
+
+.card_table.opt .cell_3 {
+    width: calc(100% - 281px);
+}
+
+.card_table.opt .cell_13 {
+    width: calc(100% - 213px);
+}
+
+/*-- /Section 1 - Cart --*/
+
 /*-- Popup --*/
 
 .popup_content_4_2 {
@@ -4891,6 +5742,137 @@ h1 {
 
 /*-- /Section 1 - Batteries --*/
 
+/*-- Section 1 - Garagh --*/
+
+.garagh_thumb {
+    width: 100%;
+    margin: 6px 10px;
+}
+
+.garagh_thumb .img_box {
+    height: 200px;
+}
+
+.garagh_thumb .img_box img {
+    height: 200px;
+}
+
+.table_5_row p {
+    font-size: 11px;
+}
+
+/*-- /Section 1 - Garagh --*/
+
+/*-- Section 1 - Cabinet --*/
+
+.tabs {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.btns_two_cols > div {
+    width: 100%;
+}
+
+.tab_title_2 > div:nth-child(1) {
+    width: 47%;
+}
+
+.tab_title_2 > div:nth-child(2) {
+    width: 53%;
+}
+
+/*-- /Section 1 - Cabinet --*/
+
+/*-- Section 1 - Search Result --*/
+
+.search_result_table {
+    margin: 20px -20px;
+}
+
+.search_result_table_header {
+    display: none;
+}
+
+.search_result_table .cell {
+    align-items: flex-start;
+}
+
+.search_result_table .cell_1,
+.search_result_table .cell_2 {
+    width: 100%;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.search_result_table_row {
+    flex-wrap: wrap;
+    padding-bottom: 5px;
+}
+
+.search_result_table_row h3 {
+    display: block;
+    width: 100%;
+    padding: 2px 0 4px 0;
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: .02em;
+    color: #A8A9AA;
+}
+
+/*-- /Section 1 - Search Result --*/
+
+/*-- Section 1 - Cart --*/
+
+.card_table .cell_1 {
+    width: 46px;
+}
+
+.card_table .cell_3 {
+    width: calc(100% - 196px);
+}
+
+.card_table .cell_4 {
+    width: 80px;
+}
+
+.card_table .cell_5 {
+    text-align: left;
+}
+
+.card_table .cell_6 {
+    width: calc(100% - 127px);
+}
+
+.card_table .cell_8 {
+    width: 77px;
+}
+
+.card_table .cell_9 {
+    width: calc(100% - 127px);
+}
+
+.card_table .cell_11 {
+    width: 70px;
+}
+
+.card_table .cell_13 {
+    width: calc(100% - 195px);
+}
+
+.card_table.opt .cell_3 {
+    width: calc(100% - 196px);
+}
+
+.card_table.opt .cell_9 {
+    width: calc(100% - 70px);
+}
+
+/*-- /Section 1 - Cart --*/
+
 /*-- Popup --*/
 
 .looked_text {
@@ -4927,6 +5909,10 @@ h1 {
 .popup_content_photo {
     width: 100%;
     max-width: 320px;
+}
+
+.print_ch_inline > div {
+    width: 100%;
 }
 
 /*-- /Popup --*/
@@ -5011,6 +5997,27 @@ h1 {
 }
 
 /*-- /Section 1 - Autoelectik --*/
+
+/*-- Section 1 - Delivery --*/
+
+.popup_content_delivery {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.popup_content_delivery .input_wrapp_2 textarea {
+    height: 100px;
+}
+
+/*-- /Section 1 - Delivery --*/
+
+/*-- Section 1 - Cart --*/
+
+.card_table_footer > div:nth-child(1) p {
+    font-size: 13px;
+}
+
+/*-- /Section 1 - Cart --*/
 
 }
 

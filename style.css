@@ -5112,6 +5112,7 @@ textarea:focus {
 
 .garagh_thumb_content_header > div > div .icon_pill {
     margin: 5px;
+    background: #fff;
 }
 
 .icon_pill {
@@ -5392,6 +5393,7 @@ textarea:focus {
 .icon_pill_2 {
     width: 40px;
     height: 40px;
+    background: #fff !important;
 }
 
 .input_tree_cols .custom_select {
@@ -5932,69 +5934,73 @@ textarea:focus {
     justify-content: center;
 }
 
-.card_table .cell_1:nth-child(1) {
+.card_table_header .cell_14_2 {
+    display: none;
+}
+
+.card_table .cell_1 {
     width: 60px;
 }
 
-.card_table .cell_2:nth-child(2) {
+.card_table .cell_2 {
     width: 140px;
 }
 
-.card_table .cell_3:nth-child(3) {
+.card_table .cell_3 {
     width: calc(100% - 1303px);
     text-align: left;
     justify-content: flex-start;
 }
 
-.card_table .cell_4:nth-child(4) {
+.card_table .cell_4 {
     width: 179px;
 }
 
-.card_table .cell_5:nth-child(5) {
+.card_table .cell_5 {
     width: 75px;
 }
 
-.card_table .cell_6:nth-child(6) {
+.card_table .cell_6 {
     width: 120px;
 }
 
-.card_table .cell_7:nth-child(7) {
+.card_table .cell_7 {
     width: 67px;
 }
 
-.card_table .cell_8:nth-child(8) {
+.card_table .cell_8 {
     width: 79px;
 }
 
-.card_table .cell_9:nth-child(9) {
+.card_table .cell_9 {
     width: 93px;
 }
 
-.card_table .cell_10:nth-child(10) {
+.card_table .cell_10 {
     width: 85px;
 }
 
-.card_table .cell_11:nth-child(11) {
+.card_table .cell_11 {
     width: 98px;
 }
 
-.card_table .cell_12:nth-child(12) {
+.card_table .cell_12 {
     width: 127px;
 }
 
-.card_table .cell_13:nth-child(13) {
+.card_table .cell_13 {
     width: 130px;
 }
 
-.card_table .cell_14:nth-child(14) {
+.card_table .cell_14 {
     width: 50px;
 }
 
-.card_table.opt .cell_3:nth-child(3) {
+.card_table.opt .cell_3 {
     width: calc(100% - 1224px);
 }
 
-.card_table.opt .cell_8:nth-child(8) {
+.card_table.opt .cell_8 {
     display: none;
 }
 
@@ -6165,6 +6171,10 @@ textarea:focus {
     text-transform: uppercase;
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.card_table_row h3 {
+    display: none;
 }
 
 /*-- /Section 1 - Cart --*/
@@ -6765,6 +6775,7 @@ textarea:focus {
 .search_result_table .cell_2 {
     width: calc(100% - 165px);
     text-align: left;
+    justify-content: flex-start;
 }
 
 .search_result_table_row {
@@ -6773,6 +6784,10 @@ textarea:focus {
 
 .search_result_table_row:nth-child(odd) {
     background: #f5f6f7;
+}
+
+.search_result_table_row h3 {
+    display: none;
 }
 
 .search_result_table_row p {
