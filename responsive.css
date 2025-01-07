@@ -2046,6 +2046,46 @@
 
 /*-- /Section 1 - Cart --*/
 
+/*-- Section 1 - Search --*/
+
+.search_table .cell_1 {
+    width: 90px;
+}
+
+.search_table .cell_2 {
+    width: 110px;
+}
+
+.search_table .cell_3 {
+    width: 40px;
+}
+
+.search_table .cell_4 {
+    width: calc(100% - 810px);
+}
+
+.search_table .cell_5 {
+    width: 80px;
+}
+
+.search_table .cell_6 {
+    width: 110px;
+}
+
+.search_table .cell_7 {
+    width: 45px;
+}
+
+.search_table .cell_8 {
+    width: 70px;
+}
+
+.search_table .cell_10 {
+    width: 80px;
+}
+
+/*-- /Section 1 - Search --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -2111,6 +2151,15 @@
 }
 
 /*-- /Section 1 - Choosing_a_car_brand --*/
+
+/*-- Section 1 - Search --*/
+
+.search_table_rows .cell p,
+.search_table_rows .cell p a {
+    font-size: 11px;
+}
+
+/*-- /Section 1 - Search --*/
 
 /*-- Popup --*/
 
@@ -2587,6 +2636,46 @@
 
 .balance_table_main_inner .cell_7 {
     width: 120px !important;
+}
+
+.search_table_header .cell {
+    display: none;
+}
+
+.search_table .cell_11_2 {
+    display: flex;
+    width: 100%;
+}
+
+.search_table_inputs {
+    display: none;
+}
+
+.search_table_rows .cell {
+    align-items: flex-start;
+    border: none;
+}
+
+.search_table_rows h3 {
+    display: block;
+    padding-bottom: 8px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.02em;
+    color: #A8A9AA;
+}
+
+.search_table_rows {
+    flex-wrap: wrap;
+}
+
+.search_table .cell_4 {
+    width: calc(100% - 240px);
+}
+
+.search_table .cell_6 {
+    width: 124px;
 }
 
 /*-- /Section 1 - Balance --*/
@@ -4539,6 +4628,22 @@ h1 {
 
 /*-- /Section 1 - Balance --*/
 
+/*-- Section 1 - Search --*/
+
+.search_table .cell_1 {
+    width: 78px;
+}
+
+.search_table .cell_5 {
+    width: 75px;
+}
+
+.search_table .cell_6 {
+    width: 83px;
+}
+
+/*-- /Section 1 - Search --*/
+
 /*-- Footer --*/
 
 .footer_nav {
@@ -5825,6 +5930,47 @@ h1 {
 
 /*-- /Section 1 - Balance --*/
 
+/*-- Section 1 - Search --*/
+
+.search_table_wrapp {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.search_table_title {
+    width: 100%;
+}
+
+.search_table_rows {
+    padding-right: 10px;
+}
+
+.search_table .cell {
+     min-height: auto;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.search_table .cell_5,
+.search_table .cell_6,
+.search_table .cell_7,
+.search_table .cell_8 {
+    width: 25%;
+}
+
+.search_table .cell_9,
+.search_table .cell_10,
+.search_table .cell_11 {
+    width: 33.33%;
+}
+
+.search_table_rows {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*-- /Section 1 - Search --*/
+
 /*-- Popup --*/
 
 .popup_content_4_2 {
@@ -5922,6 +6068,94 @@ h1 {
     min-height: 30px;
     font-size: 11px;
     line-height: 16px;
+}
+
+.popop_pie {
+    width: 80px;
+    height: 80px;
+}
+
+.chart_bars {
+    width: 280px;
+    height: 150px;
+    margin-left: -30px;
+    margin-top: 0;
+}
+
+.charts_popup_table h3 {
+    font-size: 12px;
+}
+
+.charts_popup_table p {
+    font-size: 12px;
+}
+
+.chart_grey_box_header {
+    padding-right: 100px;
+}
+
+.chart_grey_box_header h3 {
+    font-size: 12px;
+}
+
+.chart_grey_box_header ul li {
+    margin: 5px 0px;
+    padding: 0 15px;
+}
+
+.popup_content_chart .popup_title {
+    padding: 21px 0 0 0;
+}
+
+.chart_popup_content {
+    padding: 10px 10px 10px 10px;
+}
+
+.chart_item {
+    margin: 10px 0;
+}
+
+.table_6 {
+    margin-top: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.table_6 .cell_1 {
+    width: 100%;
+    padding: 5px 10px;
+    border-right: none;
+}
+
+.table_6 .cell_2 {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.table_6_header .cell_1,
+.table_6_header .cell_2 {
+    display: none;
+}
+
+.table_6_row {
+    flex-wrap: wrap;
+}
+
+.table_6_row h3 {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: .02em;
+    color: #262728;  
+}
+
+.sp_big_slider .slide {
+    height: 210px;
+}
+
+.sp_big_slider .slide img {
+    height: 210px;
 }
 
 /*-- /Popup --*/
@@ -6343,6 +6577,22 @@ h1 {
 }
 
 /*-- /Section 1 - Cart --*/
+
+/*-- Section 1 - Search --*/
+
+.search_table .cell_1 {
+    width: 35%;
+}
+
+.search_table .cell_2 {
+    width: calc(65% - 40px);
+}
+
+.search_table .cell_4 {
+    width: 100%;
+}
+
+/*-- /Section 1 - Search --*/
 
 }
 

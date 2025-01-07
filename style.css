@@ -6753,6 +6753,13 @@ textarea:focus {
     display: none;
 }
 
+.search_table .cell_11_2 {
+    display: none;
+}
+
+.search_table_rows h3 {
+    display: none;
+}
 
 /*-- /Section 1 - Balance --*/
 
@@ -8986,6 +8993,10 @@ body.fixed {
 
 .table_6_row:last-child {
     border-bottom: none;
+}
+
+.table_6_row h3 {
+    display: none;
 }
 
 .popup_content_delivery {
