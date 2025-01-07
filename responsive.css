@@ -2539,6 +2539,58 @@
 
 /*-- /Section 1 - Cart --*/
 
+/*-- Section 1 - Balance --*/
+
+.balance_table_main .cell_2 {
+    width: 100px;
+}
+
+.balance_table_main .cell_3 {
+    width: 100px;
+}
+
+.balance_table_main .cell_4 {
+    width: 100px;
+}
+
+.balance_table_main .cell_5 {
+    width: calc(50% - 150px);
+}
+
+.balance_table_main .cell_6 {
+    width: calc(50% - 150px);
+}
+
+.balance_table_main_inner .cell_1 {
+    width: 100px !important;
+}
+
+.balance_table_main_inner .cell_2 {
+    width: 90px !important;
+}
+
+.balance_table_main_inner .cell_3 {
+    width: calc(100% - 512px) !important;
+}
+
+.balance_table_main_inner .cell_4 {
+    width: 60px !important;
+}
+
+.balance_table_main_inner .cell_5 {
+    width: 70px !important;
+}
+
+.balance_table_main_inner .cell_6 {
+    width: 70px !important;
+}
+
+.balance_table_main_inner .cell_7 {
+    width: 120px !important;
+}
+
+/*-- /Section 1 - Balance --*/
+
 }
 
 @media only screen and (max-width: 950px) {
@@ -3325,6 +3377,33 @@ h1 {
 
 /*-- /Section 1 - Cart --*/
 
+/*-- Section 1 - Balance --*/
+
+.balance_table_1 > div:nth-child(1) {
+    width: 50%;
+    margin: 0;
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.balance_table_1 > div:nth-child(2) {
+    width: 50%;
+    max-width: 50%;
+    margin: 0;
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.balance_table_1_1 {
+    width: 100%;
+}
+
+.balance_table_1_2 {
+    width: 100%;
+}
+
+/*-- /Section 1 - Balance --*/
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -4039,6 +4118,151 @@ h1 {
 
 /*-- /Section 1 - Cart --*/
 
+/*-- Section 1 - Balance --*/
+
+.balance_table_1 > div:nth-child(1),
+.balance_table_1 > div:nth-child(2) {
+    width: 100%;
+    max-width: 100%;
+    padding: 5px 0;
+}
+
+.balance_table_2_header {
+    display: none;
+}
+
+.balance_table_2_row {
+    flex-wrap: wrap;
+}
+
+.balance_table_2_row .cell {
+    width: 33.33%;
+    padding: 5px 10px;
+    border-left: none;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.balance_table_2_row .cell_6 {
+    border-right: none;
+}
+
+.balance_table_2_row h3 {
+    display: block;
+    width: 100%;
+    padding: 2px 0 8px 0;
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: .02em;
+    color: #A8A9AA;
+}
+
+.balance_table_main_header .cell {
+    display: none;
+}
+
+.balance_table_main_header .cell_6_2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.balance_table_main_inputs {
+    display: none;
+}
+
+.balance_table_main_row h3 {
+    display: block;
+    width: 100%;
+    padding: 2px 0 8px 0;
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: .02em;
+    color: #A8A9AA;
+}
+
+.balance_table_main_row .cell {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.balance_table_main_row.no_cell {
+    padding-top: 10px;
+}
+
+.balance_table_main_inner_header {
+    display: none;
+}
+
+.balance_table_main_inner_row .cell {
+    border-left: none;
+}
+
+.balance_table_main_inner_row .cell:last-child {
+    border-right: none;
+}
+
+.balance_table_main_inner_row .cell {
+    align-items: flex-start;
+    min-height: auto;
+}
+
+.balance_table_main_inner_row h3 {
+    display: block;
+    width: 100%;
+    padding: 2px 0 8px 0;
+    text-align: left;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: .02em;
+    color: #A8A9AA;
+}
+
+.balance_table_main_inner_row {
+    flex-wrap: wrap;
+}
+
+.balance_table_main_inner .cell {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.balance_table_main_inner .cell_1 {
+    width: 60px !important;
+}
+
+.balance_table_main_inner .cell_2 {
+    width: 90px !important;
+}
+
+.balance_table_main_inner .cell_3 {
+    width: calc(100% - 150px) !important;
+}
+
+.balance_table_main_inner .cell_5 {
+    width: 50px !important;
+}
+
+.balance_table_main_inner .cell_6 {
+    width: 50px !important;
+}
+
+.balance_table_main_inner .cell_7 {
+    width: calc(100% - 160px) !important;
+}
+
+/*-- /Section 1 - Balance --*/
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -4262,6 +4486,58 @@ h1 {
 }
 
 /*-- /Section 1 - Cart --*/
+
+/*-- Section 1 - Balance --*/
+
+.balance_table_main_row {
+    flex-wrap: wrap;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+.balance_table_main_row .cell {
+    border-left: none;
+}
+
+.balance_table_main .cell_1 {
+    width: 42px;
+}
+
+.balance_table_main .cell_2,
+.balance_table_main .cell_3,
+.balance_table_main .cell_4 {
+    width: calc(33.33% - 14px);
+}
+
+.balance_table_main .cell_5,
+.balance_table_main .cell_6 {
+    width: 50%;
+}
+
+.balance_table_main_row.no_cell {
+    padding-top: 5px;
+}
+
+.balance_table_main_row.no_cell .cell_1,
+.balance_table_main_row.no_cell .cell_2,
+.balance_table_main_row.no_cell .cell_6 {
+    display: none;
+}
+
+.balance_table_main_row.no_cell .cell_5 {
+    width: 37%;
+    padding-top: 10px;
+}
+
+.balance_table_main_row.no_cell .cell_5 p span {
+    padding-left: 0;
+}
+
+.balance_table_main_row .cell:last-child {
+    border-right: none;
+}
+
+/*-- /Section 1 - Balance --*/
 
 /*-- Footer --*/
 
@@ -5499,6 +5775,55 @@ h1 {
 }
 
 /*-- /Section 1 - Cart --*/
+
+/*-- Section 1 - Balance --*/
+
+.balance_table_1_wrapp,
+.balance_table_2_wrapp {
+    margin: 10px -20px;
+}
+
+.balance_table_1_title,
+.balance_table_2_title {
+    min-width: 100%;
+}
+
+.balance_table_2_title h3 {
+    font-size: 14px;
+}
+
+.balance_table_2_row .cell p {
+    font-size: 10px;
+}
+
+.dr_table_parent .dr_content {
+    padding: 10px 5px;
+}
+
+.balance_table_2_row h3 {
+    padding: 2px 0 5px 0;
+}
+
+.filters_top_row.balance_filters {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.filters_top_row.balance_filters > div:nth-child(1) {
+    min-width: 100%;
+    padding: 0;
+}
+
+.balance_table_main {
+    margin: 15px -20px 20px -20px;
+}
+
+.balance_table_main_row {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*-- /Section 1 - Balance --*/
 
 /*-- Popup --*/
 
