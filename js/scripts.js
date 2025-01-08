@@ -319,6 +319,17 @@ $(document).ready(function() {
       parent.removeClass("active");
       parent.find("[data-option-val]").removeClass("active");
       $(this).addClass("active");
+      var attr = parent.find("input[type='hidden']").attr('required');
+        if (typeof attr !== 'undefined' && attr !== false) {
+            if(parent.find("input").attr("type") == "hidden") {
+                if(parent.find("input[type='hidden']").val().length == 0 ) {
+                    parent.addClass("error");
+                } else {
+                    parent.removeClass("error");
+                    parent.addClass("conf");
+                }
+            }
+        }
     });
 
     $(document).on("click", ".custom_select .custom_select_title", function(e) {
@@ -357,7 +368,7 @@ $(document).ready(function() {
     }
     // -------------
 
-    $(".ch_childrens input").on("change", function() {
+    $(".ch_childrens input[type='checkbox']").on("change", function() {
       parentBlock = $(this).closest(".checkboxes_array");
       chChildrens = parentBlock.find(".ch_childrens input");
       mainCheckbox = parentBlock.find(".main_checkbox input");
@@ -726,21 +737,74 @@ $(document).ready(function() {
     });
 
     $(".t_input").on("keyup", function() {
-        var input, filter, ul, li, a, i, txtValue;
-        input = this;
-        parentTable = $(this).closest(".sortTable");
-        cellIndex = $(this).closest(".cell").index();
-        ul = parentTable.find(".sortBox");
-        li = ul.find(".sortRow");
-        filter = input.value.toUpperCase();
-        parentTable.find(".sortRow").each(function() {
-            a = $(this).find(".cell:eq("+cellIndex+")").attr("data-filter");
-            if (a.toUpperCase().indexOf(filter) > -1) {
-                $(this).removeClass("hide");
+        parent = $(this).closest(".sortRow");
+        if(parent.length == 0) {
+            var input, filter, ul, li, a, i, txtValue;
+            input = this;
+            parentTable = $(this).closest(".sortTable");
+            cellIndex = $(this).closest(".cell").index();
+            ul = parentTable.find(".sortBox");
+            li = ul.find(".sortRow");
+            filter = input.value.toUpperCase();
+            parentTable.find(".sortRow").each(function() {
+                a = $(this).find(".cell:eq("+cellIndex+")").attr("data-filter");
+                if (a.toUpperCase().indexOf(filter) > -1) {
+                    $(this).removeClass("hide");
+                } else {
+                    $(this).addClass("hide");
+                }
+            });
+        }
+    });
+
+    $("input[required], textarea[required], select[required]").on("change", function() {
+        if($(this).attr("type") == "text") {
+            if($(this).val().length == 0 ) {
+                $(this).addClass("error");
             } else {
-                $(this).addClass("hide");
+                $(this).removeClass("error");
+                $(this).addClass("conf");
             }
-        });
+        }
+        if($(this).attr("type") == "tel") {
+            if($(this).val()[13] == "_" && $(this).val()[14] == "_" ) {
+                $(this).addClass("error");
+            } else {
+                $(this).removeClass("error");
+                $(this).addClass("conf");
+            }
+        }
+        if($(this).attr("type") == "email") {
+            var re = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+            var address = $(this).val();
+            if(re.test(address) == false) {
+                $(this).addClass("error");
+            } else {
+                $(this).removeClass("error");
+                $(this).addClass("conf");
+            }
+        }
+        if($(this).attr("type") == "number") {
+            if($(this).val() == '' ) {
+                $(this).addClass("error");
+            } else {
+                $(this).removeClass("error");
+                $(this).addClass("conf");
+            }
+        }
+        if($(this).attr("type") == "password") {
+            if($(this).val().length == 0 ) {
+                $(this).addClass("error");
+            } else {
+                $(this).removeClass("error");
+                $(this).addClass("conf");
+            }
+        }
+    });
+
+    $(".sortRow .t_input").on("keyup", function() {
+        parent = $(this).closest("[data-filter]");
+        parent.attr("data-filter", $(this).val());
     });
 
     $(".filter_form_resp > input").on("keyup", function() {
