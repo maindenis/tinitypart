@@ -505,6 +505,57 @@ textarea:focus {
     opacity: .5;
 }
 
+.input_wrapp input.conf,
+.input_wrapp textarea.conf {
+    border: 1px solid #7fc388;
+    background-image: url(img/input_ch.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) calc(100% - 4px);
+    background-size: 20px 20px;
+}
+
+.input_wrapp input.error,
+.input_wrapp textarea.error {
+    border: 1px solid #ff0000;
+    background-image: url(img/input_error.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) calc(100% - 5px);
+    background-size: 20px 20px;
+}
+
+.input_wrapp input.conf[type='password'],
+.input_wrapp input.error[type='password'] {
+    background-position: calc(100% - 19px) calc(100% - 4px);
+}
+
+.input_wrapp textarea.error {
+    border: 1px solid #ff0000;
+    background-image: url(img/input_error.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) 10px;
+    background-size: 20px 20px;
+}
+
+.input_wrapp,
+.password_input {
+    position: relative;
+}
+
+.input_wrapp input.error + p.error_text,
+.input_wrapp textarea.error + p.error_text {
+    display: block;
+    position: absolute;
+    top: 39px;
+    left: 0;
+}
+
+.password_input input.error + p.error_text {
+    display: block;
+    position: absolute;
+    top: 24px;
+    left: 0;
+}
+
 .eye {
     width: 12px;
     height: 9px;
@@ -1747,6 +1798,33 @@ textarea:focus {
 .btns_inline_2 {
     justify-content: center;
     padding: 15px 0 30px 0;
+}
+
+.input_wrapp_3 select.conf {
+    border: 1px solid #7fc388;
+    background-image: url(img/input_ch.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) calc(100% - 10px);
+    background-size: 20px 20px;
+}
+
+.input_wrapp_3 select.error {
+    border: 1px solid #ff0000;
+    background-image: url(img/input_error.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) calc(100% - 9px);
+    background-size: 20px 20px;
+}
+
+select + p.error_text {
+    display: none;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ff0000;
+}
+
+.input_wrapp_3 select.error + p.error_text {
+    display: block;
 }
 
 /*-- /Section 1 - Register --*/
@@ -3643,6 +3721,64 @@ textarea:focus {
     line-height: 39px;
     letter-spacing: 0.02em;
     color: #262728;
+    background-image: none;
+}
+
+.input_wrapp_4 input:focus,
+.input_wrapp_4 textarea:focus {
+    border: 1px solid #7fc388;
+}
+
+.input_wrapp_4 input.conf,
+.input_wrapp_4 textarea.conf {
+    border: 1px solid #7fc388;
+    background-image: url(img/input_ch.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) calc(100% - 10px);
+    background-size: 20px 20px;
+}
+
+.input_wrapp_4 input.error,
+.input_wrapp_4 textarea.error {
+    border: 1px solid #ff0000;
+    background-image: url(img/input_error.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) calc(100% - 9px);
+    background-size: 20px 20px;
+}
+
+.input_wrapp_4 input.conf[type='password'],
+.input_wrapp_4 input.error[type='password'] {
+    background-position: calc(100% - 25px) calc(100% - 9px);
+}
+
+.input_wrapp_4 textarea.error {
+    border: 1px solid #ff0000;
+    background-image: url(img/input_error.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) 10px;
+    background-size: 20px 20px;
+}
+
+.input_wrapp_4 input.error + p.error_text,
+.input_wrapp_4 textarea.error + p.error_text {
+    display: block;
+}
+
+input + p.error_text,
+textarea + p.error_text {
+    display: none;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ff0000;
+}
+
+.custom_select.conf input + .custom_select_title .p_val {
+    border: 1px solid #7fc388;
+    background-image: url(img/input_ch.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) calc(100% - 10px);
+    background-size: 20px 20px;
 }
 
 .filter_form .input_wrapp_4 {
@@ -7684,7 +7820,7 @@ body.fixed {
     width: 100%;
     height: 30px;
     padding: 0 10px;
-    background: #F5F6F7;
+    background-color: #F5F6F7;
     border: 1px solid #E4E5E6;
     border-radius: 3px;
     font-family: 'Roboto';
@@ -7705,7 +7841,7 @@ body.fixed {
     width: 100%;
     height: 120px;
     padding: 5px 10px;
-    background: #F5F6F7;
+    background-color: #F5F6F7;
     border: 1px solid #E4E5E6;
     border-radius: 3px;
     font-family: 'Roboto';
@@ -7720,6 +7856,61 @@ body.fixed {
     margin-top: .25rem;
     font-size: .875em;
     color: #dc3545;
+}
+
+.input_wrapp_2 input:focus,
+.input_wrapp_2 textarea:focus {
+    border: 1px solid #7fc388;
+}
+
+.input_wrapp_2 input.conf {
+    border: 1px solid #7fc388;
+    background-image: url(img/input_ch.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) calc(100% - 6px);
+    background-size: 20px 20px;
+}
+
+.input_wrapp_2 textarea.conf {
+    border: 1px solid #7fc388;
+    background-image: url(img/input_ch.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) 6px;
+    background-size: 20px 20px;
+}
+
+.input_wrapp_2 input.error {
+    border: 1px solid #ff0000;
+    background-image: url(img/input_error.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) calc(100% - 5px);
+    background-size: 20px 20px;
+}
+
+.input_wrapp_2 textarea.error {
+    border: 1px solid #ff0000;
+    background-image: url(img/input_error.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) 5px;
+    background-size: 20px 20px;
+}
+
+.input_wrapp_2 input.conf[type='password'],
+.input_wrapp_2 input.error[type='password'] {
+    background-position: calc(100% - 25px) calc(100% - 6px);
+}
+
+.input_wrapp_2 textarea.error {
+    border: 1px solid #ff0000;
+    background-image: url(img/input_error.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) 10px;
+    background-size: 20px 20px;
+}
+
+.input_wrapp_2 input.error + p.error_text,
+.input_wrapp_2 textarea.error + p.error_text {
+    display: block;
 }
 
 .submit_wrapp_2 {
@@ -8125,6 +8316,61 @@ body.fixed {
     border-radius: 3px;
 }
 
+.input_wrapp_3 input:focus,
+.input_wrapp_3 textarea:focus {
+    border: 1px solid #7fc388;
+}
+
+.input_wrapp_3 input.conf {
+    border: 1px solid #7fc388;
+    background-image: url(img/input_ch.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) calc(100% - 8px);
+    background-size: 20px 20px;
+}
+
+.input_wrapp_3 textarea.conf {
+    border: 1px solid #7fc388;
+    background-image: url(img/input_ch.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) 5px;
+    background-size: 20px 20px;
+}
+
+.input_wrapp_3 input.error {
+    border: 1px solid #ff0000;
+    background-image: url(img/input_error.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) calc(100% - 8px);
+    background-size: 20px 20px;
+}
+
+.input_wrapp_3 textarea.error {
+    border: 1px solid #ff0000;
+    background-image: url(img/input_error.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) 5px;
+    background-size: 20px 20px;
+}
+
+.input_wrapp_3 input.conf[type='password'],
+.input_wrapp_3 input.error[type='password'] {
+    background-position: calc(100% - 25px) calc(100% - 7px);
+}
+
+.input_wrapp_3 textarea.error {
+    border: 1px solid #ff0000;
+    background-image: url(img/input_error.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 8px) 6px;
+    background-size: 20px 20px;
+}
+
+.input_wrapp_3 input.error + p.error_text,
+.input_wrapp_3 textarea.error + p.error_text {
+    display: block;
+}
+
 .submit_wrapp_4 {
     display: flex;
     justify-content: flex-end;
@@ -8394,7 +8640,7 @@ body.fixed {
 }
 
 .good_data_popup .input_wrapp_2 input {
-    background: #fff;
+    background-color: #fff;
 }
 
 .good_data_popup .submit_wrapp {

@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
 	<title></title>
-	<!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
 </head>
 <body>
 	<div class="wrapper">
@@ -544,18 +543,28 @@
 				</a>
 			</div>
 			<div class="pagination_wrapp">
-				<a href="#" class="page_button first_page noactive">К началу</a>
-				<ul class="pagination">
-					<li><a href="#" class="prev_page"></a></li>
-					<li><a href="#" class="active">1</a></li>
-					<li><a href="#">2</a></li>
-					<li><a href="#">3</a></li>
-					<li><a href="#">4</a></li>
-					<li><a href="#">5</a></li>
-					<li><a href="#">6</a></li>
-					<li><a href="#" class="next_page"></a></li>
-				</ul>
-				<a href="#" class="page_button last_page">В конец</a>
+				<div class="pagination_wrapp_inner">
+					<a href="#" class="page_button first_page noactive">К началу</a>
+					<ul class="pagination">
+						<li><a href="#" class="prev_page"></a></li>
+						<li><a href="#" class="active">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#">6</a></li>
+						<li><a href="#" class="next_page"></a></li>
+					</ul>
+					<a href="#" class="page_button last_page">В конец</a>
+					<div class="resp_pagebtns">
+						<div>
+							<a href="#" class="page_button first_page noactive">К началу</a>
+						</div>
+						<div>
+							<a href="#" class="page_button last_page">В конец</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

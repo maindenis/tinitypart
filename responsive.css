@@ -1944,6 +1944,29 @@
     line-height: 13px;
 }
 
+.input_wrapp_4 input.conf,
+.input_wrapp_4 textarea.conf {
+    background-position: calc(100% - 8px) calc(100% - 5px);
+}
+
+.input_wrapp_4 input.error,
+.input_wrapp_4 textarea.error {
+    background-position: calc(100% - 8px) calc(100% - 5px);
+}
+
+.input_wrapp_4 input.conf[type='password'],
+.input_wrapp_4 input.error[type='password'] {
+    background-position: calc(100% - 25px) calc(100% - 5px);
+}
+
+.custom_select.conf input + .custom_select_title .p_val {
+    background-position: calc(100% - 8px) calc(100% - 6px);
+}
+
+.tab .input_wrapp_4 .password_input i {
+    top: 11px
+}
+
 /*-- /Section 1 - Cabinet --*/
 
 /*-- Section 1 - Cart --*/

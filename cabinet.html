@@ -8,7 +8,6 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
 	<title></title>
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 <body>
 	<div class="wrapper">
@@ -417,25 +416,30 @@
 								<div>
 									<div class="input_wrapp_4">
 										<label>Логин</label>
-										<input type="text" name="#" />
+										<input type="text" name="#" required />
+										<p class="error_text">Заполните поле</p>
 									</div>
 									<div class="input_wrapp_4">
 										<label>Телефон</label>
-										<input type="tel" name="#" />
+										<input type="tel" name="#" required />
+										<p class="error_text">Введите телефон</p>
 									</div>
 									<div class="input_wrapp_4">
 										<label>Почта</label>
-										<input type="text" name="#" />
+										<input type="email" name="#" required />
+										<p class="error_text">Введите правильный email</p>
 									</div>
 								</div>
 								<div>
 									<div class="input_wrapp_4">
 										<label>Допустимый % превышения цены</label>
-										<input type="number" name="#" />
+										<input type="number" name="#" required />
+										<p class="error_text">Введите число</p>
 									</div>
 									<div class="input_wrapp_4">
 										<label>Кол-во предложений при сворачивании</label>
-										<input type="text" name="#" />
+										<input type="number" name="#" required />
+										<p class="error_text">Введите число</p>
 									</div>
 									<div class="checkboxes_wrapp">
 										<div>
@@ -482,22 +486,25 @@
 											<div class="input_wrapp_4">
 												<label>Текущий пароль</label>
 												<div class="password_input">
-													<input type="password" name="#" />
 													<i class="eye"></i>
+													<input type="password" name="#" required />
+													<p class="error_text">Заполните поле</p>
 												</div>
 											</div>
 											<div class="input_wrapp_4">
 												<label>Пароль</label>
 												<div class="password_input">
-													<input type="password" name="#" />
 													<i class="eye"></i>
+													<input type="password" name="#" required />
+													<p class="error_text">Заполните поле</p>
 												</div>
 											</div>
 											<div class="input_wrapp_4">
 												<label>Подтверждение пароля</label>
 												<div class="password_input">
-													<input type="password" name="#" />
 													<i class="eye"></i>
+													<input type="password" name="#" required />
+													<p class="error_text">Заполните поле</p>
 												</div>
 											</div>
 										</div>
@@ -526,13 +533,15 @@
 							<div>
 								<div class="input_wrapp_4">
 									<label>Название</label>
-									<input type="text" name="#" />
+									<input type="text" name="#" required />
+									<p class="error_text">Заполните поле</p>
 								</div>
 							</div>
 							<div>
 								<div class="input_wrapp_4">
 									<label>Наценка(%)</label>
-									<input type="number" name="#" />
+									<input type="number" name="#" required />
+									<p class="error_text">Заполните поле</p>
 								</div>
 							</div>
 							<div>
@@ -541,7 +550,7 @@
 									<div class="input_tree_cols">
 										<div>
 											<div class="custom_select">
-												<input value="Все" type="hidden" />
+												<input value="Все" type="hidden" required />
 												<div class="custom_select_title">
 													<div class="p_val">Не округлять</div>
 												</div>
@@ -570,13 +579,15 @@
 							<div>
 								<div class="input_wrapp_4">
 									<label></label>
-									<input type="text" placeholder="Закупка" name="#" />
+									<input type="text" placeholder="Закупка" name="#" required />
+									<p class="error_text">Заполните поле</p>
 								</div>
 							</div>
 							<div>
 								<div class="input_wrapp_4">
 									<label></label>
-									<input type="number" name="#" />
+									<input type="number" name="#" required />
+									<p class="error_text">Заполните поле</p>
 								</div>
 							</div>
 							<div>
@@ -585,7 +596,7 @@
 									<div class="input_tree_cols">
 										<div>
 											<div class="custom_select">
-												<input value="Все" type="hidden" />
+												<input value="Все" required type="hidden" />
 												<div class="custom_select_title">
 													<div class="p_val">Нет</div>
 												</div>
@@ -608,13 +619,15 @@
 							<div>
 								<div class="input_wrapp_4">
 									<label></label>
-									<input type="text" placeholder="Розница" name="#" />
+									<input type="text" placeholder="Розница" name="#" required />
+									<p class="error_text">Заполните поле</p>
 								</div>
 							</div>
 							<div>
 								<div class="input_wrapp_4">
 									<label></label>
-									<input type="number" name="#" />
+									<input type="number" name="#" required />
+									<p class="error_text">Заполните поле</p>
 								</div>
 							</div>
 							<div>
@@ -623,7 +636,7 @@
 									<div class="input_tree_cols">
 										<div>
 											<div class="custom_select">
-												<input value="Все" type="hidden" />
+												<input value="Все" required type="hidden" />
 												<div class="custom_select_title">
 													<div class="p_val">Не округлять</div>
 												</div>
@@ -661,7 +674,8 @@
 								<div>
 									<div class="input_wrapp_4">
 										<label>Почта</label>
-										<input type="text" name="#" />
+										<input type="email" name="#" required />
+										<p class="error_text">Введите правильный email</p>
 									</div>
 								</div>
 								<div>
@@ -723,7 +737,8 @@
 										<label>Почта</label>
 										<div class="inputs_two_cols">
 											<div>
-												<input type="text" name="#" />
+												<input type="email" name="#" required />
+												<p class="error_text">Введите правильный email</p>
 											</div>
 											<div>
 												<a href="#" class="icon_pill icon_pill_2">
@@ -736,11 +751,13 @@
 								<div class="hideBlock">
 									<div class="input_wrapp_4">
 										<label>Логин</label>
-										<input type="text" name="#" />
+										<input type="text" name="#" required />
+										<p class="error_text">Введите логин</p>
 									</div>
 									<div class="input_wrapp_4">
 										<label>ФИО</label>
-										<input type="text" name="#" />
+										<input type="text" name="#" required />
+										<p class="error_text">Введите ФИО</p>
 									</div>
 									<div>
 										<label class="ch_circle">
@@ -755,11 +772,13 @@
 								<div class="hideBlock">
 									<div class="input_wrapp_4">
 										<label>Телефон</label>
-										<input type="tel" name="#" />
+										<input type="tel" name="#" required />
+										<p class="error_text">Введите телефон</p>
 									</div>
 									<div class="input_wrapp_4">
 										<label>Почта</label>
-										<input type="text" name="#" />
+										<input type="email" name="#" required />
+										<p class="error_text">Введите правильный email</p>
 									</div>
 									<div>
 										<label class="ch_circle">
@@ -775,15 +794,17 @@
 									<div class="input_wrapp_4">
 										<label>Пароль</label>
 										<div class="password_input">
-											<input type="password" name="#">
 											<i class="eye"></i>
+											<input type="password" name="#" required />
+											<p class="error_text">Введите пароль</p>
 										</div>
 									</div>
 									<div class="input_wrapp_4">
 										<label>Подтверждение пароля</label>
 										<div class="password_input">
-											<input type="password" name="#">
 											<i class="eye"></i>
+											<input type="password" name="#" required />
+											<p class="error_text">Подтвердите пароль</p>
 										</div>
 									</div>
 								</div>
@@ -819,7 +840,7 @@
 								<div class="input_wrapp_4">
 									<label>Формат прайс листа</label>
 									<div class="custom_select">
-										<input value="Все" type="hidden" />
+										<input required value="Все" type="hidden" />
 										<div class="custom_select_title">
 											<div class="p_val">Текстовый</div>
 										</div>
@@ -833,7 +854,8 @@
 								</div>
 								<div class="input_wrapp_4">
 									<label>Почта</label>
-									<input type="text" name="#" />
+									<input type="email" name="#" required />
+									<p class="error_text">Введите правильный email</p>
 								</div>
 								<div class="btns_two_cols">
 									<div>
@@ -893,7 +915,8 @@
 								</div>
 								<div class="input_wrapp_4">
 									<label>Почта</label>
-									<input type="text" name="#" />
+									<input type="email" name="#" required />
+									<p class="error_text">Введите правильный email</p>
 								</div>
 								<div class="btns_two_cols">
 									<div>
@@ -953,7 +976,8 @@
 								</div>
 								<div class="input_wrapp_4">
 									<label>Почта</label>
-									<input type="text" name="#" />
+									<input type="email" name="#" required />
+									<p class="error_text">Введите правильный email</p>
 								</div>
 								<div class="btns_two_cols">
 									<div>
@@ -1013,7 +1037,8 @@
 								</div>
 								<div class="input_wrapp_4">
 									<label>Почта</label>
-									<input type="text" name="#" />
+									<input type="email" name="#" required />
+									<p class="error_text">Введите правильный email</p>
 								</div>
 								<div class="btns_two_cols">
 									<div>
