@@ -4877,11 +4877,11 @@ h1 {
 }
 
 .catalogs_table .cell_1 {
-    width: 34%;
+    width: 24%;
 }
 
 .catalogs_table .cell_2 {
-    width: 48%;
+    width: 28%;
 }
 
 .catalogs_table .cell_3 {
@@ -4889,7 +4889,7 @@ h1 {
 }
 
 .catalogs_table .cell_4 {
-    width: 31%;
+    width: 30%;
 }
 
 .catalogs_table .cell_5 {
@@ -4897,7 +4897,7 @@ h1 {
 }
 
 .catalogs_table .cell_6 {
-    width: 14%;
+    width: 28%;
 }
 
 .catalogs_table .cell_7 {
@@ -4905,7 +4905,7 @@ h1 {
 }
 
 .catalogs_table .cell_8 {
-    width: 12%;
+    width: 30%;
 }
 
 /*-- /Section 1 - Non-original catalogs 3 --*/
