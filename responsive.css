@@ -3081,7 +3081,7 @@ h1 {
 }
 
 .filters_inline .date_inpunt_wrapp {
-        width: 140px;
+    width: 140px;
 }
 
 .filters_bottom_row {
@@ -3095,27 +3095,27 @@ h1 {
 }
 
 .filters_inline > div:nth-child(1) {
-    order: 3;
+    order: 1;
     width: 120px;
 }
 
 .filters_inline > div:nth-child(2) {
     order: 2;
-    width: calc(100% - 240px);
+    width: calc(100% - 120px);
 }
 
 .filters_inline > div:nth-child(3) {
-    order: 4;
-    width: calc(50% - 60px);
+    order: 3;
+    width: calc(50% - 120px);
 }
 
 .filters_inline > div:nth-child(4) {
-    order: 5;
-    width: calc(50% - 60px);
+    order: 4;
+    width: calc(50% - 120px);
 }
 
 .filters_inline > div:nth-child(5) {
-    order: 1;
+    order: 5;
     width: 120px;
 }
 
@@ -3134,6 +3134,14 @@ h1 {
 
 .filters_inline .width_3 {
     width: 100%;
+}
+
+.filters_inline_2 > div:nth-child(1) {
+    order: 1;
+}
+
+.filters_inline_2 > div:nth-child(2) {
+    order: 2;
 }
 
 .pills_inline > div {
@@ -3283,6 +3291,20 @@ h1 {
 .returns_table .cell_16 {
     width: 11%;
 }
+
+.returns_filters {
+    flex-wrap: wrap;
+}
+
+.returns_filters > div:nth-child(1),
+.returns_filters > div:nth-child(2) {
+    width: 100%;
+    padding: 3px 0;
+}
+
+/*.returns_filters > div:nth-child(2) {
+    text-align: right;
+}*/
 
 /*-- /Section 1 - Returns User --*/
 

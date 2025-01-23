@@ -1859,7 +1859,7 @@ select + p.error_text {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 3;
 }
 
 .new_thumb > div:nth-child(1) {
