@@ -3449,11 +3449,12 @@ select + p.error_text {
 }
 
 .catalogs_table_header_2 > .cell_4 {
-    width: calc(36.66% - 296px);
+    width: 148px;
+    text-align: center;
 }
 
 .catalogs_table_header_2 > .cell_5 {
-    width: 64.44%;
+    width: calc(100% - 444px);
 }
 
 .catalogs_table_row_2 > .cell {
