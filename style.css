@@ -1827,6 +1827,39 @@ select + p.error_text {
     display: block;
 }
 
+.reg_footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.reg_footer > div {
+    padding: 10px 10px;
+}
+
+.reg_footer > div:nth-child(1) {
+    width: 41%;
+}
+
+.captcha_wrapp {
+    display: flex;
+    margin: 0 -10px;
+}
+
+.captcha_wrapp > div {
+    padding: 10px 10px;
+}
+
+.captcha_wrapp img {
+    height: 39px;
+    width: auto;
+}
+
+.btns_inline_2 {
+    padding: 10px 0 20px 0;
+}
+
+
 /*-- /Section 1 - Register --*/
 
 /*-- Section 1 - Main User --*/

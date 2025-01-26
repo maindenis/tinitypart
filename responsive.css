@@ -3302,10 +3302,6 @@ h1 {
     padding: 3px 0;
 }
 
-/*.returns_filters > div:nth-child(2) {
-    text-align: right;
-}*/
-
 /*-- /Section 1 - Returns User --*/
 
 /*-- Section 1 - Non-original catalogs --*/
@@ -3537,6 +3533,27 @@ h1 {
 }
 
 /*-- /Section 1 - Balance --*/
+
+/*-- Section 1 - Register --*/
+
+.reg_footer > div {
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.reg_footer > div:nth-child(1) {
+    width: 100%;
+}
+
+.captcha_wrapp .input_wrapp_3 {
+    padding-bottom: 0;
+}
+
+.btns_inline_2 {
+    padding: 0 0 10px 0;
+}
+
+/*-- /Section 1 - Register --*/
 
 }
 
