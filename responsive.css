@@ -350,6 +350,11 @@
     font-size: 12px;
 }
 
+.dr_params_box .red_pill {
+    min-height: 30px;
+    font-size: 12px;
+}
+
 .custom_select_3_wrapp label {
     padding: 4px 0 4px 0;
 }
@@ -3320,6 +3325,10 @@ h1 {
     padding: 3px 15px;
 }
 
+.dr_params_box .se_car_submit_wrapp {
+    padding-top: 10px;
+}
+
 /*-- /Section 1 - Search_for_a car_by_parameters --*/
 
 /*-- Section 1 - Batteries --*/
@@ -4413,6 +4422,18 @@ h1 {
 }
 
 /*-- /Section 1 - Balance --*/
+
+/*-- Section 1 - Search_for_a car_by_parameters --*/
+
+.se_car_submit_wrapp {
+    width: 50%;
+}
+
+.se_car_submit_wrapp .red_pill {
+    width: 100%;
+}
+
+/*-- /Section 1 - Search_for_a car_by_parameters --*/
 
 }
 

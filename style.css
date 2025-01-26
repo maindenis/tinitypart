@@ -3683,6 +3683,16 @@ select + p.error_text {
     padding-right: 19px;
 }
 
+.se_car_submit_wrapp .red_pill {
+    min-height: 40px;
+    min-width: 220px;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 19px;
+    padding-right: 19px;
+    text-transform: uppercase;
+}
+
 /*-- /Section 1 - Search_for_a car_by_parameters --*/
 
 /*-- Section 1 - List_of_nodes --*/
