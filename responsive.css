@@ -6474,13 +6474,6 @@ h1 {
 }
 
 .search_result_table .cell {
-    align-items: flex-start;
-}
-
-.search_result_table .cell_1,
-.search_result_table .cell_2 {
-    width: 100%;
-    text-align: left;
     justify-content: flex-start;
 }
 
