@@ -2355,6 +2355,11 @@
     padding: 8px 10px 8px 10px;
 }
 
+.dropdown_row_2 > div:nth-child(1) {
+    width: 100%;
+    padding: 8px 10px 8px 42px;
+}
+
 .dropdown_row p {
     font-size: 12px;
     line-height: 12px;
