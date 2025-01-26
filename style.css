@@ -6361,6 +6361,17 @@ textarea + p.error_text {
     display: none;
 }
 
+.delivery_btn {
+    text-align: right;
+}
+
+.delivery_btn .blue_pill {
+    display: inline-flex;
+    align-items: center;
+    min-width: 260px;
+    text-transform: uppercase;
+}
+
 /*-- /Section 1 - Cart --*/
 
 /*-- Section 1 - Balance --*/
