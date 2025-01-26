@@ -3319,6 +3319,10 @@ select + p.error_text {
     color: #fff;
 }
 
+.dropdown_row_2 > div:nth-child(1) {
+    width: 100%;
+}
+
 /*-- /Section 1 - Non-original catalogs 2 --*/
 
 /*-- Section 1 - Non-original catalogs 3 --*/
