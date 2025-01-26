@@ -915,6 +915,39 @@ $(document).ready(function() {
 
     // ------------
 
+    if($(".dateCh").prop("checked") == true) {
+        $(".dateWrapp").css({
+            "display" : "block"
+        });
+    } else {
+        $(".dateWrapp").css({
+            "display" : "none"
+        });
+    }
+
+    $(".dateCh").on("change", function() {
+        if($(this).prop("checked") == true) {
+            $(".dateWrapp").css({
+                "display" : "block"
+            });
+        } else {
+            $(".dateWrapp").css({
+                "display" : "none"
+            });
+        }
+    });
+
+    // ------------
+
+    $(".resetPill").on("click", function(e) {
+        e.preventDefault();
+        parent = $(this).closest("form");
+        parent.find("input, select, textarea").val("");
+        parent.find(".p_val").text("");
+    });
+
+    // ------------
+
     // var counter=0;
     // var mapZoom;
     // var lat;
