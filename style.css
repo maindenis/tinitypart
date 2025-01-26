@@ -7795,23 +7795,41 @@ body.fixed {
     display: none;
     width: 100%;
     height: 100%;
-    padding: 40px 40px;
+    padding: 0 40px;
     overflow-y: auto;
     overflow-x: hidden;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 21;
+    text-align: center;
+}
+
+.popup:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: "";
+    width: 1px;
+    height: 100vh;
 }
 
 .popup_content {
+    display: inline-block !important;
+    vertical-align: middle;
+    flex-direction: column;
     width: 280px;
+    max-width: calc(100vw - 1px);
     background: #FFF;
     box-shadow: 0 5px 25px rgba(0, 0, 0, .1);
     border-radius: 3px;
     margin: 30px auto;
     padding: 0 10px 10px 10px;
     position: relative;
+    text-align: left;
+}
+
+.popup_content > * {
+    width: 100%;
 }
 
 .popup_content .close {
