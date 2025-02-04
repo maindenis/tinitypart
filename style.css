@@ -6456,11 +6456,11 @@ textarea + p.error_text {
     padding: 5px 20px;
 }
 
-.balance_table_1_1_row .cell_1 {
+.balance_table_1_1_row .cell-price {
     width: 60%;
 }
 
-.balance_table_1_1_row .cell_2 {
+.balance_table_1_1_row .cell-value {
     width: 40%;
     text-align: right;
 }
@@ -6480,11 +6480,11 @@ textarea + p.error_text {
     color: #262728;
 }
 
-.balance_table_1_1_row .cell_2 p {
+.balance_table_1_1_row .cell-price p {
     font-weight: 700;
 }
 
-.balance_table_1_1_row .cell_2 p.red {
+.balance_table_1_1_row .cell-value p.red {
     color: #ff4a4a;
 }
 
@@ -6503,11 +6503,11 @@ textarea + p.error_text {
     padding: 5px 20px;
 }
 
-.balance_table_1_2_row .cell_1 {
+.balance_table_1_2_row .cell-month {
     width: 60%;
 }
 
-.balance_table_1_2_row .cell_2 {
+.balance_table_1_2_row .cell-value {
     width: 40%;
     text-align: right;
 }
@@ -6523,11 +6523,11 @@ textarea + p.error_text {
     color: #262728;
 }
 
-.balance_table_1_2_row .cell_2 p {
+.balance_table_1_2_row .cell-value p {
     font-weight: 700;
 }
 
-.balance_table_1_2_row .cell_2 p.red {
+.balance_table_1_2_row .cell-value p.red {
     color: #ff4a4a;
 }
 
@@ -6614,6 +6614,14 @@ textarea + p.error_text {
     color: #262728;
 }
 
+.balance_table_2_row:hover {
+    background: #5C6D89 !important;
+}
+
+.balance_table_2_row:hover .cell p {
+    color: #fff !important;
+}
+
 .balance_table_2_row h3 {
     display: none;
 }
@@ -6634,38 +6642,38 @@ textarea + p.error_text {
     padding: 5px 10px;
 }
 
-.balance_table_main .cell_1 {
+.balance_table_main .cell-ch {
     width: 53px;
 }
 
-.balance_table_main .cell_2 {
+.balance_table_main .cell-data {
     width: 125px;
     text-align: center;
     justify-content: center;
 }
 
-.balance_table_main .cell_3 {
+.balance_table_main .cell-consumption {
     width: 125px;
     text-align: center;
     justify-content: center;
 }
 
-.balance_table_main .cell_4 {
+.balance_table_main .cell-coming {
     width: 125px;
     text-align: center;
     justify-content: center;
 }
 
-.balance_table_main .cell_5 {
+.balance_table_main .cell-base {
     width: calc(50% - 214px);
 }
 
-.balance_table_main .cell_6 {
+.balance_table_main .cell-comment {
     width: calc(50% - 214px);
     border-right: 1px solid #E4E5E6;
 }
 
-.balance_table_main .cell_6_2 {
+.balance_table_main .cell-form {
     display: none;
 }
 
@@ -6838,34 +6846,34 @@ textarea + p.error_text {
     padding: 5px 10px !important;
 }
 
-.balance_table_main_inner .cell_1 {
+.balance_table_main_inner .cell-article {
     width: 130px !important;
     text-align: center;
 }
 
-.balance_table_main_inner .cell_2 {
+.balance_table_main_inner .cell-brand {
     width: 105px !important;
 }
 
-.balance_table_main_inner .cell_3 {
+.balance_table_main_inner .cell-name {
     width: calc(100% - 750px) !important;
     text-align: left;
 }
 
-.balance_table_main_inner .cell_4 {
+.balance_table_main_inner .cell-count {
     width: 70px !important;
 }
 
-.balance_table_main_inner .cell_5 {
+.balance_table_main_inner .cell-price {
     width: 100px !important;
 }
 
-.balance_table_main_inner .cell_6 {
+.balance_table_main_inner .cell-sum {
     width: 100px !important;
     border-right: none;
 }
 
-.balance_table_main_inner .cell_7 {
+.balance_table_main_inner .cell-comment {
     width: 245px !important;
 }
 
@@ -6931,19 +6939,19 @@ textarea + p.error_text {
     border: none !important;
 }
 
-.balance_table_main_row.no_cell .cell_3 p,
-.balance_table_main_row.no_cell .cell_4 p {
+.balance_table_main_row.no_cell .cell-consumption p,
+.balance_table_main_row.no_cell .cell-coming p {
     font-size: 14px;
     color: #7fc388;
     font-weight: 700;
 }
 
-.balance_table_main_row.no_cell .cell_5 p {
+.balance_table_main_row.no_cell .cell-base p {
     font-size: 14px;
     font-weight: 700; 
 }
 
-.balance_table_main_row.no_cell .cell_5 p span {
+.balance_table_main_row.no_cell .cell-base p span {
     color: #7fc388;
     padding-left: 20px;
 }

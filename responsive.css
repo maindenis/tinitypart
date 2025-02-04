@@ -2623,51 +2623,51 @@
 
 /*-- Section 1 - Balance --*/
 
-.balance_table_main .cell_2 {
+.balance_table_main .cell-data {
     width: 100px;
 }
 
-.balance_table_main .cell_3 {
+.balance_table_main .cell-consumption {
     width: 100px;
 }
 
-.balance_table_main .cell_4 {
+.balance_table_main .cell-coming {
     width: 100px;
 }
 
-.balance_table_main .cell_5 {
+.balance_table_main .cell-base {
     width: calc(50% - 150px);
 }
 
-.balance_table_main .cell_6 {
+.balance_table_main .cell-comment {
     width: calc(50% - 150px);
 }
 
-.balance_table_main_inner .cell_1 {
+.balance_table_main_inner .cell-article {
     width: 100px !important;
 }
 
-.balance_table_main_inner .cell_2 {
+.balance_table_main_inner .cell-brand {
     width: 90px !important;
 }
 
-.balance_table_main_inner .cell_3 {
+.balance_table_main_inner .cell-name {
     width: calc(100% - 512px) !important;
 }
 
-.balance_table_main_inner .cell_4 {
+.balance_table_main_inner .cell-count {
     width: 60px !important;
 }
 
-.balance_table_main_inner .cell_5 {
+.balance_table_main_inner .cell-price {
     width: 70px !important;
 }
 
-.balance_table_main_inner .cell_6 {
+.balance_table_main_inner .cell-sum {
     width: 70px !important;
 }
 
-.balance_table_main_inner .cell_7 {
+.balance_table_main_inner .cell-comment {
     width: 120px !important;
 }
 
@@ -4309,7 +4309,7 @@ h1 {
     justify-content: flex-start;
 }
 
-.balance_table_2_row .cell_6 {
+.balance_table_2_row .cell-deadline {
     border-right: none;
 }
 
@@ -4330,7 +4330,7 @@ h1 {
     display: none;
 }
 
-.balance_table_main_header .cell_6_2 {
+.balance_table_main_header .cell-form {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -4402,27 +4402,27 @@ h1 {
     padding-right: 5px;
 }
 
-.balance_table_main_inner .cell_1 {
+.balance_table_main_inner .cell-article {
     width: 60px !important;
 }
 
-.balance_table_main_inner .cell_2 {
+.balance_table_main_inner .cell-brand {
     width: 90px !important;
 }
 
-.balance_table_main_inner .cell_3 {
+.balance_table_main_inner .cell-name {
     width: calc(100% - 150px) !important;
 }
 
-.balance_table_main_inner .cell_5 {
+.balance_table_main_inner .cell-price {
     width: 50px !important;
 }
 
-.balance_table_main_inner .cell_6 {
+.balance_table_main_inner .cell-sum {
     width: 50px !important;
 }
 
-.balance_table_main_inner .cell_7 {
+.balance_table_main_inner .cell-comment {
     width: calc(100% - 160px) !important;
 }
 
@@ -4676,18 +4676,18 @@ h1 {
     border-left: none;
 }
 
-.balance_table_main .cell_1 {
+.balance_table_main .cell-ch {
     width: 42px;
 }
 
-.balance_table_main .cell_2,
-.balance_table_main .cell_3,
-.balance_table_main .cell_4 {
+.balance_table_main .cell-data,
+.balance_table_main .cell-consumption,
+.balance_table_main .cell-coming {
     width: calc(33.33% - 14px);
 }
 
-.balance_table_main .cell_5,
-.balance_table_main .cell_6 {
+.balance_table_main .cell-base,
+.balance_table_main .cell-comment {
     width: 50%;
 }
 
