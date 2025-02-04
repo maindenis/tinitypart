@@ -965,11 +965,10 @@ $(document).ready(function() {
         img = $(this).children("img");
         img.remove();
         id = $(this).attr("id");
+        mapZoom = $(this).attr("data-zoom");
+        lat = $(this).attr("data-lat");
+        long = $(this).attr("data-long");
         ymaps.ready(function () {
-            mapZoom = $(this).attr("data-zoom");
-            lat = $(this).attr("data-lat");
-            long = $(this).attr("data-long");
-            console.log(id);
             var myMap = new ymaps.Map(id, {
                 center: [long, lat],
                 zoom: mapZoom
