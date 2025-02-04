@@ -103,10 +103,13 @@ $(document).ready(function() {
         parent = $(this).closest(".password_input");
         input = parent.find("input");
         if(input.attr("type") == "password") {
+            parent.addClass("novisible");
             input.attr("type", "text");
-        } else {
+        }        
+        setTimeout(function() {
             input.attr("type", "password");
-        }
+            parent.removeClass("novisible");
+        }, 3000);
     });
 
     $('.btn_top').on('click', function (e) {
@@ -948,15 +951,38 @@ $(document).ready(function() {
 
     // ------------
 
-    // var counter=0;
-    // var mapZoom;
-    // var lat;
-    // var long;
-    // $(".map").each(function() {
-    //     counter++;
-    //     $(this).attr("id", 'map'+counter);
-    // });
-    // var counter=0;
+    var counter=0;
+    var mapZoom;
+    var lat;
+    var long;
+    $(".map").each(function() {
+        counter++;
+        $(this).attr("id", 'map'+counter);
+    });
+    var counter=0;
+
+    $(".map").on("mouseover", function() {
+        img = $(this).children("img");
+        img.remove();
+        id = $(this).attr("id");
+        ymaps.ready(function () {
+            mapZoom = $(this).attr("data-zoom");
+            lat = $(this).attr("data-lat");
+            long = $(this).attr("data-long");
+            console.log(id);
+            var myMap = new ymaps.Map(id, {
+                center: [long, lat],
+                zoom: mapZoom
+            }, {
+                searchControlProvider: 'yandex#search'
+            });
+            myPlacemark1 = new ymaps.Placemark([long, lat], {
+                hintContent: ''
+            });
+            myMap.geoObjects.add(myPlacemark1);
+        });
+    });
+
     // $(".map").each(function() {
     //     ymaps.ready(function () {
     //         counter++;      
@@ -976,5 +1002,7 @@ $(document).ready(function() {
     //         myMap.geoObjects.add(myPlacemark1);        
     //     });
     // });
+
+
 
 });
