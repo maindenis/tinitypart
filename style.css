@@ -6126,73 +6126,73 @@ textarea + p.error_text {
     justify-content: center;
 }
 
-.card_table_header .cell_14_2 {
+.card_table_header .cell-resp {
     display: none;
 }
 
-.card_table .cell_1 {
+.card_table .cell-ch {
     width: 60px;
 }
 
-.card_table .cell_2 {
+.card_table .cell-article {
     width: 140px;
 }
 
-.card_table .cell_3 {
+.card_table .cell-name {
     width: calc(100% - 1303px);
     text-align: left;
     justify-content: flex-start;
 }
 
-.card_table .cell_4 {
+.card_table .cell-brand {
     width: 179px;
 }
 
-.card_table .cell_5 {
+.card_table .cell-term {
     width: 75px;
 }
 
-.card_table .cell_6 {
+.card_table .cell-warehouse {
     width: 120px;
 }
 
-.card_table .cell_7 {
+.card_table .cell-count {
     width: 67px;
 }
 
-.card_table .cell_8 {
+.card_table .cell-price {
     width: 79px;
 }
 
-.card_table .cell_9 {
+.card_table .cell-sale {
     width: 93px;
 }
 
-.card_table .cell_10 {
+.card_table .cell-percent {
     width: 85px;
 }
 
-.card_table .cell_11 {
+.card_table .cell-sum {
     width: 98px;
 }
 
-.card_table .cell_12 {
+.card_table .cell-sum-sale {
     width: 127px;
 }
 
-.card_table .cell_13 {
+.card_table .cell-comments {
     width: 130px;
 }
 
-.card_table .cell_14 {
+.card_table .cell-del {
     width: 50px;
 }
 
-.card_table.opt .cell_3 {
+.card_table.opt .cell-name {
     width: calc(100% - 1224px);
 }
 
-.card_table.opt .cell_8 {
+.card_table.opt .cell-price {
     display: none;
 }
 
@@ -6378,6 +6378,45 @@ textarea + p.error_text {
     align-items: center;
     min-width: 260px;
     text-transform: uppercase;
+}
+
+.card_table_dr_header {
+    display: flex;
+    background: #5C6D89;
+    padding: 15px 7px;
+}
+
+.card_table_dr.dr_table_parent .dr_content {
+    background: transparent;
+    padding: 0;
+    border: none;
+}
+
+.card_table_dr_header h3 {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .02em;
+    color: #fff;
+    position: relative;
+}
+
+.card_table_dr_header h3:after {
+    display: block;
+    content: "";
+    width: 12px;
+    height: 8px;
+    background-image: url(img/dr_arrow_white.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 5px;
+}
+
+.card_table_inputs_row {
+    margin-bottom: 13px;
 }
 
 /*-- /Section 1 - Cart --*/

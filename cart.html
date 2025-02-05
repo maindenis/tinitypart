@@ -427,356 +427,476 @@
 					</a>
 				</div>
 			</div>
-			<div class="card_table checkboxes_array sortTable">
-				<div class="card_table_header">
-					<div class="cell cell_1">
-						<label class="t_ch main_checkbox">
-							<input type="checkbox" />
-						</label>
-					</div>
-					<div class="cell cell_2">
-						<h3>Артикул</h3>
-					</div>
-					<div class="cell cell_3">
-						<h3>Наименование</h3>
-					</div>
-					<div class="cell cell_4">
-						<h3>Бренд</h3>
-					</div>
-					<div class="cell cell_5">
-						<h3>Срок</h3>
-					</div>
-					<div class="cell cell_6">
-						<h3>Склад</h3>
-					</div>
-					<div class="cell cell_7">
-						<h3>Шт.</h3>
-					</div>
-					<div class="cell cell_8">
-						<h3>Цена</h3>
-					</div>
-					<div class="cell cell_9">
-						<h3>Продажа</h3>
-					</div>
-					<div class="cell cell_10">
-						<h3>% изм. цены</h3>
-					</div>
-					<div class="cell cell_11">
-						<h3>Сумма</h3>
-					</div>
-					<div class="cell cell_12">
-						<h3>Сумма продаж</h3>
-					</div>
-					<div class="cell cell_13">
-						<h3>Примечание</h3>
-					</div>
-					<div class="cell cell_14"></div>
-					<div class="cell cell_14_2">
-						<form class="filter_form_sect">
-							<div class="filter_form_resp">
-								<input type="text" data-input-index="1">
-								<div class="custom_select small_blue">
-									<input value="" type="hidden">
-									<div class="custom_select_title">
-										<div class="p_val">Артикул</div>
+			<div class="card_table">
+				<div class="sortTable checkboxes_array">
+					<div class="card_table_header">
+						<div class="cell cell-ch">
+							<label class="t_ch main_checkbox">
+								<input type="checkbox" />
+							</label>
+						</div>
+						<div class="cell cell-article">
+							<h3>Артикул</h3>
+						</div>
+						<div class="cell cell-name">
+							<h3>Наименование</h3>
+						</div>
+						<div class="cell cell-brand">
+							<h3>Бренд</h3>
+						</div>
+						<div class="cell cell-term">
+							<h3>Срок</h3>
+						</div>
+						<div class="cell cell-warehouse">
+							<h3>Склад</h3>
+						</div>
+						<div class="cell cell-count">
+							<h3>Шт.</h3>
+						</div>
+						<div class="cell cell-price">
+							<h3>Цена</h3>
+						</div>
+						<div class="cell cell-sale">
+							<h3>Продажа</h3>
+						</div>
+						<div class="cell cell-percent">
+							<h3>% изм. цены</h3>
+						</div>
+						<div class="cell cell-sum">
+							<h3>Сумма</h3>
+						</div>
+						<div class="cell cell-sum-sale">
+							<h3>Сумма продаж</h3>
+						</div>
+						<div class="cell cell-comments">
+							<h3>Примечание</h3>
+						</div>
+						<div class="cell cell-del"></div>
+						<div class="cell cell-resp">
+							<form class="filter_form_sect">
+								<div class="filter_form_resp">
+									<input type="text" data-input-index="1">
+									<div class="custom_select small_blue">
+										<input value="" type="hidden">
+										<div class="custom_select_title">
+											<div class="p_val">Артикул</div>
+										</div>
+										<div class="custom_dr">
+											<ul class="custom_select_list checkout_list">
+												<li data-option-val="Артикул" data-input-index-item="1">Артикул</li>
+												<li data-option-val="Бренд" data-input-index-item="3">Бренд</li>
+												<li data-option-val="Прим" data-input-index-item="12">Прим</li>
+											</ul>
+										</div>
 									</div>
-									<div class="custom_dr">
-										<ul class="custom_select_list checkout_list">
-											<li data-option-val="Артикул" data-input-index-item="1">Артикул</li>
-											<li data-option-val="Бренд" data-input-index-item="3">Бренд</li>
-											<li data-option-val="Прим" data-input-index-item="12">Прим</li>
-										</ul>
+								</div>
+							</form>
+						</div>
+					</div>
+					<div class="card_table_inputs_row">
+						<div class="cell cell-ch"></div>
+						<div class="cell cell-article">
+							<input class="t_input" type="text" name="#" />
+						</div>
+						<div class="cell cell-name"></div>
+						<div class="cell cell-brand">
+							<input class="t_input" type="text" name="#" />
+						</div>
+						<div class="cell cell-term"></div>
+						<div class="cell cell-warehouse"></div>
+						<div class="cell cell-count"></div>
+						<div class="cell cell-price"></div>
+						<div class="cell cell-sale"></div>
+						<div class="cell cell-percent"></div>
+						<div class="cell cell-sum"></div>
+						<div class="cell cell-sum-sale"></div>
+						<div class="cell cell-comments">
+							<input class="t_input" type="text" name="#" />
+						</div>
+						<div class="cell cell-del"></div>
+					</div>
+					<div class="checkboxes_array">
+						<div class="card_table_dr dr_parent dr_table_parent active">
+							<div class="card_table_dr_header">
+								<label class="t_ch main_checkbox">
+									<input type="checkbox" />
+								</label>
+								<div class="dr_title table_title">
+									<h3>Мои заказы:</h3>
+								</div>
+							</div>
+							<div class="dr_content">
+								<div class="ch_childrens sortBox">
+									<div class="card_table_row sortRow">
+										<div class="cell cell-ch">
+											<label class="t_ch dark">
+												<input type="checkbox" />
+											</label>
+										</div>
+										<div class="cell cell-article" data-filter = "A61205">
+											<div>
+												<h3>Артикул</h3>
+												<p><a href="#">A61205</a></p>
+											</div>
+										</div>
+										<div class="cell cell-name">
+											<div>
+												<h3>Наименование</h3>
+												<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+											</div>
+										</div>
+										<div class="cell cell-brand" data-filter = "FENOX">
+											<div>
+												<h3>Бренд</h3>
+												<p>FENOX</p>
+											</div>
+										</div>
+										<div class="cell cell-term">
+											<div>
+												<h3>Срок</h3>
+												<p>2</p>
+											</div>
+										</div>
+										<div class="cell cell-warehouse">
+											<div>
+												<h3>Склад</h3>
+												<p>Trinity-Parts 71</p>
+											</div>
+										</div>
+										<div class="cell cell-count">
+											<div>
+												<h3>Шт</h3>
+												<div class="input_number count_box">
+													<input type="number" value="1" name="number" />
+													<button type="button" class="plus_btn"></button>
+													<button type="button" class="minus_btn"></button>
+												</div>
+											</div>
+										</div>
+										<div class="cell cell-price">
+											<div>
+												<h3>Цена</h3>
+												<p>3 295,00</p>
+											</div>
+										</div>
+										<div class="cell cell-sale">
+											<div>
+												<h3>Продажа</h3>
+												<input class="t_input" value="3295.00" type="number" name="#" />
+											</div>
+										</div>
+										<div class="cell cell-percent">
+											<div>
+												<h3>% изм. цены</h3>
+												<i class="stop"></i>
+											</div>
+										</div>
+										<div class="cell cell-sum">
+											<div>
+												<h3>Сумма</h3>
+												<p>3 295,00</p>
+											</div>
+										</div>
+										<div class="cell cell-sum-sale">
+											<div>
+												<h3>Сумма продаж</h3>
+												<p>3 295,00</p>
+											</div>
+										</div>
+										<div class="cell cell-comments" data-filter = "">
+											<div>
+												<h3>Примечание</h3>
+												<input class="t_input" type="text" name="#" />
+											</div>
+										</div>
+										<div class="cell cell-del">
+											<a href="#" class="icon_link">
+												<img src="img/icon_40.svg" alt="" />
+											</a>
+										</div>
+									</div>
+									<div class="card_table_row sortRow">
+										<div class="cell cell-ch">
+											<label class="t_ch dark">
+												<input type="checkbox" />
+											</label>
+										</div>
+										<div class="cell cell-article" data-filter = "A61205">
+											<div>
+												<h3>Артикул</h3>
+												<p><a href="#">A61205</a></p>
+											</div>
+										</div>
+										<div class="cell cell-name">
+											<div>
+												<h3>Наименование</h3>
+												<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+											</div>
+										</div>
+										<div class="cell cell-brand" data-filter = "FENOX">
+											<div>
+												<h3>Бренд</h3>
+												<p>FENOX</p>
+											</div>
+										</div>
+										<div class="cell cell-term">
+											<div>
+												<h3>Срок</h3>
+												<p>2</p>
+											</div>
+										</div>
+										<div class="cell cell-warehouse">
+											<div>
+												<h3>Склад</h3>
+												<p>Trinity-Parts 71</p>
+											</div>
+										</div>
+										<div class="cell cell-count">
+											<div>
+												<h3>Шт</h3>
+												<div class="input_number count_box">
+													<input type="number" value="1" name="number" />
+													<button type="button" class="plus_btn"></button>
+													<button type="button" class="minus_btn"></button>
+												</div>
+											</div>
+										</div>
+										<div class="cell cell-price">
+											<div>
+												<h3>Цена</h3>
+												<p>3 295,00</p>
+											</div>
+										</div>
+										<div class="cell cell-sale">
+											<div>
+												<h3>Продажа</h3>
+												<input class="t_input" value="3295.00" type="number" name="#" />
+											</div>
+										</div>
+										<div class="cell cell-percent">
+											<div>
+												<h3>% изм. цены</h3>
+												<i class="stop"></i>
+											</div>
+										</div>
+										<div class="cell cell-sum">
+											<div>
+												<h3>Сумма</h3>
+												<p>3 295,00</p>
+											</div>
+										</div>
+										<div class="cell cell-sum-sale">
+											<div>
+												<h3>Сумма продаж</h3>
+												<p>3 295,00</p>
+											</div>
+										</div>
+										<div class="cell cell-comments" data-filter = "">
+											<div>
+												<h3>Примечание</h3>
+												<input class="t_input" type="text" name="#" />
+											</div>
+										</div>
+										<div class="cell cell-del">
+											<a href="#" class="icon_link">
+												<img src="img/icon_40.svg" alt="" />
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>
-						</form>
+						</div>
 					</div>
-				</div>
-				<div class="card_table_inputs_row">
-					<div class="cell cell_1"></div>
-					<div class="cell cell_2">
-						<input class="t_input" type="text" name="#" />
-					</div>
-					<div class="cell cell_3"></div>
-					<div class="cell cell_4">
-						<input class="t_input" type="text" name="#" />
-					</div>
-					<div class="cell cell_5"></div>
-					<div class="cell cell_6"></div>
-					<div class="cell cell_7"></div>
-					<div class="cell cell_8"></div>
-					<div class="cell cell_9"></div>
-					<div class="cell cell_10"></div>
-					<div class="cell cell_11"></div>
-					<div class="cell cell_12"></div>
-					<div class="cell cell_13">
-						<input class="t_input" type="text" name="#" />
-					</div>
-					<div class="cell cell_14"></div>
-				</div>
-				<div class="ch_childrens sortBox">
-					<div class="card_table_row sortRow">
-						<div class="cell cell_1">
-							<label class="t_ch dark">
-								<input type="checkbox" />
-							</label>
-						</div>
-						<div class="cell cell_2" data-filter = "A61205">
-							<div>
-								<h3>Артикул</h3>
-								<p><a href="#">A61205</a></p>
-							</div>
-						</div>
-						<div class="cell cell_3">
-							<div>
-								<h3>Наименование</h3>
-								<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
-							</div>
-						</div>
-						<div class="cell cell_4" data-filter = "FENOX">
-							<div>
-								<h3>Бренд</h3>
-								<p>FENOX</p>
-							</div>
-						</div>
-						<div class="cell cell_5">
-							<div>
-								<h3>Срок</h3>
-								<p>2</p>
-							</div>
-						</div>
-						<div class="cell cell_6">
-							<div>
-								<h3>Склад</h3>
-								<p>Trinity-Parts 71</p>
-							</div>
-						</div>
-						<div class="cell cell_7">
-							<div>
-								<h3>Шт</h3>
-								<div class="input_number count_box">
-									<input type="number" value="1" name="number" />
-									<button type="button" class="plus_btn"></button>
-									<button type="button" class="minus_btn"></button>
+					<div class="checkboxes_array">
+						<div class="card_table_dr dr_parent dr_table_parent active">
+							<div class="card_table_dr_header">
+								<label class="t_ch main_checkbox">
+									<input type="checkbox" />
+								</label>
+								<div class="dr_title table_title">
+									<h3>Гусейнов Игорь:</h3>
 								</div>
 							</div>
-						</div>
-						<div class="cell cell_8">
-							<div>
-								<h3>Цена</h3>
-								<p>3 295,00</p>
-							</div>
-						</div>
-						<div class="cell cell_9">
-							<div>
-								<h3>Продажа</h3>
-								<input class="t_input" value="3295.00" type="number" name="#" />
-							</div>
-						</div>
-						<div class="cell cell_10">
-							<div>
-								<h3>% изм. цены</h3>
-								<i class="stop"></i>
-							</div>
-						</div>
-						<div class="cell cell_11">
-							<div>
-								<h3>Сумма</h3>
-								<p>3 295,00</p>
-							</div>
-						</div>
-						<div class="cell cell_12">
-							<div>
-								<h3>Сумма продаж</h3>
-								<p>3 295,00</p>
-							</div>
-						</div>
-						<div class="cell cell_13" data-filter = "">
-							<div>
-								<h3>Примечание</h3>
-								<input class="t_input" type="text" name="#" />
-							</div>
-						</div>
-						<div class="cell cell_14">
-							<a href="#" class="icon_link">
-								<img src="img/icon_40.svg" alt="" />
-							</a>
-						</div>
-					</div>
-					<div class="card_table_row sortRow">
-						<div class="cell cell_1">
-							<label class="t_ch dark">
-								<input type="checkbox" />
-							</label>
-						</div>
-						<div class="cell cell_2" data-filter = "A61205">
-							<div>
-								<h3>Артикул</h3>
-								<p><a href="#">A61205</a></p>
-							</div>
-						</div>
-						<div class="cell cell_3">
-							<div>
-								<h3>Наименование</h3>
-								<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
-							</div>
-						</div>
-						<div class="cell cell_4" data-filter = "FENOX">
-							<div>
-								<h3>Бренд</h3>
-								<p>FENOX</p>
-							</div>
-						</div>
-						<div class="cell cell_5">
-							<div>
-								<h3>Срок</h3>
-								<p>2</p>
-							</div>
-						</div>
-						<div class="cell cell_6">
-							<div>
-								<h3>Склад</h3>
-								<p>Trinity-Parts 71</p>
-							</div>
-						</div>
-						<div class="cell cell_7">
-							<div>
-								<h3>Шт</h3>
-								<div class="input_number count_box">
-									<input type="number" value="1" name="number" />
-									<button type="button" class="plus_btn"></button>
-									<button type="button" class="minus_btn"></button>
+							<div class="dr_content">
+								<div class="ch_childrens sortBox">
+									<div class="card_table_row sortRow">
+										<div class="cell cell-ch">
+											<label class="t_ch dark">
+												<input type="checkbox" />
+											</label>
+										</div>
+										<div class="cell cell-article" data-filter = "A61205">
+											<div>
+												<h3>Артикул</h3>
+												<p><a href="#">A61205</a></p>
+											</div>
+										</div>
+										<div class="cell cell-name">
+											<div>
+												<h3>Наименование</h3>
+												<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+											</div>
+										</div>
+										<div class="cell cell-brand" data-filter = "FENOX">
+											<div>
+												<h3>Бренд</h3>
+												<p>FENOX</p>
+											</div>
+										</div>
+										<div class="cell cell-term">
+											<div>
+												<h3>Срок</h3>
+												<p>2</p>
+											</div>
+										</div>
+										<div class="cell cell-warehouse">
+											<div>
+												<h3>Склад</h3>
+												<p>Trinity-Parts 71</p>
+											</div>
+										</div>
+										<div class="cell cell-count">
+											<div>
+												<h3>Шт</h3>
+												<div class="input_number count_box">
+													<input type="number" value="1" name="number" />
+													<button type="button" class="plus_btn"></button>
+													<button type="button" class="minus_btn"></button>
+												</div>
+											</div>
+										</div>
+										<div class="cell cell-price">
+											<div>
+												<h3>Цена</h3>
+												<p>3 295,00</p>
+											</div>
+										</div>
+										<div class="cell cell-sale">
+											<div>
+												<h3>Продажа</h3>
+												<input class="t_input" value="3295.00" type="number" name="#" />
+											</div>
+										</div>
+										<div class="cell cell-percent">
+											<div>
+												<h3>% изм. цены</h3>
+												<i class="stop"></i>
+											</div>
+										</div>
+										<div class="cell cell-sum">
+											<div>
+												<h3>Сумма</h3>
+												<p>3 295,00</p>
+											</div>
+										</div>
+										<div class="cell cell-sum-sale">
+											<div>
+												<h3>Сумма продаж</h3>
+												<p>3 295,00</p>
+											</div>
+										</div>
+										<div class="cell cell-comments" data-filter = "">
+											<div>
+												<h3>Примечание</h3>
+												<input class="t_input" type="text" name="#" />
+											</div>
+										</div>
+										<div class="cell cell-del">
+											<a href="#" class="icon_link">
+												<img src="img/icon_40.svg" alt="" />
+											</a>
+										</div>
+									</div>
+									<div class="card_table_row sortRow">
+										<div class="cell cell-ch">
+											<label class="t_ch dark">
+												<input type="checkbox" />
+											</label>
+										</div>
+										<div class="cell cell-article" data-filter = "A61205">
+											<div>
+												<h3>Артикул</h3>
+												<p><a href="#">A61205</a></p>
+											</div>
+										</div>
+										<div class="cell cell-name">
+											<div>
+												<h3>Наименование</h3>
+												<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+											</div>
+										</div>
+										<div class="cell cell-brand" data-filter = "FENOX">
+											<div>
+												<h3>Бренд</h3>
+												<p>FENOX</p>
+											</div>
+										</div>
+										<div class="cell cell-term">
+											<div>
+												<h3>Срок</h3>
+												<p>2</p>
+											</div>
+										</div>
+										<div class="cell cell-warehouse">
+											<div>
+												<h3>Склад</h3>
+												<p>Trinity-Parts 71</p>
+											</div>
+										</div>
+										<div class="cell cell-count">
+											<div>
+												<h3>Шт</h3>
+												<div class="input_number count_box">
+													<input type="number" value="1" name="number" />
+													<button type="button" class="plus_btn"></button>
+													<button type="button" class="minus_btn"></button>
+												</div>
+											</div>
+										</div>
+										<div class="cell cell-price">
+											<div>
+												<h3>Цена</h3>
+												<p>3 295,00</p>
+											</div>
+										</div>
+										<div class="cell cell-sale">
+											<div>
+												<h3>Продажа</h3>
+												<input class="t_input" value="3295.00" type="number" name="#" />
+											</div>
+										</div>
+										<div class="cell cell-percent">
+											<div>
+												<h3>% изм. цены</h3>
+												<i class="stop"></i>
+											</div>
+										</div>
+										<div class="cell cell-sum">
+											<div>
+												<h3>Сумма</h3>
+												<p>3 295,00</p>
+											</div>
+										</div>
+										<div class="cell cell-sum-sale">
+											<div>
+												<h3>Сумма продаж</h3>
+												<p>3 295,00</p>
+											</div>
+										</div>
+										<div class="cell cell-comments" data-filter = "">
+											<div>
+												<h3>Примечание</h3>
+												<input class="t_input" type="text" name="#" />
+											</div>
+										</div>
+										<div class="cell cell-del">
+											<a href="#" class="icon_link">
+												<img src="img/icon_40.svg" alt="" />
+											</a>
+										</div>
+									</div>
 								</div>
 							</div>
-						</div>
-						<div class="cell cell_8">
-							<div>
-								<h3>Цена</h3>
-								<p>3 295,00</p>
-							</div>
-						</div>
-						<div class="cell cell_9">
-							<div>
-								<h3>Продажа</h3>
-								<input class="t_input" value="3295.00" type="number" name="#" />
-							</div>
-						</div>
-						<div class="cell cell_10">
-							<div>
-								<h3>% изм. цены</h3>
-								<i class="stop"></i>
-							</div>
-						</div>
-						<div class="cell cell_11">
-							<div>
-								<h3>Сумма</h3>
-								<p>3 295,00</p>
-							</div>
-						</div>
-						<div class="cell cell_12">
-							<div>
-								<h3>Сумма продаж</h3>
-								<p>3 295,00</p>
-							</div>
-						</div>
-						<div class="cell cell_13" data-filter = "">
-							<div>
-								<h3>Примечание</h3>
-								<input class="t_input" type="text" name="#" />
-							</div>
-						</div>
-						<div class="cell cell_14">
-							<a href="#" class="icon_link">
-								<img src="img/icon_40.svg" alt="" />
-							</a>
-						</div>
-					</div>
-					<div class="card_table_row sortRow">
-						<div class="cell cell_1">
-							<label class="t_ch dark">
-								<input type="checkbox" />
-							</label>
-						</div>
-						<div class="cell cell_2" data-filter = "A61205">
-							<div>
-								<h3>Артикул</h3>
-								<p><a href="#">A61205</a></p>
-							</div>
-						</div>
-						<div class="cell cell_3">
-							<div>
-								<h3>Наименование</h3>
-								<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
-							</div>
-						</div>
-						<div class="cell cell_4" data-filter = "FENOX">
-							<div>
-								<h3>Бренд</h3>
-								<p>FENOX</p>
-							</div>
-						</div>
-						<div class="cell cell_5">
-							<div>
-								<h3>Срок</h3>
-								<p>2</p>
-							</div>
-						</div>
-						<div class="cell cell_6">
-							<div>
-								<h3>Склад</h3>
-								<p>Trinity-Parts 71</p>
-							</div>
-						</div>
-						<div class="cell cell_7">
-							<div>
-								<h3>Шт</h3>
-								<div class="input_number count_box">
-									<input type="number" value="1" name="number" />
-									<button type="button" class="plus_btn"></button>
-									<button type="button" class="minus_btn"></button>
-								</div>
-							</div>
-						</div>
-						<div class="cell cell_8">
-							<div>
-								<h3>Цена</h3>
-								<p>3 295,00</p>
-							</div>
-						</div>
-						<div class="cell cell_9">
-							<div>
-								<h3>Продажа</h3>
-								<input class="t_input" value="3295.00" type="number" name="#" />
-							</div>
-						</div>
-						<div class="cell cell_10">
-							<div>
-								<h3>% изм. цены</h3>
-								<i class="stop"></i>
-							</div>
-						</div>
-						<div class="cell cell_11">
-							<div>
-								<h3>Сумма</h3>
-								<p>3 295,00</p>
-							</div>
-						</div>
-						<div class="cell cell_12">
-							<div>
-								<h3>Сумма продаж</h3>
-								<p>3 295,00</p>
-							</div>
-						</div>
-						<div class="cell cell_13" data-filter = "">
-							<div>
-								<h3>Примечание</h3>
-								<input class="t_input" type="text" name="#" />
-							</div>
-						</div>
-						<div class="cell cell_14">
-							<a href="#" class="icon_link">
-								<img src="img/icon_40.svg" alt="" />
-							</a>
 						</div>
 					</div>
 				</div>

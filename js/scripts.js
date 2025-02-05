@@ -389,10 +389,13 @@ $(document).ready(function() {
     $(".main_checkbox input").on("change", function() {
       parentBlock = $(this).closest(".checkboxes_array");
       chChildrens = parentBlock.find(".ch_childrens input");
+      chMains = parentBlock.find(".main_checkbox input");
       if (!$(this).is(":checked")) {
         chChildrens.prop("checked", false);
+        chMains.prop("checked", false);
       } else {
         chChildrens.prop("checked", true);
+        chMains.prop("checked", true);
       }
     });
 
@@ -951,44 +954,24 @@ $(document).ready(function() {
 
     // ------------
 
-    var counter=0;
-    var mapZoom;
-    var lat;
-    var long;
-    $(".map").each(function() {
-        counter++;
-        $(this).attr("id", 'map'+counter);
-    });
-    var counter=0;
-
-    $(".map").on("mouseover", function() {
-        img = $(this).children("img");
-        img.remove();
-        id = $(this).attr("id");
-        mapZoom = $(this).attr("data-zoom");
-        lat = $(this).attr("data-lat");
-        long = $(this).attr("data-long");
-        ymaps.ready(function () {
-            var myMap = new ymaps.Map(id, {
-                center: [long, lat],
-                zoom: mapZoom
-            }, {
-                searchControlProvider: 'yandex#search'
-            });
-            myPlacemark1 = new ymaps.Placemark([long, lat], {
-                hintContent: ''
-            });
-            myMap.geoObjects.add(myPlacemark1);
-        });
-    });
-
+    // var counter=0;
+    // var mapZoom;
+    // var lat;
+    // var long;
     // $(".map").each(function() {
+    //     counter++;
+    //     $(this).attr("id", 'map'+counter);
+    // });
+
+    // $(".map").on("mouseover", function() {
+    //     img = $(this).children("img");
+    //     img.remove();
+    //     id = $(this).attr("id");
+    //     mapZoom = $(this).attr("data-zoom");
+    //     lat = $(this).attr("data-lat");
+    //     long = $(this).attr("data-long");
     //     ymaps.ready(function () {
-    //         counter++;      
-    //         mapZoom = $("#map"+counter).attr("data-zoom");
-    //         lat = $("#map"+counter).attr("data-lat");
-    //         long = $("#map"+counter).attr("data-long");   
-    //         var myMap = new ymaps.Map('map'+counter, {
+    //         var myMap = new ymaps.Map(id, {
     //             center: [long, lat],
     //             zoom: mapZoom
     //         }, {
@@ -996,12 +979,9 @@ $(document).ready(function() {
     //         });
     //         myPlacemark1 = new ymaps.Placemark([long, lat], {
     //             hintContent: ''
-    //         }, {
     //         });
-    //         myMap.geoObjects.add(myPlacemark1);        
+    //         myMap.geoObjects.add(myPlacemark1);
     //     });
     // });
-
-
 
 });
