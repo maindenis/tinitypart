@@ -1131,6 +1131,10 @@
     width: calc(100% - 976px);
 }
 
+.card_table_header {
+    margin-bottom: 15px;
+}
+
 /*-- /Section 1 - Cart --*/
 
 }

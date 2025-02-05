@@ -6383,7 +6383,7 @@ textarea + p.error_text {
 .card_table_dr_header {
     display: flex;
     background: #5C6D89;
-    padding: 15px 7px;
+    padding: 15px 10px;
 }
 
 .card_table_dr.dr_table_parent .dr_content {
@@ -6417,6 +6417,25 @@ textarea + p.error_text {
 
 .card_table_inputs_row {
     margin-bottom: 13px;
+}
+
+.card_table_row:hover {
+    background: #5C6D89;
+    color: #fff;
+}
+
+.card_table_row:hover h3,
+.card_table_row:hover p,
+.card_table_row:hover p a {
+    color: #fff !important;
+}
+
+.card_table_row:hover .cell p a {
+    border-bottom: 1px solid #fff;
+}
+
+.card_table .table_title:after {
+    display: none;
 }
 
 /*-- /Section 1 - Cart --*/
