@@ -6563,7 +6563,8 @@ textarea + p.error_text {
 }
 
 .balance_table_2 {
-    max-width: 1024px;
+/*    max-width: 1024px;*/
+    max-width: 100%;
 }
 
 .balance_table_2 .cell {
@@ -6970,6 +6971,10 @@ textarea + p.error_text {
 
 .search_table_rows h3 {
     display: none;
+}
+
+.balance_table_2_title.yellow h3 {
+    color: #ffe440;
 }
 
 /*-- /Section 1 - Balance --*/
