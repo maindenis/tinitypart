@@ -4912,6 +4912,11 @@ h1 {
 }
 
 .article img {
+    margin: 7px 0 10px 0;
+    width: 100%;
+}
+
+.article img {
     height: auto;
     max-height: 100%;
 }

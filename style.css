@@ -2184,6 +2184,11 @@ select + p.error_text {
     margin: 7px 15px 5px 0;
 }
 
+.float-end {
+    float: right !important;
+    margin: 7px 0 5px 15px;
+}
+
 /*-- Section 1 - Article --*/
 
 /*-- Section 1 - Catalogs User --*/
