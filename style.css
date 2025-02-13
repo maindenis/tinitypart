@@ -1703,19 +1703,25 @@ textarea:focus {
 
 /*-- Section 1 - Forgot Password --*/
 
+.forgot_pass_form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.forgot_pass_form > * {
+    width: 100%;
+}
+
 .forgot_pass_form_title {
     padding: 10px 0 0 0;
+    text-align: center;
 }
 
 .forgot_pass_form {
     display: flex;
     flex-wrap: wrap;
     padding: 10px 0;
-}
-
-.forgot_pass_form > div:nth-child(1) {
-    width: 50%;
-    padding-right: 20px;
+    max-width: 365px;
 }
 
 .grey_pill {
@@ -1742,9 +1748,11 @@ textarea:focus {
 
 .btns_inline {
     display: flex;
+    justify-content: center;
 }
 
 .btns_inline > div {
+    width: 50%;
     padding: 0 2px;
 }
 
@@ -1752,6 +1760,7 @@ textarea:focus {
 .btns_inline > div button,
 .btns_inline > div a {
     min-height: 38px;
+    width: 100%;
 }
 
 /*-- /Section 1 - Forgot Password --*/
