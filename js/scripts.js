@@ -14,7 +14,6 @@ function getWrapperOffset() {
         $(".wrapper").css({
             "padding-top" : $("#headerSite").height() + "px"
         });
-        // console.log($("#headerSiteResp").height());
     } else {
         $(".wrapper").css({
             "padding-top" : 0
@@ -763,50 +762,50 @@ $(document).ready(function() {
         }
     });
 
-    $("input[required], textarea[required], select[required]").on("change", function() {
-        if($(this).attr("type") == "text") {
-            if($(this).val().length == 0 ) {
-                $(this).addClass("error");
-            } else {
-                $(this).removeClass("error");
-                $(this).addClass("conf");
-            }
-        }
-        if($(this).attr("type") == "tel") {
-            if($(this).val()[13] == "_" && $(this).val()[14] == "_" ) {
-                $(this).addClass("error");
-            } else {
-                $(this).removeClass("error");
-                $(this).addClass("conf");
-            }
-        }
-        if($(this).attr("type") == "email") {
-            var re = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-            var address = $(this).val();
-            if(re.test(address) == false) {
-                $(this).addClass("error");
-            } else {
-                $(this).removeClass("error");
-                $(this).addClass("conf");
-            }
-        }
-        if($(this).attr("type") == "number") {
-            if($(this).val() == '' ) {
-                $(this).addClass("error");
-            } else {
-                $(this).removeClass("error");
-                $(this).addClass("conf");
-            }
-        }
-        if($(this).attr("type") == "password") {
-            if($(this).val().length == 0 ) {
-                $(this).addClass("error");
-            } else {
-                $(this).removeClass("error");
-                $(this).addClass("conf");
-            }
-        }
-    });
+    // $("input[required], textarea[required], select[required]").on("change", function() {
+    //     if($(this).attr("type") == "text") {
+    //         if($(this).val().length == 0 ) {
+    //             $(this).addClass("error");
+    //         } else {
+    //             $(this).removeClass("error");
+    //             $(this).addClass("conf");
+    //         }
+    //     }
+    //     if($(this).attr("type") == "tel") {
+    //         if($(this).val()[13] == "_" && $(this).val()[14] == "_" ) {
+    //             $(this).addClass("error");
+    //         } else {
+    //             $(this).removeClass("error");
+    //             $(this).addClass("conf");
+    //         }
+    //     }
+    //     if($(this).attr("type") == "email") {
+    //         var re = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    //         var address = $(this).val();
+    //         if(re.test(address) == false) {
+    //             $(this).addClass("error");
+    //         } else {
+    //             $(this).removeClass("error");
+    //             $(this).addClass("conf");
+    //         }
+    //     }
+    //     if($(this).attr("type") == "number") {
+    //         if($(this).val() == '' ) {
+    //             $(this).addClass("error");
+    //         } else {
+    //             $(this).removeClass("error");
+    //             $(this).addClass("conf");
+    //         }
+    //     }
+    //     if($(this).attr("type") == "password") {
+    //         if($(this).val().length == 0 ) {
+    //             $(this).addClass("error");
+    //         } else {
+    //             $(this).removeClass("error");
+    //             $(this).addClass("conf");
+    //         }
+    //     }
+    // });
 
     $(".sortRow .t_input").on("keyup", function() {
         parent = $(this).closest("[data-filter]");
