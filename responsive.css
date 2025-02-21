@@ -2569,6 +2569,51 @@
     padding: 9px 10px 10px 0;
 }
 
+.node_table_header {
+    display: none;
+}
+
+.node_table_row {
+    flex-wrap: wrap;
+}
+
+.node_table_row .cell {
+    border-right: none;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.node_table .cell-articlum,
+.node_table .cell-brand,
+.node_table .cell-name {
+    width: 33.33%;
+}
+
+.node_table .cell-descript {
+    width: 100%;
+}
+
+.node_table_row h3 {
+    padding-bottom: 3px;
+    display: block;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: .02em;
+    color: #A8A9AA;
+}
+
+.node_table_row .cell {
+    align-items: flex-start;
+    text-align: left;
+    border: none;
+    padding: 7px 10px;
+}
+
+.node_table_row p {
+    font-size: 11px;
+}
+
 /*-- /Section 1 - List_of_nodes --*/
 
 /*-- Section 1 - List_of_categories --*/
