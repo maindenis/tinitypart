@@ -3794,6 +3794,7 @@ select + p.error_text {
 
 .dr_params_box > div {
     padding: 3px 18px;
+    width: 25%;
 }
 
 .custom_select_3_wrapp label {
@@ -3823,7 +3824,8 @@ select + p.error_text {
 }
 
 .custom_select_3 {
-    width: 195px;
+/*    width: 195px;*/
+width: 100%;
     height: 40px;
 }
 
@@ -3834,7 +3836,8 @@ select + p.error_text {
 }
 
 .custom_select_3 .custom_select_title {
-    width: 195px;
+/*    width: 195px;*/
+width: 100%;
     height: 40px;
     background: #F5F6F7;
     border: 1px solid #E4E5E6;
@@ -3844,7 +3847,8 @@ select + p.error_text {
 .custom_select_3 .p_val {
     background: #F5F6F7;
     padding: 5px 20px;
-    width: 195px;
+/*    width: 195px;*/
+width: 100%;
     height: 38px;
 }
 
@@ -3857,6 +3861,7 @@ select + p.error_text {
 }
 
 .dr_params_box .green_pill_2 {
+    width: 100%;
     min-height: 40px;
     font-size: 14px;
     line-height: 16px;
@@ -3865,6 +3870,7 @@ select + p.error_text {
 }
 
 .se_car_submit_wrapp .red_pill {
+    width: 100%;
     min-height: 40px;
     min-width: 220px;
     font-size: 14px;
