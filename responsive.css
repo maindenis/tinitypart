@@ -1849,7 +1849,7 @@ width: 33.33%;
 }
 
 .catalog_thumb_2_content {
-    min-height: 83px;
+    min-height: 55px;
 }
 
 .catalog_thumb_2_table_row > div:nth-child(1) p {
@@ -4524,6 +4524,16 @@ h1 {
 }
 
 /*-- /Section 1 - Search_for_a car_by_parameters --*/
+
+/*-- Section 1 - Selection_of_oils --*/
+
+.catalog_thumb_2 .img_box img.car_icon {
+    width: 25px;
+    top: 5px;
+    right: 5px;
+}
+
+/*-- /Section 1 - Selection_of_oils --*/
 
 }
 
