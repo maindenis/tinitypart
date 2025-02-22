@@ -4208,6 +4208,10 @@ textarea + p.error_text {
     background: #7FC388 !important;
 }
 
+.good_table_row.active {
+    background-color: #7fc388 !important;
+}
+
 .good_table_row.good_table_header {
     background: #5C6D89 !important;
 }
@@ -4260,6 +4264,7 @@ textarea + p.error_text {
 }
 
 .good_table_header h3 {
+    display: block !important;
     font-weight: 400;
     font-size: 12px;
     line-height: 14px;
@@ -9689,5 +9694,45 @@ body.fixed {
     border-bottom: 1px solid transparent;
 }
 
+.popup_content_image {
+    width: auto;
+    height: auto;
+/*    max-width: 80vw;*/
+/*    max-height: 80vh;*/
+    padding: 0;
+    text-align: center;
+}
+
+.node_img {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    height: auto;
+    max-width: 80vw;
+    max-height: 80vh;
+    position: relative;
+}
+
+.node_img img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 80vw;
+    max-height: 80vh;
+}
+
+.node_item {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.node_item.active {
+    border: 2px solid #ff0000;
+}
 
 /*-- /Popup --*/

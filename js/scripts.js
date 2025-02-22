@@ -953,6 +953,24 @@ $(document).ready(function() {
 
     // ------------
 
+    $("[data-node-index]").on("click", function(e) {
+        e.preventDefault();
+        index = $(this).attr("data-node-index");
+        $(this).toggleClass("active");
+        row = $("[data-index-row = '"+index+"']");
+        row.toggleClass("active");
+    });
+
+    $("[data-index-row]").on("click", function(e) {
+        e.preventDefault();
+        index = $(this).attr("data-index-row");
+        item = $("[data-node-index = '"+index+"']");
+        item.toggleClass("active");
+        $(this).toggleClass("active");
+    });
+
+    // ------------
+
     // var counter=0;
     // var mapZoom;
     // var lat;
