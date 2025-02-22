@@ -2124,6 +2124,24 @@ width: 33.33%;
 
 /*-- /Section 1 - Search --*/
 
+/*-- Section 1 - Selection_of_tires_by_Auto --*/
+
+.catalog_thumb_3 .img_box img.type_icon {
+    right: 10px;
+    top: 10px;
+    width: 20px;
+    height: auto;
+}
+
+.catalog_thumb_3 .img_box img.important_3 {
+    right: 10px;
+    top: 40px;
+    width: 20px;
+    height: auto;
+}
+
+/*-- /Section 1 - Selection_of_tires_by_Auto --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
