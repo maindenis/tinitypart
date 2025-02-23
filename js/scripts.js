@@ -21,6 +21,27 @@ function getWrapperOffset() {
     }
 }
 
+function setCellsParams() {
+    $(".rowCellsTable").each(function() {
+        rowCells = $(this).find(".rowCells:eq(0)");
+        cell = rowCells.find(".cell");
+        countCells = cell.length;
+        $(this).addClass("cells_"+countCells);
+        if(bodyWidth > 1240) {
+            tableWidth = $(this).width();
+            cellWidth = 100/countCells;
+            $(this).find(".cell").css({
+                "width" : "auto"
+            });
+            $(this).find(".cell").css({
+                "width" : cellWidth + "%"
+            });
+        } else {
+            $(this).find(".cell").attr("style", "");
+        }
+    });
+}
+
 var w = window,
 d = document,
 e = d.documentElement,
@@ -31,6 +52,7 @@ $(window).resize(function() {
     bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
     getRespParams();
     getWrapperOffset();
+    setCellsParams();
 });
 
 $(document).scroll(function() {
@@ -42,6 +64,7 @@ $(window).on("load", function() {});
 $(document).ready(function() {
     getRespParams();
     getWrapperOffset();
+    setCellsParams();
 
     if( $(".slider").length > 0 ) {
         $(".slider").not(".slick-initialized").slick({
@@ -968,6 +991,12 @@ $(document).ready(function() {
         item.toggleClass("active");
         $(this).toggleClass("active");
     });
+
+    // ------------
+
+    if($("#nodes").length > 0) {
+        $("#nodes").draggable();
+    }
 
     // ------------
 

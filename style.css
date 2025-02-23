@@ -3730,6 +3730,83 @@ select + p.error_text {
     background: #F5F6F7;
 }
 
+.found_table_wrapp {
+
+}
+
+.found_table_title {
+    padding: 10px 0 8px 0;
+}
+
+.found_table_title h3 {
+    font-weight: 500;
+    font-size: 1.75rem;
+    line-height: 1.2;
+    color: #212529;
+}
+
+.found_table_row {
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border-bottom: 1px solid #E4E5E6;
+}
+
+.found_table_row:hover {
+    background: #5C6D89 !important;
+}
+
+.found_table_row:hover p,
+.found_table_row:hover p a {
+    color: #fff !important;
+}
+
+.found_table_row:nth-child(odd) {
+    background: #F5F6F7;
+}
+
+.found_table_row > .cell {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border-right: 1px solid #E4E5E6;
+    text-align: center;
+    justify-content: center;
+    min-height: 40px;
+    padding: 10px 10px 10px 10px;
+}
+
+.found_table_row h3 {
+    display: none;
+}
+
+.found_table_header {
+    display: flex;
+    align-items: center;
+    background: #5C6D89 !important;
+    min-height: 40px;
+    border-bottom: 1px solid #E4E5E6;
+    text-align: center;
+}
+
+.found_table_header > .cell {
+    border: none;
+}
+
+.found_table_header h3 {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: .02em;
+    color: #FFF;
+}
+
+.found_table_row p {
+    font-size: 12px;
+    line-height: 140%;
+}
+
 /*-- /Section 1 - Non-original catalogs 4 --*/
 
 /*-- Section 1 - Original catalogs --*/

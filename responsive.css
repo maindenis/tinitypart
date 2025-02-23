@@ -2142,6 +2142,43 @@ width: 33.33%;
 
 /*-- /Section 1 - Selection_of_tires_by_Auto --*/
 
+/*-- Section 1 - Found_cars --*/
+
+.found_table_header {
+    display: none;
+}
+
+.found_table_row > .cell {
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    border-right: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.found_table_row h3 {
+    display: block;
+    padding-bottom: 3px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: .02em;
+    color: #A8A9AA;
+}
+
+.found_table_row p {
+    font-size: 11px;
+}
+
+.found_table_title h3 {
+    padding-left: 10px;
+    font-size: calc(1.3rem + .6vw); 
+}
+
+
+/*-- /Section 1 - Found_cars --*/
+
 }
 
 @media only screen and (max-width: 1124px) {
@@ -4553,6 +4590,14 @@ h1 {
 
 /*-- /Section 1 - Selection_of_oils --*/
 
+/*-- Section 1 - Found_cars --*/
+
+.found_table_wrapp {
+    margin: 0 -20px;
+}
+
+/*-- /Section 1 - Found_cars --*/
+
 }
 
 @media only screen and (max-width: 750px) {
@@ -5289,6 +5334,15 @@ h1 {
 }
 
 /*-- /Section 1 - Garagh --*/
+
+/*-- Section 1 - Found_cars --*/
+
+.cells_7 .cell {
+    width: 25%;
+    flex: none;
+}
+
+/*-- /Section 1 - Found_cars --*/
 
 /*-- Popup --*/
 
@@ -6237,6 +6291,30 @@ h1 {
 
 /*-- /Section 1 - Search --*/
 
+/*-- Section 1 - Found_cars --*/
+
+.cells_3 .cell {
+    width: 50%;
+    flex: none;
+}
+
+.cells_4 .cell {
+    width: 50%;
+    flex: none;
+}
+
+.cells_5 .cell {
+    width: 50%;
+    flex: none;
+}
+
+.cells_6 .cell {
+    width: 33.33%;
+    flex: none;
+}
+
+/*-- /Section 1 - Found_cars --*/
+
 /*-- Popup --*/
 
 .popup_content_4_2 {
@@ -6724,6 +6802,15 @@ h1 {
 
 /*-- /Section 1 - Cart --*/
 
+/*-- Section 1 - Found_cars --*/
+
+.cells_5 .cell {
+    width: 50%;
+    flex: none;
+}
+
+/*-- /Section 1 - Found_cars --*/
+
 /*-- Popup --*/
 
 .looked_text {
@@ -6885,6 +6972,20 @@ h1 {
 }
 
 /*-- /Section 1 - Search --*/
+
+/*-- Section 1 - Found_cars --*/
+
+.cells_6 .cell {
+    width: 50%;
+    flex: none;
+}
+
+.cells_7 .cell {
+    width: 50%;
+    flex: none;
+}
+
+/*-- /Section 1 - Found_cars --*/
 
 }
 
