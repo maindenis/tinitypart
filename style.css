@@ -1286,8 +1286,8 @@ textarea:focus {
 }
 
 .search_time_resp {
-    width: calc(100% - 60px);
-    max-width: 380px;
+    width: 100%;
+    max-width: 400px;
     height: 100vh;
     overflow-y: auto;
     overflow-x: hidden;
@@ -1298,11 +1298,11 @@ textarea:focus {
 }
 
 .str_table {
-    padding-bottom: 20px;
+    padding-bottom: 11px;
 }
 
 .str_title {
-    padding: 24px 0 20px 0;
+    padding: 17px 10px 20px 10px;
     text-align: center;
 }
 
@@ -1327,10 +1327,17 @@ textarea:focus {
     border: none;
     background-color: transparent;
     position: absolute;
-    top: 10px;
+    top: 23px;
     right: 10px;
     z-index: 2;
     cursor: pointer;
+    width: 17px;
+    height: 17px;
+}
+
+.search_time_resp .close svg {
+    width: 17px;
+    height: 17px;
 }
 
 .str_table_row {
@@ -1367,11 +1374,11 @@ textarea:focus {
 }
 
 .str_table_row > div:nth-child(1) {
-    width: 30px;
+    width: 35px;
 }
 
 .str_table_row > div:nth-child(2) {
-    width: calc(100% - 70px);
+    width: calc(100% - 75px);
     padding-right: 10px;
 }
 
@@ -1381,8 +1388,8 @@ textarea:focus {
 
 .glass {
     display: block;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 23px;
     background-image: url(img/glass.svg);
     background-repeat: no-repeat;
     background-position: center;

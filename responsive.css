@@ -3724,11 +3724,11 @@ h1 {
 /*-- Header --*/
 
 .header_templ_2 {
-    padding: 10px 0 10px 0;
+    padding: 4px 0 4px 0;
 }
 
 .header_templ_2 > div:nth-child(1) {
-    width: 80px;
+    width: 130px;
     padding: 2px 5px 0 0;
 }
 
@@ -3737,17 +3737,18 @@ h1 {
 }
 
 .header_templ_2 > div:nth-child(5) {
-    width: calc(100% - 80px);
+    width: calc(100% - 130px);
     order: 5;
 }
 
 .logo {
-    width: 73px;
+    width: 105px;
 }
 
 .resp_right_inlines {
     display: flex;
     justify-content: flex-end;
+    padding-top: 5px;
 }
 
 .login_thumb_resp {
@@ -3819,8 +3820,8 @@ h1 {
     display: block;
     background: #667793;
     border-radius: 3px;
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 36px;
     border: none;
     position: relative;
     cursor: pointer;
@@ -4005,6 +4006,30 @@ h1 {
 
 .resp_search_templ .p_val {
     width: 100%;
+}
+
+.search_box > div:nth-child(1) {
+    width: calc(100% - 65px);
+}
+
+.search_box > div:nth-child(2) {
+    width: 65px;
+}
+
+.search_box > div:nth-child(1) input {
+    height: 36px;
+    padding: 12px 30px 12px 10px;
+    font-size: 14px;
+}
+
+.search_box .green_pill_2 {
+    min-height: 36px;
+    font-weight: 400;
+}
+
+.time_btn {
+    top: 6px;
+    right: 6px;
 }
 
 /*-- /Header --*/
@@ -4597,6 +4622,14 @@ h1 {
 }
 
 /*-- /Section 1 - Found_cars --*/
+
+/*-- Footer --*/
+
+.footer_section_2 {
+    padding: 21px 0 60px 0;
+}
+
+/*-- /Footer --*/
 
 }
 
@@ -5436,7 +5469,7 @@ h1 {
 }
 
 .footer_section_2 {
-    padding: 5px 0 7px 0;
+    padding: 5px 0 60px 0;
 }
 
 .footer_nav li {
@@ -6864,10 +6897,6 @@ h1 {
 .pills_inline > div {
     width: 100%;
     padding: 3px 5px;
-}
-
-.str_table_row > div:nth-child(2) p {
-    font-size: 14px;
 }
 
 /*-- /Section 1 - Orders User --*/
