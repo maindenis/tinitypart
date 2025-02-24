@@ -2287,7 +2287,7 @@ select + p.error_text {
     border: 1px solid #E4E5E6;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
     border-radius: 3px;
-    margin: 25px 0 2px 0;
+    margin: 1px 0 2px 0;
     padding: 5px 20px 5px 20px;
 }
 
@@ -2476,6 +2476,7 @@ select + p.error_text {
 
 .filters_dr_btns {
     display: none;
+    position: relative;
 }
 
 .pagination_wrapp_main {
@@ -2676,6 +2677,10 @@ select + p.error_text {
     background-size: contain;
 }
 
+.orders_table {
+    margin-top: 10px;
+}
+
 .order_table_row .cell .imp_2 {
     margin: 0 auto;
 }
@@ -2684,6 +2689,16 @@ select + p.error_text {
     display: flex;
     background: #fff;
     border-bottom: 1px solid #E4E5E6;
+}
+
+.order_table_row:hover {
+    background: #5C6D89 !important;
+}
+
+.order_table_row:hover h3,
+.order_table_row:hover p,
+.order_table_row:hover .t_ch.dark span {
+    color: #fff !important;
 }
 
 .order_table_row:nth-child(even) {
@@ -2712,6 +2727,11 @@ select + p.error_text {
 
 .order_table_row .cell_4 {
     text-align: left;
+}
+
+.cell_resp_left,
+.cell_resp_right {
+    display: none !important;
 }
 
 .t_ch.dark span {

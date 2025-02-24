@@ -2218,6 +2218,119 @@ width: 33.33%;
     padding: 5px 5px;
 }
 
+.filters_inline .ch_circle span:nth-child(2) {
+    font-size: 11px;
+}
+
+.filters_inline .p_val {
+    font-size: 11px;
+}
+
+.filters_inline .custom_select_list li {
+    padding: 6px 10px;
+    font-size: 11px;
+}
+
+.filters_inline .date_inpunt_wrapp input {
+    padding: 1px 5px 0 0;
+    font-size: 11px;
+}
+
+.date_inpunt_wrapp {
+    width: 120px;
+    height: 30px;
+}
+
+.date_inpunt_wrapp > div:nth-child(1) p {
+    font-size: 11px;
+}
+
+.date_inpunt_wrapp input {
+    height: 30px;
+}
+
+.filters_top_row {
+    padding-bottom: 10px;
+}
+
+.filters_top_row > div:nth-child(1) {
+    padding: 0;
+}
+
+.filters_inline .ch_circle {
+    margin: 7px 0 0 0;
+}
+
+.filters_inline .custom_select.dark .p_val {
+    height: 28px;
+}
+
+.filters_inline .custom_select.dark .custom_select_title {
+    height: 30px;
+}
+
+.filters_inline .ch_circle span:nth-child(1) {
+    width: 26px;
+    height: 17px;
+}
+
+.filters_inline .ch_circle span:nth-child(1):after {
+    width: 12px;
+    height: 12px;
+    top: 2px;
+    left: 5px;
+}
+
+.filters_inline .ch_circle span:nth-child(1):before {
+    height: 15px;
+    width: 24px;
+}
+
+.filters_inline .ch_circle span:nth-child(1) {
+    padding: 1px;
+}
+
+.filters_inline .ch_circle input:checked + div span:nth-child(1):after {
+    left: 8px;
+}
+
+.filters_inline .ch_circle span:nth-child(2) {
+    padding: 1px 0 0 5px
+}
+
+.filters_inline .width_2 {
+    width: 130px;
+}
+
+.filters_inline .custom_dr {
+    top: calc(100% - 10px);
+}
+
+.filters_inline .custom_select.dark {
+    height: 30px;
+}
+
+.orders_filters_box .white_pill {
+    padding: 2px 10px;
+    min-height: 28px;
+}
+
+.orders_filters_box .white_pill p {
+    font-size: 11px;
+    line-height: 11px;
+    padding-bottom: 2px;
+}
+
+.orders_filters_box .white_pill img {
+    max-height: 11px;
+    position: relative;
+    top: -1px;
+}
+
+.orders_filters_box .pills_inline {
+    padding: 6px 0 3px 0;
+}
+
 /*-- /Section 1 - Orders User --*/
 
 /*-- Section 1 - Register --*/
@@ -3295,6 +3408,41 @@ h1 {
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
     border-radius: 3px;
     padding: 10px 10px;
+    position: relative;
+    z-index: 3;
+}
+
+.orders_table_header {
+    display: none;
+}
+
+.filters_dr_btns .main_checkbox {
+    position: absolute;
+    top: 9px;
+    right: 2px;
+    z-index: 2;
+}
+
+.filter_resp_row .filter_form_sect {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.filter_resp_row .filter_form_resp input {
+    height: 30px;
+}
+
+.filter_resp_row .custom_select.small_blue .custom_select_title .p_val {
+    height: 26px;
+}
+
+.filter_resp_row .custom_select.small_blue .custom_select_title:after {
+    top: calc(50% - -1px);
+}
+
+.filter_resp_row .custom_select.small_blue {
+    height: 27px;
 }
 
 /*-- /Section 1 - Orders User --*/
@@ -4204,6 +4352,147 @@ h1 {
     z-index: 2;
 }
 
+.orders_table .cell_5,
+.orders_table .cell_6,
+.orders_table .cell_7,
+.orders_table .cell_8_2,
+.orders_table .cell_9,
+.orders_table .cell_11,
+.orders_table .cell_12,
+.orders_table .cell_13,
+.orders_table .cell_14,
+.orders_table .cell_15,
+.orders_table .cell_16,
+.orders_table .cell_17,
+.orders_table .cell_18,
+.orders_table .cell_19,
+.orders_table .cell_19_2,
+.orders_table .cell_19_3 {
+    display: none;
+}
+
+.orders_table .cell_3 {
+    order: 1;
+    width: 70%;
+    padding-top: 7px !important;
+}
+
+.orders_table .cell_1 {
+    order: 2;
+    width: 30%;
+    text-align: right;
+}
+
+.orders_table .cell_4 {
+    order: 3;
+    width: 70%;
+}
+
+.orders_table .cell_2 {
+    order: 4;
+    width: 30%;
+    text-align: right;
+}
+
+.orders_table .cell_8 {
+    order: 5;
+    width: 70%;
+}
+
+.orders_table .cell_10 {
+    order: 6;
+    width: 30%;
+    text-align: right;
+}
+
+.orders_table .cell_10 p {
+    text-align: right;
+}
+
+.orders_table .cell_resp_left {
+    display: block !important;
+    order: 7;
+    width: 70%;
+    border: none !important;
+    text-align: left;
+}
+
+.orders_table .cell_resp_right {
+    display: block !important;
+    order: 8;
+    width: 30%;
+    border: none !important;
+    text-align: right;
+}
+
+.orange_link {
+    font-size: 11px;
+    line-height: 100%;
+    color: #fb7919;
+}
+
+.red_link {
+    display: inline-block;
+    border-bottom: 1px solid #ff4a4a;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 100%;
+    color: #ff4a4a;
+}
+
+.order_table_row h3 {
+    display: none;
+}
+
+.order_table_row .t_ch {
+    padding: 0 25px 0 0;
+}
+
+.order_table_row .t_ch input {
+    top: 1px;
+    right: 0;
+    left: auto;
+}
+
+.orders_table_total_price {
+    display: none;
+}
+
+.order_table_row .t_ch.dark span {
+    font-weight: 700;
+}
+
+.order_table_row .cell {
+    padding: 2px 10px;
+    min-height: auto;
+}
+
+.order_table_row .cell_3 a {
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: normal;
+    border-bottom: 1px solid #262728;
+}
+
+.order_table_row:hover .cell_3 a {
+    border-color: #fff;
+    color: #fff;
+}
+
+.order_table_row .cell_4 p {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.orders_table .cell_2 p {
+    text-align: right;
+    color: black;
+    font-size: 11px;
+    font-weight: 700;
+}
+
 /*-- /Section 1 - Orders User --*/
 
 /*-- Section 1 - Non-original catalogs 2 --*/
@@ -4636,7 +4925,7 @@ h1 {
 @media only screen and (max-width: 750px) {
 
 /*-- Section 1 - Orders User --*/
-.orders_table .cell {
+/*.orders_table .cell {
     padding: 5px 6px 1px 6px;
 }
 
@@ -4707,7 +4996,7 @@ h1 {
 
 .order_table_row .cell .imp_2 {
     margin: 15px auto 0 auto;
-}
+}*/
 /*-- /Section 1 - Orders User --*/
 
 /*-- Section 1 - Non-original catalogs --*/
@@ -5544,7 +5833,7 @@ h1 {
 }
 
 .filters_dr_btns {
-    margin: 0 -20px;
+    margin: 0 -20px 10px -20px;
 }
 
 .pagination_wrapp {
@@ -5609,9 +5898,21 @@ h1 {
     padding-right: 18px;
 }
 
-.order_table_row {
+/*.order_table_row {
     padding-left: 15px;
     padding-right: 15px;
+}*/
+
+.filters_dr_btns ul li a {
+    font-size: 11px;
+    line-height: 18px;
+}
+
+.filters_dr_btns ul li a svg {
+    position: relative;
+    top: 2px;
+    width: 12px;
+    height: 12px;
 }
 
 /*-- /Section 1 - Orders User --*/
