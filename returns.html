@@ -388,15 +388,97 @@
 	<!-- Section 1 - Returns User -->
 	<section>
 		<div class="row">
-			<ul class="breadcrumbs">
-				<li><a href="#">Главная</a></li>
-				<li>Возвраты</li>
-			</ul>
-			<div class="page_title">
-				<h1>Возвраты</h1>
+			<div class="orders_filters_box returns_filters_box visible_900">
+				<div class="filters_top_row respDr" id="dr1">
+					<div class="filters_inline filters_inline_2">
+						<div>
+							<label class="ch_circle black">
+								<input class="dateCh" type="checkbox" alt="" />
+								<div>
+									<span></span>
+									<span>Интервал</span>
+								</div>
+							</label>
+						</div>
+						<div class="dateWrapp">
+							<div class="date_inputs">
+								<label for="date1" class="date_inpunt_wrapp">
+									<div>
+										<p>с</p>
+									</div>
+									<div>
+										<input type="text" id="date1" alt="" />
+									</div>
+									<div>
+										<i class="datepicker"></i>
+									</div>
+								</label>
+								<label for="date2" class="date_inpunt_wrapp">
+									<div>
+										<p>по</p>
+									</div>
+									<div>
+										<input type="text" id="date2" alt="" />
+									</div>
+									<div>
+										<i class="datepicker"></i>
+									</div>
+								</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="filter_resp_row  respDr" id="dr2">
+					<form class="filter_form_sect">
+						<div class="filter_form_resp">
+							<input type="text" data-table-index="1" data-input-index="2" />
+							<div class="custom_select small_blue">
+								<input value="" type="hidden">
+								<div class="custom_select_title">
+									<div class="p_val">Артикул</div>
+								</div>
+								<div class="custom_dr">
+									<ul class="custom_select_list checkout_list">
+										<li data-option-val="Артикул" data-input-index-item="2">Артикул</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
 			</div>
 
-			<div class="returns_filters">
+			<div class="filters_dr_btns visible_900">
+				<ul>
+					<li>
+						<a href="#dr1">
+							<svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+                                <path d="M1.875 0.5C0.839466 0.5 0 1.33947 0 2.375C0 3.41053 0.839466 4.25 1.875 4.25C2.69139 4.25 3.38591 3.72824 3.64331 3H9.375C9.72017 3 10 2.72018 10 2.375C10 2.02982 9.72017 1.75 9.375 1.75H3.64331C3.38591 1.02175 2.69139 0.5 1.875 0.5Z" fill="white"></path>
+                                <path d="M6.35669 8C6.61409 7.27175 7.30861 6.75 8.125 6.75C9.16053 6.75 10 7.58946 10 8.625C10 9.66053 9.16053 10.5 8.125 10.5C7.30861 10.5 6.61409 9.97824 6.35669 9.25H0.625C0.279822 9.25 0 8.97017 0 8.625C0 8.27982 0.279822 8 0.625 8H6.35669Z" fill="white"></path>
+                            </svg>
+                            <span>Отбор</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+	                            <path d="M5 0.5C2.24305 0.5 0 2.74305 0 5.5C0 8.25695 2.24305 10.5 5 10.5C7.75695 10.5 10 8.25695 10 5.5C10 2.74305 7.75697 0.5 5 0.5ZM5 2.23913C5.59912 2.23913 6.08695 2.72695 6.08695 3.32608C6.08695 3.9252 5.59914 4.41305 5 4.41305C4.40086 4.41305 3.91305 3.92522 3.91305 3.3261C3.91305 2.72697 4.40088 2.23913 5 2.23913ZM6.30435 8.76087H4.13045C3.77087 8.76087 3.47827 8.46827 3.47827 8.1087C3.47827 7.74913 3.77087 7.45652 4.13045 7.45652H4.34785V6.15218H4.13045C3.77087 6.15218 3.47827 5.85957 3.47827 5.5C3.47827 5.14043 3.77087 4.84783 4.13045 4.84783H5.86957C5.98957 4.84783 6.08697 4.94522 6.08697 5.06522V7.45652H6.30437C6.66394 7.45652 6.95655 7.74913 6.95655 8.1087C6.95652 8.46827 6.66392 8.76087 6.30435 8.76087Z" fill="white"></path>
+	                        </svg>
+                            <span>Уведомления</span>
+						</a>
+					</li>
+					<li>
+						<a href="#dr2">
+							<svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+	                            <path d="M8.50006 1.5H1.50006C0.792956 1.5 0.439401 1.5 0.219731 1.7061C6.10924e-05 1.9122 6.10352e-05 2.24391 6.10352e-05 2.90733V3.25224C6.10352e-05 3.77116 6.09922e-05 4.03062 0.129861 4.24571C0.259661 4.4608 0.496796 4.59429 0.971071 4.86128L2.42758 5.6812C2.74579 5.8603 2.9049 5.9499 3.01882 6.0488C3.25606 6.25475 3.4021 6.49675 3.46828 6.7936C3.50006 6.9361 3.50006 7.1029 3.50006 7.43645V8.7712C3.50006 9.226 3.50006 9.45335 3.62602 9.63065C3.75199 9.8079 3.9757 9.89535 4.42316 10.0703C5.36246 10.4375 5.83211 10.6211 6.16611 10.4122C6.50006 10.2033 6.50006 9.72595 6.50006 8.7712V7.43645C6.50006 7.1029 6.50006 6.9361 6.53186 6.7936C6.59801 6.49675 6.74406 6.25475 6.98131 6.0488C7.09521 5.9499 7.25431 5.8603 7.57256 5.6812L9.02906 4.86128C9.50331 4.59429 9.74046 4.4608 9.87026 4.24571C10.0001 4.03062 10.0001 3.77116 10.0001 3.25224V2.90733C10.0001 2.24391 10.0001 1.9122 9.78041 1.7061C9.56071 1.5 9.20716 1.5 8.50006 1.5Z" fill="white"></path>
+	                        </svg>
+                            <span>Фильтр</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="returns_filters novisible_900">
 				<div>
 					<div class="filters_inline filters_inline_2">
 						<div>
@@ -446,32 +528,7 @@
 				</div>
 			</div>
 
-			<div class="pagination_wrapp returns_pagination">
-				<div class="pagination_wrapp_inner">
-					<a href="#" class="page_button first_page noactive">К началу</a>
-					<ul class="pagination">
-						<li><a href="#" class="prev_page"></a></li>
-						<li><a href="#" class="active">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">6</a></li>
-						<li><a href="#" class="next_page"></a></li>
-					</ul>
-					<a href="#" class="page_button last_page">В конец</a>
-					<div class="resp_pagebtns">
-						<div>
-							<a href="#" class="page_button first_page noactive">К началу</a>
-						</div>
-						<div>
-							<a href="#" class="page_button last_page">В конец</a>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="returns_table sortTable">
+			<div class="returns_table sortTable" data-table-parent-index="1">
 				<div class="returns_table_header">
 					<div class="cell cell_1">
 						<h3>Дата</h3>
@@ -563,17 +620,23 @@
 							</div>
 						</div>
 						<div class="cell cell_2">
-							<div>
+							<div class="novisible_768">
 								<h3>№:</h3>
 								<div class="green_tag">
 									<p>858355411</p>
 								</div>
 							</div>
+							<div class="visible_768">
+								<p>№ 858355411</p>
+							</div>
 						</div>
 						<div class="cell cell_3" data-filter = "85835A7000WK">
-							<div>
+							<div class="novisible_768">
 								<h3>Артикул</h3>
 								<p>85835A7000WK</p>
+							</div>
+							<div class="visible_768">
+								<p>85835A7000WK <b>RT</b></p>
 							</div>
 						</div>
 						<div class="cell cell_4">
@@ -601,9 +664,12 @@
 							</div>
 						</div>
 						<div class="cell cell_8">
-							<div>
+							<div class="novisible_768">
 								<h3>Цена</h3>
 								<p>1546.27</p>
+							</div>
+							<div class="visible_768">
+								<p>1546.27 х 1 шт</p>
 							</div>
 						</div>
 						<div class="cell cell_9">
@@ -653,104 +719,8 @@
 								<p>101 391.64</p>
 							</div>
 						</div>
-					</div>
-					<div class="returns_table_row sortRow">
-						<div class="cell cell_1">
-							<div>
-								<h3>Дата</h3>
-								<p>31.03.22</p>
-							</div>
-						</div>
-						<div class="cell cell_2">
-							<div>
-								<h3>№:</h3>
-								<div class="red_tag">
-									<p>858355411</p>
-								</div>
-							</div>
-						</div>
-						<div class="cell cell_3" data-filter = "95835A7000WK">
-							<div>
-								<h3>Артикул</h3>
-								<p>95835A7000WK</p>
-							</div>
-						</div>
-						<div class="cell cell_4">
-							<div>
-								<h3>Наименование:</h3>
-								<p>Амортизатор багажника/капота SUBARU FORESTER, WITH POWER OPENING TAILGATE, LEFT SIDE 3/13-18</p>
-							</div>
-						</div>
-						<div class="cell cell_5" data-filter = "2HYUNDAI /KIA /MOBIS">
-							<div>
-								<h3>Бренд</h3>
-								<p>2HYUNDAI /KIA /MOBIS</p>
-							</div>
-						</div>
-						<div class="cell cell_6">
-							<div>
-								<h3>Склад:</h3>
-								<p>Cella1069/1</p>
-							</div>
-						</div>
-						<div class="cell cell_7">
-							<div>
-								<h3>%:</h3>
-								<p>10</p>
-							</div>
-						</div>
-						<div class="cell cell_8">
-							<div>
-								<h3>Цена</h3>
-								<p>1546.27</p>
-							</div>
-						</div>
-						<div class="cell cell_9">
-							<p><a class="link_icon" href="#"><i class="xls"></i>XLS</a></p>
-						</div>
-						<div class="cell cell_10">
-							<div>
-								<h3>Решение:</h3>
-								<p>Срок возврата по браку и пересорту не более 10 дней, с момента прихода детали на склад!</p>
-							</div>
-						</div>
-						<div class="cell cell_11">
-							<div>
-								<h3>Прет:</h3>
-								<p class="p_border">1</p>
-							</div>
-						</div>
-						<div class="cell cell_12">
-							<div>
-								<h3>Раб</h3>
-								<p class="p_border"></p>
-							</div>
-						</div>
-						<div class="cell cell_13">
-							<div>
-								<h3>Ожд:</h3>
-								<p class="p_border"></p>
-							</div>
-						</div>
-						<div class="cell cell_14">
-							<div>
-								<h3>Возв</h3>
-								<div class="red_tag">
-									<p>1</p>
-								</div>
-							</div>
-						</div>
-						<div class="cell cell_15">
-							<div>
-								<h3>Отк.:</h3>
-								<p class="p_border"></p>
-							</div>
-						</div>
-						<div class="cell cell_16">
-							<div>
-								<h3>Цена - %.:</h3>
-								<p>101 391.64</p>
-							</div>
+						<div class="cell cell_resp_right">
+							<p class="status">В работе</p>
 						</div>
 					</div>
 					<div class="returns_table_row sortRow">
@@ -761,17 +731,23 @@
 							</div>
 						</div>
 						<div class="cell cell_2">
-							<div>
+							<div class="novisible_768">
 								<h3>№:</h3>
 								<div class="green_tag">
 									<p>858355411</p>
 								</div>
+							</div>
+							<div class="visible_768">
+								<p>№ 858355411</p>
 							</div>
 						</div>
 						<div class="cell cell_3" data-filter = "85835A7000WK">
-							<div>
+							<div class="novisible_768">
 								<h3>Артикул</h3>
 								<p>85835A7000WK</p>
+							</div>
+							<div class="visible_768">
+								<p>85835A7000WK <b>RT</b></p>
 							</div>
 						</div>
 						<div class="cell cell_4">
@@ -799,9 +775,12 @@
 							</div>
 						</div>
 						<div class="cell cell_8">
-							<div>
+							<div class="novisible_768">
 								<h3>Цена</h3>
 								<p>1546.27</p>
+							</div>
+							<div class="visible_768">
+								<p>1546.27 х 1 шт</p>
 							</div>
 						</div>
 						<div class="cell cell_9">
@@ -851,104 +830,8 @@
 								<p>101 391.64</p>
 							</div>
 						</div>
-					</div>
-					<div class="returns_table_row sortRow">
-						<div class="cell cell_1">
-							<div>
-								<h3>Дата</h3>
-								<p>31.03.22</p>
-							</div>
-						</div>
-						<div class="cell cell_2">
-							<div>
-								<h3>№:</h3>
-								<div class="red_tag">
-									<p>858355411</p>
-								</div>
-							</div>
-						</div>
-						<div class="cell cell_3" data-filter = "95835A7000WK">
-							<div>
-								<h3>Артикул</h3>
-								<p>95835A7000WK</p>
-							</div>
-						</div>
-						<div class="cell cell_4">
-							<div>
-								<h3>Наименование:</h3>
-								<p>Амортизатор багажника/капота SUBARU FORESTER, WITH POWER OPENING TAILGATE, LEFT SIDE 3/13-18</p>
-							</div>
-						</div>
-						<div class="cell cell_5" data-filter = "2HYUNDAI /KIA /MOBIS">
-							<div>
-								<h3>Бренд</h3>
-								<p>2HYUNDAI /KIA /MOBIS</p>
-							</div>
-						</div>
-						<div class="cell cell_6">
-							<div>
-								<h3>Склад:</h3>
-								<p>Cella1069/1</p>
-							</div>
-						</div>
-						<div class="cell cell_7">
-							<div>
-								<h3>%:</h3>
-								<p>10</p>
-							</div>
-						</div>
-						<div class="cell cell_8">
-							<div>
-								<h3>Цена</h3>
-								<p>1546.27</p>
-							</div>
-						</div>
-						<div class="cell cell_9">
-							<p><a class="link_icon" href="#"><i class="xls"></i>XLS</a></p>
-						</div>
-						<div class="cell cell_10">
-							<div>
-								<h3>Решение:</h3>
-								<p>Срок возврата по браку и пересорту не более 10 дней, с момента прихода детали на склад!</p>
-							</div>
-						</div>
-						<div class="cell cell_11">
-							<div>
-								<h3>Прет:</h3>
-								<p class="p_border">1</p>
-							</div>
-						</div>
-						<div class="cell cell_12">
-							<div>
-								<h3>Раб</h3>
-								<p class="p_border"></p>
-							</div>
-						</div>
-						<div class="cell cell_13">
-							<div>
-								<h3>Ожд:</h3>
-								<p class="p_border"></p>
-							</div>
-						</div>
-						<div class="cell cell_14">
-							<div>
-								<h3>Возв</h3>
-								<div class="red_tag">
-									<p>1</p>
-								</div>
-							</div>
-						</div>
-						<div class="cell cell_15">
-							<div>
-								<h3>Отк.:</h3>
-								<p class="p_border"></p>
-							</div>
-						</div>
-						<div class="cell cell_16">
-							<div>
-								<h3>Цена - %.:</h3>
-								<p>101 391.64</p>
-							</div>
+						<div class="cell cell_resp_right">
+							<p class="status green">Возвращено</p>
 						</div>
 					</div>
 					<div class="returns_table_row sortRow">
@@ -959,17 +842,23 @@
 							</div>
 						</div>
 						<div class="cell cell_2">
-							<div>
+							<div class="novisible_768">
 								<h3>№:</h3>
 								<div class="green_tag">
 									<p>858355411</p>
 								</div>
+							</div>
+							<div class="visible_768">
+								<p>№ 858355411</p>
 							</div>
 						</div>
 						<div class="cell cell_3" data-filter = "85835A7000WK">
-							<div>
+							<div class="novisible_768">
 								<h3>Артикул</h3>
 								<p>85835A7000WK</p>
+							</div>
+							<div class="visible_768">
+								<p>85835A7000WK <b>RT</b></p>
 							</div>
 						</div>
 						<div class="cell cell_4">
@@ -997,9 +886,12 @@
 							</div>
 						</div>
 						<div class="cell cell_8">
-							<div>
+							<div class="novisible_768">
 								<h3>Цена</h3>
 								<p>1546.27</p>
+							</div>
+							<div class="visible_768">
+								<p>1546.27 х 1 шт</p>
 							</div>
 						</div>
 						<div class="cell cell_9">
@@ -1049,6 +941,9 @@
 								<p>101 391.64</p>
 							</div>
 						</div>
+						<div class="cell cell_resp_right">
+							<p class="status">В работе</p>
+						</div>
 					</div>
 					<div class="returns_table_row sortRow">
 						<div class="cell cell_1">
@@ -1058,17 +953,23 @@
 							</div>
 						</div>
 						<div class="cell cell_2">
-							<div>
+							<div class="novisible_768">
 								<h3>№:</h3>
-								<div class="red_tag">
+								<div class="green_tag">
 									<p>858355411</p>
 								</div>
 							</div>
+							<div class="visible_768">
+								<p>№ 858355411</p>
+							</div>
 						</div>
-						<div class="cell cell_3" data-filter = "95835A7000WK">
-							<div>
+						<div class="cell cell_3" data-filter = "85835A7000WK">
+							<div class="novisible_768">
 								<h3>Артикул</h3>
-								<p>95835A7000WK</p>
+								<p>85835A7000WK</p>
+							</div>
+							<div class="visible_768">
+								<p>85835A7000WK <b>RT</b></p>
 							</div>
 						</div>
 						<div class="cell cell_4">
@@ -1077,10 +978,10 @@
 								<p>Амортизатор багажника/капота SUBARU FORESTER, WITH POWER OPENING TAILGATE, LEFT SIDE 3/13-18</p>
 							</div>
 						</div>
-						<div class="cell cell_5" data-filter = "2HYUNDAI /KIA /MOBIS">
+						<div class="cell cell_5" data-filter = "HYUNDAI /KIA /MOBIS">
 							<div>
 								<h3>Бренд</h3>
-								<p>2HYUNDAI /KIA /MOBIS</p>
+								<p>HYUNDAI /KIA /MOBIS</p>
 							</div>
 						</div>
 						<div class="cell cell_6">
@@ -1096,9 +997,12 @@
 							</div>
 						</div>
 						<div class="cell cell_8">
-							<div>
+							<div class="novisible_768">
 								<h3>Цена</h3>
 								<p>1546.27</p>
+							</div>
+							<div class="visible_768">
+								<p>1546.27 х 1 шт</p>
 							</div>
 						</div>
 						<div class="cell cell_9">
@@ -1131,7 +1035,7 @@
 						<div class="cell cell_14">
 							<div>
 								<h3>Возв</h3>
-								<div class="red_tag">
+								<div class="green_tag">
 									<p>1</p>
 								</div>
 							</div>
@@ -1147,35 +1051,14 @@
 								<h3>Цена - %.:</h3>
 								<p>101 391.64</p>
 							</div>
+						</div>
+						<div class="cell cell_resp_right">
+							<p class="status">В работе</p>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="pagination_wrapp pagination_wrapp_main_2">
-				<div class="pagination_wrapp_inner">
-					<a href="#" class="page_button first_page noactive">К началу</a>
-					<ul class="pagination">
-						<li><a href="#" class="prev_page"></a></li>
-						<li><a href="#" class="active">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">6</a></li>
-						<li><a href="#" class="next_page"></a></li>
-					</ul>
-					<a href="#" class="page_button last_page">В конец</a>
-					<div class="resp_pagebtns">
-						<div>
-							<a href="#" class="page_button first_page noactive">К началу</a>
-						</div>
-						<div>
-							<a href="#" class="page_button last_page">В конец</a>
-						</div>
-					</div>
-				</div>
-			</div>			
 		</div>
 	</section>
 	<!-- /Section 1 - Returns User -->

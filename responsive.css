@@ -3402,6 +3402,7 @@ h1 {
 }
 
 .filter_resp_row {
+    width: 100%;
     background: #fff;
     border: 1px solid #e4e5e6;
     -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
@@ -3410,6 +3411,10 @@ h1 {
     padding: 10px 10px;
     position: relative;
     z-index: 3;
+}
+
+.returns_filters_box {
+    width: 100%;
 }
 
 .orders_table_header {
@@ -3580,6 +3585,10 @@ h1 {
 .returns_filters > div:nth-child(2) {
     width: 100%;
     padding: 3px 0;
+}
+
+.returns_table_header {
+    display: none;
 }
 
 /*-- /Section 1 - Returns User --*/
@@ -4912,6 +4921,105 @@ h1 {
 
 /*-- /Section 1 - Found_cars --*/
 
+/*-- Section 1 - Returns User --*/
+
+.returns_table .cell_5,
+.returns_table .cell_6,
+.returns_table .cell_7,
+.returns_table .cell_9,
+.returns_table .cell_10,
+.returns_table .cell_11,
+.returns_table .cell_12,
+.returns_table .cell_13,
+.returns_table .cell_14,
+.returns_table .cell_15,
+.returns_table .cell_16,
+.returns_table .cell_16_2 {
+    display: none;
+}
+
+.returns_table .cell {
+    min-height: auto;
+}
+
+.returns_table .cell_1 {
+    width: 30%;
+    order: 2;
+    text-align: right;
+}
+
+.returns_table .cell_2 {
+    width: 30%;
+    order: 4;
+    text-align: right;
+}
+
+.returns_table .cell_3 {
+    width: 70%;
+    order: 1;
+}
+
+.returns_table .cell_4 {
+    width: 70%;
+    order: 3;
+}
+
+.returns_table .cell_8 {
+    width: 70%;
+    order: 5;
+}
+
+.returns_table .cell_resp_right {
+    width: 30%;
+    display: block !important;
+    order: 6;
+    text-align: right;
+}
+
+.returns_table_row {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.returns_table_row h3 {
+    display: none !important;
+}
+
+.returns_table .cell {
+    padding: 3px 5px;
+}
+
+.returns_table .cell_1 p {
+    font-weight: bold;
+}
+
+.returns_table .cell_2 p {
+    font-weight: bold;
+}
+
+.returns_table .cell_4 p {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.returns_table {
+    padding-bottom: 0;
+}
+
+p.status {
+    font-size: 12px;
+    color: #fff2ca;
+    font-weight: bold;
+}
+
+p.status.green {
+    color: #008001;
+}
+
+/*-- /Section 1 - Returns User --*/
+
 /*-- Footer --*/
 
 .footer_section_2 {
@@ -5874,7 +5982,8 @@ h1 {
 
 .orders_filters_box {
     margin-left: -20px;
-    margin-right: -20px;
+/*    margin-right: -20px;*/
+    width: 100vw;
 }
 
 .filters_top_row {
@@ -5988,7 +6097,7 @@ h1 {
 .filter_form_sect {
     max-width: 230px;
 }
-
+/*
 .returns_table .cell {
     padding: 2px 5px;
 }
@@ -6039,7 +6148,7 @@ h1 {
 
 .returns_table .cell_16 {
     width: 26%;
-}
+}*/
 
 .returns_table_row .cell h3 {
     padding-bottom: 3px;

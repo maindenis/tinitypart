@@ -2421,7 +2421,7 @@ select + p.error_text {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 12px 10px;
+    padding: 9px 10px;
     min-height: 40px;
     background: #FFF;
     border: 1px solid #E4E5E6;
@@ -2849,16 +2849,17 @@ select + p.error_text {
 
 .returns_filters > div:nth-child(1) {
     width: calc(100% - 360px);
-    padding: 18px 18px 18px 0;
+    padding: 5px 5px 0 0;
 }
 
 .returns_filters > div:nth-child(2) {
     width: 360px;
-    padding: 18px 0 18px 18px;
+    padding: 5px 0 0 5px;
+    text-align: right;
 }
 
 .returns_filters .ch_circle {
-    margin-top: 9px;
+    margin-top: 3px;
 }
 
 .white_pill.t_lover {
@@ -2873,6 +2874,7 @@ select + p.error_text {
     border: 1px solid #E4E5E6;
     border-radius: 3px;
     background: #fff;
+    margin-top: 10px;
     padding-bottom: 66px;
 }
 
@@ -2943,6 +2945,10 @@ select + p.error_text {
 
 .returns_table .cell_16 {
     width: 120px;
+}
+
+.returns_table .cell_resp_right {
+    display: none;
 }
 
 .returns_table_header {
