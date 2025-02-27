@@ -1989,8 +1989,9 @@ select + p.error_text {
 
 .pagination_wrapp_inner {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     width: 100%;
+    position: relative;
 }
 
 .pagination {
