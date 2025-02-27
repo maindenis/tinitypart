@@ -160,7 +160,7 @@
 								</div>
 								<div>
 									<label class="ch_circle">
-										<input type="checkbox" alt="" />
+										<input type="checkbox" />
 										<div>
 											<span></span>
 											<span>Аналоги</span>
@@ -388,7 +388,7 @@
 	<!-- Section 1 - Cart -->
 	<section>
 		<div class="row">
-			<div class="cart_filters_wrapp">
+			<div class="cart_filters_wrapp novisible_768">
 				<div>
 					<div class="cart_filters">
 						<div>
@@ -427,9 +427,44 @@
 					</a>
 				</div>
 			</div>
-			<div class="card_table">
-				<div class="sortTable checkboxes_array">
-					<div class="card_table_header">
+			<div class="card_table checkboxes_array">
+				<div class="visible_768">
+					<div class="card_resp_row">
+						<div>
+							<ul class="card_resp_pills">
+								<li>
+									<a href="#">
+										<svg aria-hidden="true" style="height:10px;vertical-align: top;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+			                                <path fill="currentColor" d="M32 464a48 48 0 0048 48h288a48 48 0 0048-48V128H32zm272-256a16 16 0 0132 0v224a16 16 0 01-32 0zm-96 0a16 16 0 0132 0v224a16 16 0 01-32 0zm-96 0a16 16 0 0132 0v224a16 16 0 01-32 0zM432 32H312l-9-19a24 24 0 00-22-13H167a24 24 0 00-22 13l-9 19H16A16 16 0 000 48v32a16 16 0 0016 16h416a16 16 0 0016-16V48a16 16 0 00-16-16z"></path>
+			                            </svg>
+										Удалить
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+										    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0001 3.625H7.77784V0.5H2.22228V3.625H6.10352e-05V9.25H2.22228V10.5H7.77784V9.25H10.0001V3.625ZM3.33339 1.75H6.66673V3.625H3.33339V1.75ZM3.33339 9.25V7.375H6.66673V9.25H3.33339Z" fill="white"></path>
+										</svg>
+										Печать
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="11" height="11" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path xmlns="http://www.w3.org/2000/svg" d="m288.134 319.2c88.291 0 159.6-71.458 159.6-159.6 0-88.004-71.596-159.6-159.6-159.6h-160.667c-8.284 0-15 6.716-15 15v209.933h-33.2c-8.284 0-15 6.716-15 15v64.267c0 8.284 6.716 15 15 15h33.2v34.267h-33.2c-8.284 0-15 6.716-15 15v64.267c0 8.284 6.716 15 15 15h33.2v49.266c0 8.284 6.716 15 15 15h64.267c8.284 0 15-6.716 15-15v-49.267h97.466c8.284 0 15-6.716 15-15v-64.267c0-8.284-6.716-15-15-15h-97.467v-34.266zm-81.401-224.933h81.4c36.024 0 65.333 29.309 65.333 65.333s-29.309 65.333-65.333 65.333h-81.4z" fill="#fff"/></g></svg>
+										Сумма
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<label class="t_ch main_checkbox">
+								<input type="checkbox" />
+							</label>
+						</div>						
+					</div>
+				</div>
+				<div class="sortTable">
+					<div class="card_table_header novisible_768">
 						<div class="cell cell-ch">
 							<label class="t_ch main_checkbox">
 								<input type="checkbox" />
@@ -516,7 +551,7 @@
 						<div class="cell cell-del"></div>
 					</div>
 					<div class="checkboxes_array">
-						<div class="card_table_dr dr_parent dr_table_parent active">
+						<div class="card_table_dr dr_parent dr_table_parent active myorders">
 							<div class="card_table_dr_header">
 								<label class="t_ch main_checkbox">
 									<input type="checkbox" />
@@ -535,14 +570,24 @@
 										</div>
 										<div class="cell cell-article" data-filter = "A61205">
 											<div>
-												<h3>Артикул</h3>
-												<p><a href="#">A61205</a></p>
+												<div class="novisible_768">
+													<h3>Артикул</h3>
+													<p><a href="#">A61205</a></p>
+												</div>
+												<div class="visible_768">
+													<p><a href="#">A61205 <b>QW</b></a></p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-name">
 											<div>
-												<h3>Наименование</h3>
-												<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+												<div class="novisible_768">
+													<h3>Наименование</h3>
+													<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+												</div>
+												<div class="visible_768">
+													<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-brand" data-filter = "FENOX">
@@ -553,8 +598,13 @@
 										</div>
 										<div class="cell cell-term">
 											<div>
-												<h3>Срок</h3>
-												<p>2</p>
+												<div class="novisible_768">
+													<h3>Срок</h3>
+													<p>2</p>
+												</div>
+												<div class="visible_768">
+													<p>2</p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-warehouse">
@@ -593,14 +643,24 @@
 										</div>
 										<div class="cell cell-sum">
 											<div>
-												<h3>Сумма</h3>
-												<p>3 295,00</p>
+												<div class="novisible_768">
+													<h3>Сумма</h3>
+													<p>3 295,00</p>
+												</div>
+												<div class="visible_768">
+													<p><b>3 295,00  ₽</b></p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-sum-sale">
 											<div>
-												<h3>Сумма продаж</h3>
-												<p>3 295,00</p>
+												<div class="novisible_768">
+													<h3>Сумма продаж</h3>
+													<p>3 295,00</p>
+												</div>
+												<div class="visible_768">
+													<p>3 295,00 х 1</p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-comments" data-filter = "">
@@ -623,14 +683,24 @@
 										</div>
 										<div class="cell cell-article" data-filter = "A61205">
 											<div>
-												<h3>Артикул</h3>
-												<p><a href="#">A61205</a></p>
+												<div class="novisible_768">
+													<h3>Артикул</h3>
+													<p><a href="#">A61205</a></p>
+												</div>
+												<div class="visible_768">
+													<p><a href="#">A61205 <b>QW</b></a></p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-name">
 											<div>
-												<h3>Наименование</h3>
-												<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+												<div class="novisible_768">
+													<h3>Наименование</h3>
+													<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+												</div>
+												<div class="visible_768">
+													<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-brand" data-filter = "FENOX">
@@ -641,8 +711,13 @@
 										</div>
 										<div class="cell cell-term">
 											<div>
-												<h3>Срок</h3>
-												<p>2</p>
+												<div class="novisible_768">
+													<h3>Срок</h3>
+													<p>2</p>
+												</div>
+												<div class="visible_768">
+													<p>2</p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-warehouse">
@@ -681,14 +756,24 @@
 										</div>
 										<div class="cell cell-sum">
 											<div>
-												<h3>Сумма</h3>
-												<p>3 295,00</p>
+												<div class="novisible_768">
+													<h3>Сумма</h3>
+													<p>3 295,00</p>
+												</div>
+												<div class="visible_768">
+													<p><b>3 295,00  ₽</b></p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-sum-sale">
 											<div>
-												<h3>Сумма продаж</h3>
-												<p>3 295,00</p>
+												<div class="novisible_768">
+													<h3>Сумма продаж</h3>
+													<p>3 295,00</p>
+												</div>
+												<div class="visible_768">
+													<p>3 295,00 х 1</p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-comments" data-filter = "">
@@ -727,14 +812,24 @@
 										</div>
 										<div class="cell cell-article" data-filter = "A61205">
 											<div>
-												<h3>Артикул</h3>
-												<p><a href="#">A61205</a></p>
+												<div class="novisible_768">
+													<h3>Артикул</h3>
+													<p><a href="#">A61205</a></p>
+												</div>
+												<div class="visible_768">
+													<p><a href="#">A61205 <b>QW</b></a></p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-name">
 											<div>
-												<h3>Наименование</h3>
-												<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+												<div class="novisible_768">
+													<h3>Наименование</h3>
+													<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+												</div>
+												<div class="visible_768">
+													<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-brand" data-filter = "FENOX">
@@ -745,8 +840,13 @@
 										</div>
 										<div class="cell cell-term">
 											<div>
-												<h3>Срок</h3>
-												<p>2</p>
+												<div class="novisible_768">
+													<h3>Срок</h3>
+													<p>2</p>
+												</div>
+												<div class="visible_768">
+													<p>2</p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-warehouse">
@@ -785,14 +885,24 @@
 										</div>
 										<div class="cell cell-sum">
 											<div>
-												<h3>Сумма</h3>
-												<p>3 295,00</p>
+												<div class="novisible_768">
+													<h3>Сумма</h3>
+													<p>3 295,00</p>
+												</div>
+												<div class="visible_768">
+													<p><b>3 295,00  ₽</b></p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-sum-sale">
 											<div>
-												<h3>Сумма продаж</h3>
-												<p>3 295,00</p>
+												<div class="novisible_768">
+													<h3>Сумма продаж</h3>
+													<p>3 295,00</p>
+												</div>
+												<div class="visible_768">
+													<p>3 295,00 х 1</p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-comments" data-filter = "">
@@ -815,14 +925,24 @@
 										</div>
 										<div class="cell cell-article" data-filter = "A61205">
 											<div>
-												<h3>Артикул</h3>
-												<p><a href="#">A61205</a></p>
+												<div class="novisible_768">
+													<h3>Артикул</h3>
+													<p><a href="#">A61205</a></p>
+												</div>
+												<div class="visible_768">
+													<p><a href="#">A61205 <b>QW</b></a></p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-name">
 											<div>
-												<h3>Наименование</h3>
-												<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+												<div class="novisible_768">
+													<h3>Наименование</h3>
+													<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+												</div>
+												<div class="visible_768">
+													<p>СТОЙКА АМОРТИЗАТОРНАЯ</p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-brand" data-filter = "FENOX">
@@ -833,8 +953,13 @@
 										</div>
 										<div class="cell cell-term">
 											<div>
-												<h3>Срок</h3>
-												<p>2</p>
+												<div class="novisible_768">
+													<h3>Срок</h3>
+													<p>2</p>
+												</div>
+												<div class="visible_768">
+													<p>2</p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-warehouse">
@@ -873,14 +998,24 @@
 										</div>
 										<div class="cell cell-sum">
 											<div>
-												<h3>Сумма</h3>
-												<p>3 295,00</p>
+												<div class="novisible_768">
+													<h3>Сумма</h3>
+													<p>3 295,00</p>
+												</div>
+												<div class="visible_768">
+													<p><b>3 295,00  ₽</b></p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-sum-sale">
 											<div>
-												<h3>Сумма продаж</h3>
-												<p>3 295,00</p>
+												<div class="novisible_768">
+													<h3>Сумма продаж</h3>
+													<p>3 295,00</p>
+												</div>
+												<div class="visible_768">
+													<p>3 295,00 х 1</p>
+												</div>
 											</div>
 										</div>
 										<div class="cell cell-comments" data-filter = "">
@@ -901,7 +1036,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="card_table_footer">
+			<div class="card_table_footer novisible_768">
 				<div>
 					<p>Доступно к размещению: <span>-25 203,76 руб.</span></p>
 				</div>

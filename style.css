@@ -6376,6 +6376,7 @@ textarea + p.error_text {
     border: 1px solid #E4E5E6;
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
     border-radius: 3px;
+    line-height: 100%;
 }
 
 .cart_filters_wrapp > div:nth-child(1) {
@@ -6385,7 +6386,7 @@ textarea + p.error_text {
 
 .cart_filters_wrapp > div:nth-child(2) {
     width: 380px;
-    padding: 11px 0 0 10px;
+    padding: 3px 0 0 10px;
 }
 
 .cart_filters {
@@ -6394,7 +6395,7 @@ textarea + p.error_text {
 }
 
 .cart_filters > div {
-    padding: 10px 15px;
+    padding: 3px 12px;
 }
 
 .cart_filters .ch_circle span:nth-child(2) {
@@ -6406,11 +6407,17 @@ textarea + p.error_text {
 }
 
 .cart_filters .ch_circle {
-    margin-top: 8px;
+    margin-top: 2px;
+}
+
+.cart_filters .white_pill {
+    padding: 3px 10px;
+    min-height: 30px;
 }
 
 .cart_filters .white_pill p {
     text-transform: none;
+    padding-top: 0;
 }
 
 .important {
@@ -6425,6 +6432,8 @@ textarea + p.error_text {
 
 .white_pill.small {
     text-transform: none;
+    padding: 3px 10px;
+    min-height: 30px;
 }
 
 .white_pill.small i {
@@ -6443,7 +6452,7 @@ textarea + p.error_text {
 .card_table .cell {
     display: flex;
     align-items: center;
-    padding: 5px 10px;
+    padding: 3px 10px;
     text-align: center;
     justify-content: center;
 }
@@ -6742,7 +6751,7 @@ textarea + p.error_text {
 }
 
 .card_table_row:hover {
-    background: #5C6D89;
+    background: #5C6D89 !important;
     color: #fff;
 }
 
@@ -6758,6 +6767,11 @@ textarea + p.error_text {
 
 .card_table .table_title:after {
     display: none;
+}
+
+.myorders .card_table_row {
+    background: #c2e6c6;
+    border-bottom: 1px solid #E4E5E6;
 }
 
 /*-- /Section 1 - Cart --*/

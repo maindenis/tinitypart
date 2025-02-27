@@ -589,11 +589,12 @@
 }
 
 .card_table .cell-article {
-    width: 100px;
+    width: 140px;
 }
 
 .card_table .cell-name {
-    width: calc(100% - 1089px);
+/*    width: calc(100% - 1089px);*/
+    width: calc(100% - 1179px);
 }
 
 .card_table.opt .cell-name {
@@ -605,7 +606,7 @@
 }
 
 .card_table .cell-term {
-    width: 45px;
+    width: 60px;
 }
 
 .card_table .cell-sum {
@@ -613,7 +614,7 @@
 }
 
 .card_table .cell-sum-sale {
-    width: 85px;
+    width: 120px;
 }
 
 .card_table .cell-comments {
@@ -4744,6 +4745,151 @@ h1 {
     width: calc(100% - 534px);
 }
 
+.card_resp_row {
+    display: flex;
+    border-radius: 3px 3px 0px 0px;
+    background: #5C6D89;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+}
+
+.card_resp_row > div:nth-child(1) {
+    width: calc(100% - 50px);
+}
+
+.card_resp_row > div:nth-child(2) {
+    width: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card_resp_pills {
+    display: flex;
+    margin: 0 -5px;
+}
+
+.card_resp_pills li {
+    padding: 3px 8px;
+}
+
+.card_resp_pills li a {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.card_resp_pills li a svg {
+    margin-right: 3px;
+}
+
+.card_resp_row .t_ch {
+    top: 2px;
+    left: 6px;
+}
+
+.card_table .t_ch input {
+    width: 15px;
+    height: 15px;
+}
+
+.card_table_dr_header {
+    position: relative;
+}
+
+.card_table_dr_header .main_checkbox {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card_table_row {
+    padding: 5px;
+}
+
+.card_table_row .cell {
+    display: none;
+    padding: 3px 5px;
+}
+
+.card_table_row .cell-article,
+.card_table_row .cell-sum,
+.card_table_row .cell-ch,
+.card_table_row .cell-name,
+.card_table_row .cell-term,
+.card_table_row .cell-sum-sale {
+    display: block;
+}
+
+.card_table_row .cell-article {
+    width: 70%;
+    order: 1;
+}
+
+.card_table_row .cell-sum {
+    width: calc(30% - 20px);
+    order: 2;
+    text-align: right;
+}
+
+.card_table_row .cell-ch {
+    width: 20px;
+    order: 3;
+    position: relative;
+    top: -4px;
+    left: -4px;
+}
+
+.card_table_row .cell-name {
+    width: 60%;
+    order: 4;
+}
+
+.card_table_row .cell-term {
+    width: calc(40% - 100px);
+    order: 5;
+    text-align: left;
+}
+
+.card_table_row .cell-sum-sale {
+    width: 100px;
+    order: 6;
+    text-align: right;
+}
+
+/*.card_table_row h3 {
+    display: none;
+}*/
+
+.card_table_row .cell-name p {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card_table_dr_header h3 {
+    font-size: 11px;
+    padding-left: 5px;
+}
+
+.card_table_dr_header {
+    padding: 4px 5px 5px 5px;
+}
+
+.card_table_dr_header .t_ch input {
+    top: 6px;
+    left: 1px;
+}
+
+.card_table_dr_header h3:after {
+    position: relative;
+    top: 1px;
+}
+
 /*-- /Section 1 - Cart --*/
 
 /*-- Section 1 - Balance --*/
@@ -5210,7 +5356,7 @@ p.status.green {
 
 /*-- Section 1 - Cart --*/
 
-.card_table .cell-article {
+/*.card_table .cell-article {
     width: 70px;
 }
 
@@ -5260,7 +5406,7 @@ p.status.green {
 
 .card_table.opt .cell-sum-sale {
     width: calc(100% - 388px);
-}
+}*/
 
 /*-- /Section 1 - Cart --*/
 
@@ -6570,7 +6716,7 @@ p.status.green {
     font-size: 12px;
 }
 
-.card_table .cell-name {
+/*.card_table .cell-name {
     width: calc(100% - 250px);
 }
 
@@ -6604,7 +6750,7 @@ p.status.green {
 
 .card_table .cell-price {
     width: 71px;
-}
+}*/
 
 .card_table_row h3 {
     padding-bottom: 4px;
@@ -7166,7 +7312,7 @@ h1 {
 
 /*-- Section 1 - Cart --*/
 
-.card_table .cell-ch {
+/*.card_table .cell-ch {
     width: 46px;
 }
 
@@ -7241,7 +7387,7 @@ h1 {
 
 .card_table.opt .cell-comments {
     width: calc(100% - 38px);
-}
+}*/
 
 /*-- /Section 1 - Cart --*/
 
