@@ -2835,6 +2835,10 @@ select + p.error_text {
     display: none;
 }
 
+.order_table_row .cell_19_2 {
+    display: none;
+}
+
 /*-- /Section 1 - Orders User --*/
 
 /*-- Section 1 - Returns User --*/
