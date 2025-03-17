@@ -1768,6 +1768,7 @@ textarea:focus {
 .btns_inline > div a {
     min-height: 38px;
     width: 100%;
+    padding: 5px 25px;
 }
 
 /*-- /Section 1 - Forgot Password --*/
@@ -1882,7 +1883,6 @@ select + p.error_text {
 .btns_inline_2 {
     padding: 10px 0 20px 0;
 }
-
 
 /*-- /Section 1 - Register --*/
 
@@ -8906,7 +8906,8 @@ body.fixed {
 
 .popup_cat_table {
     border: 1px solid #E4E5E6;
-    margin: 10px 20px 0 20px;
+    margin: 10px 0 0 20px;
+    width: calc(100% - 40px);
 }
 
 .popup_cat_table_header {
@@ -9600,6 +9601,7 @@ body.fixed {
 }
 
 .charts_popup_footer p {
+    white-space: normal;
     font-size: 12px;
     line-height: 140%;
     letter-spacing: 0.02em;
@@ -9831,6 +9833,7 @@ body.fixed {
 }
 
 .del_popup_footer p {
+    white-space: normal;
     font-size: 10px;
     line-height: 140%;
     letter-spacing: 0.02em;
@@ -9838,6 +9841,8 @@ body.fixed {
 }
 
 .del_popup_footer p a {
+    display: inline-block;
+    vertical-align: top;
     font-size: 10px;
     line-height: 100%;
     letter-spacing: 0.02em;
