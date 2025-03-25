@@ -593,7 +593,6 @@
 }
 
 .card_table .cell-name {
-/*    width: calc(100% - 1089px);*/
     width: calc(100% - 1179px);
 }
 
@@ -3402,6 +3401,9 @@ h1 {
 
 .orders_filters_box .white_pill {
     width: 100%;
+    border: none;
+    box-shadow: none;
+    justify-content: flex-start;
 }
 
 .respDr {
@@ -3596,6 +3598,10 @@ h1 {
 
 .returns_table_header {
     display: none;
+}
+
+.returns_filters_box.visible_900 {
+    display: block;
 }
 
 /*-- /Section 1 - Returns User --*/
@@ -3906,13 +3912,13 @@ h1 {
 }
 
 .logo {
-    width: 105px;
+    width: 92px;
 }
 
 .resp_right_inlines {
     display: flex;
     justify-content: flex-end;
-    padding-top: 5px;
+    padding-top: 2px;
 }
 
 .login_thumb_resp {
@@ -4010,7 +4016,7 @@ h1 {
     top: 86px;
     left: 0;
     background: #fff;
-    z-index: 5;
+    z-index: 9;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -4195,6 +4201,10 @@ h1 {
 .time_btn {
     top: 6px;
     right: 6px;
+}
+
+.header_site .row {
+    padding: 0 10px;
 }
 
 /*-- /Header --*/
@@ -4532,6 +4542,19 @@ h1 {
     color: black;
     font-size: 11px;
     font-weight: 700;
+}
+
+.filters_dr_btns .t_ch input {
+    width: 12px;
+    height: 12px;
+    top: 3px;
+    left: 7px;
+}
+
+.order_table_row .t_ch input {
+    width: 12px;
+    height: 12px;
+    top: 4px;
 }
 
 /*-- /Section 1 - Orders User --*/
@@ -6109,12 +6132,22 @@ p.status.green {
     width: 100%;
 }
 
-.pills_inline > div {
-    width: 50%;
-}
-
 .white_pill {
     padding: 12px 5px;
+}
+
+.orders_filters_box .white_pill {
+    padding: 2px 5px;
+    min-height: 20px;
+    text-align: left;
+}
+
+.orders_filters_box .pills_inline > div {
+    padding: 2px 0;
+}
+
+.orders_filters_box .white_pill p {
+    font-size: 9px;
 }
 
 .filters_dr_btns {
@@ -6126,16 +6159,6 @@ p.status.green {
     text-align: center;
     margin: 10px -20px;
 }
-
-/*.pagination_wrapp_inner {
-    display: inline-block;
-    width: auto;
-}*/
-
-/*.pagination {
-    width: 100%;
-    padding-bottom: 10px;
-}*/
 
 .resp_pagebtns {
     display: flex;
@@ -6159,7 +6182,6 @@ p.status.green {
 
 .orders_filters_box {
     margin-left: -20px;
-/*    margin-right: -20px;*/
     width: 100vw;
 }
 
@@ -6168,7 +6190,7 @@ p.status.green {
 }
 
 .filters_bottom_row {
-    padding: 5px 20px;
+    padding: 5px 10px;
 }
 
 .filter_resp_row {
@@ -6184,11 +6206,6 @@ p.status.green {
     padding-right: 18px;
 }
 
-/*.order_table_row {
-    padding-left: 15px;
-    padding-right: 15px;
-}*/
-
 .filters_dr_btns ul li a {
     font-size: 11px;
     line-height: 18px;
@@ -6197,8 +6214,12 @@ p.status.green {
 .filters_dr_btns ul li a svg {
     position: relative;
     top: 2px;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
+}
+
+.orders_filters_box .white_pill img {
+    max-height: 8px;
 }
 
 /*-- /Section 1 - Orders User --*/
@@ -6329,6 +6350,18 @@ p.status.green {
 
 .returns_table_row .cell h3 {
     padding-bottom: 3px;
+}
+
+.filters_inline_2 {
+    flex-wrap: nowrap;
+}
+
+.filters_inline_2 > div:nth-child(1) {
+    order: 1;
+}
+
+.filters_inline_2 > div:nth-child(2) {
+    order: 2;
 }
 
 /*-- /Section 1 - Returns User --*/
@@ -6746,42 +6779,6 @@ p.status.green {
     padding: 6px 10px 4px 10px;
     font-size: 12px;
 }
-
-/*.card_table .cell-name {
-    width: calc(100% - 250px);
-}
-
-.card_table .cell-warehouse {
-    width: calc(100% - 241px);
-}
-
-.card_table .cell-sale {
-    width: 90px;
-}
-
-.card_table .cell-percent {
-    width: 78px;
-}
-
-.card_table .cell-comments {
-    width: calc(100% - 38px);
-}
-
-.card_table .cell-sum-sale {
-    width: 131px;
-}
-
-.card_table .cell-sum {
-    width: calc(100% - 370px);
-}
-
-.card_table .cell-term {
-    text-align: left;
-}
-
-.card_table .cell-price {
-    width: 71px;
-}*/
 
 .card_table_row h3 {
     padding-bottom: 4px;
@@ -7479,14 +7476,6 @@ h1 {
 
 @media only screen and (max-width: 400px) {
 
-/*-- Section 1 - Orders User --*/
-
-.pills_inline > div {
-    width: 100%;
-    padding: 3px 5px;
-}
-
-/*-- /Section 1 - Orders User --*/
 
 /*-- Section 1 - Batteries --*/
 
