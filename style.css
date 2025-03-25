@@ -8471,6 +8471,7 @@ body.fixed {
 
 .conf_ch span {
     display: block;
+    white-space: normal;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 9px;
@@ -9861,8 +9862,6 @@ body.fixed {
 .popup_content_image {
     width: auto;
     height: auto;
-/*    max-width: 80vw;*/
-/*    max-height: 80vh;*/
     padding: 0;
     text-align: center;
 }
