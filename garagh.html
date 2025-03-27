@@ -1430,11 +1430,12 @@
 					<p class="error_text">Заполните поле</p>
 				</div>
 				<div class="input_file_wrapp inpFileWrapp">
-					<div class="input_file_templ">
-						<label for="file1">Выберите файл</label>
+					<label class="input_file_templ" for="file1">
+						<span>Выберите файл</span>
 						<p class="filenametext fileName"></p>
-					</div>
-					<input id="file1" type="file" accept="jpg, png, webp">
+					</label>
+					<input id="file1" type="file" accept=".rar,.zip,.csv,.txt,.xls,.xlsx">
+					<p class="error_text">Файл не выбран</p>
 				</div>
 				<div class="submit_wrapp">
 					<button type="submit" class="green_pill">Сохранить</button>
