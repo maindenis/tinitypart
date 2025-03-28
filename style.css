@@ -7376,6 +7376,10 @@ textarea + p.error_text {
     color: #ffe440;
 }
 
+.search_table_rows .photo_link {
+    margin-top: 4px;
+}
+
 /*-- /Section 1 - Balance --*/
 
 /*-- Section 1 - Search Result --*/
@@ -7461,8 +7465,9 @@ textarea + p.error_text {
 /*-- Section 1 - Search --*/
 
 .search_table_title {
-    display: inline-block;
-    vertical-align: top;
+/*    display: inline-block;*/
+/*    vertical-align: top;*/
+    display: flex;
     background: #5c6d89;
     border-radius: 3px 3px 0 0;
     padding: 8px 20px;
@@ -7477,12 +7482,13 @@ textarea + p.error_text {
     color: #fff;
 }
 
-.search_table {
-
+.search_table .table_title:after {
+    top: 9px;
+    position: relative;
 }
 
 .search_table .cell {
-    padding: 5px 10px;
+    padding: 2px 10px;
     text-align: center;
     position: relative;
 }
@@ -8067,6 +8073,246 @@ textarea + p.error_text {
     left: 10px;
     background: transparent;
     cursor: pointer;
+}
+
+.search_table_rows:hover {
+    background: #424f67 !important;
+}
+
+.search_table_rows .cell_1 p {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+}
+
+.search_table_rows .cell_1 p img {
+    width: 17px;
+    height: auto;
+    margin-top: -3px;
+    margin-left: 3px;
+}
+
+.search_table_title.green_bg {
+    background: #7fc388;
+}
+
+.table_tooltip {
+    display: none;
+    white-space: nowrap;
+    background: #5C6D89;
+    border-radius: 6px;
+    padding: 3px 10px 2px 10px;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-align: center !important;
+    letter-spacing: .02em !important;
+    color: #fff !important;
+    position: absolute;
+    top: -5px;
+    left: calc(100% - 10px);
+    z-index: -1;
+}
+
+.table_tooltip.visible {
+    display: block;
+    z-index: 3;
+}
+
+.search_table_rows .star:hover + .table_tooltip {
+    display: block;
+    z-index: 3;
+}
+
+.green_bg .search_table_rows:nth-child(odd) {
+    background: #daf1dd;
+}
+
+.green_bg .search_table_rows:nth-child(even) {
+    background: #F5F6F7;
+}
+
+.tooltip_icon {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    position: relative;
+}
+
+p > .tooltip_icon {
+    margin: -5px 5px 0 5px;
+}
+
+.tooltip_icon .tooltip_icon_text {
+    width: 160px !important;
+    text-align: left;
+    background: #5C6D89;
+    border-radius: 6px;
+    position: absolute;
+    bottom: calc(100% - 10px);
+    left: -99999px;
+    transform: translate(0, 0);
+    padding: 10px 15px;
+    z-index: 3;
+    opacity: 0;
+    -webkit-transition-property: opacity, bottom;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: opacity, bottom;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: opacity, bottom;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: opacity, bottom;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: opacity, bottom;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.tooltip_icon:hover .tooltip_icon_text {
+    opacity: 1;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.tooltip_icon .tooltip_icon_text {
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    text-align: center !important;
+    letter-spacing: .02em !important;
+    color: #fff !important;
+    font-style: normal !important;
+}
+
+.tooltip_icon .tooltip_icon_text:after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 5px 0 5px;
+    border-color: #5C6D89 transparent transparent transparent;
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 5px);
+}
+
+.car {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/delivery.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.imp_green {
+    display: block;
+    width: 15px;
+    height: 15px;
+    background-image: url(img/i_green.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.search_table_rows .tooltip_icon .tooltip_icon_text {
+    width: 175px !important
+}
+
+.search_table_rows .imp_green {
+    margin: 1px auto 0 auto;
+}
+
+.user_checked {
+    display: inline-block;
+    vertical-align: top;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/user_checked.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.search_table_rows .user_checked {
+    margin: -5px 3px 1px 1px;
+}
+
+.cell_two_cols {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.cell_two_cols > div:nth-child(1) {
+    padding-right: 5px;
+}
+
+.cell_two_cols > div:nth-child(2) {
+    padding-left: 5px;
+}
+
+.dr_link {
+    display: inline-flex;
+    align-items: center;
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: .02em;
+    color: #262728;
+    position: relative;
+}
+
+.dr_link svg {
+    width: 15px;
+    height: 15px;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -1px;
+    right: 0;
+}
+
+.search_table_rows:hover .dr_link {
+    color: #fff;
+}
+
+.dr_content_inner {
+    display: none;
+}
+
+.hrow.novisible {
+    display: none;
+}
+
+.dr_title_inner.active {
+    background: #424f67 !important;
+}
+
+.dr_title_inner.active p,
+.dr_title_inner.active p a,
+.dr_title_inner.active .dr_link {
+    color: #fff;
+}
+
+.dr_title_inner.active .dr_link svg {
+    transform: rotate(-90deg);
+}
+
+.dr_title_inner.active .dr_link svg path {
+    fill: #fff;
 }
 
 /*-- /Section 1 - Search --*/
@@ -9622,6 +9868,7 @@ body.fixed {
 
 .search_popup_slider {
     margin: 0 -20px;
+    width: calc(100% + 40px);
     overflow: hidden;
     padding: 10px 0 0 0;
 }
@@ -9724,6 +9971,7 @@ body.fixed {
 }
 
 .table_6 p {
+    white-space: normal;
     font-size: 12px;
     line-height: 14px;
     letter-spacing: .02em;
