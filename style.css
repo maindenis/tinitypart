@@ -549,7 +549,14 @@ textarea:focus {
     left: 0;
 }
 
-.header_form .password_input input.error + p.error_text {
+.input_wrapp input + .invalid-feedback {
+    display: block;
+    position: absolute;
+    top: 39px;
+    left: 0;
+}
+
+.header_form .password_input input + .invalid-feedback {
     display: block;
     position: absolute;
     top: 24px;
@@ -1842,6 +1849,13 @@ textarea:focus {
 }
 
 select + p.error_text {
+    display: none;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ff0000;
+}
+
+select + .invalid-feedback {
     display: none;
     font-size: 12px;
     line-height: 16px;
@@ -4123,6 +4137,14 @@ textarea + p.error_text {
     color: #ff0000;
 }
 
+input + .invalid-feedback,
+textarea + .invalid-feedback {
+/*    display: none;*/
+    font-size: 12px;
+    line-height: 16px;
+    color: #ff0000;
+}
+
 .custom_select.conf input + .custom_select_title .p_val {
     border: 1px solid #7fc388;
     background-image: url(img/input_ch.svg);
@@ -5880,6 +5902,10 @@ textarea + p.error_text {
     margin: 0 -7px;
 }
 
+.tabs_wrapp .btns_inlines {
+    width: 100% !important;
+}
+
 .btns_inlines > div {
     padding: 5px 7px;
 }
@@ -6024,10 +6050,6 @@ textarea + p.error_text {
     transition-duration: .3s;
     transition-timing-function: ease;
 }
-
-/*.white_pill:hover p {
-    color: #fff;
-}*/
 
 .btns_two_cols {
     display: flex;
@@ -6360,15 +6382,13 @@ textarea + p.error_text {
     transition-timing-function: ease;
 }
 
-/*.red_pill:hover {
-    background: #ff0000;
-}*/
-
 .red_pill i {
     margin-right: 10px;
     position: relative;
     top: -1px;
 }
+
+
 
 /*-- /Section 1 - Cabinet --*/
 
@@ -8597,6 +8617,12 @@ body.fixed {
 }
 
 .error_text {
+    margin-top: .25rem;
+    font-size: .875em;
+    color: #dc3545;
+}
+
+.invalid-feedback {
     margin-top: .25rem;
     font-size: .875em;
     color: #dc3545;
