@@ -869,9 +869,21 @@ $(document).ready(function() {
 
     $(".showRows").on("click", function(e) {
         e.preventDefault();
-        parent = $(this).closest(".sortTable");
-        parent.find(".sortRow").removeClass("novisible");
+        prevElem = $(this).prev("div");
+        prevElem.find(".sortRow").removeClass("novisible");
         $(this).remove();
+        parent.find(".chart_miniuature").each(function() {
+            var chart = $(this);
+            var data = {
+              series: [5, 3]
+            };
+            var sum = function(a, b) { return a + b };
+            new Chartist.Pie(this, data, {
+              labelInterpolationFnc: function(value) {
+                return Math.round(value / data.series.reduce(sum) * 100) + '%';
+              }
+            });
+        });
     });
 
     // ------------
@@ -1002,6 +1014,34 @@ $(document).ready(function() {
     if($("#nodes").length > 0) {
         $("#nodes").draggable();
     }
+
+    // ------------
+
+    $(".dr_link").on("click", function(e) {
+        e.preventDefault();
+        parent = $(this).closest(".dr_parent_inner");
+        dr = parent.find(".dr_content_inner");
+        title = parent.find(".dr_title_inner");
+        if(dr.is(":hidden")) {
+            dr.slideDown(300);
+            parent.find(".chart_miniuature").each(function() {
+                var chart = $(this);
+                var data = {
+                  series: [5, 3]
+                };
+                var sum = function(a, b) { return a + b };
+                new Chartist.Pie(this, data, {
+                  labelInterpolationFnc: function(value) {
+                    return Math.round(value / data.series.reduce(sum) * 100) + '%';
+                  }
+                });
+            });
+            title.addClass("active");
+        } else {
+            dr.slideUp(300);
+            title.removeClass("active");
+        }
+    });
 
     // ------------
 
