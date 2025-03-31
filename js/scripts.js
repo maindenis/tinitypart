@@ -1019,12 +1019,12 @@ $(document).ready(function() {
 
     $(".dr_link").on("click", function(e) {
         e.preventDefault();
-        parent = $(this).closest(".dr_parent_inner");
-        dr = parent.find(".dr_content_inner");
-        title = parent.find(".dr_title_inner");
+        parent = $(this).closest(".dr_title_inner");
+        dr = parent.next(".dr_content_inner");
+        // title = parent.find(".dr_title_inner");
         if(dr.is(":hidden")) {
             dr.slideDown(300);
-            parent.find(".chart_miniuature").each(function() {
+            dr.find(".chart_miniuature").each(function() {
                 var chart = $(this);
                 var data = {
                   series: [5, 3]
@@ -1036,10 +1036,10 @@ $(document).ready(function() {
                   }
                 });
             });
-            title.addClass("active");
+            parent.addClass("active");
         } else {
             dr.slideUp(300);
-            title.removeClass("active");
+            parent.removeClass("active");
         }
     });
 
