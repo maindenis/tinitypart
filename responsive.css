@@ -1137,6 +1137,55 @@
 
 /*-- /Section 1 - Cart --*/
 
+/*-- Section 1 - Search --*/
+
+.search_table_rows {
+    flex-wrap: wrap;
+}
+
+.search_table .cell_2 {
+    width: 120px;
+}
+
+.search_table .cell_3 {
+    width: 50px;
+}
+
+.search_table .cell_4 {
+    width: calc(100% - 915px);
+}
+
+.search_table .cell_5 {
+    width: 80px;
+}
+
+.search_table .cell_7 {
+    width: 55px;
+}
+
+.search_table .cell_8 {
+    width: 80px;
+}
+
+.search_table .cell_9 {
+    width: 50px;
+}
+
+.search_table .cell_10 {
+    width: 100px;
+}
+
+.st_two_cols .green_pill {
+    width: 36px;
+    min-width: 36px;
+}
+
+.search_table .cell_11 {
+    width: 115px;
+}
+
+/*-- /Section 1 - Search --*/
+
 }
 
 @media only screen and (max-width: 1240px) {
@@ -1212,8 +1261,6 @@
 }
 
 .price_thumb h4 {
-/*    padding-bottom: 4px;
-    font-size: 12px;*/
     display: none;
 }
 
@@ -1245,7 +1292,6 @@
 }
 
 .login_thumb p {
-/*    font-size: 10px;*/
     display: none;
 }
 
@@ -2092,12 +2138,16 @@ width: 33.33%;
 
 /*-- Section 1 - Search --*/
 
+.search_table .cell {
+    padding: 2px 5px;
+}
+
 .search_table .cell_1 {
-    width: 90px;
+    width: 75px;
 }
 
 .search_table .cell_2 {
-    width: 110px;
+    width: 95px;
 }
 
 .search_table .cell_3 {
@@ -2105,11 +2155,11 @@ width: 33.33%;
 }
 
 .search_table .cell_4 {
-    width: calc(100% - 810px);
+    width: calc(100% - 720px);
 }
 
 .search_table .cell_5 {
-    width: 80px;
+    width: 50px;
 }
 
 .search_table .cell_6 {
@@ -2121,7 +2171,11 @@ width: 33.33%;
 }
 
 .search_table .cell_8 {
-    width: 70px;
+    width: 75px;
+}
+
+.search_table .cell_9 {
+    width: 35px;
 }
 
 .search_table .cell_10 {
@@ -2685,24 +2739,6 @@ width: 33.33%;
 
 /*-- /Section 1 - Original catalogs --*/
 
-/*-- Section 1 - Search_for_a car_by_parameters --*/
-
-/*.dr_params_box > div {
-    width: 20%;
-    padding: 3px 18px;
-}
-
-.se_car_submit_wrapp {
-    width: 230px;
-}
-
-.dr_params_box .green_pill_2 {
-    width: 197px;
-    font-size: 12px;
-}*/
-
-/*-- /Section 1 - Search_for_a car_by_parameters --*/
-
 /*-- Section 1 - Found_cars --*/
 
 .catalogs_table_2 .cell_1 {
@@ -2912,6 +2948,14 @@ width: 33.33%;
     width: 120px !important;
 }
 
+.search_table > .dr_parent {
+    margin: 15px 0;
+}
+
+.search_table_dr .search_table_rows:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
 .search_table_header .cell {
     display: none;
 }
@@ -2942,14 +2986,237 @@ width: 33.33%;
 
 .search_table_rows {
     flex-wrap: wrap;
+    padding-top: 7px;
+}
+
+.search_table_rows .cell {
+    min-height: auto;
+}
+
+.search_table_rows .cell p,
+.search_table_rows .cell p a {
+    font-size: 12px;
+}
+
+.search_table_header {
+    display: none;
+}
+
+.search_table .cell_1 {
+    text-align: left;
+    order: 1;
+}
+
+.search_table .cell_2 {
+    width: 95px;
+    padding-top: 6px;
+    text-align: left;
+    order: 2;
+}
+
+.search_table .cell_3 {
+    text-align: left;
+    order: 3;
 }
 
 .search_table .cell_4 {
-    width: calc(100% - 240px);
+    width: 100%;
+    padding: 0 5px 12px 5px;
+    order: 4;
+}
+
+.search_table .cell_5 {
+    order: 6;
+    text-align: left;
+    width: 28%;
 }
 
 .search_table .cell_6 {
-    width: 124px;
+    order: 5;
+    text-align: left;
+    width: 49%;
+}
+
+.search_table .cell_7 {
+    order: 9;
+    width: 155px;
+}
+
+.search_table .cell_8 {
+    order: 10;
+    width: calc(50% - 115px);
+    text-align: left;
+}
+
+.search_table .cell_9 {
+    order: 8;
+    width: calc(49% - 155px);
+    text-align: left;
+}
+
+.search_table .cell_10 {
+    order: 7;
+    width: 23%;
+    text-align: right !important;
+}
+
+.search_table .cell_11 {
+    order: 11;
+    justify-content: flex-end;
+}
+
+.search_table .cell_2 p a {
+    font-weight: 700;
+}
+
+.st_two_cols {
+    justify-content: flex-end;
+}
+
+.st_two_cols > div:nth-child(2) {
+    width: 37px;
+}
+
+.mob_visible {
+    display: inline-block;
+    vertical-align: baseline;
+    padding-right: 5px;
+}
+
+.search_table .cell_1 > div p {
+    justify-content: flex-start;
+}
+
+.search_table .cell_5 > div p {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    font-weight: 700;
+}
+
+.search_table .cell_5 > div p.mob_visible {
+    font-weight: 400;
+}
+
+.search_table .cell_6 > div p {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    font-weight: 700;
+}
+
+.search_table .cell_6 > div p.mob_visible {
+    font-weight: 400;
+}
+
+.search_table .cell_8 > div p {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    font-weight: 700;
+}
+
+.search_table .cell_8 > div p.mob_visible {
+    font-weight: 400;
+}
+
+.search_table .cell_9 > div p {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    font-weight: 700;
+}
+
+.search_table .cell_9 > div p.mob_visible {
+    font-weight: 400;
+}
+
+.search_table .cell_10 > div p {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.full_width {
+    width: 100%;
+}
+
+.analogy_table .cell_4 {
+    padding: 0;
+}
+
+.analogy_table .cell_4 > div > p {
+    display: none;
+}
+
+.search_table .cell:hover .tooltip_2 {
+    left: 30px;
+}
+
+.dr_link {
+    width: 30px;
+    height: 24px;
+    font-size: 0;
+    line-height: 0;
+    background-image: url(img/dr_green_icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    right: 5px;
+    -webkit-transition-property: transform;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: transform;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: transform;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: transform;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.dr_link svg {
+    display: none;
+}
+
+.dr_title_inner.active .dr_link {
+    transform: rotate(-180deg);
+}
+
+.search_table_dr + .showRows {
+    margin-top: -15px;
+    margin-bottom: 0;
+}
+
+.c_m_link {
+    position: relative;
+    top: -6px;
+}
+
+.search_table > .dr_parent {
+    margin: 15px 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.search_table > .dr_parent.active {
+    overflow: none;
+}
+
+.dr_title_inner.active .cell_2 a {
+    border-bottom: 1px solid #fff;
 }
 
 /*-- /Section 1 - Balance --*/
@@ -4914,10 +5181,6 @@ h1 {
     text-align: right;
 }
 
-/*.card_table_row h3 {
-    display: none;
-}*/
-
 .card_table_row .cell-name p {
     display: block;
     overflow: hidden;
@@ -5232,81 +5495,6 @@ p.status.green {
 
 @media only screen and (max-width: 750px) {
 
-/*-- Section 1 - Orders User --*/
-/*.orders_table .cell {
-    padding: 5px 6px 1px 6px;
-}
-
-.order_table_row h3 {
-    padding: 0 0 3px 0;
-}
-
-.orders_table .cell_1 {
-    width: 33%;
-}
-
-.orders_table .cell_2 {
-    width: 35%;
-}
-
-.orders_table .cell_3 {
-    width: 32%;
-}
-
-.orders_table .cell_4 {
-    width: 100%;
-}
-
-.orders_table .cell_5 {
-    width: 26%;
-}
-
-.orders_table .cell_6 {
-    width: 21%;
-}
-
-.orders_table .cell_7 {
-    width: 26%;
-}
-
-.orders_table .cell_8 {
-    width: 27%;
-}
-
-.orders_table .cell_9 {
-    width: 32%;
-}
-
-.orders_table .cell_10 {
-    width: 68%;
-}
-
-.orders_table .cell_11,
-.orders_table .cell_12,
-.orders_table .cell_13,
-.orders_table .cell_15,
-.orders_table .cell_16,
-.orders_table .cell_17 {
-    width: 14%;
-}
-
-.orders_table .cell_14 {
-    width: 16%;
-}
-
-.orders_table .cell_18 {
-    width: 30%;
-}
-
-.orders_table .cell_19 {
-    width: 70%;
-}
-
-.order_table_row .cell .imp_2 {
-    margin: 15px auto 0 auto;
-}*/
-/*-- /Section 1 - Orders User --*/
-
 /*-- Section 1 - Non-original catalogs --*/
 
 .catalogs_lists h3 {
@@ -5408,62 +5596,6 @@ p.status.green {
 
 /*-- /Section 1 - Batteries --*/
 
-/*-- Section 1 - Cart --*/
-
-/*.card_table .cell-article {
-    width: 70px;
-}
-
-.card_table .cell-name {
-    width: calc(100% - 427px);
-}
-
-.card_table .cell-brand {
-    width: 70px;
-}
-
-.card_table .cell-term {
-    width: 110px;
-}
-
-.card_table .cell-count {
-    width: 120px;
-}
-
-.card_table .cell-price {
-    width: 100px;
-}
-
-.card_table .cell-sum {
-    width: 70px;
-}
-
-.card_table .cell-sum-sale {
-    width: calc(100% - 468px);
-}
-
-.card_table.opt .cell-name {
-    width: calc(100% - 427px);
-}
-
-.card_table .cell-comments {
-    width: calc(100% - 38px);
-}
-
-.card_table .cell-warehouse {
-    width: 127px;
-}
-
-.card_table.opt .cell-comments {
-    width: calc(100% - 38px);
-}
-
-.card_table.opt .cell-sum-sale {
-    width: calc(100% - 388px);
-}*/
-
-/*-- /Section 1 - Cart --*/
-
 /*-- Section 1 - Balance --*/
 
 .balance_table_main_row {
@@ -5515,22 +5647,6 @@ p.status.green {
 }
 
 /*-- /Section 1 - Balance --*/
-
-/*-- Section 1 - Search --*/
-
-.search_table .cell_1 {
-    width: 78px;
-}
-
-.search_table .cell_5 {
-    width: 75px;
-}
-
-.search_table .cell_6 {
-    width: 83px;
-}
-
-/*-- /Section 1 - Search --*/
 
 /*-- Footer --*/
 
@@ -6088,6 +6204,10 @@ p.status.green {
     display: none;
 }
 
+.row {
+    padding: 0 15px;
+}
+
 /*-- Section 1 - Orders User --*/
 
 .filters_inline > div:nth-child(1) {
@@ -6295,58 +6415,6 @@ p.status.green {
 .filter_form_sect {
     max-width: 230px;
 }
-/*
-.returns_table .cell {
-    padding: 2px 5px;
-}
-
-.returns_table .cell_1 {
-    width: 29%;
-}
-
-.returns_table .cell_2 {
-    width: 37%;
-}
-
-.returns_table .cell_3 {
-    width: 34%;
-}
-
-.returns_table .cell_4 {
-    width: 100%;
-}
-
-.returns_table .cell_5 {
-    width: 31%;
-}
-
-.returns_table .cell_6 {
-    width: 36%;
-}
-
-.returns_table .cell_7 {
-    width: 15%;
-}
-
-.returns_table .cell_8 {
-    width: 18%;
-}
-
-.returns_table .cell_9 {
-    width: 21%;
-}
-
-.returns_table .cell_10 {
-    width: 79%;
-}
-
-.returns_table .cell_11, .returns_table .cell_12, .returns_table .cell_13, .returns_table .cell_14, .returns_table .cell_15 {
-    width: 14.8%;
-}
-
-.returns_table .cell_16 {
-    width: 26%;
-}*/
 
 .returns_table_row .cell h3 {
     padding-bottom: 3px;
@@ -6883,27 +6951,98 @@ p.status.green {
 }
 
 .search_table .cell {
-     min-height: auto;
+    min-height: auto;
     text-align: left;
     justify-content: flex-start;
-}
-
-.search_table .cell_5,
-.search_table .cell_6,
-.search_table .cell_7,
-.search_table .cell_8 {
-    width: 25%;
-}
-
-.search_table .cell_9,
-.search_table .cell_10,
-.search_table .cell_11 {
-    width: 33.33%;
 }
 
 .search_table_rows {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.search_table .cell_5 {
+    width: 25%;
+}
+
+.search_table .cell_7 {
+    order: 9;
+    width: 50px;
+}
+
+.search_table .cell_8 {
+    order: 10;
+    width: calc(50% - 90px);
+    padding-right: 0;
+}
+
+.search_table .cell_9 {
+    order: 8;
+    width: calc(49% - 52px);
+}
+
+.search_table .cell_10 {
+    width: 26%;
+    padding-right: 0;
+}
+
+.search_table .cell_11 {
+    width: 95px;
+}
+
+.search_table_rows {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.search_table_title {
+    border-radius: 8px 8px 0 0;
+    padding: 8px 10px;
+}
+
+.st_two_cols {
+    padding-top: 0;
+}
+
+.st_two_cols > div:nth-child(1) {
+    width: 45px;
+}
+
+.st_two_cols .input_number {
+    width: 45px;
+    height: 28px;
+}
+
+.st_two_cols .input_number input {
+    height: 28px;
+}
+
+.st_two_cols .input_number.count_box .plus_btn {
+    width: 15px;
+    height: 15px;
+    top: 0;
+    right: 1px;
+}
+
+.st_two_cols .input_number.count_box .minus_btn {
+    width: 15px;
+    height: 15px;
+    bottom: 0;
+    right: 1px;
+}
+
+.st_two_cols .green_pill {
+    height: 28px;
+    min-height: 28px;
+}
+
+.search_table_rows .cell p,
+.search_table_rows .cell p a {
+    font-size: 11px;
+}
+
+.search_table .cell_8 > div {
+    display: flex;
 }
 
 /*-- /Section 1 - Search --*/
@@ -7564,7 +7703,7 @@ h1 {
 
 /*-- Section 1 - Search --*/
 
-.search_table .cell_1 {
+/*.search_table .cell_1 {
     width: 35%;
 }
 
@@ -7574,7 +7713,7 @@ h1 {
 
 .search_table .cell_4 {
     width: 100%;
-}
+}*/
 
 /*-- /Section 1 - Search --*/
 

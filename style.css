@@ -8335,6 +8335,14 @@ p > .tooltip_icon {
     fill: #fff;
 }
 
+.visible_1024 {
+    display: none;
+}
+
+.mob_visible {
+    display: none;
+}
+
 /*-- /Section 1 - Search --*/
 
 /*-------------------------------------------*/
