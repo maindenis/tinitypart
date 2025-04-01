@@ -3162,6 +3162,17 @@ select + .invalid-feedback {
     padding: 0 70px 0 10px;
 }
 
+.returns_table .cell:hover .tooltip_2 {
+    opacity: 1;
+    bottom: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.returns_table .cell_resp_right > div {
+    position: relative;
+}
+
 /*-- /Section 1 - Returns User --*/
 
 /*-- Section 1 - Non-original catalogs --*/
