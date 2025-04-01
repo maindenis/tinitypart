@@ -5593,6 +5593,40 @@ textarea + .invalid-feedback {
     width: 100%;
 }
 
+.catalog_thumb_3_inner.new {
+    padding: 12px 20px 2px 20px;
+}
+
+.shop-item-content {
+    padding: 10px 0 4px 0;
+    text-align: center;
+}
+
+.shop-item-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: .02em;
+    color: #262728;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.equipment-item-param {
+    display: block;
+    font-size: 13.5px;
+    line-height: 120%;
+}
+
+.equipment-item-price {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #7fc388;
+    letter-spacing: .02em;
+    display: block;
+}
+
 /*-- /Section 1 - Selection_of_tires_by_Auto --*/
 
 /*-- Section 1 - Autoelectik --*/

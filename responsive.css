@@ -2210,6 +2210,28 @@ width: 33.33%;
 
 /*-- /Section 1 - Selection_of_tires_by_Auto --*/
 
+/*-- Section 1 - Selection_of_tires_by_Auto --*/
+
+.catalog_thumb_3_inner.new {
+    padding: 12px 10px 2px 10px;
+}
+
+.shop-item-title {
+    margin-bottom: 13px;
+    font-size: 11px;
+}
+
+.equipment-item-param {
+    padding-bottom: 5px;
+    font-size: 13.5px;
+}
+
+.equipment-item-price {
+    font-size: 14px;
+}
+
+/*-- /Section 1 - Selection_of_tires_by_Auto --*/
+
 /*-- Section 1 - Found_cars --*/
 
 .found_table_header {
