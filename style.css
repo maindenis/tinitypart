@@ -7842,6 +7842,7 @@ textarea + .invalid-feedback {
 }
 
 .tooltip_2 > p {
+    white-space: normal;
     font-weight: 400 !important;
     font-size: 12px !important;
     line-height: 14px !important;
@@ -8211,6 +8212,7 @@ p > .tooltip_icon {
     letter-spacing: .02em !important;
     color: #fff !important;
     font-style: normal !important;
+    white-space: normal;
 }
 
 .tooltip_icon .tooltip_icon_text:after {
@@ -9973,12 +9975,12 @@ body.fixed {
     object-position: center;
 }
 
-.table_6 {
+.popup_content_search_slider .table_6 {
     border: 1px solid #E4E5E6;
     margin-bottom: 10px;
 }
 
-.table_6 .cell_1 {
+.popup_content_search_slider .table_6 .cell_1 {
     display: flex;
     min-height: 40px;
     align-items: center;
@@ -9987,7 +9989,7 @@ body.fixed {
     border-right: 1px solid #E4E5E6;
 }
 
-.table_6 .cell_2 {
+.popup_content_search_slider .table_6 .cell_2 {
     display: flex;
     min-height: 40px;
     align-items: center;
@@ -9995,8 +9997,8 @@ body.fixed {
     padding: 10px 10px;
 }
 
-.table_6 .cell_1 > *,
-.table_6 .cell_2 > * {
+.popup_content_search_slider .table_6 .cell_1 > *,
+.popup_content_search_slider .table_6 .cell_2 > * {
     width: 100%;
 }
 

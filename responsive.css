@@ -7317,10 +7317,11 @@ p > .tooltip_icon {
     margin: 10px 0;
 }
 
-.table_6 {
+.popup_content_search_slider  .table_6 {
     margin-top: 10px;
     margin-left: -20px;
     margin-right: -20px;
+    width: calc(100% + 40px);
 }
 
 .table_6 .cell_1 {
