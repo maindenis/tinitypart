@@ -9432,6 +9432,7 @@ body.fixed {
     border-top: 1px solid #E4E5E6;
     border-left: 1px solid #E4E5E6;
     margin: 10px -10px;
+    width: auto;
 }
 
 .popup_slide {
