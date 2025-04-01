@@ -6966,12 +6966,30 @@ p.status.green {
 }
 
 .search_table .cell_5 {
-    width: 25%;
+    width: 19%;
+}
+
+.search_table .cell_5 > div {
+    white-space: nowrap;
+}
+
+.search_table .cell_6 {
+    width: 44%;
+    padding-right: 0;
+}
+
+.search_table .cell_6 > div {
+    display: flex;
+}
+
+.search_table .cell_6 > div p {
+    font-size: 0.8em;
+    white-space: nowrap;
 }
 
 .search_table .cell_7 {
     order: 9;
-    width: 50px;
+    width: 41px;
 }
 
 .search_table .cell_8 {
@@ -6982,21 +7000,23 @@ p.status.green {
 
 .search_table .cell_9 {
     order: 8;
-    width: calc(49% - 52px);
+    width: calc(45% - 45px);
 }
 
 .search_table .cell_10 {
-    width: 26%;
-    padding-right: 0;
+    width: 37%;
+    padding-right: 28px;
 }
 
 .search_table .cell_11 {
-    width: 95px;
+    width: 109px;
+    padding-top: 0;
+    margin-top: -8px;
 }
 
 .search_table_rows {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .search_table_title {
@@ -7006,47 +7026,125 @@ p.status.green {
 
 .st_two_cols {
     padding-top: 0;
+    align-items: flex-end;
 }
 
 .st_two_cols > div:nth-child(1) {
-    width: 45px;
+    width: 68px;
+    padding-bottom: 5px;
 }
 
 .st_two_cols .input_number {
-    width: 45px;
-    height: 28px;
+    display: flex;
+    width: 70px;
+    height: 22px;
+    background: #fff;
+    border-radius: 4px;
 }
 
 .st_two_cols .input_number input {
     height: 28px;
+    line-height: 21px;
+    background: #fff;
+    border: none;
 }
 
 .st_two_cols .input_number.count_box .plus_btn {
     width: 15px;
-    height: 15px;
+    height: 11px;
     top: 0;
-    right: 1px;
+    right: 12px;
+    border: none;
 }
 
 .st_two_cols .input_number.count_box .minus_btn {
     width: 15px;
-    height: 15px;
+    height: 11px;
     bottom: 0;
-    right: 1px;
+    right: 12px;
+    border: none;
 }
 
 .st_two_cols .green_pill {
     height: 28px;
     min-height: 28px;
+    width: 30px;
+    min-width: 30px;
+    padding: 0;
 }
 
 .search_table_rows .cell p,
 .search_table_rows .cell p a {
-    font-size: 11px;
+/*    font-size: 11px;*/
+    font-size: 12px;
+}
+
+.search_table .cell_5 > div p,
+.search_table .cell_8 > div p,
+.search_table .cell_6 > div p.mob_visible {
+    font-size: .6875em;
+}
+
+.search_table .cell .mob_visible {
+    padding-right: 1px;
 }
 
 .search_table .cell_8 > div {
     display: flex;
+}
+
+.car {
+    width: 18px;
+    height: 18px;
+}
+
+p > .tooltip_icon {
+    margin: -3px 3px 0 3px;
+}
+
+.input_number .resp_minus {
+    display: block;
+    background: #fff;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    width: 18px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.input_number .resp_minus span {
+    position: relative;
+    top: -1px;
+}
+
+.input_number .resp_plus {
+    display: block;
+    background: #fff;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    width: 18px;
+    height: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.input_number .resp_plus span {
+    position: relative;
+    top: 1px;
+    right: 1px;
+}
+
+.st_two_cols .input_number input {
+    height: 22px;
+    padding: 0 5px;
+    text-align: left;
 }
 
 /*-- /Section 1 - Search --*/

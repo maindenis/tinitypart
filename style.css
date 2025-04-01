@@ -8343,6 +8343,15 @@ p > .tooltip_icon {
     display: none;
 }
 
+.input_number .resp_minus,
+.input_number .resp_plus {
+    display: none;
+}
+
+.search_table_rows {
+    background: #F5F6F7;
+}
+
 /*-- /Section 1 - Search --*/
 
 /*-------------------------------------------*/
