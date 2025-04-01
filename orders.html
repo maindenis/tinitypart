@@ -881,7 +881,7 @@
 							</div>
 							<div class="cell cell_resp_left">
 								<div>
-									<a href="#" class="orange_link">Доп. инфо.</a>
+									<a href="#" class="orange_link" data-popup-link = "orders_resp_modal">Доп. инфо.</a>
 								</div>
 							</div>
 							<div class="cell cell_resp_right">
@@ -1040,7 +1040,7 @@
 							</div>
 							<div class="cell cell_resp_left">
 								<div>
-									<a href="#" class="orange_link">Доп. инфо.</a>
+									<a href="#" class="orange_link" data-popup-link = "orders_resp_modal">Доп. инфо.</a>
 								</div>
 							</div>
 							<div class="cell cell_resp_right">
@@ -1199,7 +1199,7 @@
 							</div>
 							<div class="cell cell_resp_left">
 								<div>
-									<a href="#" class="orange_link">Доп. инфо.</a>
+									<a href="#" class="orange_link" data-popup-link = "orders_resp_modal">Доп. инфо.</a>
 								</div>
 							</div>
 							<div class="cell cell_resp_right">
@@ -1358,7 +1358,7 @@
 							</div>
 							<div class="cell cell_resp_left">
 								<div>
-									<a href="#" class="orange_link">Доп. инфо.</a>
+									<a href="#" class="orange_link" data-popup-link = "orders_resp_modal">Доп. инфо.</a>
 								</div>
 							</div>
 							<div class="cell cell_resp_right">
@@ -1376,30 +1376,67 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class="pagination_wrapp pagination_wrapp_main_2">
-				<div class="pagination_wrapp_inner">
-					<a href="#" class="page_button first_page noactive">К началу</a>
-					<ul class="pagination">
-						<li><a href="#" class="prev_page"></a></li>
-						<li><a href="#" class="active">1</a></li>
-						<li><a href="#">2</a></li>
-						<li><a href="#">3</a></li>
-						<li><a href="#">4</a></li>
-						<li><a href="#">5</a></li>
-						<li><a href="#">6</a></li>
-						<li><a href="#" class="next_page"></a></li>
-					</ul>
-					<a href="#" class="page_button last_page">В конец</a>
-					<div class="resp_pagebtns">
-						<div>
-							<a href="#" class="page_button first_page noactive">К началу</a>
-						</div>
-						<div>
-							<a href="#" class="page_button last_page">В конец</a>
-						</div>
+			<div class="info_table">
+				<div class="info_table_header">
+					<div class="cell-date">
+						<h3>Дата</h3>
+					</div>
+					<div class="cell-action">
+						<h3>Действие</h3>
+					</div>
+					<div class="cell-status-num">
+						<h3>Кол.</h3>
+					</div>
+					<div class="cell-note">
+						<h3>Комментарий</h3>
 					</div>
 				</div>
-			</div> -->
+				<div class="info_table_row">
+					<div class="cell-date">
+						<p>18/03</p>
+						<p>20:55</p>
+					</div>
+					<div class="cell-action">
+						<p>Сформирован заказ покупателя	</p>
+					</div>
+					<div class="cell-status-num">
+						<p>1</p>
+					</div>
+					<div class="cell-note">
+						<p>1 => 0</p>
+					</div>
+				</div>
+				<div class="info_table_row">
+					<div class="cell-date">
+						<p>18/03</p>
+						<p>20:55</p>
+					</div>
+					<div class="cell-action">
+						<p>Сформирован заказ покупателя	</p>
+					</div>
+					<div class="cell-status-num">
+						<p>1</p>
+					</div>
+					<div class="cell-note">
+						<p>1 => 0</p>
+					</div>
+				</div>
+				<div class="info_table_row">
+					<div class="cell-date">
+						<p>18/03</p>
+						<p>20:55</p>
+					</div>
+					<div class="cell-action">
+						<p>Сформирован заказ покупателя	</p>
+					</div>
+					<div class="cell-status-num">
+						<p>1</p>
+					</div>
+					<div class="cell-note">
+						<p>1 => 0</p>
+					</div>
+				</div>
+			</div>
 		</div>		
 	</section>
 	<!-- /Section 1 - Orders User -->
@@ -1615,6 +1652,35 @@
 	<button type="button" class="btn_top"></button>
 	</div>
 	<!-- Popup -->
+	<div class="popup" data-popup = "orders_resp_modal">
+		<div class="popup_content orders_resp_content">
+			<button type="button" class="close">
+				<svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M5.89188 5L9.9345 0.957588C10.0215 0.870468 10.0215 0.729305 9.9345 0.642184L9.35795 0.065314C9.31613 0.0235973 9.25924 0 9.20014 0C9.14094 0 9.08415 0.0235973 9.04233 0.065314L4.99982 4.10783L0.957298 0.065314C0.873549 -0.0184354 0.725328 -0.0183301 0.641789 0.065314L0.0653404 0.642184C-0.0217801 0.729305 -0.0217801 0.870468 0.0653404 0.957588L4.10786 5L0.0653404 9.04241C-0.0217801 9.12953 -0.0217801 9.2707 0.0653404 9.35782L0.641895 9.93469C0.683717 9.9764 0.740498 10 0.799702 10C0.858906 10 0.915582 9.9764 0.957404 9.93469L4.99992 5.89217L9.04244 9.93469C9.08426 9.9764 9.14115 10 9.20024 10C9.25934 10 9.31623 9.9764 9.35805 9.93469L9.93461 9.35782C10.0216 9.2707 10.0216 9.12953 9.93461 9.04241L5.89188 5Z" fill="#262728"/>
+				</svg>
+			</button>
+			<div class="orders_resp_header">
+				<h3>
+	                <span id="modal-order-brand">HITATSU</span>
+	                <span id="modal-order-article">10W40H11</span>
+	            </h3>
+	            <p id="modal-order-name">Масло моторное полусинт. 10W-40 1л API SN/CF; A3/B4; 229.3; 501.00/502.00/505.00 RN 0710/0700</p>
+			</div>
+			<ul>
+                <li>Склад <span id="modal-order-stock">Trinity-Parts</span></li>
+                <li id="modal-order-arrival-date-block" class="d-none">Ожидание <span id="modal-order-arrival-date"></span></li>
+                <li>Цена <span id="modal-order-price">
+                560,00 x 1 шт.</span></li>
+                <li class="d-none">% изменения цены <span id="modal-order-percent"></span></li>
+                <li>Продажа <span id="modal-order-price-sell">560,00</span></li>
+                <li>Сумма <span id="modal-order-sum">
+                560,00 x 1 шт.</span></li>
+                <li>Сумма продажи <span id="modal-order-sum-sell">560,00</span></li>
+                <li>Количество <span id="modal-order-count">1</span></li>
+                <li>Комментарий <span id="modal-order-comment"></span></li>
+            </ul>
+		</div>
+	</div>
 	<div class="popup" data-popup = "callback">
 		<div class="popup_content">
 			<button type="button" class="close">

@@ -1611,6 +1611,14 @@
     height: 12px;
 }
 
+.info_table h3 {
+    font-size: 13px;
+}
+
+.info_table .cell-action {
+    width: 128px;
+}
+
 /*-- /Section 1 - Orders User --*/
 
 /*-- Section 1 - Main User --*/
@@ -4826,6 +4834,69 @@ h1 {
     width: 12px;
     height: 12px;
     top: 4px;
+}
+
+.info_table {
+    display: none !important;
+}
+
+.orders_resp_content {
+    border-radius: 3px;
+    background: #FFF;
+    box-shadow: 0 2px 13px 0 rgba(0, 0, 0, 0.10);
+    padding: 8px 10px 20px 10px;
+    font-size: 11px;
+    color: #262728;
+    max-width: 96%;
+    width: 96%;
+}
+
+.orders_resp_header {
+    padding-bottom: 5px;
+}
+
+.orders_resp_header h3 {
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+#modal-order-name {
+    font-size: 11px;
+    font-weight: 700;
+    margin-top: 5px;
+    white-space: normal;
+}
+
+.orders_resp_content li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dashed #C6C7C8;
+    padding: 8px 5px;
+    font-size: 11px;
+}
+
+.orders_resp_content li:nth-child(2n-1) {
+    background: #F8F9FA;
+}
+
+.orders_resp_content li span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 700;
+    font-size: 11px;
+}
+
+.popup_content.orders_resp_content .close {
+    width: 21px;
+    height: 21px;
+    background: #fff;
+    top: -27px;
+    right: -1px;
+    border-radius: 50%;
 }
 
 /*-- /Section 1 - Orders User --*/

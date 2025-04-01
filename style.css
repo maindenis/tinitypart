@@ -2853,6 +2853,86 @@ select + .invalid-feedback {
     display: none;
 }
 
+.info_table {
+    display: inline-block;
+    vertical-align: top;
+    background: #F5F6F7;
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    -webkit-box-shadow: 0 5px 5px 1px rgba(0,0,0,.3);
+    -moz-box-shadow: 0 5px 5px 1px rgba(0,0,0,.3);
+    box-shadow: 0 5px 5px 1px rgba(0,0,0,.3);
+    position: absolute;
+    top: 0;
+    left: -9999999px;
+    opacity: 0;
+    z-index: -1;
+}
+
+.info_table.active {
+    opacity: 1;
+    z-index: 4;
+}
+
+.info_table_header {
+    display: flex;
+    align-items: center;
+    height: 42px;
+    padding: 5px 5px;
+    background: #5c6d89;
+    border-bottom: 5px solid #384053;
+}
+
+.info_table h3 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.info_table p {
+    padding: 3px 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.info_table_row {
+    display: flex;
+    min-height: 40px;
+    padding: 0 5px;
+    align-items: center;
+    border-bottom: 1px solid #384053;
+}
+
+.info_table_row:last-child {
+    border-bottom: none;
+}
+
+.info_table .cell-date {
+    width: 50px;
+    text-align: center;
+}
+
+.info_table .cell-action {
+    width: 197px;
+    text-align: center;
+}
+
+.info_table .cell-status-num {
+    width: 50px;
+    text-align: center;
+}
+
+.info_table .cell-note {
+    width: 120px;
+    text-align: center;
+}
+
+.orders_table .imp_2 {
+    cursor: pointer;
+}
+
 /*-- /Section 1 - Orders User --*/
 
 /*-- Section 1 - Returns User --*/
