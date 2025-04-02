@@ -441,7 +441,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="#" data-popup-link="print">
 										<svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
 										    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0001 3.625H7.77784V0.5H2.22228V3.625H6.10352e-05V9.25H2.22228V10.5H7.77784V9.25H10.0001V3.625ZM3.33339 1.75H6.66673V3.625H3.33339V1.75ZM3.33339 9.25V7.375H6.66673V9.25H3.33339Z" fill="white"></path>
 										</svg>
@@ -449,7 +449,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="#" data-popup-link="price_popup">
 										<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="11" height="11" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path xmlns="http://www.w3.org/2000/svg" d="m288.134 319.2c88.291 0 159.6-71.458 159.6-159.6 0-88.004-71.596-159.6-159.6-159.6h-160.667c-8.284 0-15 6.716-15 15v209.933h-33.2c-8.284 0-15 6.716-15 15v64.267c0 8.284 6.716 15 15 15h33.2v34.267h-33.2c-8.284 0-15 6.716-15 15v64.267c0 8.284 6.716 15 15 15h33.2v49.266c0 8.284 6.716 15 15 15h64.267c8.284 0 15-6.716 15-15v-49.267h97.466c8.284 0 15-6.716 15-15v-64.267c0-8.284-6.716-15-15-15h-97.467v-34.266zm-81.401-224.933h81.4c36.024 0 65.333 29.309 65.333 65.333s-29.309 65.333-65.333 65.333h-81.4z" fill="#fff"/></g></svg>
 										Сумма
 									</a>
@@ -638,7 +638,8 @@
 										<div class="cell cell-percent">
 											<div>
 												<h3>% изм. цены</h3>
-												<i class="stop"></i>
+												<!-- <i class="stop"></i> -->
+												<input class="t_input" value="1" type="number" name="#" />
 											</div>
 										</div>
 										<div class="cell cell-sum">
@@ -880,7 +881,8 @@
 										<div class="cell cell-percent">
 											<div>
 												<h3>% изм. цены</h3>
-												<i class="stop"></i>
+												<!-- <i class="stop"></i> -->
+												<input class="t_input" value="1" type="number" name="#" />
 											</div>
 										</div>
 										<div class="cell cell-sum">
@@ -1050,6 +1052,22 @@
 						</div>
 					</div>
 				</div>
+				<div class="red_balnace_info">
+					<p>Внимание! Недостаточно средств для размещения заказа</p>
+					<p>Свяжитесь с менеджером по телефону <a href="tel:+74722402040">+7 (4722) 40-20-40</a> доб. 151 для уточнения способа оплаты</p>
+					<p><b>Доступно к размещению 336.34 руб.</b></p>
+				</div>
+			</div>
+			<div class="resp_cart_footer visible_768">
+				<p>Доступно к размещению: <span>-25 203,76 руб.</span></p>
+				<div>
+					<button type="submit" class="blue_pill">разместить заказ</button>
+				</div>
+			</div>
+			<div class="red_balnace_info visible_768">
+				<p>Внимание! Недостаточно средств для размещения заказа</p>
+				<p>Свяжитесь с менеджером по телефону <a href="tel:+74722402040">+7 (4722) 40-20-40</a> доб. 151 для уточнения способа оплаты</p>
+				<p><b>Доступно к размещению 336.34 руб.</b></p>
 			</div>
 			<div class="delivery_btn">
 				<a href="#" class="blue_pill" data-popup-link="delivery">Экспресс Доставка</a>
@@ -1059,7 +1077,7 @@
 	<!-- /Section 1 - Cart -->
 	</div>
 	<!-- /Content -->
-		<!-- Resp Fived Nav -->
+	<!-- Resp Fived Nav -->
 	<div class="resp_fixed_nav">
 		<ul class="resp_fixed">
 			<li>

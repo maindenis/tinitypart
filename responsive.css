@@ -5304,6 +5304,44 @@ h1 {
     top: 1px;
 }
 
+.red_balnace_info {
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+}
+
+.resp_cart_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    text-align: right;
+    background: #fff;
+}
+
+.resp_cart_footer p {
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: .02em;
+    color: #262728;
+}
+
+.resp_cart_footer p span {
+    color: #ff4a4a;
+}
+
+.resp_cart_footer .blue_pill {
+    display: inline-flex;
+    margin: 5px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
 /*-- /Section 1 - Cart --*/
 
 /*-- Section 1 - Balance --*/

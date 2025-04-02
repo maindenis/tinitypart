@@ -6924,6 +6924,36 @@ textarea + .invalid-feedback {
     border-bottom: 1px solid #E4E5E6;
 }
 
+.card_table_footer  {
+    flex-wrap: wrap;
+}
+
+.card_table_footer > div:nth-child(3) {
+    width: 100%;
+}
+
+.red_balnace_info {
+    text-align: right;
+    background: #fff;
+    padding: 0 25px 10px 25px;
+}
+
+.red_balnace_info p {
+    padding: 2px 0;
+    font-size: 12px;
+    line-height: 140%;
+    color: #ff003b;
+}
+
+.red_balnace_info p a {
+    font-weight: 600;
+    color: #ff003b;
+}
+
+.red_balnace_info p b {
+    font-weight: 600;
+}
+
 /*-- /Section 1 - Cart --*/
 
 /*-- Section 1 - Balance --*/
@@ -9780,7 +9810,14 @@ body.fixed {
 }
 
 .popup_content_price {
-    max-width: 280px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    padding: 11px 30px 25px 30px;
+}
+
+.popup_content_price .contacts_list_user {
+    padding-top: 20px;
 }
 
 .popup_content_chart {
