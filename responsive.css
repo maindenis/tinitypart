@@ -7872,6 +7872,7 @@ h1 {
 
 .submit_two_cols {
     padding: 14px 0 5px 0;
+    width: auto;
 }
 
 .submit_two_cols > div {
