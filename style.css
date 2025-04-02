@@ -8683,6 +8683,7 @@ body.fixed {
     content: "";
     width: 1px;
     height: 100vh;
+    margin-left: -3px;
 }
 
 .popup_content {
@@ -9661,6 +9662,7 @@ body.fixed {
     display: flex;
     flex-wrap: wrap;
     margin: 10px -15px;
+    width: auto;
 }
 
 .print_inputs > div {

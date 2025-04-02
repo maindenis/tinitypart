@@ -7840,7 +7840,70 @@ h1 {
 }
 
 .print_ch_inline > div {
-    width: 100%;
+    width: 50%;
+}
+
+.popup_content_print .popup_title h3 {
+    font-size: 11px;
+}
+
+.popup_content_print {
+    max-width: 380px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.popup_content_print .popup_title {
+    padding: 8px 0 0 0;
+}
+
+.popup_content_print .t_ch span {
+    font-size: 16px;
+    border-bottom: 1px solid #262728;
+}
+
+.print_inputs {
+    margin: 1px -15px 3px -15px;
+}
+
+.print_inputs > div {
+    padding: 4px 15px;
+}
+
+.submit_two_cols {
+    padding: 14px 0 5px 0;
+}
+
+.submit_two_cols > div {
+    min-width: 120px;
+    padding: 5px 5px;
+}
+
+.submit_two_cols > div {
+    min-width: 90px;
+}
+
+.submit_two_cols a, .submit_two_cols button, .submit_two_cols input {
+    min-height: 30px !important;
+    min-width: 80px !important;
+    font-size: 11px !important;
+}
+
+/*-- /Popup --*/
+
+}
+
+@media only screen and (max-width: 440px) {
+
+/*-- Popup --*/
+
+.popup_content_print {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.popup_content_print .t_ch span {
+    font-size: 15px;
 }
 
 /*-- /Popup --*/
