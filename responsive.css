@@ -5618,6 +5618,17 @@ p.status.green {
 
 /*-- /Section 1 - Returns User --*/
 
+/*-- Section 1 - Search --*/
+
+.search_table .dr_content .ask_article_table .cell_1,
+.search_table .dr_content .ask_article_table .cell_2,
+.search_table .dr_content .ask_article_table .cell_3,
+.search_table .dr_content .ask_article_table .cell_4 {
+    display: none;
+}
+
+/*-- /Section 1 - Search --*/
+
 /*-- Footer --*/
 
 .footer_section_2 {
@@ -7188,6 +7199,7 @@ p.status.green {
     line-height: 21px;
     background: #fff;
     border: none;
+    text-align: center;
 }
 
 .st_two_cols .input_number.count_box .plus_btn {
@@ -7196,6 +7208,7 @@ p.status.green {
     top: 0;
     right: 12px;
     border: none;
+    display: none;
 }
 
 .st_two_cols .input_number.count_box .minus_btn {
@@ -7204,6 +7217,7 @@ p.status.green {
     bottom: 0;
     right: 12px;
     border: none;
+    display: none;
 }
 
 .st_two_cols .green_pill {
@@ -7216,7 +7230,6 @@ p.status.green {
 
 .search_table_rows .cell p,
 .search_table_rows .cell p a {
-/*    font-size: 11px;*/
     font-size: 12px;
 }
 
@@ -7278,14 +7291,14 @@ p > .tooltip_icon {
 
 .input_number .resp_plus span {
     position: relative;
-    top: 1px;
+    top: -1px;
     right: 1px;
 }
 
 .st_two_cols .input_number input {
     height: 22px;
     padding: 0 5px;
-    text-align: left;
+    text-align: center;
 }
 
 /*-- /Section 1 - Search --*/
