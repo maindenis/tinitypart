@@ -10403,4 +10403,67 @@ body.fixed {
     white-space: normal;
 }
 
+.notes_input_wrapp {
+    display: flex;
+    padding: 2px 0;
+}
+
+.notes_input_wrapp > div:nth-child(1) {
+    width: calc(100% - 40px);
+    padding-right: 10px;
+}
+
+.notes_input_wrapp > div:nth-child(2) {
+    width: 40px;
+}
+
+.notes_input_wrapp .blue_pill {
+    height: 30px;
+    width: 30px;
+    min-height: 30px;
+    min-width: 30px;
+    margin: 2px 0;
+    padding: 1px;
+}
+
+.notes_input_wrapp .red_pill {
+    height: 30px;
+    width: 30px;
+    min-height: 30px;
+    min-width: 30px;
+    margin: 2px 0;
+    padding: 1px;
+}
+
+.plus_notes {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/plus_2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.edit_notes {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/edit.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.minus_notes {
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url(img/minus_2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto !important;
+}
+
 /*-- /Popup --*/

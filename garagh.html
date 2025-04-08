@@ -1411,34 +1411,50 @@
 				</svg>
 			</button>
 			<div class="popup_title">
-				<h3>Заметки</h3>
+				<h3>Заметки для ТС</h3>
 			</div>
 			<form>
-				<div class="input_wrapp_2">
-					<label>Vin/Frame</label>
-					<input required type="text" name="#" />
-					<p class="error_text">Заполните поле</p>
+				<div class="notes_input_wrapp">
+					<div>
+						<div class="input_wrapp_2">
+							<input required type="text" name="#" />
+						</div>
+					</div>
+					<div>
+						<button type="button" class="blue_pill">
+							<i class="plus_notes"></i>
+						</button>
+					</div>
 				</div>
-				<div class="input_wrapp_2">
-					<label>Название ТС</label>
-					<input required type="text" name="#" />
-					<p class="error_text">Заполните поле</p>
+				<div class="notes_input_wrapp">
+					<div>
+						<div class="input_wrapp_2">
+							<input required type="text" name="#" />
+						</div>
+					</div>
+					<div>
+						<button type="button" class="blue_pill">
+							<i class="edit_notes"></i>
+						</button>
+						<button type="button" class="red_pill">
+							<i class="minus_notes"></i>
+						</button>
+					</div>
 				</div>
-				<div class="input_wrapp_2">
-					<label>Год выпуска</label>
-					<input required type="text" name="#" />
-					<p class="error_text">Заполните поле</p>
-				</div>
-				<div class="input_file_wrapp inpFileWrapp">
-					<label class="input_file_templ" for="file1">
-						<span>Выберите файл</span>
-						<p class="filenametext fileName"></p>
-					</label>
-					<input id="file1" type="file" accept=".rar,.zip,.csv,.txt,.xls,.xlsx">
-					<p class="error_text">Файл не выбран</p>
-				</div>
-				<div class="submit_wrapp">
-					<button type="submit" class="green_pill">Сохранить</button>
+				<div class="notes_input_wrapp">
+					<div>
+						<div class="input_wrapp_2">
+							<input required type="text" name="#" />
+						</div>
+					</div>
+					<div>
+						<button type="button" class="blue_pill">
+							<i class="edit_notes"></i>
+						</button>
+						<button type="button" class="red_pill">
+							<i class="minus_notes"></i>
+						</button>
+					</div>
 				</div>
 			</form>
 		</div>
