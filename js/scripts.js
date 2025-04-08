@@ -503,7 +503,7 @@ $(document).ready(function() {
         e.preventDefault();
         id=$(this).attr("href");
         $(".respDr").slideUp(300);
-        if(id.length>0) {
+        if(id.length>1) {
             if($(id).is(":hidden")) {
                 $(id).slideDown(300);
             } else {
