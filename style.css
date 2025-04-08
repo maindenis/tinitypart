@@ -2805,7 +2805,7 @@ select + .invalid-feedback {
     padding: 7px 10px;
     height: 28px;
     border-radius: 3px;
-    background: linear-gradient(135deg, #88cdea 0%,#88cdea 52%,#90ee90 100%);
+    background: linear-gradient(135deg, #88cdea 0%,#88cdea 52%,#90ee90 53%, #90ee90 100%);
 }
 
 .orders_table_total_price {
