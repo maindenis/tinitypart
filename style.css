@@ -8509,6 +8509,15 @@ p > .tooltip_icon {
     background: #F5F6F7;
 }
 
+.pie {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
 /*-- /Section 1 - Search --*/
 
 /*-------------------------------------------*/
