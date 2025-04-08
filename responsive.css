@@ -6406,7 +6406,7 @@ p.status.green {
 }
 
 .filters_dr_btns {
-    margin: 0 -20px 10px -20px;
+    margin: 0 -15px 10px -15px;
 }
 
 .pagination_wrapp {
@@ -6468,7 +6468,7 @@ p.status.green {
 
 .filters_dr_btns ul li a svg {
     position: relative;
-    top: 2px;
+    top: 3px;
     width: 10px;
     height: 10px;
 }
@@ -6540,7 +6540,7 @@ p.status.green {
 }
 
 .returns_table {
-    margin: 0 -20px;
+    margin: 0 -15px;
 }
 
 .returns_table_row {
@@ -6565,6 +6565,16 @@ p.status.green {
 
 .filters_inline_2 > div:nth-child(2) {
     order: 2;
+}
+
+.returns_table .cell:hover .tooltip_2 {
+    left: auto;
+    right: 0;
+    transform: none;
+}
+
+.returns_table .tooltip_2:after {
+    left: 90%;
 }
 
 /*-- /Section 1 - Returns User --*/
