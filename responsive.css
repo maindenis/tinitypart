@@ -39,7 +39,7 @@
 
 /*-- Section 1 - Orders User --*/
 
-.orders_table .cell {
+/*.orders_table .cell {
     padding: 5px 8px;
 }
 
@@ -156,6 +156,78 @@
 
 .orders_table_header .cell_1 {
     text-align: left;
+}*/
+
+.orders_table .cell {
+    padding: 5px 5px;
+}
+
+.orders_table .cell_1 {
+    padding-left: 10px;
+    width: 110px;
+}
+
+.orders_table .cell_2 {
+    width: 100px;
+}
+
+.orders_table .cell_3 {
+    width: 85px;
+}
+
+.orders_table .cell_4 {
+    width: calc(100% - 1080px);
+}
+
+.orders_table .cell_5 {
+    width: 70px;
+}
+
+.orders_table .cell_6 {
+    width: 35px;
+}
+
+.orders_table .cell_7 {
+    width: 85px;
+}
+
+.orders_table .cell_8 {
+    width: 55px;
+}
+
+.orders_table .cell_9 {
+    width: 70px;
+}
+
+.orders_table .cell_10 {
+    width: 70px;
+}
+
+.orders_table .cell_11,
+.orders_table .cell_12,
+.orders_table .cell_13,
+.orders_table .cell_14,
+.orders_table .cell_15,
+.orders_table .cell_16,
+.orders_table .cell_17 {
+    width: 37px;
+}
+
+.orders_table .cell_18 {
+    width: 70px;
+}
+
+.orders_table .cell_19 {
+    width: 70px;
+}
+
+.orders_table.opt .cell_4 {
+    width: calc(100% - 939px);
+}
+
+.order_table_row p,
+.order_table_row p a {
+    font-size: 11px;
 }
 
 /*-- /Section 1 - Orders User --*/
@@ -1619,6 +1691,19 @@
     width: 128px;
 }
 
+.orders_table.opt .cell_9,
+.orders_table.opt .cell_18 {
+    display: none;
+}
+
+.orders_table.opt .cell_4 {
+    width: 32%;
+}
+
+.orders_table.opt .cell_19 {
+    width: 19%;
+}
+
 /*-- /Section 1 - Orders User --*/
 
 /*-- Section 1 - Main User --*/
@@ -2419,6 +2504,10 @@ width: 33.33%;
 
 .orders_filters_box .pills_inline {
     padding: 6px 0 3px 0;
+}
+
+.orders_table.opt .cell_4 {
+    width: 32%;
 }
 
 /*-- /Section 1 - Orders User --*/
@@ -3400,6 +3489,8 @@ width: 33.33%;
     width: 13%;
 }
 
+
+
 /*-- /Section 1 - Orders User --*/
 
 /*-- Section 1 - Batteries --*/
@@ -3734,7 +3825,7 @@ h1 {
 .filters_dr_btns .main_checkbox {
     position: absolute;
     top: 9px;
-    right: 2px;
+    right: 4px;
     z-index: 2;
 }
 
@@ -4725,35 +4816,35 @@ h1 {
 
 .orders_table .cell_3 {
     order: 1;
-    width: 70%;
+    width: 70% !important;
     padding-top: 7px !important;
 }
 
 .orders_table .cell_1 {
     order: 2;
-    width: 30%;
+    width: 30% !important;
     text-align: right;
 }
 
 .orders_table .cell_4 {
     order: 3;
-    width: 70%;
+    width: 70% !important;
 }
 
 .orders_table .cell_2 {
     order: 4;
-    width: 30%;
+    width: 30% !important;
     text-align: right;
 }
 
 .orders_table .cell_8 {
     order: 5;
-    width: 70%;
+    width: 70% !important;
 }
 
 .orders_table .cell_10 {
     order: 6;
-    width: 30%;
+    width: 30% !important;
     text-align: right;
 }
 
@@ -7291,7 +7382,7 @@ p > .tooltip_icon {
 
 .input_number .resp_plus span {
     position: relative;
-    top: -1px;
+    top: 0;
     right: 1px;
 }
 

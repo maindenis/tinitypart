@@ -2712,6 +2712,7 @@ select + .invalid-feedback {
 
 .order_table_row:hover h3,
 .order_table_row:hover p,
+.order_table_row:hover p a,
 .order_table_row:hover .t_ch.dark span {
     color: #fff !important;
 }
@@ -2931,6 +2932,19 @@ select + .invalid-feedback {
 
 .orders_table .imp_2 {
     cursor: pointer;
+}
+
+.order_table_row {
+    flex-wrap: wrap;
+}
+
+.orders_table.opt .cell_9,
+.orders_table.opt .cell_18 {
+    display: none;
+}
+
+.orders_table.opt .cell_4 {
+    width: calc(100% - 1312px);
 }
 
 /*-- /Section 1 - Orders User --*/
