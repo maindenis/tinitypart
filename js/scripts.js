@@ -1096,6 +1096,18 @@ $(document).ready(function() {
 
     // ------------
 
+    $("#optCh").on("change", function() {
+        $(".orders_table").toggleClass("opt");
+    });
+
+    if($("#optCh").prop( "checked" ) == true) {
+        $(".orders_table").addClass("opt");
+    } else {
+        $(".orders_table").removeClass("opt");
+    }
+
+    // ------------
+
     var counter=0;
     var mapZoom;
     var lat;
