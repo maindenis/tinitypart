@@ -1653,7 +1653,7 @@
     border-radius: 3px;
     border: none;
     padding-top: 1px;
-    background: linear-gradient(135deg, #88cdea 0%,#88cdea 52%,#90ee90 100%);
+    background: linear-gradient(135deg, #88cdea 0%, #88cdea 52%, #90ee90 53%, #90ee90 100%);
 }
 
 .order_table_row .cell .imp_2 {
@@ -7349,7 +7349,7 @@ p > .tooltip_icon {
 
 .input_number .resp_minus {
     display: block;
-    background: #fff;
+    background-color: #fff;
     border: none;
     border-radius: 4px 0 0 4px;
     width: 18px;
@@ -7359,16 +7359,21 @@ p > .tooltip_icon {
     font-weight: 600;
     cursor: pointer;
     overflow: hidden;
+    background-image: url(img/minus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .input_number .resp_minus span {
     position: relative;
     top: -1px;
+    display: none;
 }
 
 .input_number .resp_plus {
     display: block;
-    background: #fff;
+    background-color: #fff;
     border: none;
     border-radius: 0 4px 4px 0;
     width: 18px;
@@ -7378,15 +7383,21 @@ p > .tooltip_icon {
     font-weight: 600;
     cursor: pointer;
     overflow: hidden;
+    background-image: url(img/plus.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .input_number .resp_plus span {
     position: relative;
     top: 0;
     right: 1px;
+    display: none;
 }
 
 .st_two_cols .input_number input {
+    width: calc(100% - 36px);
     height: 22px;
     padding: 0 5px;
     text-align: center;
